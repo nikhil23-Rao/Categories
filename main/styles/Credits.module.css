@@ -1,0 +1,17 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  bottom: 10px;
+  position: relative;
+}
+
+.container > * {
+  margin-right: 14px;
+  color: #a4a7ab;
+  font-size: 0.9vw;
+}
+
+.container > a:hover {
+  text-decoration: underline;
+}

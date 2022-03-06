@@ -12,7 +12,7 @@
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 40px;
   color: white;
-  background: #4361ee;
+  background: #4cc9f0;
   transition: 1s;
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
@@ -24,7 +24,7 @@
 
 .cta:hover {
   transition: 0.5s;
-  box-shadow: 10px 10px 0 #fbc638;
+  box-shadow: 10px 10px 0 #0070f3;
 }
 
 .cta span:nth-child(2) {

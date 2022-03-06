@@ -1,5 +1,7 @@
 .container {
   padding: 0 2rem;
+  bottom: 20px;
+  position: relative;
 }
 
 .main {
@@ -53,7 +55,7 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 2.1vw;
+  font-size: 2rem;
   font-family: "Rubik", sans-serif;
 
   color: #4cc9f0;

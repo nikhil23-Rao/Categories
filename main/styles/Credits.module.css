@@ -9,7 +9,7 @@
 .container > * {
   margin-right: 14px;
   color: #a4a7ab;
-  font-size: 0.9vw;
+  font-size: 1.2rem;
 }
 
 .container > a:hover {

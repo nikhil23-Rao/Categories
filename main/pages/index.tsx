@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { relative } from "path";
 import { AnimatedTitle } from "../components/AnimatedTitle";
+import { Button } from "../components/Button";
 import { Credits } from "../components/Credits";
 import styles from "../styles/Home.module.css";
 
@@ -19,6 +21,16 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>An Absolute Entertainment.</p>
+
+        <div>
+          <Button title="Daily Category" height={30} width={50} />
+        </div>
+        <div style={{ position: "relative", top: 30, right: 15 }}>
+          <Button title="Practice Match" height={30} width={50} />
+        </div>
+        <div style={{ position: "relative", top: 60, right: 20 }}>
+          <Button title="Multiplayer (PVP)" height={30} width={50} />
+        </div>
       </main>
       <footer className="mb-5">
         <Credits />

@@ -55,7 +55,7 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.6vw;
   font-family: "Rubik", sans-serif;
 
   color: #4cc9f0;
@@ -118,4 +118,21 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.headerContainer {
+  position: fixed;
+  top: 30px;
+  right: 60px;
+}
+
+.headerItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerItems > * {
+  margin-right: 30px;
 }

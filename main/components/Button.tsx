@@ -5,20 +5,25 @@ interface IProps {
   title: string;
   width?: number;
   height?: number;
-  // color: string;
-  // border: string;
+  disabled?: boolean;
 }
 
 export const Button: React.FC<IProps> = ({
   title,
   width = 400,
   height = 400,
-}: // color,
-// border,
-IProps) => {
+  disabled = false,
+}: IProps) => {
   return (
     <div className={styles.wrapper}>
-      <a className={styles.cta} href="#">
+      <a
+        className={styles.cta}
+        href="#"
+        style={{
+          backgroundColor: disabled ? "gray" : "",
+          pointerEvents: disabled ? "none" : "all",
+        }}
+      >
         <span style={{ fontSize: 25, marginRight: 20, marginTop: 10 }}>
           {title}
         </span>
@@ -35,7 +40,7 @@ IProps) => {
               stroke="none"
               stroke-width="1"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             >
               <path
                 className={styles.one}

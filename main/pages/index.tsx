@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import { Avatar } from "../components/Avatar";
 import Settings from "@mui/icons-material/Settings";
 import Help from "@mui/icons-material/Help";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
@@ -30,8 +31,18 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
-          <Settings style={{ color: "#4cc9f0" }} fontSize="large" />
-          <Help style={{ color: "#4cc9f0" }} fontSize="large" />
+          <Link href="/settings">
+            <a>
+              <Settings
+                style={{ color: "#4cc9f0", cursor: "pointer" }}
+                fontSize="large"
+              />
+            </a>
+          </Link>
+          <Help
+            style={{ color: "#4cc9f0", cursor: "pointer" }}
+            fontSize="large"
+          />
           <Avatar profileImg={profileImg} />
         </div>
       </div>

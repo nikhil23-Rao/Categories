@@ -10,8 +10,15 @@
   margin-right: 14px;
   color: #a4a7ab;
   font-size: 1.2vw;
+  top: 10px;
 }
 
 .container > a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1440px) {
+  .container > * {
+    font-size: 1.3vw;
+  }
 }

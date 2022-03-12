@@ -87,3 +87,9 @@
     fill: white;
   }
 }
+
+@media (max-width: 1440px) {
+  .cta {
+    zoom: 0.8;
+  }
+}

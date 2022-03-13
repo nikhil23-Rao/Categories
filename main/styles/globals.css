@@ -608,11 +608,13 @@ DEMO
   padding: 20px 20px;
   height: 100vh;
   border-right: 1px solid #f0f0f0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .sidebar > * {
-  font-family: "Arial", "Arial", Gadget, sans-serif;
-  font-weight: 100;
+  font-family: Gadget, sans-serif;
+  margin-top: 20px;
 }
 
 .link {
@@ -642,4 +644,18 @@ DEMO
   color: gray;
   letter-spacing: 2px;
   padding: 20px 20px;
+}
+
+.settingsContainer {
+  position: absolute;
+  left: 56%;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 1fr);
+  right: 23%;
+  position: relative;
 }

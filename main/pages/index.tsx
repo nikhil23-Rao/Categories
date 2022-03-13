@@ -11,14 +11,17 @@ import { Avatar } from "../components/Avatar";
 import Settings from "@mui/icons-material/Settings";
 import Help from "@mui/icons-material/Help";
 import Link from "next/link";
+import { LIGHT_THEME } from "../constants/themes";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
 
   useEffect(() => {
     const id = localStorage.getItem("pfpid");
-    if (!id)
+    if (!id) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
+      localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
+    }
 
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,

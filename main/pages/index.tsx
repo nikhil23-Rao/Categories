@@ -73,6 +73,7 @@ const Home: NextPage = () => {
           <Button title="Multiplayer (PVP)" height={30} width={50} disabled />
         </div>
       </main>
+
       <footer className="mb-5">
         <Credits />
       </footer>

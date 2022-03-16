@@ -63,38 +63,206 @@ const Home: NextPage = () => {
             style={{ backgroundColor: "transparent", border: "none" }}
           />
           <ModalBody alignSelf={"center"}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              dignissimos voluptatum molestiae quo doloribus quas sequi eaque,
-              facilis, enim minima repellat magni nisi eum vel quasi laborum
-              officia consequatur! Libero. Molestiae nihil quia exercitationem
-              repellendus minima non deserunt modi porro! Mollitia quidem,
-              officiis facere beatae soluta voluptas facilis doloribus placeat
-              nemo. Iure quia enim ipsa voluptate cumque, ullam magni
-              laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Necessitatibus doloremque nulla vero vitae accusantium amet
-              officia repellat placeat sit, aliquam dolores corrupti consectetur
-              eligendi sapiente repudiandae sequi expedita harum. Inventore.
-              Consectetur ea doloribus possimus molestiae deleniti asperiores
-              maiores est facilis, sint, sapiente mollitia voluptate? Rerum,
-              optio? Vero aliquam nam delectus rerum, recusandae dolorem ad
-              aliquid distinctio velit? Quos, consequuntur sit! Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Est dignissimos
-              voluptatum molestiae quo doloribus quas sequi eaque, facilis, enim
-              minima repellat magni nisi eum vel quasi laborum officia
-              consequatur! Libero. Molestiae nihil quia exercitationem
-              repellendus minima non deserunt modi porro! Mollitia quidem,
-              officiis facere beatae soluta voluptas facilis doloribus placeat
-              nemo. Iure quia enim ipsa voluptate cumque, ullam magni
-              laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Necessitatibus doloremque nulla vero vitae accusantium amet
-              officia repellat placeat sit, aliquam dolores corrupti consectetur
-              eligendi sapiente repudiandae sequi expedita harum. Inventore.
-              Consectetur ea doloribus possimus molestiae deleniti asperiores
-              maiores est facilis, sint, sapiente mollitia voluptate? Rerum,
-              optio? Vero aliquam nam delectus rerum, recusandae dolorem ad
-              aliquid distinctio velit? Quos, consequuntur sit!
+            <p style={{ textAlign: "center", fontSize: 17, color: "gray" }}>
+              {/* Manage your font size, color, and background. These settings will
+              save for your next visit. */}
+              Manage your font size, color, and background. These settings
+              affect all your game accounts on this browser.
             </p>
+            <p className="divider" style={{ alignSelf: "center" }}>
+              Font Size
+            </p>
+            <div id="form-wrapper" style={{ alignSelf: "flex-start" }}>
+              <form action="/p/quote.php" method="GET">
+                <div id="debt-amount-slider">
+                  <input
+                    type="radio"
+                    name="debt-amount"
+                    id="1"
+                    value="1"
+                    required
+                  />{" "}
+                  <label htmlFor="1" data-debt-amount="XS"></label>
+                  <input
+                    type="radio"
+                    name="debt-amount"
+                    id="2"
+                    value="2"
+                    required
+                  />{" "}
+                  <label htmlFor="2" data-debt-amount="S"></label>
+                  <input
+                    type="radio"
+                    name="debt-amount"
+                    id="3"
+                    value="3"
+                    required
+                    defaultChecked
+                  />{" "}
+                  <label htmlFor="3" data-debt-amount="Default"></label>
+                  <input
+                    type="radio"
+                    name="debt-amount"
+                    id="4"
+                    value="4"
+                    required
+                  />{" "}
+                  <label htmlFor="4" data-debt-amount="L"></label>
+                  <input
+                    type="radio"
+                    name="debt-amount"
+                    id="5"
+                    value="5"
+                    required
+                  />{" "}
+                  <label htmlFor="5" data-debt-amount="XL"></label>
+                  <div id="debt-amount-pos"></div>
+                </div>
+              </form>
+            </div>
+            <p className="divider">Color</p>
+            <div
+              style={{
+                flexDirection: "row",
+                display: "flex",
+                width: "100%",
+                alignItems: "center",
+                justifyContent: "center",
+                paddingLeft: 33,
+              }}
+            >
+              <div
+                style={{
+                  width: 60,
+                  height: 60,
+                  borderRadius: 100,
+                  backgroundColor: "#1D9AF1",
+                  marginRight: 40,
+                }}
+              />
+              <div
+                style={{
+                  width: 60,
+                  height: 60,
+                  borderRadius: 100,
+                  backgroundColor: "#FED500",
+                  marginRight: 40,
+                }}
+              />
+              <div
+                style={{
+                  width: 60,
+                  height: 60,
+                  borderRadius: 100,
+                  backgroundColor: "#F91880",
+                  marginRight: 40,
+                }}
+              />
+              <div
+                style={{
+                  width: 60,
+                  height: 60,
+                  borderRadius: 100,
+                  backgroundColor: "#7957FF",
+                  marginRight: 40,
+                }}
+              />
+              <div
+                style={{
+                  width: 60,
+                  height: 60,
+                  borderRadius: 100,
+                  backgroundColor: "#FE7A01",
+                  marginRight: 40,
+                }}
+              />
+            </div>
+
+            <p className="divider">Background Theme</p>
+            <div
+              className="grid"
+              style={{ paddingLeft: 20, position: "relative", top: -20 }}
+            >
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    color: "#000",
+                    border: "0.1px solid gray",
+                    backgroundColor: "#fff",
+                  }}
+                >
+                  Light
+                </label>
+              </div>
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    backgroundColor: "#010001",
+                    color: "#fff",
+                    border: "0.1px solid #fff",
+                  }}
+                >
+                  Dark
+                </label>
+              </div>
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    backgroundColor: "#14212A",
+                    color: "#fff",
+                    border: "0.1px solid #1D9AF1",
+                  }}
+                >
+                  Night
+                </label>
+              </div>
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    background: "linear-gradient(to right, #c33764, #1d2671)",
+                    color: "#fff",
+                    border: "0.1px solid #fff",
+                  }}
+                >
+                  Space
+                </label>
+              </div>
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    background: "linear-gradient(to right, #ee0979, #ff6a00)",
+                    color: "#fff",
+                    border: "0.1px solid #fff",
+                  }}
+                >
+                  Sunset
+                </label>
+              </div>
+              <div className="inputGroup" style={{ marginTop: 30 }}>
+                <input id="option1" name="option1" type="checkbox" />
+                <label
+                  htmlFor="option1"
+                  style={{
+                    background:
+                      "linear-gradient(to right, #59c173, #a17fe0, #5d26c1)",
+                    color: "#fff",
+                    border: "0.1px solid #fff",
+                  }}
+                >
+                  Magic
+                </label>
+              </div>
+            </div>
           </ModalBody>
 
           <ModalFooter></ModalFooter>

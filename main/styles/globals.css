@@ -656,6 +656,320 @@ DEMO
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-columns: repeat(3, 1fr);
-  right: 23%;
   position: relative;
+}
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+}
+form #form-title {
+  margin-top: 0;
+  font-weight: 400;
+  text-align: center;
+}
+form #debt-amount-slider {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+form #debt-amount-slider::before {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  width: calc(100% * (4 / 5));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+}
+form #debt-amount-slider input,
+form #debt-amount-slider label {
+  box-sizing: border-box;
+  flex: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+form #debt-amount-slider label {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+form #debt-amount-slider label::before {
+  content: attr(data-debt-amount);
+  position: absolute;
+  left: 50%;
+  padding-top: 10px;
+  transform: translate(-50%, 45px);
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0.85;
+  transition: all 0.15s ease-in-out;
+}
+form #debt-amount-slider label::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+  background: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+form #debt-amount-slider label:hover::after {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+form #debt-amount-slider input {
+  display: none;
+}
+form #debt-amount-slider input:checked + label::before {
+  font-weight: 800;
+  opacity: 1;
+}
+form #debt-amount-slider input:checked + label::after {
+  border-width: 4px;
+  transform: translate(-50%, -50%) scale(0.75);
+}
+form #debt-amount-slider input:checked ~ #debt-amount-pos {
+  opacity: 1;
+}
+form #debt-amount-slider input:checked:nth-child(1) ~ #debt-amount-pos {
+  left: 10%;
+}
+form #debt-amount-slider input:checked:nth-child(3) ~ #debt-amount-pos {
+  left: 30%;
+}
+form #debt-amount-slider input:checked:nth-child(5) ~ #debt-amount-pos {
+  left: 50%;
+}
+form #debt-amount-slider input:checked:nth-child(7) ~ #debt-amount-pos {
+  left: 70%;
+}
+form #debt-amount-slider input:checked:nth-child(9) ~ #debt-amount-pos {
+  left: 90%;
+}
+form #debt-amount-slider #debt-amount-pos {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 50%;
+  transition: all 0.15s ease-in-out;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  opacity: 0;
+  z-index: 2;
+}
+form:valid #debt-amount-slider input + label::before {
+  transform: translate(-50%, 45px) scale(0.9);
+  transition: all 0.15s linear;
+}
+form:valid #debt-amount-slider input:checked + label::before {
+  transform: translate(-50%, 45px) scale(1.1);
+  transition: all 0.15s linear;
+}
+form + button {
+  display: block;
+  position: relative;
+  margin: 56px auto 0;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all 0.15s ease-in-out;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  outline: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+form + button:hover {
+  background: #000;
+  color: #fff;
+}
+form + button:hover:active {
+  transform: scale(0.9);
+}
+form + button:focus {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #fff;
+  pointer-events: none;
+}
+form + button:focus::before {
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+form + button::before {
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  margin-right: 0;
+  transform: rotate(0deg);
+}
+form:invalid + button {
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+    width: 24px;
+    opacity: 1;
+    margin-right: 12px;
+  }
+  to {
+    transform: rotate(360deg);
+    width: 24px;
+    opacity: 1;
+    margin-right: 12px;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    width: 24px;
+    opacity: 1;
+    margin-right: 12px;
+  }
+  to {
+    transform: rotate(360deg);
+    width: 24px;
+    opacity: 1;
+    margin-right: 12px;
+  }
+}
+
+.divider {
+  text-transform: uppercase;
+  color: gray;
+  letter-spacing: 2px;
+  padding: 20px 20px;
+}
+
+.inputGroup label {
+  padding: 12px 30px;
+  width: 200px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: color 200ms ease-in;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #5562eb;
+}
+.inputGroup label:before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale3d(1, 1, 1);
+  opacity: 0;
+  z-index: -1;
+}
+.inputGroup label:after {
+  width: 32px;
+  height: 32px;
+  content: "";
+  border: 2px solid #d1d7dc;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  zoom: 0.7;
+}
+.inputGroup input:checked ~ label {
+  color: #fff;
+}
+.inputGroup input:checked ~ label:before {
+  transform: translate(-50%, -50%) scale3d(56, 56, 1);
+  opacity: 1;
+}
+.inputGroup input:checked ~ label:after {
+  background-color: #54e0c7;
+  border-color: #54e0c7;
+}
+.inputGroup input {
+  width: 32px;
+  height: 32px;
+  order: 1;
+  z-index: 2;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.form {
+  padding: 0 16px;
+  max-width: 550px;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
 }

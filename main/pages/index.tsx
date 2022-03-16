@@ -10,14 +10,29 @@ import { useEffect, useState } from "react";
 import { Avatar } from "../components/Avatar";
 import Settings from "@mui/icons-material/Settings";
 import Help from "@mui/icons-material/Help";
+import Link from "next/link";
+import { LIGHT_THEME } from "../constants/themes";
+import {
+  Modal,
+  ModalBody,
+  ModalCloseButton,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  ModalOverlay,
+  useDisclosure,
+} from "@chakra-ui/react";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   useEffect(() => {
     const id = localStorage.getItem("pfpid");
-    if (!id)
+    if (!id) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
+      localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
+    }
 
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,
@@ -30,11 +45,61 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
-          <Settings style={{ color: "#4cc9f0" }} fontSize="large" />
-          <Help style={{ color: "#4cc9f0" }} fontSize="large" />
+          <Settings
+            style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }}
+            onClick={onOpen}
+          />
+          <Help style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }} />
           <Avatar profileImg={profileImg} />
         </div>
       </div>
+      <Modal isOpen={isOpen} onClose={onClose} isCentered size={"3xl"}>
+        <ModalOverlay />
+        <ModalContent padding={30}>
+          <ModalHeader style={{ alignSelf: "center", fontSize: 25 }}>
+            Customize Your View
+          </ModalHeader>
+          <ModalCloseButton
+            style={{ backgroundColor: "transparent", border: "none" }}
+          />
+          <ModalBody alignSelf={"center"}>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              dignissimos voluptatum molestiae quo doloribus quas sequi eaque,
+              facilis, enim minima repellat magni nisi eum vel quasi laborum
+              officia consequatur! Libero. Molestiae nihil quia exercitationem
+              repellendus minima non deserunt modi porro! Mollitia quidem,
+              officiis facere beatae soluta voluptas facilis doloribus placeat
+              nemo. Iure quia enim ipsa voluptate cumque, ullam magni
+              laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Necessitatibus doloremque nulla vero vitae accusantium amet
+              officia repellat placeat sit, aliquam dolores corrupti consectetur
+              eligendi sapiente repudiandae sequi expedita harum. Inventore.
+              Consectetur ea doloribus possimus molestiae deleniti asperiores
+              maiores est facilis, sint, sapiente mollitia voluptate? Rerum,
+              optio? Vero aliquam nam delectus rerum, recusandae dolorem ad
+              aliquid distinctio velit? Quos, consequuntur sit! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Est dignissimos
+              voluptatum molestiae quo doloribus quas sequi eaque, facilis, enim
+              minima repellat magni nisi eum vel quasi laborum officia
+              consequatur! Libero. Molestiae nihil quia exercitationem
+              repellendus minima non deserunt modi porro! Mollitia quidem,
+              officiis facere beatae soluta voluptas facilis doloribus placeat
+              nemo. Iure quia enim ipsa voluptate cumque, ullam magni
+              laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Necessitatibus doloremque nulla vero vitae accusantium amet
+              officia repellat placeat sit, aliquam dolores corrupti consectetur
+              eligendi sapiente repudiandae sequi expedita harum. Inventore.
+              Consectetur ea doloribus possimus molestiae deleniti asperiores
+              maiores est facilis, sint, sapiente mollitia voluptate? Rerum,
+              optio? Vero aliquam nam delectus rerum, recusandae dolorem ad
+              aliquid distinctio velit? Quos, consequuntur sit!
+            </p>
+          </ModalBody>
+
+          <ModalFooter></ModalFooter>
+        </ModalContent>
+      </Modal>
 
       <Head>
         <title>Categories</title>

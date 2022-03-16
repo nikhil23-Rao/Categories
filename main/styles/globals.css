@@ -22,7 +22,7 @@ a {
 
 @import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 .Profile {

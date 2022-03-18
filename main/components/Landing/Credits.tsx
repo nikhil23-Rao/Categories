@@ -1,8 +1,14 @@
+// NextJS Imports
 import React from "react";
-import styles from "../../styles/Landing/Credits.module.css";
+
+// Customization Imports
 import { getAltTextColor } from "../../utils/customizationsFunctions";
 
+// CSS Imports
+import styles from "../../styles/Landing/Credits.module.css";
+
 export const Credits = () => {
+  // Return JSX Markup
   return (
     <div className={styles.container}>
       <a

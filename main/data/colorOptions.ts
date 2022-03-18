@@ -1,3 +1,5 @@
+// All Color Options In Settings
+
 export const colorOptions = [
   {
     backgroundColor: "#4cc9f0",

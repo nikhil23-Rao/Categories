@@ -1,6 +1,6 @@
 import Help from "@mui/icons-material/Help";
 import React from "react";
-import { getColor } from "../utils/customizationsFunctions";
+import { getColor } from "../../utils/customizationsFunctions";
 
 interface IProps {
   isOpen: boolean;
@@ -8,7 +8,7 @@ interface IProps {
   onClose: () => void;
 }
 
-const HowToPlay = ({ onClick }: any) => {
+export const HowToPlayModal = ({ onClick }: any) => {
   return (
     <>
       <Help
@@ -39,5 +39,3 @@ const HowToPlay = ({ onClick }: any) => {
     </>
   );
 };
-
-export default HowToPlay;

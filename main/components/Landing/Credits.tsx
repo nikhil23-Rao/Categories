@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/Credits.module.css";
-import { getAltTextColor } from "../utils/customizationsFunctions";
+import styles from "../../styles/Landing/Credits.module.css";
+import { getAltTextColor } from "../../utils/customizationsFunctions";
 
 export const Credits = () => {
   return (

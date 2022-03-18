@@ -3,12 +3,12 @@ import React from "react";
 import Head from "next/head";
 
 // Component Imports
-import { AnimatedTitle } from "../components/AnimatedTitle";
-import { Button } from "../components/Button";
-import { Credits } from "../components/Credits";
-import { Avatar } from "../components/Avatar";
-import HowToPlay from "../components/HowToPlay";
-import { SettingsModal } from "../components/SettingsModal";
+import { AnimatedTitle } from "../components/Landing/AnimatedTitle";
+import { Button } from "../components/Base/Button";
+import { Credits } from "../components/Landing/Credits";
+import { Avatar } from "../components/Profile/Avatar";
+import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
+import { SettingsModal } from "../components/Modals/SettingsModal";
 
 // External Imports
 import { useDisclosure } from "@chakra-ui/react";
@@ -22,7 +22,7 @@ import {
 } from "../utils/customizationsFunctions";
 
 // CSS Imports
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Landing/Home.module.css";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -64,7 +64,7 @@ const Home = ({ profileImage }: IProps) => {
             style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
             onClick={settingsModalOnOpen}
           />
-          <HowToPlay onClick={howToPlayModalOnOpen} />
+          <HowToPlayModal onClick={howToPlayModalOnOpen} />
           <Avatar profileImg={profileImage} />
         </div>
       </div>

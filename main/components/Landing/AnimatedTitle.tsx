@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../styles/AnimatedTitle.module.css";
+import styles from "../../styles/Landing/AnimatedTitle.module.css";
 import {
   getPrimaryColor,
   getTextShadowColor,
-} from "../utils/customizationsFunctions";
+} from "../../utils/customizationsFunctions";
 
 export const AnimatedTitle = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/Button.module.css";
-import { getColor } from "../utils/customizationsFunctions";
+import styles from "../../styles/Base/Button.module.css";
+import { getColor } from "../../utils/customizationsFunctions";
 
 interface IProps {
   title: string;

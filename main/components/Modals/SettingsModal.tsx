@@ -13,13 +13,13 @@ import {
 import Check from "@mui/icons-material/Check";
 
 // Customization Imports
-import { colorOptions } from "../data/colorOptions";
-import { themeOptions } from "../data/themeOptions";
+import { colorOptions } from "../../data/colorOptions";
+import { themeOptions } from "../../data/themeOptions";
 import {
   getAltTextColor,
   getBGColor,
   getTextColor,
-} from "../utils/customizationsFunctions";
+} from "../../utils/customizationsFunctions";
 
 // Props That SettingsModal Takes
 interface IProps {

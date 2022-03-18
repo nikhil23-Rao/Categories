@@ -1,5 +1,5 @@
 import React from "react";
-import { getColor } from "../utils/customizationsFunctions";
+import { getColor } from "../../utils/customizationsFunctions";
 
 interface IProps {
   profileImg: string;

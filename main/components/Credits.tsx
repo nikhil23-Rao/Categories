@@ -21,12 +21,20 @@ export const Credits = () => {
       <p> • </p>
       <p>Version: 1.0.0 (Beta)</p>
       <p> • </p>
-      <p>
+      <a
+        href="https://www.instagram.com/vinayrao1061/"
+        style={{ cursor: "pointer" }}
+        target="_blank"
+      >
         <i className="fa fa-instagram"></i>
-      </p>
-      <p>
+      </a>
+      <a
+        href="https://github.com/vinayRao23"
+        style={{ cursor: "pointer" }}
+        target="_blank"
+      >
         <i className="fa fa-github"></i>
-      </p>
+      </a>
       <p>
         <i className="fa fa-twitter" />
       </p>

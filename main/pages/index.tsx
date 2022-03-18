@@ -9,8 +9,6 @@ import * as style from "@dicebear/avatars-identicon-sprites";
 import { useEffect, useState } from "react";
 import { Avatar } from "../components/Avatar";
 import Settings from "@mui/icons-material/Settings";
-import Help from "@mui/icons-material/Help";
-import Link from "next/link";
 import { LIGHT_THEME } from "../constants/themes";
 import {
   Modal,
@@ -22,16 +20,21 @@ import {
   ModalOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
+import HowToPlay from "../components/HowToPlay";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const {
+    isOpen: playIsOpen,
+    onOpen: playOnOpen,
+    onClose: playOnClose,
+  } = useDisclosure();
 
   useEffect(() => {
     const id = localStorage.getItem("pfpid");
     if (!id) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
-      localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
     }
 
     let svg = createAvatar(style, {
@@ -49,7 +52,7 @@ const Home: NextPage = () => {
             style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }}
             onClick={onOpen}
           />
-          <Help style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }} />
+          <HowToPlay onClick={playOnOpen} />
           <Avatar profileImg={profileImg} />
         </div>
       </div>
@@ -60,7 +63,11 @@ const Home: NextPage = () => {
             Customize Your View
           </ModalHeader>
           <ModalCloseButton
-            style={{ backgroundColor: "transparent", border: "none" }}
+            style={{
+              backgroundColor: "transparent",
+              border: "none",
+              cursor: "pointer",
+            }}
           />
           <ModalBody alignSelf={"center"}>
             <p style={{ textAlign: "center", fontSize: 17, color: "gray" }}>
@@ -263,6 +270,27 @@ const Home: NextPage = () => {
                 </label>
               </div>
             </div>
+          </ModalBody>
+
+          <ModalFooter></ModalFooter>
+        </ModalContent>
+      </Modal>
+
+      <Modal isOpen={playIsOpen} onClose={playOnClose} isCentered>
+        <ModalOverlay />
+        <ModalContent padding={30}>
+          <ModalHeader style={{ alignSelf: "center", fontSize: 25 }}>
+            How To Play
+          </ModalHeader>
+          <ModalCloseButton
+            style={{
+              backgroundColor: "transparent",
+              border: "none",
+              cursor: "pointer",
+            }}
+          />
+          <ModalBody alignSelf={"center"}>
+            <p>Basically some cheese but better.</p>
           </ModalBody>
 
           <ModalFooter></ModalFooter>

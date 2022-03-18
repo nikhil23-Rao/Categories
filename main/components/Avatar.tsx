@@ -2,14 +2,22 @@ import React from "react";
 
 interface IProps {
   profileImg: string;
+  onClick?: () => void;
+  width?: number;
+  height?: number;
 }
 
-export const Avatar = ({ profileImg }: IProps) => {
+export const Avatar = ({
+  profileImg,
+  onClick,
+  width = 190,
+  height = 190,
+}: IProps) => {
   return (
     <div className="Profile">
       <div className="Profile-border">
         <div className="Profile-border-segmentContainer">
-          <svg className="Profile-border-segment" width="190" height="190">
+          <svg className="Profile-border-segment" width={width} height={height}>
             <circle
               cx="95"
               cy="95"
@@ -24,7 +32,7 @@ export const Avatar = ({ profileImg }: IProps) => {
           </svg>
         </div>
         <div className="Profile-border-segmentContainer">
-          <svg className="Profile-border-segment" width="190" height="190">
+          <svg className="Profile-border-segment" width={width} height={height}>
             <circle
               cx="95"
               cy="95"
@@ -482,7 +490,7 @@ export const Avatar = ({ profileImg }: IProps) => {
         </div>
       </div>
       <div className="Profile-imageMask">
-        <img src={profileImg} />
+        <img src={profileImg} onClick={onClick} />
       </div>
     </div>
   );

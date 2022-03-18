@@ -9,7 +9,6 @@ import * as style from "@dicebear/avatars-identicon-sprites";
 import { useEffect, useState } from "react";
 import { Avatar } from "../components/Avatar";
 import Settings from "@mui/icons-material/Settings";
-import { LIGHT_THEME } from "../constants/themes";
 import {
   Modal,
   ModalBody,
@@ -21,10 +20,12 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import HowToPlay from "../components/HowToPlay";
+import { useRouter } from "next/router";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const router = useRouter();
   const {
     isOpen: playIsOpen,
     onOpen: playOnOpen,
@@ -53,7 +54,10 @@ const Home: NextPage = () => {
             onClick={onOpen}
           />
           <HowToPlay onClick={playOnOpen} />
-          <Avatar profileImg={profileImg} />
+          <Avatar
+            profileImg={profileImg}
+            onClick={() => router.push("/profile")}
+          />
         </div>
       </div>
       <Modal isOpen={isOpen} onClose={onClose} isCentered size={"3xl"}>

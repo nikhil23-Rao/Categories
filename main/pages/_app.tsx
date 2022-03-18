@@ -1,14 +1,22 @@
-import "../styles/globals.css";
-import "font-awesome/css/font-awesome.min.css";
-import { useEffect, useState } from "react";
+// NextJS Imports
+import React, { useEffect, useState } from "react";
 import type { AppProps } from "next/app";
-import { ChakraProvider } from "@chakra-ui/react";
+
+// Data/Contstants Imports
 import { colorOptions } from "../data/colorOptions";
 import { LIGHT_THEME } from "../constants/themes";
+
+// External Imports
 import { createAvatar } from "@dicebear/avatars";
+import { ChakraProvider } from "@chakra-ui/react";
+
+// CSS Imports
 import * as style from "@dicebear/avatars-identicon-sprites";
+import "../styles/globals.css";
+import "font-awesome/css/font-awesome.min.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  // Hooks
   const [profileImg, setProfileImg] = useState<string>("");
 
   useEffect(() => {
@@ -18,7 +26,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
       localStorage.setItem("color", colorOptions[0].color);
     }
-
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,
       dataUri: true,
@@ -26,8 +33,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     setProfileImg(svg);
   }, []);
 
+  // Render Splash Screen If No Data
   if (typeof window === "undefined") return <h1>loading</h1>;
 
+  // Render Root Component
   return (
     <ChakraProvider resetCSS={false}>
       <Component {...pageProps} profileImage={profileImg} />

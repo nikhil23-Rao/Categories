@@ -11,16 +11,7 @@ import HowToPlay from "../components/HowToPlay";
 import { SettingsModal } from "../components/SettingsModal";
 
 // External Imports
-import {
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ModalOverlay,
-  useDisclosure,
-} from "@chakra-ui/react";
+import { useDisclosure } from "@chakra-ui/react";
 import Settings from "@mui/icons-material/Settings";
 
 // Customization Imports
@@ -45,11 +36,7 @@ const Home = ({ profileImage }: IProps) => {
     onOpen: settingsModalOnOpen,
     onClose: settingsModalOnClose,
   } = useDisclosure();
-  const {
-    isOpen: howToPlayModalIsOpen,
-    onOpen: howToPlayModalOnOpen,
-    onClose: howToPlayModalOnClose,
-  } = useDisclosure();
+  const { onOpen: howToPlayModalOnOpen } = useDisclosure();
 
   // Return JSX Markup
   return (

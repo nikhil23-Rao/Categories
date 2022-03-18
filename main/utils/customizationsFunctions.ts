@@ -23,3 +23,8 @@ export const getAltTextColor = () => {
   if (!theme) return "";
   return theme.altText;
 };
+export const getColor = () => {
+  const color = localStorage.getItem("color")!;
+  if (!color) return "";
+  return color;
+};

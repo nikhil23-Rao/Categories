@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Button.module.css";
+import { getColor } from "../utils/customizationsFunctions";
 
 interface IProps {
   title: string;
@@ -20,7 +21,7 @@ export const Button: React.FC<IProps> = ({
         className={styles.cta}
         href="#"
         style={{
-          backgroundColor: disabled ? "gray" : "",
+          backgroundColor: disabled ? "gray" : getColor(),
           pointerEvents: disabled ? "none" : "all",
         }}
       >

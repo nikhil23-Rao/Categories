@@ -24,9 +24,11 @@ import HowToPlay from "../components/HowToPlay";
 import { SettingsModal } from "../components/SettingsModal";
 import {
   getBGColor,
+  getColor,
   getPrimaryColor,
   getTextColor,
 } from "../utils/customizationsFunctions";
+import { colorOptions } from "../data/colorOptions";
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
@@ -42,6 +44,7 @@ const Home: NextPage = () => {
     if (!id) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
       localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
+      localStorage.setItem("color", colorOptions[0].color);
     }
 
     let svg = createAvatar(style, {
@@ -65,7 +68,7 @@ const Home: NextPage = () => {
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
           <Settings
-            style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }}
+            style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
             onClick={onOpen}
           />
           <HowToPlay onClick={playOnOpen} />

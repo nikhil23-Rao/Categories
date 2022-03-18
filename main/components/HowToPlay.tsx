@@ -1,5 +1,6 @@
 import Help from "@mui/icons-material/Help";
 import React from "react";
+import { getColor } from "../utils/customizationsFunctions";
 
 interface IProps {
   isOpen: boolean;
@@ -11,7 +12,7 @@ const HowToPlay = ({ onClick }: any) => {
   return (
     <>
       <Help
-        style={{ color: "#4cc9f0", cursor: "pointer", fontSize: 30 }}
+        style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
         onClick={onClick}
       />
       <div

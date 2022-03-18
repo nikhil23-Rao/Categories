@@ -1,4 +1,5 @@
 import React from "react";
+import { getColor } from "../utils/customizationsFunctions";
 
 interface IProps {
   profileImg: string;
@@ -12,7 +13,7 @@ export const Avatar = ({ profileImg }: IProps) => {
         width: 70,
         height: 70,
         borderRadius: 100,
-        border: "3px solid white",
+        border: `4px solid ${getColor()}`,
       }}
       alt=""
     />

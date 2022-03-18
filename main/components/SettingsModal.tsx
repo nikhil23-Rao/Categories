@@ -7,8 +7,15 @@ import {
   ModalBody,
   ModalFooter,
 } from "@chakra-ui/react";
+import Check from "@mui/icons-material/Check";
 import React, { useEffect } from "react";
+import { colorOptions } from "../data/colorOptions";
 import { themeOptions } from "../data/themeOptions";
+import {
+  getAltTextColor,
+  getBGColor,
+  getTextColor,
+} from "../utils/customizationsFunctions";
 
 interface IProps {
   isOpen: boolean;
@@ -18,6 +25,7 @@ interface IProps {
 
 export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
   const [checkedTheme, setCheckedTheme] = React.useState({});
+  const [checkedColor, setCheckedColor] = React.useState("");
 
   useEffect(() => {
     const currentTheme = JSON.parse(localStorage.getItem("theme")!);
@@ -26,6 +34,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
         setCheckedTheme(theme);
       }
     });
+    setCheckedColor(localStorage.getItem("color")!);
   }, [isOpen]);
 
   return (
@@ -38,8 +47,10 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
         scrollBehavior="inside"
       >
         <ModalOverlay />
-        <ModalContent padding={30}>
-          <ModalHeader style={{ alignSelf: "center", fontSize: 25 }}>
+        <ModalContent padding={30} style={{ background: getBGColor() }}>
+          <ModalHeader
+            style={{ alignSelf: "center", fontSize: 25, color: getTextColor() }}
+          >
             Customize Your View
           </ModalHeader>
           <ModalCloseButton
@@ -47,14 +58,21 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
               backgroundColor: "transparent",
               border: "none",
               cursor: "pointer",
+              color: getTextColor(),
             }}
           />
           <ModalBody alignSelf={"center"}>
-            <p style={{ textAlign: "center", fontSize: 17, color: "gray" }}>
+            <p
+              style={{
+                textAlign: "center",
+                fontSize: 17,
+                color: getAltTextColor(),
+              }}
+            >
               Manage your font size, color, and background. These settings
               affect all your game accounts on this browser.
             </p>
-            <p className="divider" style={{ alignSelf: "center" }}>
+            <p className="divider" style={{ color: getAltTextColor() }}>
               Font Size
             </p>
             <div id="form-wrapper" style={{ alignSelf: "flex-start" }}>
@@ -67,7 +85,11 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     value="1"
                     required
                   />{" "}
-                  <label htmlFor="1" data-debt-amount="XS"></label>
+                  <label
+                    style={{ color: getTextColor() }}
+                    htmlFor="1"
+                    data-debt-amount="XS"
+                  ></label>
                   <input
                     type="radio"
                     name="debt-amount"
@@ -75,7 +97,11 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     value="2"
                     required
                   />{" "}
-                  <label htmlFor="2" data-debt-amount="S"></label>
+                  <label
+                    style={{ color: getTextColor() }}
+                    htmlFor="2"
+                    data-debt-amount="S"
+                  ></label>
                   <input
                     type="radio"
                     name="debt-amount"
@@ -84,7 +110,11 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     required
                     defaultChecked
                   />{" "}
-                  <label htmlFor="3" data-debt-amount="Default"></label>
+                  <label
+                    style={{ color: getTextColor() }}
+                    htmlFor="3"
+                    data-debt-amount="Default"
+                  ></label>
                   <input
                     type="radio"
                     name="debt-amount"
@@ -92,7 +122,11 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     value="4"
                     required
                   />{" "}
-                  <label htmlFor="4" data-debt-amount="L"></label>
+                  <label
+                    style={{ color: getTextColor() }}
+                    htmlFor="4"
+                    data-debt-amount="L"
+                  ></label>
                   <input
                     type="radio"
                     name="debt-amount"
@@ -100,12 +134,18 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     value="5"
                     required
                   />{" "}
-                  <label htmlFor="5" data-debt-amount="XL"></label>
+                  <label
+                    style={{ color: getTextColor() }}
+                    htmlFor="5"
+                    data-debt-amount="XL"
+                  ></label>
                   <div id="debt-amount-pos"></div>
                 </div>
               </form>
             </div>
-            <p className="divider">Color</p>
+            <p className="divider" style={{ color: getAltTextColor() }}>
+              Color
+            </p>
             <div
               style={{
                 flexDirection: "row",
@@ -116,54 +156,36 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                 paddingLeft: 33,
               }}
             >
-              <div
-                style={{
-                  width: 60,
-                  height: 60,
-                  borderRadius: 100,
-                  backgroundColor: "#1D9AF1",
-                  marginRight: 40,
-                }}
-              />
-              <div
-                style={{
-                  width: 60,
-                  height: 60,
-                  borderRadius: 100,
-                  backgroundColor: "#FED500",
-                  marginRight: 40,
-                }}
-              />
-              <div
-                style={{
-                  width: 60,
-                  height: 60,
-                  borderRadius: 100,
-                  backgroundColor: "#F91880",
-                  marginRight: 40,
-                }}
-              />
-              <div
-                style={{
-                  width: 60,
-                  height: 60,
-                  borderRadius: 100,
-                  backgroundColor: "#7957FF",
-                  marginRight: 40,
-                }}
-              />
-              <div
-                style={{
-                  width: 60,
-                  height: 60,
-                  borderRadius: 100,
-                  backgroundColor: "#FE7A01",
-                  marginRight: 40,
-                }}
-              />
+              {colorOptions.map((color) => (
+                <>
+                  <div
+                    style={{
+                      width: 60,
+                      height: 60,
+                      borderRadius: 100,
+                      backgroundColor: color.color,
+                      marginRight: 40,
+                      cursor: "pointer",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      display: "flex",
+                    }}
+                    onClick={() => {
+                      setCheckedColor(color.color);
+                      localStorage.setItem("color", color.color);
+                    }}
+                  >
+                    {checkedColor === color.color && (
+                      <Check style={{ color: "#fff" }} />
+                    )}
+                  </div>
+                </>
+              ))}
             </div>
 
-            <p className="divider">Background Theme</p>
+            <p className="divider" style={{ color: getAltTextColor() }}>
+              Background Theme
+            </p>
             <div
               className="grid"
               style={{ paddingLeft: 20, position: "relative", top: -20 }}
@@ -175,11 +197,12 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                     name={theme.name}
                     checked={checkedTheme === theme}
                     onClick={() => {
-                      setCheckedTheme(theme);
                       localStorage.setItem(
                         "theme",
                         JSON.stringify(theme.correspondingThemeObject)
                       );
+                      setCheckedTheme(theme);
+                      onClose();
                     }}
                     type="checkbox"
                   />
@@ -197,8 +220,6 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
               ))}
             </div>
           </ModalBody>
-
-          <ModalFooter></ModalFooter>
         </ModalContent>
       </Modal>
     </>

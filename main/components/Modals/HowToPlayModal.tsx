@@ -1,14 +1,19 @@
-import Help from "@mui/icons-material/Help";
+// NextJS Imports
 import React from "react";
+
+// Customization Imports
 import { getColor } from "../../utils/customizationsFunctions";
 
+// External Imports
+import Help from "@mui/icons-material/Help";
+
+// Props That HowToPlayModal Takes
 interface IProps {
-  isOpen: boolean;
-  onOpen: () => void;
-  onClose: () => void;
+  onClick: () => void;
 }
 
-export const HowToPlayModal = ({ onClick }: any) => {
+export const HowToPlayModal = ({ onClick }: IProps) => {
+  // Return JSX Markup
   return (
     <>
       <Help

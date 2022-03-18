@@ -1,11 +1,17 @@
+// NextJS Imports
 import React from "react";
-import styles from "../../styles/Landing/AnimatedTitle.module.css";
+
+// Customization Imports
 import {
   getPrimaryColor,
   getTextShadowColor,
 } from "../../utils/customizationsFunctions";
 
+// CSS Imports
+import styles from "../../styles/Landing/AnimatedTitle.module.css";
+
 export const AnimatedTitle = () => {
+  // Return JSX Markup
   return (
     <div className={styles.bouncingText}>
       <div

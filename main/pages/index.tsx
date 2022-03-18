@@ -20,9 +20,6 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import HowToPlay from "../components/HowToPlay";
-<<<<<<< HEAD
-import { useRouter } from "next/router";
-=======
 import { SettingsModal } from "../components/SettingsModal";
 import {
   getBGColor,
@@ -31,12 +28,10 @@ import {
   getTextColor,
 } from "../utils/customizationsFunctions";
 import { colorOptions } from "../data/colorOptions";
->>>>>>> 20f6ffdcc666e4b2ce4da167c91f82ef6221569c
 
 const Home: NextPage = () => {
   const [profileImg, setProfileImg] = useState<string>("");
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const router = useRouter();
   const {
     isOpen: playIsOpen,
     onOpen: playOnOpen,
@@ -47,7 +42,6 @@ const Home: NextPage = () => {
     const id = localStorage.getItem("pfpid");
     if (!id) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
-      localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
       localStorage.setItem("color", colorOptions[0].color);
     }
 
@@ -76,10 +70,7 @@ const Home: NextPage = () => {
             onClick={onOpen}
           />
           <HowToPlay onClick={playOnOpen} />
-          <Avatar
-            profileImg={profileImg}
-            onClick={() => router.push("/profile")}
-          />
+          <Avatar profileImg={profileImg} />
         </div>
       </div>
 

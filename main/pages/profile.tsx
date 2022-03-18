@@ -27,12 +27,7 @@ const profile = () => {
             <div className="profile-info-inner view-width flexbox-space-bet-start">
               <div className="profile-left flexbox-start">
                 <div className="profile-picture-wrapper profile-picture-large flexbox">
-                  <Avatar
-                    profileImg={profileImg}
-                    onClick={() => null}
-                    width={500}
-                    height={500}
-                  />
+                  <Avatar profileImg={profileImg} />
                 </div>
                 <div className="profile-username-wrapper flexbox-col-start">
                   <h3 className="profile-username flexbox">

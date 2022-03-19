@@ -23,6 +23,7 @@ import {
 
 // CSS Imports
 import styles from "../styles/Landing/Home.module.css";
+import Link from "next/link";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -44,7 +45,7 @@ const Home = ({ profileImage }: IProps) => {
       className={styles.container}
       style={{
         background: getBGColor(),
-        height: "100%",
+        height: "100vh",
       }}
     >
       <Head>
@@ -78,9 +79,11 @@ const Home = ({ profileImage }: IProps) => {
           An Absolute Entertainment.
         </p>
 
-        <div>
-          <Button title="Daily Category" height={30} width={50} />
-        </div>
+        <Link href="/daily">
+          <a>
+            <Button title="Daily Category" height={30} width={50} />
+          </a>
+        </Link>
         <div style={{ position: "relative", top: 30, right: 15 }}>
           <Button title="Practice Match" height={30} width={50} disabled />
         </div>

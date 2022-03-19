@@ -1,0 +1,77 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.container > div {
+  height: 100vh;
+  box-sizing: border-box;
+}
+.container > div > .game {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftWrap {
+  border-right: 1px solid gray;
+  height: 100%;
+  width: 35%;
+  flex: 1 0 35%;
+  box-sizing: border-box;
+}
+
+.letterWrap {
+  display: flex;
+  height: 50%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  box-sizing: border-box;
+  background-size: 8px;
+}
+
+.label {
+  width: 100%;
+  padding: 0.5rem 0.6rem 0.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.letter {
+  color: var(--primary, #000);
+  box-sizing: border-box;
+  font-size: 20vw;
+  text-align: center;
+}
+
+.center {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17.33333px;
+  --primary: #222222;
+  --primary-rgb: 34, 34, 34;
+  --secondary: #ffffff;
+  --secondary-rgb: 255, 255, 255;
+  font-family: Didactic;
+  color: var(--primary, #000);
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  width: 65%;
+  position: relative;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  align-items: center;
+}

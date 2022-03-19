@@ -37,19 +37,26 @@
 
 .label {
   width: 100%;
-  padding: 0.5rem 0.6rem 0.4rem;
   position: absolute;
   top: 0;
   left: 0;
   box-sizing: border-box;
   opacity: 1;
+  padding: 30px;
 }
 
 .letter {
   color: var(--primary, #000);
   box-sizing: border-box;
-  font-size: 20vw;
+  font-size: 16vw;
   text-align: center;
+  font-family: Gadget, sans-serif;
+  font-family: "Bakbak One", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
 }
 
 .center {
@@ -74,4 +81,77 @@
   flex: 1 1 auto;
   justify-content: flex-start;
   align-items: center;
+}
+
+.gameInfoWrap {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17.33333px;
+  --primary: #222222;
+  --primary-rgb: 34, 34, 34;
+  --secondary: #ffffff;
+  --secondary-rgb: 255, 255, 255;
+  font-family: Didactic;
+  color: var(--primary, #000);
+  box-sizing: border-box;
+  height: 50%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.timeWrap {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17.33333px;
+  --primary: #222222;
+  --primary-rgb: 34, 34, 34;
+  --secondary: #ffffff;
+  --secondary-rgb: 255, 255, 255;
+  font-family: Didactic;
+  color: var(--primary, #000);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  flex: 0 0 50%;
+  border-bottom: none;
+}
+
+.playWrap {
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17.33333px;
+  --primary: #222222;
+  --primary-rgb: 34, 34, 34;
+  --secondary: #ffffff;
+  --secondary-rgb: 255, 255, 255;
+  font-family: Didactic;
+  color: var(--primary, #000);
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 50%;
+  flex: 0 0 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-left: 1px solid gray;
 }

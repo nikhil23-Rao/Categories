@@ -1,11 +1,16 @@
+// NextJS Imports
 import React from "react";
-import { getColor } from "../utils/customizationsFunctions";
 
+// Customization Imports
+import { getColor } from "../../utils/customizationsFunctions";
+
+// Props That Avatar Takes
 interface IProps {
   profileImg: string;
 }
 
 export const Avatar = ({ profileImg }: IProps) => {
+  // Render PFP
   return (
     <img
       src={profileImg}

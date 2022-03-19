@@ -1,3 +1,7 @@
+// NextJS Imports
+import React, { useEffect } from "react";
+
+// External Imports
 import {
   Modal,
   ModalOverlay,
@@ -5,18 +9,19 @@ import {
   ModalHeader,
   ModalCloseButton,
   ModalBody,
-  ModalFooter,
 } from "@chakra-ui/react";
 import Check from "@mui/icons-material/Check";
-import React, { useEffect } from "react";
-import { colorOptions } from "../data/colorOptions";
-import { themeOptions } from "../data/themeOptions";
+
+// Customization Imports
+import { colorOptions } from "../../data/colorOptions";
+import { themeOptions } from "../../data/themeOptions";
 import {
   getAltTextColor,
   getBGColor,
   getTextColor,
-} from "../utils/customizationsFunctions";
+} from "../../utils/customizationsFunctions";
 
+// Props That SettingsModal Takes
 interface IProps {
   isOpen: boolean;
   onClose: () => void;
@@ -24,6 +29,7 @@ interface IProps {
 }
 
 export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
+  // Hooks
   const [checkedTheme, setCheckedTheme] = React.useState({});
   const [checkedColor, setCheckedColor] = React.useState("");
 
@@ -37,6 +43,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
     setCheckedColor(localStorage.getItem("color")!);
   }, [isOpen]);
 
+  // Render JSX Markup
   return (
     <>
       <Modal
@@ -72,77 +79,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
               Manage your font size, color, and background. These settings
               affect all your game accounts on this browser.
             </p>
-            <p className="divider" style={{ color: getAltTextColor() }}>
-              Font Size
-            </p>
-            <div id="form-wrapper" style={{ alignSelf: "flex-start" }}>
-              <form action="/p/quote.php" method="GET">
-                <div id="debt-amount-slider">
-                  <input
-                    type="radio"
-                    name="debt-amount"
-                    id="1"
-                    value="1"
-                    required
-                  />{" "}
-                  <label
-                    style={{ color: getTextColor() }}
-                    htmlFor="1"
-                    data-debt-amount="XS"
-                  ></label>
-                  <input
-                    type="radio"
-                    name="debt-amount"
-                    id="2"
-                    value="2"
-                    required
-                  />{" "}
-                  <label
-                    style={{ color: getTextColor() }}
-                    htmlFor="2"
-                    data-debt-amount="S"
-                  ></label>
-                  <input
-                    type="radio"
-                    name="debt-amount"
-                    id="3"
-                    value="3"
-                    required
-                    defaultChecked
-                  />{" "}
-                  <label
-                    style={{ color: getTextColor() }}
-                    htmlFor="3"
-                    data-debt-amount="Default"
-                  ></label>
-                  <input
-                    type="radio"
-                    name="debt-amount"
-                    id="4"
-                    value="4"
-                    required
-                  />{" "}
-                  <label
-                    style={{ color: getTextColor() }}
-                    htmlFor="4"
-                    data-debt-amount="L"
-                  ></label>
-                  <input
-                    type="radio"
-                    name="debt-amount"
-                    id="5"
-                    value="5"
-                    required
-                  />{" "}
-                  <label
-                    style={{ color: getTextColor() }}
-                    htmlFor="5"
-                    data-debt-amount="XL"
-                  ></label>
-                  <div id="debt-amount-pos"></div>
-                </div>
-              </form>
-            </div>
+
             <p className="divider" style={{ color: getAltTextColor() }}>
               Color
             </p>

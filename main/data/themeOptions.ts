@@ -1,3 +1,4 @@
+// All Themes
 import {
   DARK_THEME,
   LIGHT_THEME,
@@ -7,6 +8,7 @@ import {
   SUNSET_THEME,
 } from "../constants/themes";
 
+// All Theme Options
 export const themeOptions = [
   {
     color: "#000",

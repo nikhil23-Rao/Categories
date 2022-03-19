@@ -1,7 +1,13 @@
+// NextJS Imports
 import React from "react";
-import styles from "../styles/Button.module.css";
-import { getColor } from "../utils/customizationsFunctions";
 
+// Customization Imports
+import { getColor } from "../../utils/customizationsFunctions";
+
+// CSS Imports
+import styles from "../../styles/Base/Button.module.css";
+
+// Props That Button Takes
 interface IProps {
   title: string;
   width?: number;
@@ -15,6 +21,7 @@ export const Button: React.FC<IProps> = ({
   height = 400,
   disabled = false,
 }: IProps) => {
+  // Return JSX Markup
   return (
     <div className={styles.wrapper}>
       <a

@@ -1,3 +1,5 @@
+// All Themes In App
+
 export const LIGHT_THEME = {
   primary: "#4CC9F0",
   background: "#fff",

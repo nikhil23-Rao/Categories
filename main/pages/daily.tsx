@@ -4,6 +4,7 @@ import Head from "next/head";
 
 import styles from "../styles/Game/Board.module.css";
 import { Divider } from "@chakra-ui/react";
+import { CountdownCircleTimer } from "react-countdown-circle-timer";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -22,8 +23,22 @@ const Daily = ({ profileImage }: IProps) => {
               <div className={styles.letter}>A</div>
             </div>
             <div className={styles.gameInfoWrap}>
-              <div className={styles.timeWrap}>hello</div>
-              <div className={styles.playWrap}>hello</div>
+              <div className={styles.timeWrap}>
+                <div className={styles.label + " divider"}>Timer</div>
+                <CountdownCircleTimer
+                  isPlaying
+                  duration={30}
+                  colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
+                  colorsTime={[30, 15, 10, 0]}
+                >
+                  {({ remainingTime }) => (
+                    <p style={{ fontSize: 40 }}>{remainingTime}</p>
+                  )}
+                </CountdownCircleTimer>
+              </div>
+              <div className={styles.playWrap}>
+                <div className={styles.label + " divider"}>Start</div>
+              </div>
             </div>
           </div>
           <div className={styles.center}></div>

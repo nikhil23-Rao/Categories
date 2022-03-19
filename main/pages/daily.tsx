@@ -24,6 +24,7 @@ const Daily = ({ profileImage }: IProps) => {
             </div>
             <div className={styles.gameInfoWrap}>
               <div className={styles.timeWrap}>
+                <div className={styles.label + " divider"}>Timer</div>
                 <CountdownCircleTimer
                   isPlaying
                   duration={30}
@@ -35,7 +36,9 @@ const Daily = ({ profileImage }: IProps) => {
                   )}
                 </CountdownCircleTimer>
               </div>
-              <div className={styles.playWrap}>hello</div>
+              <div className={styles.playWrap}>
+                <div className={styles.label + " divider"}>Start</div>
+              </div>
             </div>
           </div>
           <div className={styles.center}></div>

@@ -59,6 +59,16 @@
   font-weight: 900;
 }
 
+.timer {
+  font-family: Gadget, sans-serif;
+  font-family: "Bakbak One", cursive;
+  font-family: "Bangers", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
+
 .center {
   font-feature-settings: "kern";
   font-kerning: normal;

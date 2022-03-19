@@ -1,15 +1,25 @@
 // NextJS Imports
 import React from "react";
 
-import styles from "../styles/Game/Board.module.css";
+import styles from "../../styles/Game/Board.module.css";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 
 // Props That The Home Component Takes
-interface IProps {
-  profileImage: string;
+interface DailyProps {
+  currId: string;
+  profileImage: String;
 }
 
-const Daily = ({ profileImage }: IProps) => {
+export const getStaticProps = async (context: any) => {
+  const id = context.params.id;
+  return {
+    props: {
+      currId: id,
+    },
+  };
+};
+
+const Daily: React.FC<DailyProps> = ({ profileImage }: DailyProps) => {
   // Return JSX Markup
   return (
     <div className={styles.container}>
@@ -45,5 +55,3 @@ const Daily = ({ profileImage }: IProps) => {
     </div>
   );
 };
-
-export default Daily;

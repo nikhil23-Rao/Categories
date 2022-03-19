@@ -13,6 +13,7 @@ import { SettingsModal } from "../components/Modals/SettingsModal";
 // External Imports
 import { useDisclosure } from "@chakra-ui/react";
 import Settings from "@mui/icons-material/Settings";
+import { useRouter } from "next/router";
 
 // Customization Imports
 import {
@@ -38,6 +39,7 @@ const Home = ({ profileImage }: IProps) => {
     onClose: settingsModalOnClose,
   } = useDisclosure();
   const { onOpen: howToPlayModalOnOpen } = useDisclosure();
+  const router = useRouter();
 
   // Return JSX Markup
   return (
@@ -66,7 +68,10 @@ const Home = ({ profileImage }: IProps) => {
             onClick={settingsModalOnOpen}
           />
           <HowToPlayModal onClick={howToPlayModalOnOpen} />
-          <Avatar profileImg={profileImage} />
+          <Avatar
+            profileImg={profileImage}
+            onClick={() => router.push("/profile")}
+          />
         </div>
       </div>
 

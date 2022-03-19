@@ -7,9 +7,10 @@ import { getColor } from "../../utils/customizationsFunctions";
 // Props That Avatar Takes
 interface IProps {
   profileImg: string;
+  onClick: () => void;
 }
 
-export const Avatar = ({ profileImg }: IProps) => {
+export const Avatar = ({ profileImg, onClick }: IProps) => {
   // Render PFP
   return (
     <img
@@ -19,7 +20,9 @@ export const Avatar = ({ profileImg }: IProps) => {
         height: 70,
         borderRadius: 100,
         border: `4px solid ${getColor()}`,
+        cursor: "pointer",
       }}
+      onClick={onClick}
       alt=""
     />
   );

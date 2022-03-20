@@ -6,6 +6,12 @@ import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import { Avatar } from "../components/Profile/Avatar";
 import PushPinIcon from "@mui/icons-material/PushPin";
 import PlayCircle from "@mui/icons-material/PlayCircle";
+import { AnimatedTitle } from "../components/Landing/AnimatedTitle";
+import Settings from "@mui/icons-material/Settings";
+import BarChart from "@mui/icons-material/BarChart";
+import Home from "@mui/icons-material/Home";
+import Help from "@mui/icons-material/Help";
+import AccountCircle from "@mui/icons-material/AccountCircle";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -45,7 +51,72 @@ const Daily = ({ profileImage }: IProps) => {
               </div>
             </div>
           </div>
-          <div className={styles.center}></div>
+          <div className={styles.center}>
+            <div
+              style={{
+                borderBottom: "3px solid #fafafa",
+                height: 80,
+                width: "100%",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: 29,
+                  left: 45,
+                }}
+              >
+                <Home style={{ fontSize: 30 }} />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: 29,
+                  left: 95,
+                }}
+              >
+                <AccountCircle style={{ fontSize: 30 }} />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: 29,
+                  right: 45,
+                }}
+              >
+                <Settings style={{ fontSize: 30 }} />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: 29,
+                  right: 85,
+                }}
+              >
+                <BarChart style={{ fontSize: 30 }} />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: 29,
+                  right: 125,
+                }}
+              >
+                <Help style={{ fontSize: 30 }} />
+              </div>
+              <div
+                style={{
+                  alignItems: "center",
+                  justifyContent: "center",
+                  display: "flex",
+                  position: "relative",
+                  bottom: 2,
+                }}
+              >
+                <h1>Categories</h1>
+              </div>
+            </div>
+          </div>
           <div className={styles.rightWrap}>
             <PushPinIcon
               style={{

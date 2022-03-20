@@ -8,9 +8,10 @@ import { getColor } from "../../utils/customizationsFunctions";
 interface IProps {
   profileImg: string;
   onClick: () => void;
+  imgStyle?: any;
 }
 
-export const Avatar = ({ profileImg, onClick }: IProps) => {
+export const Avatar = ({ profileImg, onClick, imgStyle }: IProps) => {
   // Render PFP
   return (
     <img
@@ -21,6 +22,7 @@ export const Avatar = ({ profileImg, onClick }: IProps) => {
         borderRadius: 100,
         border: `4px solid ${getColor()}`,
         cursor: "pointer",
+        ...imgStyle,
       }}
       onClick={onClick}
       alt=""

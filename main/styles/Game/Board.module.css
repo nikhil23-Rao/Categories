@@ -144,7 +144,6 @@
   align-items: center;
   justify-content: center;
   padding: 50px;
-  margin-top: 20px;
 }
 
 .info {
@@ -159,4 +158,26 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid gray;
+}
+
+.gameContainer {
+  display: flex;
+  height: 100%;
+  position: relative;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.gameContainer > div > h1 {
+  font-weight: 400;
+}
+
+.tile {
+  width: 10px;
+  height: 10px;
+  border: 1px solid gray;
 }

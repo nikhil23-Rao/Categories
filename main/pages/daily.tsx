@@ -115,6 +115,25 @@ const Daily = ({ profileImage }: IProps) => {
               >
                 <h1>Categories</h1>
               </div>
+              <div className={styles.gameContainer}>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <h1>Sport: </h1>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <h1>Color: </h1>
+                  <div style={{ display: "flex", flexDirection: "row" }}></div>
+                </div>
+              </div>
             </div>
           </div>
           <div className={styles.rightWrap}>
@@ -133,7 +152,10 @@ const Daily = ({ profileImage }: IProps) => {
                 imgStyle={{ width: 130, height: 130 }}
                 onClick={() => {}}
               />
-              <p className="divider" style={{ fontSize: 20 }}>
+              <p
+                className="divider"
+                style={{ fontSize: 20, textAlign: "center" }}
+              >
                 Categories Player
               </p>
               <p

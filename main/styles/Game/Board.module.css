@@ -172,12 +172,23 @@
   flex-direction: column;
 }
 
-.gameContainer > div > h1 {
+.gameContainer > div > div > h1 {
   font-weight: 400;
+  max-width: 225px;
+  width: 225px;
+  font-size: 30px;
 }
 
 .tile {
-  width: 10px;
-  height: 10px;
-  border: 1px solid gray;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }

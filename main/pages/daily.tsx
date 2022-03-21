@@ -122,7 +122,52 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <h1>Sport: </h1>
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Sport: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Color: </h1>
+                    <div>
+                      <div
+                        style={{
+                          display: "flex",
+                          flexDirection: "row",
+                          position: "relative",
+                          top: 19,
+                          left: 30,
+                        }}
+                      >
+                        <div className={styles.tile}></div>
+                        <div className={styles.tile}></div>
+                        <div className={styles.tile}></div>
+                        <div className={styles.tile}></div>
+                        <div className={styles.tile}></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div
                   style={{
@@ -130,8 +175,124 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <h1>Color: </h1>
-                  <div style={{ display: "flex", flexDirection: "row" }}></div>
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Company: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Websites: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Movies: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Games: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "row" }}>
+                    <h1>Language: </h1>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        top: 19,
+                        left: 30,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

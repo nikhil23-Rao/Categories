@@ -32,16 +32,55 @@ const Daily = ({ profileImage }: IProps) => {
             <div className={styles.gameInfoWrap}>
               <div className={styles.timeWrap}>
                 <div className={styles.label + " divider"}>Timer</div>
-                <CountdownCircleTimer
-                  isPlaying={false}
-                  duration={30}
-                  colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
-                  colorsTime={[30, 15, 10, 0]}
-                >
-                  {({ remainingTime }) => (
-                    <p className={styles.timer}>{remainingTime}</p>
-                  )}
-                </CountdownCircleTimer>
+                <div id="container">
+                  <div className="circle" id="box">
+                    <div id="btn-play">
+                      <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div id="btn-reset">
+                      <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div id="btn-pause">
+                      <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                    <div
+                      className="circle"
+                      id="glass"
+                      style={{
+                        alignItems: "center",
+                        justifyContent: "center",
+                        display: "flex",
+                      }}
+                    >
+                      <div id="digital">00:00</div>
+                    </div>
+                  </div>
+                  <div id="shadow"></div>
+                </div>
               </div>
               <div className={styles.playWrap}>
                 <div className={styles.label + " divider"}>Start</div>

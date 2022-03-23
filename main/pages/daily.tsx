@@ -1,5 +1,5 @@
 // NextJS Imports
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import styles from "../styles/Game/Board.module.css";
 import PlayCircle from "@mui/icons-material/PlayCircle";
@@ -7,6 +7,7 @@ import { GameInput } from "../components/Game/GameInput";
 import { NavItems } from "../components/Game/NavItems";
 import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
+import { startTimer } from "../utils/StartTimer";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -14,6 +15,23 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [currSec, setCurrSec] = useState(0);
+  const [currMin, setCurrMin] = useState(0);
+  const [timerIsActive, setTimerIsActive] = useState(false);
+
+  useEffect(() => {
+    if (timerIsActive) {
+      const intervalId = setInterval(function () {
+        if (currSec === 59) {
+          setCurrSec(0);
+          setCurrMin(currMin + 1);
+        } else setCurrSec(currSec + 1);
+      }, 1000);
+
+      return () => clearInterval(intervalId);
+    }
+  }, [timerIsActive, currMin, currSec]);
+
   // Return JSX Markup
   return (
     <div className={styles.container}>
@@ -27,12 +45,13 @@ const Daily = ({ profileImage }: IProps) => {
             <div className={styles.gameInfoWrap}>
               <div className={styles.timeWrap}>
                 <div className={styles.label + " divider"}>Timer</div>
-                <Timer currentTime={"00:00"} />
+                <Timer currentMin={currMin} currentSecond={currSec} />
               </div>
               <div className={styles.playWrap}>
                 <div className={styles.label + " divider"}>Start</div>
                 <PlayCircle
                   style={{ width: 200, height: 200, cursor: "pointer" }}
+                  onClick={() => setTimerIsActive(true)}
                 />
               </div>
             </div>

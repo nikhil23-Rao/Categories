@@ -1,10 +1,11 @@
 import React from "react";
 
 interface IProps {
-  currentTime: string;
+  currentSecond: number;
+  currentMin: number;
 }
 
-export const Timer = ({ currentTime }: IProps) => {
+export const Timer = ({ currentMin, currentSecond }: IProps) => {
   return (
     <div id="container">
       <div className="circle" id="box">
@@ -50,7 +51,9 @@ export const Timer = ({ currentTime }: IProps) => {
             display: "flex",
           }}
         >
-          <div id="digital">{currentTime}</div>
+          <div id="digital">{`${currentMin}:${
+            currentSecond < 10 ? `0${currentSecond}` : currentSecond
+          }`}</div>
         </div>
       </div>
       <div id="shadow"></div>

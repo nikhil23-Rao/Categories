@@ -161,15 +161,15 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Sport: </h1>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Sport: </p>
                     <div
                       style={{
                         display: "flex",
                         flexDirection: "row",
                         position: "relative",
-                        top: 19,
-                        left: 30,
+                        bottom: 19,
+                        left: 16,
                       }}
                     >
                       <div className={styles.tile}></div>
@@ -187,24 +187,24 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Color: </h1>
-                    <div>
-                      <div
-                        style={{
-                          display: "flex",
-                          flexDirection: "row",
-                          position: "relative",
-                          top: 19,
-                          left: 30,
-                        }}
-                      >
-                        <div className={styles.tile}></div>
-                        <div className={styles.tile}></div>
-                        <div className={styles.tile}></div>
-                        <div className={styles.tile}></div>
-                        <div className={styles.tile}></div>
-                      </div>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Language: </p>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        bottom: 19,
+                        left: 16,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
                     </div>
                   </div>
                 </div>
@@ -214,15 +214,70 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Company: </h1>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Company: </p>
                     <div
                       style={{
                         display: "flex",
                         flexDirection: "row",
                         position: "relative",
-                        top: 19,
-                        left: 30,
+                        bottom: 19,
+                        left: 16,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Adjective: </p>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        bottom: 19,
+                        left: 16,
+                      }}
+                    >
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                      <div className={styles.tile}></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "100%",
+                    borderBottom: "3px solid #fafafa",
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Food: </p>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        position: "relative",
+                        bottom: 19,
+                        left: 16,
                       }}
                     >
                       <div className={styles.tile}></div>
@@ -239,92 +294,19 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Websites: </h1>
+                  <div style={{ display: "flex", flexDirection: "column" }}>
+                    <p className="divider">Geographical Area: </p>
                     <div
                       style={{
                         display: "flex",
                         flexDirection: "row",
                         position: "relative",
-                        top: 19,
-                        left: 30,
+                        bottom: 19,
+                        left: 16,
                       }}
                     >
                       <div className={styles.tile}></div>
                       <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style={{
-                    width: "100%",
-                    borderBottom: "3px solid #fafafa",
-                  }}
-                >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Movies: </h1>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        position: "relative",
-                        top: 19,
-                        left: 30,
-                      }}
-                    >
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style={{
-                    width: "100%",
-                    borderBottom: "3px solid #fafafa",
-                  }}
-                >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Games: </h1>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        position: "relative",
-                        top: 19,
-                        left: 30,
-                      }}
-                    >
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                      <div className={styles.tile}></div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style={{
-                    width: "100%",
-                    borderBottom: "3px solid #fafafa",
-                  }}
-                >
-                  <div style={{ display: "flex", flexDirection: "row" }}>
-                    <h1>Language: </h1>
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        position: "relative",
-                        top: 19,
-                        left: 30,
-                      }}
-                    >
                       <div className={styles.tile}></div>
                       <div className={styles.tile}></div>
                       <div className={styles.tile}></div>
@@ -337,15 +319,6 @@ const Daily = ({ profileImage }: IProps) => {
             </div>
           </div>
           <div className={styles.rightWrap}>
-            <PushPinIcon
-              style={{
-                position: "absolute",
-                top: 25,
-                right: 25,
-                color: "gray",
-                cursor: "pointer",
-              }}
-            />
             <div className={styles.info}>
               <Avatar
                 profileImg={profileImage}

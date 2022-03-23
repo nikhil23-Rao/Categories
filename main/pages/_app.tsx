@@ -9,6 +9,7 @@ import { LIGHT_THEME } from "../constants/themes";
 // External Imports
 import { createAvatar } from "@dicebear/avatars";
 import { ChakraProvider } from "@chakra-ui/react";
+import NextNProgress from "nextjs-progressbar";
 
 // CSS Imports
 import * as style from "@dicebear/avatars-identicon-sprites";
@@ -39,6 +40,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   // Render Root Component
   return (
     <ChakraProvider resetCSS={false}>
+      <NextNProgress
+        color="#29D"
+        startPosition={0.3}
+        stopDelayMs={200}
+        height={4}
+        showOnShallow={true}
+      />
       <Component {...pageProps} profileImage={profileImg} />
     </ChakraProvider>
   );

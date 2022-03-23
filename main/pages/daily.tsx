@@ -161,7 +161,12 @@ const Daily = ({ profileImage }: IProps) => {
                     borderBottom: "3px solid #fafafa",
                   }}
                 >
-                  <div style={{ display: "flex", flexDirection: "column" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                    }}
+                  >
                     <p className="divider">Sport: </p>
                     <div
                       style={{

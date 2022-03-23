@@ -197,3 +197,14 @@
   align-items: center;
   text-transform: uppercase;
 }
+
+.gameContainer > * {
+  /* -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: url(#blur);
+  filter: blur(7px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3') grayscale(100%); */
+  transition: all 0.3s ease;
+}

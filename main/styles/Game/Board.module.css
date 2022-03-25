@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
 }
+
 .container > div {
   height: 100vh;
   box-sizing: border-box;
@@ -12,15 +13,12 @@
   flex-direction: row;
   height: 100%;
   position: relative;
-  align-items: center;
-  justify-content: center;
 }
 
 .leftWrap {
-  border-right: 1px solid gray;
+  border-right: 3px solid #fafafa;
   height: 100%;
-  width: 35%;
-  flex: 1 0 35%;
+  width: 30%;
   box-sizing: border-box;
 }
 
@@ -30,7 +28,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid #fafafa;
   box-sizing: border-box;
   background-size: 8px;
 }
@@ -70,27 +68,13 @@
 }
 
 .center {
-  font-feature-settings: "kern";
-  font-kerning: normal;
-  font-variant-ligatures: common-ligatures;
-  text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-size: 17.33333px;
-  --primary: #222222;
-  --primary-rgb: 34, 34, 34;
-  --secondary: #ffffff;
-  --secondary-rgb: 255, 255, 255;
-  font-family: Didactic;
   color: var(--primary, #000);
   box-sizing: border-box;
   display: flex;
   height: 100%;
-  width: 65%;
+  width: 45%;
   position: relative;
-  flex: 1 1 auto;
-  justify-content: flex-start;
-  align-items: center;
+  /* border-right: 3px solid #fafafa; */
 }
 
 .gameInfoWrap {
@@ -142,18 +126,6 @@
 }
 
 .playWrap {
-  font-feature-settings: "kern";
-  font-kerning: normal;
-  font-variant-ligatures: common-ligatures;
-  text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-size: 17.33333px;
-  --primary: #222222;
-  --primary-rgb: 34, 34, 34;
-  --secondary: #ffffff;
-  --secondary-rgb: 255, 255, 255;
-  font-family: Didactic;
   color: var(--primary, #000);
   position: relative;
   box-sizing: border-box;
@@ -163,5 +135,80 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  border-left: 1px solid gray;
+  border-left: 3px solid #fafafa;
+}
+
+.rightWrap {
+  width: 25%;
+  border-left: 3px solid #fafafa;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.gameContainer {
+  display: flex;
+  height: 90vh;
+  position: relative;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  margin-top: -10px;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-bottom: 200px;
+}
+
+.gameContainer > div > div > h1 {
+  font-weight: 400;
+  max-width: 225px;
+  width: 225px;
+  font-size: 30px;
+}
+
+.tile {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.gameContainer > * {
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.blur {
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: url(#blur);
+  filter: blur(7px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3') grayscale(100%);
 }

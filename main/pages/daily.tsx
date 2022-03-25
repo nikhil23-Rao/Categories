@@ -7,7 +7,7 @@ import { GameInput } from "../components/Game/GameInput";
 import { NavItems } from "../components/Game/NavItems";
 import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
-import { startTimer } from "../utils/StartTimer";
+import PauseCircle from "@mui/icons-material/PauseCircle";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -48,11 +48,26 @@ const Daily = ({ profileImage }: IProps) => {
                 <Timer currentMin={currMin} currentSecond={currSec} />
               </div>
               <div className={styles.playWrap}>
-                <div className={styles.label + " divider"}>Start</div>
-                <PlayCircle
-                  style={{ width: 200, height: 200, cursor: "pointer" }}
-                  onClick={() => setTimerIsActive(true)}
-                />
+                {timerIsActive === false && (currSec > 0 || currMin > 0) ? (
+                  <div className={styles.label + " divider"}>Continue</div>
+                ) : timerIsActive === true ? (
+                  <div className={styles.label + " divider"}>Pause</div>
+                ) : timerIsActive === false &&
+                  currSec === 0 &&
+                  currMin === 0 ? (
+                  <div className={styles.label + " divider"}>Start</div>
+                ) : null}
+                {timerIsActive === false ? (
+                  <PlayCircle
+                    style={{ width: 200, height: 200, cursor: "pointer" }}
+                    onClick={() => setTimerIsActive(true)}
+                  />
+                ) : (
+                  <PauseCircle
+                    style={{ width: 200, height: 200, cursor: "pointer" }}
+                    onClick={() => setTimerIsActive(false)}
+                  />
+                )}
               </div>
             </div>
           </div>

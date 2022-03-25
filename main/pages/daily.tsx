@@ -7,7 +7,6 @@ import { GameInput } from "../components/Game/GameInput";
 import { NavItems } from "../components/Game/NavItems";
 import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
-import { startTimer } from "../utils/StartTimer";
 
 // Props That The Home Component Takes
 interface IProps {

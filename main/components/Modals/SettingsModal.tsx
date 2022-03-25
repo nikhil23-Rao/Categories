@@ -36,7 +36,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
   useEffect(() => {
     const currentTheme = JSON.parse(localStorage.getItem("theme")!);
     themeOptions.forEach((theme) => {
-      if (theme.correspondingThemeObject.name === currentTheme.name) {
+      if (theme.correspondingThemeObject.name === currentTheme!.name) {
         setCheckedTheme(theme);
       }
     });

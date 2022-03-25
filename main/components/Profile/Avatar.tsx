@@ -7,7 +7,7 @@ import { getColor } from "../../utils/customizationsFunctions";
 // Props That Avatar Takes
 interface IProps {
   profileImg: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export const Avatar = ({ profileImg, onClick }: IProps) => {

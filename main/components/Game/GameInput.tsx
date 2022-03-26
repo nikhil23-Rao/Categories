@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../../styles/Game/Board.module.css";
+import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
   title: string;
@@ -7,6 +8,8 @@ interface IProps {
 }
 
 export const GameInput = ({ numberOfTiles, title }: IProps) => {
+  const [currIdx, setCurrIdx] = useState(0);
+  const [letters, setLetters] = useState([{ val: "", idx: 0 }]);
   return (
     <div
       style={{
@@ -32,8 +35,18 @@ export const GameInput = ({ numberOfTiles, title }: IProps) => {
         >
           {Array(numberOfTiles)
             .fill(0)
-            .map(() => {
-              return <div className={styles.tile}></div>;
+            .map((arr, idx) => {
+              return letters.map((letter) => (
+                <input
+                  maxLength={1}
+                  id={idx.toString()}
+                  onChange={(e) => {
+                    setLetters([{ val: e.currentTarget.value, idx }]);
+                  }}
+                  style={{ textAlign: "center" }}
+                  className={styles.tile}
+                ></input>
+              ));
             })}
         </div>
       </div>

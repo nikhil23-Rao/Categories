@@ -9,6 +9,7 @@ import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
 import PauseCircle from "@mui/icons-material/PauseCircle";
 import { getLabelData } from "../utils/getLabelData";
+import faker from "@faker-js/faker";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -77,6 +78,7 @@ const Daily = ({ profileImage }: IProps) => {
               <NavItems />
               <div className={styles.gameContainer}>
                 <GameInput numberOfTiles={7} title="Sport" />
+                <GameInput numberOfTiles={7} title="poop" />
               </div>
             </div>
           </div>

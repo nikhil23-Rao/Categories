@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../styles/Game/Board.module.css";
 import { pressTab } from "../../utils/pressTab";
 
@@ -8,8 +8,38 @@ interface IProps {
 }
 
 export const GameInput = ({ numberOfTiles, title }: IProps) => {
-  const [currIdx, setCurrIdx] = useState(0);
-  const [letters, setLetters] = useState([{ val: "", idx: 0 }]);
+  const [letters, setLetters] = useState<any[]>([]);
+  const [currentCategory, setCurrentCategory] = useState("Sport");
+
+  useEffect(() => {
+    window.onkeydown = (e) => {
+      if (e.keyCode === 8) {
+        const newLetters = [...letters];
+        const letter = newLetters.pop();
+        setLetters(newLetters);
+      }
+    };
+    window.addEventListener("keypress", (e) => {
+      const charCode = e.keyCode;
+
+      if (
+        (charCode > 64 && charCode < 91) ||
+        (charCode > 96 && charCode < 123)
+      ) {
+        let newLetter = {
+          val: e.key,
+          idx: letters.length,
+          title: currentCategory,
+        };
+        setLetters([...letters, newLetter]);
+      }
+    });
+  }, [letters]);
+
+  useEffect(() => {
+    console.log(letters);
+  }, [letters]);
+
   return (
     <div
       style={{
@@ -34,19 +64,22 @@ export const GameInput = ({ numberOfTiles, title }: IProps) => {
           }}
         >
           {Array(numberOfTiles)
-            .fill(0)
+            .fill(numberOfTiles)
             .map((arr, idx) => {
-              return letters.map((letter) => (
-                <input
-                  maxLength={1}
-                  id={idx.toString()}
-                  onChange={(e) => {
-                    setLetters([{ val: e.currentTarget.value, idx }]);
-                  }}
-                  style={{ textAlign: "center" }}
-                  className={styles.tile}
-                ></input>
-              ));
+              return (
+                <div className={styles.tile}>
+                  {letters.map((letter) => {
+                    if (
+                      letter &&
+                      letter.idx === idx &&
+                      letter.title === title &&
+                      currentCategory === letter.title
+                    ) {
+                      return <p id={idx.toString()}>{letter.val}</p>;
+                    }
+                  })}
+                </div>
+              );
             })}
         </div>
       </div>

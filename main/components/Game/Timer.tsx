@@ -7,7 +7,7 @@ interface IProps {
 
 export const Timer = ({ currentMin, currentSecond }: IProps) => {
   return (
-    <div id="container">
+    <div id="container" style={{ zoom: 0.9 }}>
       <div className="circle" id="box">
         <div id="btn-play">
           <div>

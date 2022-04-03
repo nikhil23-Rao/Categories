@@ -211,4 +211,5 @@
   filter: url(#blur);
   filter: blur(7px);
   filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3') grayscale(100%);
+  user-select: none;
 }

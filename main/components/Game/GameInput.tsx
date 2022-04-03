@@ -5,10 +5,10 @@ import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
   title: string;
-  numberOfTiles: number;
+  show: boolean;
 }
 
-export const GameInput = ({ numberOfTiles, title }: IProps) => {
+export const GameInput = ({ show, title }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
 
   useEffect(() => {
@@ -21,6 +21,7 @@ export const GameInput = ({ numberOfTiles, title }: IProps) => {
         width: "100%",
         borderBottom: "3px solid #fafafa",
       }}
+      className={show ? styles.blur : ""}
     >
       <div
         style={{

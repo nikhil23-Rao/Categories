@@ -67,19 +67,17 @@ const Daily = ({ profileImage }: IProps) => {
                   <div className={styles.label + " divider"}>
                     {getLabelData(timerIsActive, currSec, currMin)}
                   </div>
-                  <div
-                    style={{ marginLeft: 180, marginTop: -7 }}
-                    className={styles.label + " divider"}
-                  >
+                  <div style={{ position: "absolute", top: 25, right: 30 }}>
                     <Badge
                       colorScheme={"red"}
                       style={{
-                        width: 40,
-                        height: 40,
+                        width: 30,
+                        height: 30,
                         alignItems: "center",
                         justifyContent: "center",
                         display: "flex",
                         borderRadius: 200,
+                        fontFamily: "monospace",
                       }}
                     >
                       {pausesLeft}

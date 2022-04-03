@@ -78,7 +78,11 @@ const Daily = ({ profileImage }: IProps) => {
               <NavItems />
               <div className={styles.gameContainer}>
                 <GameInput numberOfTiles={7} title="Sport" />
-                <GameInput numberOfTiles={7} title="poop" />
+                <GameInput numberOfTiles={7} title="Food" />
+                <GameInput numberOfTiles={7} title="Movie Titles" />
+                <GameInput numberOfTiles={7} title="Actors" />
+                <GameInput numberOfTiles={7} title="Companies" />
+                <GameInput numberOfTiles={7} title="Job Roles" />
               </div>
             </div>
           </div>

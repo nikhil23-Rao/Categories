@@ -10,58 +10,53 @@ const profile = ({ profileImage }: IProps) => {
   const router = useRouter();
 
   return (
-    <div className={styles.container}>
-      <div className={styles.card}>
-        <div className={styles.banner} />
-        <div style={{ alignSelf: "center", position: "relative", top: 30 }}>
-          <Avatar profileImg={profileImage} onClick={() => router.push("/")} />
-        </div>
-        <div className={styles.menu}>
-          <div className={styles.opener}>
-            <span></span>
-            <span></span>
-            <span></span>
+    <div
+      style={{
+        alignItems: "center",
+        justifyContent: "center",
+        display: "flex",
+      }}
+    >
+      <div className="profile-card">
+        <div className="card-header">
+          <div className="pic">
+            <img
+              src="https://lh3.googleusercontent.com/ogw/ADea4I70PeEcDK4HGIqjH7bes64KQIL7TIq5lpPdBlIJJQ=s192-c-mo"
+              alt=""
+            />
           </div>
-        </div>
-        <h2
-          className={styles.name}
-          style={{ position: "relative", bottom: 35 }}
-        >
-          Vinay Rao
-        </h2>
-        <div
-          className={styles.title}
-          style={{ position: "relative", bottom: 35 }}
-        >
-          Stats
-        </div>
-        <div className={styles.actions}>
-          <div className={styles.followInfo}>
-            <h2>
-              <a href="#" style={{ position: "relative", bottom: 35 }}>
-                <span>12</span>
-                <small>Wins</small>
-              </a>
-            </h2>
-            <h2>
-              <a href="#" style={{ position: "relative", bottom: 35 }}>
-                <span>1000</span>
-                <small>Losses</small>
-              </a>
-            </h2>
+          <div className="name">Sophie Hickey</div>
+          <div className="desc">Frontend Developer </div>
+          <div className="location">
+            <i className="fas fa-map-marker-alt"></i> Dublin
           </div>
-          <div
-            className={styles.followBtn}
-            style={{ position: "relative", bottom: 35 }}
-          >
-            <button>Follow</button>
+          <div className="icons">
+            <a href="#" className="fab fa-instagram"></a>
+            <a href="#" className="fab fa-linkedin"></a>
+            <a href="#" className="fab fa-github"></a>
           </div>
+          <a href="#" className="contact-btn">
+            Contact Me
+          </a>
         </div>
-        <div
-          className={styles.desc}
-          style={{ position: "relative", bottom: 35, alignSelf: "center" }}
-        >
-          Vinay is a trash categories player.
+        <div className="card-footer">
+          <div className="numbers">
+            <div className="item">
+              <span>80</span>
+              Posts
+            </div>
+            <div className="border"></div>
+            <div className="item">
+              <span>208</span>
+              Following
+            </div>
+            <div className="border"></div>
+            <div className="item">
+              <span>198</span>
+              Followers
+            </div>
+          </div>
+          <div className="instagram-account">@irishgirldeveloper</div>
         </div>
       </div>
     </div>

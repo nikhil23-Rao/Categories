@@ -11,7 +11,7 @@ import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
 import { SettingsModal } from "../components/Modals/SettingsModal";
 
 // External Imports
-import { useDisclosure } from "@chakra-ui/react";
+import { Divider, MenuItem, useDisclosure } from "@chakra-ui/react";
 import Settings from "@mui/icons-material/Settings";
 import { useRouter } from "next/router";
 
@@ -20,11 +20,17 @@ import {
   getBGColor,
   getColor,
   getPrimaryColor,
+  getTextColor,
 } from "../utils/customizationsFunctions";
 
 // CSS Imports
 import styles from "../styles/Landing/Home.module.css";
 import Link from "next/link";
+import EmojiEmotions from "@mui/icons-material/EmojiEmotions";
+import AddCircle from "@mui/icons-material/AddCircle";
+import AddPhotoAlternate from "@mui/icons-material/AddPhotoAlternate";
+import BarChart from "@mui/icons-material/BarChart";
+import Share from "@mui/icons-material/Share";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -39,6 +45,7 @@ const Home = ({ profileImage }: IProps) => {
     onClose: settingsModalOnClose,
   } = useDisclosure();
   const { onOpen: howToPlayModalOnOpen } = useDisclosure();
+  const [showMenu, setShowMenu] = React.useState(false);
   const router = useRouter();
 
   // Return JSX Markup
@@ -68,10 +75,126 @@ const Home = ({ profileImage }: IProps) => {
             onClick={settingsModalOnOpen}
           />
           <HowToPlayModal onClick={howToPlayModalOnOpen} />
+
           <Avatar
             profileImg={profileImage}
-            onClick={() => router.push("/profile")}
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
           />
+
+          {showMenu && (
+            <div className={styles.dropdown}>
+              <Avatar profileImg={profileImage} onClick={() => {}} />
+              <p
+                className="divider"
+                style={{
+                  color: getTextColor(),
+                  position: "relative",
+                  bottom: 15,
+                }}
+              >
+                Categories Player
+              </p>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid #eaeaea",
+                    borderBottom: "1px solid #eaeaea",
+                    width: 250,
+                  }}
+                >
+                  <EmojiEmotions
+                    style={{
+                      fontSize: 26,
+                      top: 15.2,
+                      position: "relative",
+                      left: 10,
+                    }}
+                  />{" "}
+                  <p style={{ marginLeft: 20 }}>Edit Username</p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid #eaeaea",
+                    borderBottom: "1px solid #eaeaea",
+                    width: 250,
+                  }}
+                >
+                  <AddCircle
+                    style={{
+                      fontSize: 26,
+                      top: 15.2,
+                      position: "relative",
+                      left: 10,
+                    }}
+                  />{" "}
+                  <p style={{ marginLeft: 20 }}>Generate New Pattern</p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid #eaeaea",
+                    borderBottom: "1px solid #eaeaea",
+                    width: 250,
+                  }}
+                >
+                  <AddPhotoAlternate
+                    style={{
+                      fontSize: 26,
+                      top: 15.2,
+                      position: "relative",
+                      left: 10,
+                    }}
+                  />{" "}
+                  <p style={{ marginLeft: 20 }}>Add Profile Picture</p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid #eaeaea",
+                    borderBottom: "1px solid #eaeaea",
+                    width: 250,
+                  }}
+                >
+                  <BarChart
+                    style={{
+                      fontSize: 26,
+                      top: 15.2,
+                      position: "relative",
+                      left: 10,
+                    }}
+                  />{" "}
+                  <p style={{ marginLeft: 20 }}>View Stats</p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    borderTop: "1px solid #eaeaea",
+                    borderBottom: "1px solid #eaeaea",
+                    width: 250,
+                  }}
+                >
+                  <Share
+                    style={{
+                      fontSize: 26,
+                      top: 15.2,
+                      position: "relative",
+                      left: 10,
+                    }}
+                  />{" "}
+                  <p style={{ marginLeft: 20 }}>Share Game</p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

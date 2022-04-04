@@ -13,7 +13,7 @@ export const generateCategories = () => {
       letter: shuffle(letters)[0],
     },
   ];
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 500; i++) {
     date.setDate(date.getDate() + 1);
     chckDates.push({
       dailyDate: `${

@@ -12,6 +12,7 @@ import { getLabelData } from "../utils/getLabelData";
 import faker from "@faker-js/faker";
 import { Badge } from "@chakra-ui/react";
 import { generateCategories } from "../utils/generateCategories";
+import { dailyCategories } from "../data/dailyCategories";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -43,8 +44,14 @@ const Daily = ({ profileImage }: IProps) => {
   }, [timerIsActive, currMin, currSec]);
 
   useEffect(() => {
-    const dailyCategory = JSON.parse(localStorage.getItem("categories")!)[0];
-    setDaily(dailyCategory);
+    const date = new Date();
+    const today = dailyCategories.filter(
+      (d) =>
+        d.dailyDate ===
+        `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`
+    );
+
+    setDaily(today[0]);
   }, []);
 
   // Return JSX Markup

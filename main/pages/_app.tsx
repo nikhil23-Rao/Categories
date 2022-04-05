@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       localStorage.setItem("pfpid", Math.floor(Math.random() * 200).toString());
       localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
       localStorage.setItem("color", colorOptions[0].color);
+      localStorage.setItem("name", "Categories Player");
     }
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,

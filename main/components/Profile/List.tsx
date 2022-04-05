@@ -34,7 +34,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
           bottom: 15,
         }}
       >
-        Categories Player
+        {localStorage.getItem("name")!}
       </p>
       <div
         style={{

@@ -1,5 +1,5 @@
 // NextJS Imports
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 // External Imports
 import {
@@ -31,6 +31,12 @@ interface IProps {
 }
 
 export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
+  const [username, setUsername] = useState(localStorage.getItem("name")!);
+
+  useEffect(() => {
+    localStorage.setItem("name", username);
+  }, [username]);
+
   // Render JSX Markup
   return (
     <>
@@ -72,7 +78,12 @@ export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
               Manage your profile settings. You can edit your username. These
               settings affect all your game accounts on this browser.
             </p>
-            <Input placeholder="Enter Username..." size="lg" />
+            <Input
+              placeholder="Enter Username..."
+              value={username}
+              onChange={(e) => setUsername(e.currentTarget.value)}
+              size="lg"
+            />
           </ModalBody>
         </ModalContent>
       </Modal>

@@ -1,6 +1,7 @@
 import { Input } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import styles from "../../styles/Game/Board.module.css";
+import { getBGColor } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
@@ -29,29 +30,24 @@ export const GameInput = ({ show, title }: IProps) => {
           flexDirection: "column",
         }}
       >
-        <p className="divider"></p>
+        <p className="divider">{title}:</p>
         <div
           style={{
             display: "flex",
             flexDirection: "row",
             position: "relative",
             bottom: 19,
-            left: 6,
+            left: 3,
           }}
         >
-          <form>
-            <input
-              type="text"
-              name="name"
-              className="question"
-              id="nme"
-              required
-              autoComplete={"off"}
-            />
-            <label htmlFor="nme">
-              <span>{title}</span>
-            </label>
-          </form>
+          <Input
+            border={"none"}
+            width={"80%"}
+            placeholder={`${title}...`}
+            height={10}
+            fontSize={30}
+            style={{ boxShadow: "none" }}
+          />
         </div>
       </div>
     </div>

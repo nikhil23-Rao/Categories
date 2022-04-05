@@ -31,7 +31,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
       <p
         className="divider"
         style={{
-          color: getTextColor(),
+          color: "#000",
           position: "relative",
           bottom: 15,
         }}

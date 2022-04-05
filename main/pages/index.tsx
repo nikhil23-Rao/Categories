@@ -101,7 +101,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
         </div>
       </div>
 
-      <main className={styles.main}>
+      <main className={styles.main} onClick={() => setShowMenu(false)}>
         <h1 className={styles.title}>
           <AnimatedTitle />
         </h1>

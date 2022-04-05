@@ -11,6 +11,7 @@ import BarChart from "@mui/icons-material/BarChart";
 import Share from "@mui/icons-material/Share";
 import IosShareIcon from "@mui/icons-material/IosShare";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
+import { useToast } from "@chakra-ui/react";
 
 interface IProps {
   profileImage: string;
@@ -19,6 +20,7 @@ interface IProps {
 }
 
 export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
+  const toast = useToast();
   return (
     <div className={styles.dropdown} style={{ zIndex: 2000 }}>
       <Avatar
@@ -130,6 +132,12 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
   Average Number Of Stars: 3.74,
   Fastest Time: 0:26,
             `);
+            toast({
+              title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
+              status: "info",
+              duration: 3000,
+              position: "bottom-right",
+            });
           }}
         >
           <IosShareIcon
@@ -153,9 +161,15 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
           onClick={() => {
             navigator.clipboard.writeText(`
     Check Out Categories! Can you beat my stats? 
-    ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+    ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
     https://nikhilrao.github.io/categories/
             `);
+            toast({
+              title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
+              status: "info",
+              duration: 3000,
+              position: "bottom-right",
+            });
           }}
         >
           <Share

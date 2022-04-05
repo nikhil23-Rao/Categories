@@ -48,7 +48,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         height={4}
         showOnShallow={true}
       />
-      <Component {...pageProps} profileImage={profileImg} />
+      <Component
+        {...pageProps}
+        profileImage={profileImg}
+        setProfileImg={setProfileImg}
+      />
     </ChakraProvider>
   );
 }

@@ -31,13 +31,16 @@ import AddCircle from "@mui/icons-material/AddCircle";
 import AddPhotoAlternate from "@mui/icons-material/AddPhotoAlternate";
 import BarChart from "@mui/icons-material/BarChart";
 import Share from "@mui/icons-material/Share";
+import { createAvatar } from "@dicebear/avatars";
+import * as style from "@dicebear/avatars-identicon-sprites";
 
 // Props That The Home Component Takes
 interface IProps {
   profileImage: string;
+  setProfileImg: (profileImg: string) => void;
 }
 
-const Home = ({ profileImage }: IProps) => {
+const Home = ({ profileImage, setProfileImg }: IProps) => {
   // Hooks
   const {
     isOpen: settingsModalIsOpen,
@@ -84,7 +87,7 @@ const Home = ({ profileImage }: IProps) => {
           />
 
           {showMenu && (
-            <div className={styles.dropdown}>
+            <div className={styles.dropdown} style={{ zIndex: 2000 }}>
               <Avatar profileImg={profileImage} onClick={() => {}} />
               <p
                 className="divider"
@@ -123,6 +126,17 @@ const Home = ({ profileImage }: IProps) => {
                     borderTop: "1px solid #eaeaea",
                     borderBottom: "1px solid #eaeaea",
                     width: 250,
+                  }}
+                  onClick={() => {
+                    localStorage.setItem(
+                      "pfpid",
+                      Math.floor(Math.random() * 200).toString()
+                    );
+                    let svg = createAvatar(style, {
+                      seed: localStorage.getItem("pfpid")!!,
+                      dataUri: true,
+                    });
+                    setProfileImg(svg);
                   }}
                 >
                   <AddCircle

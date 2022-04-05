@@ -151,6 +151,7 @@
   text-align: center;
   flex-direction: column;
   border: 1px solid #eaeaea;
+  z-index: 99;
 }
 
 .dropdown::before {

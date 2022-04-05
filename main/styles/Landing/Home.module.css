@@ -154,6 +154,11 @@
   z-index: 99;
 }
 
+.dropdown > div > div:hover {
+  cursor: pointer;
+  background-color: #f5f4f4;
+}
+
 .dropdown::before {
   content: "";
   position: absolute;

@@ -26,13 +26,8 @@ import {
 // CSS Imports
 import styles from "../styles/Landing/Home.module.css";
 import Link from "next/link";
-import EmojiEmotions from "@mui/icons-material/EmojiEmotions";
-import AddCircle from "@mui/icons-material/AddCircle";
-import AddPhotoAlternate from "@mui/icons-material/AddPhotoAlternate";
-import BarChart from "@mui/icons-material/BarChart";
-import Share from "@mui/icons-material/Share";
-import { createAvatar } from "@dicebear/avatars";
-import * as style from "@dicebear/avatars-identicon-sprites";
+import { List } from "../components/Profile/List";
+import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -46,6 +41,11 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
     isOpen: settingsModalIsOpen,
     onOpen: settingsModalOnOpen,
     onClose: settingsModalOnClose,
+  } = useDisclosure();
+  const {
+    isOpen: editProfileModalIsOpen,
+    onOpen: editProfileModalOnOpen,
+    onClose: editProfileModalOnClose,
   } = useDisclosure();
   const { onOpen: howToPlayModalOnOpen } = useDisclosure();
   const [showMenu, setShowMenu] = React.useState(false);
@@ -73,6 +73,11 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
             onClose={settingsModalOnClose}
             onOpen={settingsModalOnOpen}
           />
+          <EditUsernameModal
+            isOpen={editProfileModalIsOpen}
+            onClose={editProfileModalOnClose}
+            onOpen={editProfileModalOnOpen}
+          />
           <Settings
             style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
             onClick={settingsModalOnOpen}
@@ -87,127 +92,11 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
           />
 
           {showMenu && (
-            <div className={styles.dropdown} style={{ zIndex: 2000 }}>
-              <Avatar profileImg={profileImage} onClick={() => {}} />
-              <p
-                className="divider"
-                style={{
-                  color: getTextColor(),
-                  position: "relative",
-                  bottom: 15,
-                }}
-              >
-                Categories Player
-              </p>
-              <div style={{ display: "flex", flexDirection: "column" }}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid #eaeaea",
-                    borderBottom: "1px solid #eaeaea",
-                    width: 250,
-                  }}
-                >
-                  <EmojiEmotions
-                    style={{
-                      fontSize: 26,
-                      top: 15.2,
-                      position: "relative",
-                      left: 10,
-                    }}
-                  />{" "}
-                  <p style={{ marginLeft: 20 }}>Edit Username</p>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid #eaeaea",
-                    borderBottom: "1px solid #eaeaea",
-                    width: 250,
-                  }}
-                  onClick={() => {
-                    localStorage.setItem(
-                      "pfpid",
-                      Math.floor(Math.random() * 200).toString()
-                    );
-                    let svg = createAvatar(style, {
-                      seed: localStorage.getItem("pfpid")!!,
-                      dataUri: true,
-                    });
-                    setProfileImg(svg);
-                  }}
-                >
-                  <AddCircle
-                    style={{
-                      fontSize: 26,
-                      top: 15.2,
-                      position: "relative",
-                      left: 10,
-                    }}
-                  />{" "}
-                  <p style={{ marginLeft: 20 }}>Generate New Pattern</p>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid #eaeaea",
-                    borderBottom: "1px solid #eaeaea",
-                    width: 250,
-                  }}
-                >
-                  <AddPhotoAlternate
-                    style={{
-                      fontSize: 26,
-                      top: 15.2,
-                      position: "relative",
-                      left: 10,
-                    }}
-                  />{" "}
-                  <p style={{ marginLeft: 20 }}>Add Profile Picture</p>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid #eaeaea",
-                    borderBottom: "1px solid #eaeaea",
-                    width: 250,
-                  }}
-                >
-                  <BarChart
-                    style={{
-                      fontSize: 26,
-                      top: 15.2,
-                      position: "relative",
-                      left: 10,
-                    }}
-                  />{" "}
-                  <p style={{ marginLeft: 20 }}>View Stats</p>
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    borderTop: "1px solid #eaeaea",
-                    borderBottom: "1px solid #eaeaea",
-                    width: 250,
-                  }}
-                >
-                  <Share
-                    style={{
-                      fontSize: 26,
-                      top: 15.2,
-                      position: "relative",
-                      left: 10,
-                    }}
-                  />{" "}
-                  <p style={{ marginLeft: 20 }}>Share Game</p>
-                </div>
-              </div>
-            </div>
+            <List
+              setOpen={editProfileModalOnOpen}
+              setProfileImg={setProfileImg}
+              profileImage={profileImage}
+            />
           )}
         </div>
       </div>

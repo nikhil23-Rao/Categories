@@ -2,7 +2,7 @@ import { Input } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { dailyCategories } from "../../data/dailyCategories";
 import styles from "../../styles/Game/Board.module.css";
-import { getBGColor } from "../../utils/customizationsFunctions";
+import { getBGColor, getTextColor } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
@@ -32,7 +32,9 @@ export const GameInput = ({ show, title }: IProps) => {
           flexDirection: "column",
         }}
       >
-        <p className="divider">{title}:</p>
+        <p className="divider" style={{ color: getTextColor() }}>
+          {title}:
+        </p>
         <div
           style={{
             display: "flex",
@@ -48,7 +50,7 @@ export const GameInput = ({ show, title }: IProps) => {
             placeholder={`${title}...`}
             height={10}
             fontSize={30}
-            style={{ boxShadow: "none" }}
+            style={{ boxShadow: "none", color: getTextColor() }}
           />
         </div>
       </div>

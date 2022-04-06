@@ -61,7 +61,7 @@ const Daily = ({ profileImage }: IProps) => {
 
   // Return JSX Markup
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ background: getBGColor() }}>
       <div>
         <div className={styles.game}>
           <div className={styles.leftWrap}>
@@ -80,7 +80,7 @@ const Daily = ({ profileImage }: IProps) => {
               <div className={styles.timeWrap}>
                 <div
                   className={styles.label + " divider"}
-                  style={{ color: getAltTextColor() }}
+                  style={{ color: getTextColor() }}
                 >
                   Timer
                 </div>
@@ -88,7 +88,10 @@ const Daily = ({ profileImage }: IProps) => {
               </div>
               <div className={styles.playWrap}>
                 <div style={{ display: "flex", flexDirection: "row" }}>
-                  <div className={styles.label + " divider"}>
+                  <div
+                    className={styles.label + " divider"}
+                    style={{ color: getTextColor() }}
+                  >
                     {getLabelData(timerIsActive, currSec, currMin)}
                   </div>
                   <div style={{ position: "absolute", top: 25, right: 30 }}>

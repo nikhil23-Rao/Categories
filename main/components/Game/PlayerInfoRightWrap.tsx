@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/Game/Board.module.css";
+import { getTextColor } from "../../utils/customizationsFunctions";
 import { Avatar } from "../Profile/Avatar";
 
 interface IProps {
@@ -26,7 +27,10 @@ export const PlayerInfoRightWrap = ({
             imgStyle={{ width: 130, height: 130 }}
             onClick={() => {}}
           />
-          <p className="divider" style={{ fontSize: 20, textAlign: "center" }}>
+          <p
+            className="divider"
+            style={{ fontSize: 20, textAlign: "center", color: getTextColor() }}
+          >
             {localStorage.getItem("name")!}
           </p>
           <p
@@ -34,7 +38,7 @@ export const PlayerInfoRightWrap = ({
               textAlign: "center",
               marginTop: -20,
               marginBottom: 50,
-              color: "gray",
+              color: getTextColor(),
             }}
           >
             Your Bio Here.
@@ -44,33 +48,29 @@ export const PlayerInfoRightWrap = ({
               <h2>
                 <a href="#">
                   <span>{gamesPlayed}</span>
-                  <small>Played</small>
+                  <small style={{ color: getTextColor() }}>Played</small>
                 </a>
               </h2>
               <h2>
                 <a href="#">
                   <span>{avgStars}</span>
-                  <small>Average</small>
+                  <small style={{ color: getTextColor() }}>Average</small>
                 </a>
               </h2>
               <h2>
                 <a href="#">
                   <span>{currentStreak}</span>
-                  <small>Current Streak</small>
+                  <small style={{ color: getTextColor() }}>
+                    Current Streak
+                  </small>
                 </a>
               </h2>
               <h2>
                 <a href="#">
                   <span>{maxStreak}</span>
-                  <small>Max Streak</small>
+                  <small style={{ color: getTextColor() }}>Max Streak</small>
                 </a>
               </h2>
-            </div>
-            <div className="follow-btn">
-              <button>View Full Profile</button>
-            </div>
-            <div className="follow-btn" style={{ marginTop: 30 }}>
-              <button>Edit Profile</button>
             </div>
           </div>
         </div>

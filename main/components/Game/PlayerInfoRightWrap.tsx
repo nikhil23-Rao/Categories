@@ -41,7 +41,7 @@ export const PlayerInfoRightWrap = ({
               color: getTextColor(),
             }}
           >
-            Your Bio Here.
+            {localStorage.getItem("bio")!}
           </p>
           <div className="actions">
             <div className="follow-info">

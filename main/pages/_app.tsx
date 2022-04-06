@@ -28,6 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       localStorage.setItem("theme", JSON.stringify(LIGHT_THEME));
       localStorage.setItem("color", colorOptions[0].color);
       localStorage.setItem("name", "Categories Player");
+      localStorage.setItem("bio", "Enter your bio");
     }
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,

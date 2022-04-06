@@ -10,6 +10,9 @@ import {
   ModalCloseButton,
   ModalBody,
   Input,
+  Textarea,
+  Button,
+  ModalFooter,
 } from "@chakra-ui/react";
 import Check from "@mui/icons-material/Check";
 
@@ -19,6 +22,7 @@ import { themeOptions } from "../../data/themeOptions";
 import {
   getAltTextColor,
   getBGColor,
+  getColor,
   getTextColor,
 } from "../../utils/customizationsFunctions";
 import { TextField } from "@mui/material";
@@ -32,10 +36,12 @@ interface IProps {
 
 export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
   const [username, setUsername] = useState(localStorage.getItem("name")!);
+  const [bio, setBio] = useState(localStorage.getItem("bio")!);
 
-  useEffect(() => {
-    localStorage.setItem("name", username);
-  }, [username]);
+  // useEffect(() => {
+  //   localStorage.setItem("name", username);
+  //   localStorage.setItem("bio", bio);
+  // }, [username, bio]);
 
   // Render JSX Markup
   return (
@@ -81,10 +87,38 @@ export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
             <Input
               placeholder="Enter Username..."
               value={username}
+              color={getTextColor()}
               onChange={(e) => setUsername(e.currentTarget.value)}
               size="lg"
             />
+            <Textarea
+              placeholder="Enter Bio..."
+              value={bio}
+              fontFamily="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+              Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif"
+              style={{ marginTop: 30 }}
+              color={getTextColor()}
+              onChange={(e) => setBio(e.currentTarget.value)}
+              size="lg"
+            />
           </ModalBody>
+          <ModalFooter>
+            <Button
+              onClick={() => {
+                localStorage.setItem("name", username)!;
+                localStorage.setItem("bio", bio)!;
+                onClose();
+              }}
+              disabled={!username || !bio ? true : false}
+              backgroundColor={getColor()}
+              boxShadow="none"
+              _hover={{ backgroundColor: getColor() }}
+              cursor="pointer"
+              border="none"
+            >
+              Save
+            </Button>
+          </ModalFooter>
         </ModalContent>
       </Modal>
     </>

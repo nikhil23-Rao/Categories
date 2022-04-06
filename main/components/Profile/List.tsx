@@ -1,6 +1,6 @@
 import { createAvatar } from "@dicebear/avatars";
 import React from "react";
-import { getTextColor } from "../../utils/customizationsFunctions";
+import { getBGColor, getTextColor } from "../../utils/customizationsFunctions";
 import styles from "../../styles/Landing/Home.module.css";
 import * as style from "@dicebear/avatars-identicon-sprites";
 import { Avatar } from "./Avatar";
@@ -31,7 +31,6 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
       <p
         className="divider"
         style={{
-          color: "#000",
           position: "relative",
           bottom: 15,
         }}
@@ -64,7 +63,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
               left: 10,
             }}
           />{" "}
-          <p style={{ marginLeft: 20 }}>Edit Username</p>
+          <p style={{ marginLeft: 20 }}>Edit Profile</p>
         </div>
         <div
           style={{

@@ -597,13 +597,18 @@ form:invalid + button {
 .actions .follow-info h2 a:hover span {
   color: #007ad6;
 }
+.follow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .actions .follow-btn button {
   color: inherit;
   font: inherit;
   font-weight: bold;
   background-color: #ffd01a;
   cursor: pointer;
-  width: 100%;
+  width: 90%;
   border: none;
   padding: 1rem;
   outline: none;

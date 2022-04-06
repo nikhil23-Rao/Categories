@@ -17,6 +17,7 @@ export const NavItems = () => {
           top: 29,
           left: 45,
           cursor: "pointer",
+          zIndex: 200,
         }}
         onClick={() => router.push("/")}
       >
@@ -27,6 +28,8 @@ export const NavItems = () => {
           position: "absolute",
           top: 29,
           left: 95,
+          zIndex: 200,
+          cursor: "pointer",
         }}
       >
         <AccountCircle style={{ fontSize: 30, color: getColor() }} />
@@ -34,6 +37,8 @@ export const NavItems = () => {
       <div
         style={{
           position: "absolute",
+          zIndex: 200,
+          cursor: "pointer",
           top: 29,
           right: 45,
         }}
@@ -43,6 +48,8 @@ export const NavItems = () => {
       <div
         style={{
           position: "absolute",
+          zIndex: 200,
+          cursor: "pointer",
           top: 29,
           right: 85,
         }}
@@ -52,6 +59,8 @@ export const NavItems = () => {
       <div
         style={{
           position: "absolute",
+          zIndex: 200,
+          cursor: "pointer",
           top: 29,
           right: 125,
         }}

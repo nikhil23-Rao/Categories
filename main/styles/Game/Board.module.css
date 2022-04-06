@@ -212,3 +212,10 @@
   filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3') grayscale(100%);
   user-select: none;
 }
+
+
+@media (max-width: 1440px) {
+.rightWrap > * {
+  zoom:0.83
+} 
+}

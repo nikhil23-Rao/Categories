@@ -114,6 +114,7 @@ const Daily = ({ profileImage }: IProps) => {
                 {timerIsActive === false ? (
                   <PlayCircle
                     style={{
+                      zoom: 0.9,
                       width: 200,
                       height: 200,
                       cursor: "pointer",
@@ -124,6 +125,7 @@ const Daily = ({ profileImage }: IProps) => {
                 ) : (
                   <PauseCircle
                     style={{
+                      zoom: 0.9,
                       width: 200,
                       height: 200,
                       cursor: "pointer",
@@ -163,9 +165,9 @@ const Daily = ({ profileImage }: IProps) => {
           </div>
           <PlayerInfoRightWrap
             avgStars={3.74}
-            currentStreak={20}
+            bestTime={"0:25"}
             gamesPlayed={30}
-            maxStreak={20}
+            avgTime={"0:45"}
             profileImage={profileImage}
           />
         </div>

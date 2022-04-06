@@ -4,7 +4,7 @@ import BarChart from "@mui/icons-material/BarChart";
 import Home from "@mui/icons-material/Home";
 import Help from "@mui/icons-material/Help";
 import AccountCircle from "@mui/icons-material/AccountCircle";
-import { getTextColor } from "../../utils/customizationsFunctions";
+import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { useRouter } from "next/router";
 
 export const NavItems = () => {
@@ -20,7 +20,7 @@ export const NavItems = () => {
         }}
         onClick={() => router.push("/")}
       >
-        <Home style={{ fontSize: 30, color: getTextColor() }} />
+        <Home style={{ fontSize: 30, color: getColor() }} />
       </div>
       <div
         style={{
@@ -29,7 +29,7 @@ export const NavItems = () => {
           left: 95,
         }}
       >
-        <AccountCircle style={{ fontSize: 30, color: getTextColor() }} />
+        <AccountCircle style={{ fontSize: 30, color: getColor() }} />
       </div>
       <div
         style={{
@@ -38,7 +38,7 @@ export const NavItems = () => {
           right: 45,
         }}
       >
-        <Settings style={{ fontSize: 30, color: getTextColor() }} />
+        <Settings style={{ fontSize: 30, color: getColor() }} />
       </div>
       <div
         style={{
@@ -47,7 +47,7 @@ export const NavItems = () => {
           right: 85,
         }}
       >
-        <BarChart style={{ fontSize: 30, color: getTextColor() }} />
+        <BarChart style={{ fontSize: 30, color: getColor() }} />
       </div>
       <div
         style={{
@@ -56,7 +56,7 @@ export const NavItems = () => {
           right: 125,
         }}
       >
-        <Help style={{ fontSize: 30, color: getTextColor() }} />
+        <Help style={{ fontSize: 30, color: getColor() }} />
       </div>
       <div
         style={{

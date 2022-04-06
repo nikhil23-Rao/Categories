@@ -12,7 +12,7 @@ export const LIGHT_THEME = {
 
 export const DARK_THEME = {
   primary: "#fff",
-  background: "#010001",
+  background: "#303336",
   text: "#fff",
   altText: "#70777B",
   shadePrimary: "none",

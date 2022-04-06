@@ -68,7 +68,7 @@ const Daily = ({ profileImage }: IProps) => {
             <div className={styles.letterWrap}>
               <div
                 className={styles.label + " divider"}
-                style={{ color: getAltTextColor() }}
+                style={{ color: getTextColor() }}
               >
                 Letter Of The Day
               </div>

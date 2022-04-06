@@ -13,6 +13,11 @@ import faker from "@faker-js/faker";
 import { Badge } from "@chakra-ui/react";
 import { generateCategories } from "../utils/generateCategories";
 import { dailyCategories } from "../data/dailyCategories";
+import {
+  getAltTextColor,
+  getBGColor,
+  getTextColor,
+} from "../utils/customizationsFunctions";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -61,12 +66,24 @@ const Daily = ({ profileImage }: IProps) => {
         <div className={styles.game}>
           <div className={styles.leftWrap}>
             <div className={styles.letterWrap}>
-              <div className={styles.label + " divider"}>Letter Of The Day</div>
-              <div className={styles.letter}>{daily?.letter}</div>
+              <div
+                className={styles.label + " divider"}
+                style={{ color: getAltTextColor() }}
+              >
+                Letter Of The Day
+              </div>
+              <div className={styles.letter} style={{ color: getTextColor() }}>
+                {daily?.letter}
+              </div>
             </div>
             <div className={styles.gameInfoWrap}>
               <div className={styles.timeWrap}>
-                <div className={styles.label + " divider"}>Timer</div>
+                <div
+                  className={styles.label + " divider"}
+                  style={{ color: getAltTextColor() }}
+                >
+                  Timer
+                </div>
                 <Timer currentMin={currMin} currentSecond={currSec} />
               </div>
               <div className={styles.playWrap}>
@@ -93,7 +110,12 @@ const Daily = ({ profileImage }: IProps) => {
                 </div>
                 {timerIsActive === false ? (
                   <PlayCircle
-                    style={{ width: 200, height: 200, cursor: "pointer" }}
+                    style={{
+                      width: 200,
+                      height: 200,
+                      cursor: "pointer",
+                      color: getTextColor(),
+                    }}
                     onClick={() => setTimerIsActive(true)}
                   />
                 ) : (
@@ -102,7 +124,8 @@ const Daily = ({ profileImage }: IProps) => {
                       width: 200,
                       height: 200,
                       cursor: "pointer",
-                      color: pausesLeft === 0 ? "gray" : "#000",
+                      color:
+                        pausesLeft === 0 ? getAltTextColor() : getTextColor(),
                       pointerEvents: pausesLeft === 0 ? "none" : "all",
                     }}
                     onClick={() => {
@@ -125,9 +148,11 @@ const Daily = ({ profileImage }: IProps) => {
               <NavItems />
               <div
                 className={styles.gameContainer}
-                style={{ pointerEvents: !timerIsActive ? "none" : "all" }}
+                style={{
+                  pointerEvents: !timerIsActive ? "none" : "all",
+                }}
               >
-                {daily?.inputs.map((item, index) => (
+                {daily?.inputs.map((item) => (
                   <GameInput show={!timerIsActive} title={item} />
                 ))}
               </div>

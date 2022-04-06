@@ -897,23 +897,14 @@ textarea.question:focus {
   margin-top: 35px;
 }
 
-input.question:focus + label > span,
-input.question:valid + label > span {
+input.question:focus + label > p,
+input.question:valid + label > p {
   top: -100px;
   font-size: 22px;
-  color: #333;
-}
-
-textarea.question:focus + label > span,
-textarea.question:valid + label > span {
-  top: -150px;
-  font-size: 22px;
-  color: #333;
 }
 
 input.question:valid + label,
 textarea.question:valid + label {
-  border-color: green;
 }
 
 input.question:invalid,
@@ -921,12 +912,11 @@ textarea.question:invalid {
   box-shadow: none;
 }
 
-input.question + label > span,
-textarea.question + label > span {
+input.question + label > p,
+textarea.question + label > p {
   font-weight: 300;
   margin: 0;
   position: absolute;
-  color: #8f8f8f;
   font-size: 35px;
   top: -66px;
   left: 0px;

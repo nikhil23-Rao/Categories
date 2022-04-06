@@ -1,6 +1,8 @@
 import { Input } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
+import { dailyCategories } from "../../data/dailyCategories";
 import styles from "../../styles/Game/Board.module.css";
+import { getTextColor } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
@@ -10,6 +12,7 @@ interface IProps {
 
 export const GameInput = ({ show, title }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
+  let currIndex = dailyCategories.length;
 
   useEffect(() => {
     console.log(letters);
@@ -45,11 +48,12 @@ export const GameInput = ({ show, title }: IProps) => {
               name="name"
               className="question"
               id="nme"
+              // style={{ color: getTextColor() }}
               required
               autoComplete={"off"}
             />
             <label htmlFor="nme">
-              <span>{title}</span>
+              <p style={{ color: getTextColor() }}>{title}</p>
             </label>
           </form>
         </div>

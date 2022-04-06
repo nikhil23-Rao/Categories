@@ -98,6 +98,7 @@ export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
               Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif"
               style={{ marginTop: 30 }}
               color={getTextColor()}
+              resize="none"
               onChange={(e) => setBio(e.currentTarget.value)}
               size="lg"
             />

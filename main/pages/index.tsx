@@ -11,7 +11,7 @@ import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
 import { SettingsModal } from "../components/Modals/SettingsModal";
 
 // External Imports
-import { useDisclosure } from "@chakra-ui/react";
+import { Divider, MenuItem, useDisclosure } from "@chakra-ui/react";
 import Settings from "@mui/icons-material/Settings";
 import { useRouter } from "next/router";
 
@@ -20,25 +20,35 @@ import {
   getBGColor,
   getColor,
   getPrimaryColor,
+  getTextColor,
 } from "../utils/customizationsFunctions";
 
 // CSS Imports
 import styles from "../styles/Landing/Home.module.css";
 import Link from "next/link";
+import { List } from "../components/Profile/List";
+import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 
 // Props That The Home Component Takes
 interface IProps {
   profileImage: string;
+  setProfileImg: (profileImg: string) => void;
 }
 
-const Home = ({ profileImage }: IProps) => {
+const Home = ({ profileImage, setProfileImg }: IProps) => {
   // Hooks
   const {
     isOpen: settingsModalIsOpen,
     onOpen: settingsModalOnOpen,
     onClose: settingsModalOnClose,
   } = useDisclosure();
+  const {
+    isOpen: editProfileModalIsOpen,
+    onOpen: editProfileModalOnOpen,
+    onClose: editProfileModalOnClose,
+  } = useDisclosure();
   const { onOpen: howToPlayModalOnOpen } = useDisclosure();
+  const [showMenu, setShowMenu] = React.useState(false);
   const router = useRouter();
 
   // Return JSX Markup
@@ -63,19 +73,35 @@ const Home = ({ profileImage }: IProps) => {
             onClose={settingsModalOnClose}
             onOpen={settingsModalOnOpen}
           />
+          <EditUsernameModal
+            isOpen={editProfileModalIsOpen}
+            onClose={editProfileModalOnClose}
+            onOpen={editProfileModalOnOpen}
+          />
           <Settings
             style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
             onClick={settingsModalOnOpen}
           />
           <HowToPlayModal onClick={howToPlayModalOnOpen} />
+
           <Avatar
             profileImg={profileImage}
-            onClick={() => router.push("/profile")}
+            onClick={() => {
+              setShowMenu(!showMenu);
+            }}
           />
+
+          {showMenu && (
+            <List
+              setOpen={editProfileModalOnOpen}
+              setProfileImg={setProfileImg}
+              profileImage={profileImage}
+            />
+          )}
         </div>
       </div>
 
-      <main className={styles.main}>
+      <main className={styles.main} onClick={() => setShowMenu(false)}>
         <h1 className={styles.title}>
           <AnimatedTitle />
         </h1>

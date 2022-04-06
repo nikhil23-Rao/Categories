@@ -27,7 +27,7 @@ export const PlayerInfoRightWrap = ({
             onClick={() => {}}
           />
           <p className="divider" style={{ fontSize: 20, textAlign: "center" }}>
-            Categories Player
+            {localStorage.getItem("name")!}
           </p>
           <p
             style={{

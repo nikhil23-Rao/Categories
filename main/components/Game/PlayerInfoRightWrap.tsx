@@ -27,7 +27,7 @@ export const PlayerInfoRightWrap = ({
             top: 30,
             position: "absolute",
             right: 30,
-            color: getTextColor(),
+            color: getColor(),
             cursor: "pointer",
           }}
         />

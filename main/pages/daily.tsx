@@ -16,6 +16,7 @@ import { dailyCategories } from "../data/dailyCategories";
 import {
   getAltTextColor,
   getBGColor,
+  getColor,
   getTextColor,
 } from "../utils/customizationsFunctions";
 
@@ -77,7 +78,10 @@ const Daily = ({ profileImage }: IProps) => {
               </div>
             </div>
             <div className={styles.gameInfoWrap}>
-              <div className={styles.timeWrap}>
+              <div
+                className={styles.timeWrap}
+                style={{ display: "flex", flexDirection: "row" }}
+              >
                 <div
                   className={styles.label + " divider"}
                   style={{ color: getTextColor() }}
@@ -86,6 +90,7 @@ const Daily = ({ profileImage }: IProps) => {
                 </div>
                 <Timer currentMin={currMin} currentSecond={currSec} />
               </div>
+
               <div className={styles.playWrap}>
                 <div style={{ display: "flex", flexDirection: "row" }}>
                   <div
@@ -160,6 +165,21 @@ const Daily = ({ profileImage }: IProps) => {
                 {daily?.inputs.map((item) => (
                   <GameInput show={!timerIsActive} title={item} />
                 ))}
+                <div
+                  className="actions"
+                  style={{ width: "80%", marginTop: 70 }}
+                >
+                  <div className="follow-btn">
+                    <button
+                      style={{
+                        backgroundColor: getColor(),
+                        fontSize: 22,
+                      }}
+                    >
+                      Finish
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

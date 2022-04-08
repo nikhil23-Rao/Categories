@@ -203,7 +203,11 @@ const Daily = ({ profileImage }: IProps) => {
                   className="actions"
                   style={{ width: "80%", marginTop: 70 }}
                 >
-                  <div className="follow-btn">
+                  <div
+                    className={`follow-btn ${
+                      !timerIsActive ? styles.blur : ""
+                    }`}
+                  >
                     <button
                       style={{
                         backgroundColor: getColor(),

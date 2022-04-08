@@ -26,8 +26,16 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
-  const [currSec, setCurrSec] = useState(0);
-  const [currMin, setCurrMin] = useState(0);
+  const [currSec, setCurrSec] = useState(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).currSec
+      : 0
+  );
+  const [currMin, setCurrMin] = useState(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).currMin
+      : 0
+  );
   const [pausesLeft, setPausesLeft] = useState(3);
   const [timerIsActive, setTimerIsActive] = useState(false);
   const [daily, setDaily] = useState<{
@@ -41,7 +49,11 @@ const Daily = ({ profileImage }: IProps) => {
       value: string;
       id: number;
     }[]
-  >([]);
+  >(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).inputs
+      : []
+  );
 
   useEffect(() => {
     if (timerIsActive) {
@@ -68,7 +80,7 @@ const Daily = ({ profileImage }: IProps) => {
   }, []);
 
   useEffect(() => {
-    if (daily) {
+    if (daily && inputs.length === 0) {
       const inputs = daily.inputs.map((item, idx) => {
         return {
           name: item,
@@ -81,8 +93,38 @@ const Daily = ({ profileImage }: IProps) => {
   }, [daily?.inputs]);
 
   useEffect(() => {
-    console.log(inputs);
-  }, [inputs]);
+    if (localStorage.getItem("savedGameData")) {
+      const prevData = JSON.parse(localStorage.getItem("savedGameData")!);
+      if (prevData.date !== daily?.dailyDate) {
+        localStorage.removeItem("savedGameData");
+        const newInputs = daily?.inputs.map((item, idx) => {
+          return {
+            name: item,
+            value: "",
+            id: idx,
+          };
+        });
+        localStorage.setItem(
+          "savedGameData",
+          JSON.stringify({
+            inputs: newInputs,
+            currMin: 0,
+            currSec: 0,
+            date: daily?.dailyDate,
+          })
+        );
+      }
+    }
+    localStorage.setItem(
+      "savedGameData",
+      JSON.stringify({
+        inputs,
+        currMin,
+        currSec,
+        date: daily?.dailyDate,
+      })
+    );
+  }, [daily, currMin, currSec, inputs]);
 
   // Return JSX Markup
   return (

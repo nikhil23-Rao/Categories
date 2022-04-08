@@ -93,37 +93,47 @@ const Daily = ({ profileImage }: IProps) => {
   }, [daily?.inputs]);
 
   useEffect(() => {
-    if (localStorage.getItem("savedGameData")) {
-      const prevData = JSON.parse(localStorage.getItem("savedGameData")!);
-      if (prevData.date !== daily?.dailyDate) {
-        localStorage.removeItem("savedGameData");
-        const newInputs = daily?.inputs.map((item, idx) => {
+    if (localStorage.getItem("savedGameData") && daily) {
+      const savedGameData = JSON.parse(localStorage.getItem("savedGameData")!);
+      if (savedGameData.date !== daily?.dailyDate) {
+        const inputs = daily.inputs.map((item, idx) => {
           return {
             name: item,
             value: "",
             id: idx,
           };
         });
+        setInputs(inputs);
+        setCurrMin(0);
+        setCurrSec(0);
         localStorage.setItem(
           "savedGameData",
           JSON.stringify({
-            inputs: newInputs,
-            currMin: 0,
-            currSec: 0,
+            inputs,
+            currMin,
+            currSec,
             date: daily?.dailyDate,
           })
         );
       }
     }
-    localStorage.setItem(
-      "savedGameData",
-      JSON.stringify({
-        inputs,
-        currMin,
-        currSec,
-        date: daily?.dailyDate,
-      })
-    );
+  }, [daily]);
+
+  useEffect(() => {
+    if (localStorage.getItem("savedGameData") && daily) {
+      const savedGameData = JSON.parse(localStorage.getItem("savedGameData")!);
+      if (savedGameData.date === daily?.dailyDate) {
+        localStorage.setItem(
+          "savedGameData",
+          JSON.stringify({
+            inputs,
+            currMin,
+            currSec,
+            date: daily?.dailyDate,
+          })
+        );
+      }
+    }
   }, [daily, currMin, currSec, inputs]);
 
   // Return JSX Markup

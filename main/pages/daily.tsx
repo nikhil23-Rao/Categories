@@ -35,6 +35,13 @@ const Daily = ({ profileImage }: IProps) => {
     letter: string;
     dailyDate: string;
   }>();
+  const [inputs, setInputs] = useState<
+    {
+      name: string;
+      value: string;
+      id: number;
+    }[]
+  >([]);
 
   useEffect(() => {
     if (timerIsActive) {
@@ -59,6 +66,23 @@ const Daily = ({ profileImage }: IProps) => {
 
     setDaily(today[0]);
   }, []);
+
+  useEffect(() => {
+    if (daily) {
+      const inputs = daily.inputs.map((item, idx) => {
+        return {
+          name: item,
+          value: "",
+          id: idx,
+        };
+      });
+      setInputs(inputs);
+    }
+  }, [daily?.inputs]);
+
+  useEffect(() => {
+    console.log(inputs);
+  }, [inputs]);
 
   // Return JSX Markup
   return (
@@ -162,9 +186,19 @@ const Daily = ({ profileImage }: IProps) => {
                   pointerEvents: !timerIsActive ? "none" : "all",
                 }}
               >
-                {daily?.inputs.map((item) => (
-                  <GameInput show={!timerIsActive} title={item} />
-                ))}
+                {inputs.length > 0 &&
+                  daily?.inputs.map((item, idx) => (
+                    <GameInput
+                      show={!timerIsActive}
+                      title={item}
+                      value={inputs[idx].value}
+                      onChange={(e) => {
+                        const newInputs = [...inputs];
+                        newInputs[idx].value = e.target.value;
+                        setInputs(newInputs);
+                      }}
+                    />
+                  ))}
                 <div
                   className="actions"
                   style={{ width: "80%", marginTop: 70 }}

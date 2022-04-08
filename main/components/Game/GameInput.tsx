@@ -8,9 +8,11 @@ import { pressTab } from "../../utils/pressTab";
 interface IProps {
   title: string;
   show: boolean;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  value: string;
 }
 
-export const GameInput = ({ show, title }: IProps) => {
+export const GameInput = ({ show, title, onChange, value }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
   let currIndex = dailyCategories.length;
 
@@ -49,6 +51,8 @@ export const GameInput = ({ show, title }: IProps) => {
             width={"80%"}
             placeholder={`${title}...`}
             height={10}
+            value={value}
+            onChange={(e) => onChange(e)}
             fontSize={30}
             style={{ boxShadow: "none", color: getTextColor() }}
           />

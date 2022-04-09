@@ -29,6 +29,18 @@ function MyApp({ Component, pageProps }: AppProps) {
       localStorage.setItem("color", colorOptions[0].color);
       localStorage.setItem("name", "Categories Player");
       localStorage.setItem("bio", "Your bio here...");
+      localStorage.setItem(
+        "stats",
+        JSON.stringify({
+          gamesPlayed: 0,
+          averageStars: 0,
+          averageTime: { currMin: 0, currSec: 0 },
+          bestTime: { currMin: 0, currSec: 0 },
+          todaysStats: [
+            { time: { currMin: 0, currSec: 0 }, stars: 0, letter: "" },
+          ],
+        })
+      );
     }
     let svg = createAvatar(style, {
       seed: localStorage.getItem("pfpid")!!,

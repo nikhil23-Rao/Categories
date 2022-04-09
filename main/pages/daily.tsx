@@ -19,6 +19,8 @@ import {
   getColor,
   getTextColor,
 } from "../utils/customizationsFunctions";
+import Confetti from "react-confetti";
+import useWindowSize from "react-use/lib/useWindowSize";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -26,6 +28,8 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const { width, height } = useWindowSize();
+  const [hidden, setHidden] = useState(true);
   const [submitted, setSubmitted] = useState(
     localStorage.getItem("submitted") === "true"
   );
@@ -159,6 +163,7 @@ const Daily = ({ profileImage }: IProps) => {
     <div className={styles.container} style={{ background: getBGColor() }}>
       <div>
         <div className={styles.game}>
+          {!hidden && <Confetti width={width} height={height} />}
           <div className={styles.leftWrap}>
             <div className={styles.letterWrap}>
               <div
@@ -279,6 +284,25 @@ const Daily = ({ profileImage }: IProps) => {
                           localStorage.setItem("submitted", "true");
                           setTimerIsActive(false);
                           setSubmitted(true);
+                          localStorage.setItem(
+                            "stats",
+                            JSON.stringify({
+                              gamesPlayed:
+                                JSON.parse(localStorage.getItem("stats")!)
+                                  .gamesPlayed + 1,
+                              averageStars: 0,
+                              averageTime: { currMin: 0, currSec: 0 },
+                              bestTime: { currMin: 0, currSec: 0 },
+                              todaysStats: [
+                                {
+                                  time: { currMin, currSec },
+                                  stars: 0,
+                                  letter: daily?.letter,
+                                },
+                              ],
+                            })
+                          );
+                          setHidden(false);
                         }}
                       >
                         Finish
@@ -319,7 +343,7 @@ const Daily = ({ profileImage }: IProps) => {
           <PlayerInfoRightWrap
             avgStars={3.74}
             bestTime={"0:25"}
-            gamesPlayed={30}
+            gamesPlayed={JSON.parse(localStorage.getItem("stats")!).gamesPlayed}
             avgTime={"0:45"}
             profileImage={profileImage}
           />

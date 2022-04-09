@@ -1,9 +1,12 @@
 export const getLabelData = (
   timerIsActive: boolean,
   currSec: number,
-  currMin: number
+  currMin: number,
+  submitted: boolean
 ) => {
-  if (timerIsActive === false && (currSec > 0 || currMin > 0)) {
+  if (submitted) {
+    return "Submitted";
+  } else if (timerIsActive === false && (currSec > 0 || currMin > 0)) {
     return "Continue";
   } else if (timerIsActive === true) {
     return "Pause";

@@ -96,6 +96,20 @@ const Daily = ({ profileImage }: IProps) => {
   }, [daily?.inputs]);
 
   useEffect(() => {
+    if (!localStorage.getItem("savedGameData")) {
+      localStorage.setItem(
+        "savedGameData",
+        JSON.stringify({
+          inputs,
+          currMin,
+          currSec,
+          date: daily?.dailyDate,
+        })
+      );
+    }
+  }, [daily]);
+
+  useEffect(() => {
     if (localStorage.getItem("savedGameData") && daily) {
       const savedGameData = JSON.parse(localStorage.getItem("savedGameData")!);
       if (savedGameData.date !== daily?.dailyDate) {
@@ -177,23 +191,7 @@ const Daily = ({ profileImage }: IProps) => {
                     className={styles.label + " divider"}
                     style={{ color: getTextColor() }}
                   >
-                    {getLabelData(timerIsActive, currSec, currMin)}
-                  </div>
-                  <div style={{ position: "absolute", top: 25, right: 30 }}>
-                    <Badge
-                      colorScheme={"red"}
-                      style={{
-                        width: 30,
-                        height: 30,
-                        alignItems: "center",
-                        justifyContent: "center",
-                        display: "flex",
-                        borderRadius: 200,
-                        fontFamily: "monospace",
-                      }}
-                    >
-                      {pausesLeft}
-                    </Badge>
+                    {getLabelData(timerIsActive, currSec, currMin, submitted)}
                   </div>
                 </div>
                 {timerIsActive === false ? (
@@ -279,6 +277,8 @@ const Daily = ({ profileImage }: IProps) => {
                         }}
                         onClick={() => {
                           localStorage.setItem("submitted", "true");
+                          setTimerIsActive(false);
+                          setSubmitted(true);
                         }}
                       >
                         Finish

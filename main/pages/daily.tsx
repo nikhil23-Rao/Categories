@@ -26,6 +26,9 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [submitted, setSubmitted] = useState(
+    localStorage.getItem("submitted") === "true"
+  );
   const [currSec, setCurrSec] = useState(
     localStorage.getItem("savedGameData")
       ? JSON.parse(localStorage.getItem("savedGameData")!).currSec
@@ -106,6 +109,7 @@ const Daily = ({ profileImage }: IProps) => {
         setInputs(inputs);
         setCurrMin(0);
         setCurrSec(0);
+        localStorage.setItem("submitted", "false");
         localStorage.setItem(
           "savedGameData",
           JSON.stringify({
@@ -193,16 +197,22 @@ const Daily = ({ profileImage }: IProps) => {
                   </div>
                 </div>
                 {timerIsActive === false ? (
-                  <PlayCircle
+                  <div
                     style={{
-                      zoom: 0.9,
-                      width: 200,
-                      height: 200,
-                      cursor: "pointer",
-                      color: getTextColor(),
+                      cursor: submitted ? "not-allowed" : "pointer",
                     }}
-                    onClick={() => setTimerIsActive(true)}
-                  />
+                  >
+                    <PlayCircle
+                      style={{
+                        zoom: 0.9,
+                        width: 200,
+                        height: 200,
+                        color: submitted ? getAltTextColor() : getTextColor(),
+                        pointerEvents: submitted ? "none" : "all",
+                      }}
+                      onClick={() => setTimerIsActive(true)}
+                    />
+                  </div>
                 ) : (
                   <PauseCircle
                     style={{
@@ -235,7 +245,7 @@ const Daily = ({ profileImage }: IProps) => {
               <div
                 className={styles.gameContainer}
                 style={{
-                  pointerEvents: !timerIsActive ? "none" : "all",
+                  pointerEvents: !timerIsActive && !submitted ? "none" : "all",
                 }}
               >
                 {inputs.length > 0 &&
@@ -244,6 +254,7 @@ const Daily = ({ profileImage }: IProps) => {
                       show={!timerIsActive}
                       title={item}
                       value={inputs[idx].value}
+                      disabled={submitted}
                       onChange={(e) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;
@@ -251,25 +262,57 @@ const Daily = ({ profileImage }: IProps) => {
                       }}
                     />
                   ))}
-                <div
-                  className="actions"
-                  style={{ width: "80%", marginTop: 70 }}
-                >
+                {!submitted ? (
                   <div
-                    className={`follow-btn ${
-                      !timerIsActive ? styles.blur : ""
-                    }`}
+                    className="actions"
+                    style={{ width: "80%", marginTop: 70 }}
                   >
-                    <button
-                      style={{
-                        backgroundColor: getColor(),
-                        fontSize: 22,
-                      }}
+                    <div
+                      className={`follow-btn ${
+                        !timerIsActive && !submitted ? styles.blur : ""
+                      }`}
                     >
-                      Finish
-                    </button>
+                      <button
+                        style={{
+                          backgroundColor: getColor(),
+                          fontSize: 22,
+                        }}
+                        onClick={() => {
+                          localStorage.setItem("submitted", "true");
+                        }}
+                      >
+                        Finish
+                      </button>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <div
+                    className="actions"
+                    style={{
+                      width: "80%",
+                      marginTop: 70,
+                      pointerEvents: "none",
+                    }}
+                  >
+                    <div
+                      className={`follow-btn ${
+                        !timerIsActive && !submitted ? styles.blur : ""
+                      }`}
+                    >
+                      <button
+                        style={{
+                          backgroundColor: "lightgreen",
+                          fontSize: 22,
+                        }}
+                        onClick={() => {
+                          localStorage.setItem("submitted", "true");
+                        }}
+                      >
+                        Submitted Today's Category!
+                      </button>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>

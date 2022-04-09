@@ -10,9 +10,16 @@ interface IProps {
   show: boolean;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   value: string;
+  disabled?: boolean;
 }
 
-export const GameInput = ({ show, title, onChange, value }: IProps) => {
+export const GameInput = ({
+  show,
+  title,
+  onChange,
+  value,
+  disabled,
+}: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
   let currIndex = dailyCategories.length;
 
@@ -26,7 +33,7 @@ export const GameInput = ({ show, title, onChange, value }: IProps) => {
         width: "100%",
         borderBottom: "3px solid #fafafa",
       }}
-      className={show ? styles.blur : ""}
+      className={show && !disabled ? styles.blur : ""}
     >
       <div
         style={{
@@ -55,6 +62,7 @@ export const GameInput = ({ show, title, onChange, value }: IProps) => {
             onChange={(e) => onChange(e)}
             fontSize={30}
             style={{ boxShadow: "none", color: getTextColor() }}
+            disabled={disabled}
           />
         </div>
       </div>

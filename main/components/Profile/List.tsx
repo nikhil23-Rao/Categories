@@ -129,13 +129,13 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
           }}
           onClick={() => {
             const statsObj = JSON.parse(localStorage.getItem("stats")!);
-            navigator.clipboard.writeText(`
-  @Nikhil Rao's All Time Stats:
-  Total Games Played: ${statsObj.gamesPlayed},
-  Average Time Take: ${statsObj.averageTime},
-  Average Number Of Stars: ${statsObj.averageStars},
-  Fastest Time: ${statsObj.bestTime},
-            `);
+            navigator.clipboard.writeText(`@${localStorage.getItem(
+              "name"
+            )!}'s All Time Stats:
+Total Games Played: ${statsObj.gamesPlayed}
+Average Time Take: ${statsObj.averageTime}
+Average Number Of Stars: ${statsObj.averageStars}
+Fastest Time: ${statsObj.bestTime}`);
             toast({
               title: "Link Copied To Clipboard!",
               status: "info",

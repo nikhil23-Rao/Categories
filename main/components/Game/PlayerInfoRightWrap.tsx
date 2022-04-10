@@ -27,6 +27,7 @@ export const PlayerInfoRightWrap = ({
     onClose: editUsernameModalOnClose,
     onOpen: editUsernameModalOnOpen,
   } = useDisclosure();
+  const statsObj = JSON.parse(localStorage.getItem("stats")!);
   return (
     <>
       <EditUsernameModal
@@ -118,13 +119,13 @@ export const PlayerInfoRightWrap = ({
               >
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText(`
-                    @Nikhil Rao's All Time Stats:
-                    Total Games Played: 20,
-                    Average Time Take: 1:06,
-                    Average Number Of Stars: 3.74,
-                    Fastest Time: 0:26,
-                              `);
+                    navigator.clipboard.writeText(`@${localStorage.getItem(
+                      "name"
+                    )!}'s All Time Stats:
+Total Games Played: ${statsObj.gamesPlayed}
+Average Time Take: ${statsObj.averageTime}
+Average Number Of Stars: ${statsObj.averageStars}
+Fastest Time: ${statsObj.bestTime}`);
                     toast({
                       title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
                       status: "info",
@@ -145,11 +146,10 @@ export const PlayerInfoRightWrap = ({
               >
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText(`
-                   Check Out Categories! Can you beat my stats? 
-                   ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
-                   https://nikhilrao.github.io/categories/
-                           `);
+                    navigator.clipboard
+                      .writeText(`Check Out Categories! Can you beat my stats? 
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+https://nikhilrao.github.io/categories/`);
                     toast({
                       title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
                       status: "info",

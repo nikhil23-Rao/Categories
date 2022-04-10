@@ -6,6 +6,8 @@ import {
   ModalHeader,
   ModalCloseButton,
   ModalBody,
+  Button,
+  useToast,
 } from "@chakra-ui/react";
 import {
   getAltTextColor,
@@ -14,6 +16,7 @@ import {
   getColor,
 } from "../../utils/customizationsFunctions";
 import { dailyCategories } from "../../data/dailyCategories";
+import { getNumberOfStars } from "../../utils/getNumberOfStars";
 
 interface IProps {
   isOpen: boolean;
@@ -22,6 +25,9 @@ interface IProps {
 }
 
 export const StatsModal = ({ isOpen, onClose, onOpen }: IProps) => {
+  const submitted = JSON.parse(localStorage.getItem("submitted")!);
+  const toast = useToast();
+  const name = localStorage.getItem("name")!;
   const statsObj = JSON.parse(localStorage.getItem("stats")!);
   const todaysStats = statsObj.todaysStats;
   const [daily, setDaily] = useState<{
@@ -170,6 +176,38 @@ export const StatsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                   </a>
                 </h2>
               </div>
+              {submitted ? (
+                <div className="follow-btn">
+                  <Button
+                    style={{
+                      backgroundColor: getColor(),
+                      width: 300,
+                      marginTop: 10,
+                      padding: 25,
+                    }}
+                    onClick={() => {
+                      navigator.clipboard.writeText(`@${name}'s Stats for Today:
+Time Taken: ${todaysStats[0].time.currMin}:${
+                        todaysStats[0].time.currSec < 10
+                          ? `0${todaysStats[0].time.currSec}`
+                          : todaysStats[0].time.currSec
+                      }
+Stars: ${getNumberOfStars(todaysStats[0].stars)}
+Letter: ${todaysStats[0].letter}`);
+                      toast({
+                        title: "Link Copied To Clipboard!",
+                        status: "info",
+                        duration: 3000,
+                        position: "bottom-right",
+                      });
+                    }}
+                  >
+                    Share Today's Stats!
+                  </Button>
+                </div>
+              ) : (
+                ""
+              )}
             </div>
           </ModalBody>
         </ModalContent>

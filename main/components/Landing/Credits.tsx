@@ -15,6 +15,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Privacy Policy
       </a>
@@ -22,6 +23,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://github.com/nikhil23-Rao/Categories/issues"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Report A Bug
       </a>
@@ -29,6 +31,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://github.com/nikhil23-Rao/Categories/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         About
       </a>
@@ -43,6 +46,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://www.instagram.com/vinayrao1061/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="fa fa-instagram"></i>
       </a>
@@ -50,6 +54,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://github.com/vinayRao23"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="fa fa-github"></i>
       </a>
@@ -57,6 +62,7 @@ export const Credits = () => {
         style={{ color: getAltTextColor() }}
         href="https://twitter.com/NikhilRao23"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i className="fa fa-twitter" />
       </a>

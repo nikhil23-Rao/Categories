@@ -306,6 +306,7 @@ const Daily = ({ profileImage }: IProps) => {
                 {inputs.length > 0 &&
                   daily?.inputs.map((item, idx) => (
                     <GameInput
+                      key={idx}
                       show={!timerIsActive}
                       title={item}
                       value={inputs[idx].value as string}

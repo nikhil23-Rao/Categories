@@ -46,7 +46,7 @@ export const Button: React.FC<IProps> = ({
             <g
               id="arrow"
               stroke="none"
-              stroke-width="1"
+              strokeWidth="1"
               fill="none"
               fillRule="evenodd"
             >

@@ -93,8 +93,8 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                 paddingLeft: 33,
               }}
             >
-              {colorOptions.map((color) => (
-                <>
+              {colorOptions.map((color, idx) => (
+                <React.Fragment key={idx}>
                   <div
                     style={{
                       width: 60,
@@ -116,7 +116,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                       <Check style={{ color: "#fff" }} />
                     )}
                   </div>
-                </>
+                </React.Fragment>
               ))}
             </div>
 
@@ -127,8 +127,8 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
               className="grid"
               style={{ paddingLeft: 20, position: "relative", top: -20 }}
             >
-              {themeOptions.map((theme) => (
-                <div className="inputGroup" style={{ marginTop: 30 }}>
+              {themeOptions.map((theme, idx) => (
+                <div className="inputGroup" key={idx} style={{ marginTop: 30 }}>
                   <input
                     id={theme.name}
                     name={theme.name}

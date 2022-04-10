@@ -3,6 +3,8 @@ import styles from "../../styles/Game/Board.module.css";
 import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { Avatar } from "../Profile/Avatar";
 import PushPin from "@mui/icons-material/PushPin";
+import { useDisclosure, useToast } from "@chakra-ui/react";
+import { EditUsernameModal } from "../Modals/EditUsernameModal";
 
 interface IProps {
   profileImage: string;
@@ -19,8 +21,19 @@ export const PlayerInfoRightWrap = ({
   gamesPlayed,
   bestTime,
 }: IProps) => {
+  const toast = useToast();
+  const {
+    isOpen: editUsernameModalIsOpen,
+    onClose: editUsernameModalOnClose,
+    onOpen: editUsernameModalOnOpen,
+  } = useDisclosure();
   return (
     <>
+      <EditUsernameModal
+        isOpen={editUsernameModalIsOpen}
+        onClose={editUsernameModalOnClose}
+        onOpen={editUsernameModalOnOpen}
+      />
       <div className={styles.rightWrap}>
         <PushPin
           style={{
@@ -88,7 +101,12 @@ export const PlayerInfoRightWrap = ({
               }}
             >
               <div className="follow-btn">
-                <button style={{ backgroundColor: getColor() }}>
+                <button
+                  onClick={() => {
+                    editUsernameModalOnOpen();
+                  }}
+                  style={{ backgroundColor: getColor() }}
+                >
                   Edit Profile
                 </button>
               </div>
@@ -98,7 +116,24 @@ export const PlayerInfoRightWrap = ({
                   marginTop: 30,
                 }}
               >
-                <button style={{ backgroundColor: getColor() }}>
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText(`
+                    @Nikhil Rao's All Time Stats:
+                    Total Games Played: 20,
+                    Average Time Take: 1:06,
+                    Average Number Of Stars: 3.74,
+                    Fastest Time: 0:26,
+                              `);
+                    toast({
+                      title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
+                      status: "info",
+                      duration: 3000,
+                      position: "bottom-right",
+                    });
+                  }}
+                  style={{ backgroundColor: getColor() }}
+                >
                   Share All-Time Stats
                 </button>
               </div>
@@ -108,7 +143,22 @@ export const PlayerInfoRightWrap = ({
                   marginTop: 30,
                 }}
               >
-                <button style={{ backgroundColor: getColor() }}>
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText(`
+                   Check Out Categories! Can you beat my stats? 
+                   ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+                   https://nikhilrao.github.io/categories/
+                           `);
+                    toast({
+                      title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
+                      status: "info",
+                      duration: 3000,
+                      position: "bottom-right",
+                    });
+                  }}
+                  style={{ backgroundColor: getColor() }}
+                >
                   Share Game Link
                 </button>
               </div>

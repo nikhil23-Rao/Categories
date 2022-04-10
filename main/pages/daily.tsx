@@ -10,7 +10,7 @@ import { Timer } from "../components/Game/Timer";
 import PauseCircle from "@mui/icons-material/PauseCircle";
 import { getLabelData } from "../utils/getLabelData";
 import faker from "@faker-js/faker";
-import { Badge } from "@chakra-ui/react";
+import { Badge, useDisclosure } from "@chakra-ui/react";
 import { generateCategories } from "../utils/generateCategories";
 import { dailyCategories } from "../data/dailyCategories";
 import {
@@ -26,6 +26,7 @@ import { calculateAverageTime } from "../utils/calculateAverageTime";
 import { calculateBestTime } from "../utils/calculateBestTime";
 import { roundToHundred } from "../utils/roundHundredth";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 
 // Props That The Home Component Takes
 interface IProps {

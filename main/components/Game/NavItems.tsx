@@ -6,9 +6,12 @@ import Help from "@mui/icons-material/Help";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { useRouter } from "next/router";
+import { StatsModal } from "../Modals/StatsModal";
+import { useDisclosure } from "@chakra-ui/react";
 
 export const NavItems = () => {
   const router = useRouter();
+  const { onOpen, onClose, isOpen } = useDisclosure();
   return (
     <>
       <div
@@ -54,7 +57,11 @@ export const NavItems = () => {
           right: 85,
         }}
       >
-        <BarChart style={{ fontSize: 30, color: getColor() }} />
+        <BarChart
+          style={{ fontSize: 30, color: getColor() }}
+          onClick={() => onOpen()}
+        />
+        <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
       </div>
       <div
         style={{

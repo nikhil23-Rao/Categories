@@ -99,7 +99,7 @@ export const PlayerInfoRightWrap = ({
                 }}
               >
                 <button style={{ backgroundColor: getColor() }}>
-                  View Full Profile
+                  Share All-Time Stats
                 </button>
               </div>
               <div
@@ -109,7 +109,7 @@ export const PlayerInfoRightWrap = ({
                 }}
               >
                 <button style={{ backgroundColor: getColor() }}>
-                  View All-Time Stats
+                  Share Game Link
                 </button>
               </div>
             </div>

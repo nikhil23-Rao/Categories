@@ -193,7 +193,8 @@ Time Taken: ${todaysStats[0].time.currMin}:${
                           : todaysStats[0].time.currSec
                       }
 Stars: ${getNumberOfStars(todaysStats[0].stars)}
-Letter: ${todaysStats[0].letter}`);
+Letter: ${todaysStats[0].letter}
+https://thecategoriesgame.vercel.app`);
                       toast({
                         title: "Link Copied To Clipboard!",
                         status: "info",

@@ -125,7 +125,8 @@ export const PlayerInfoRightWrap = ({
 Total Games Played: ${statsObj.gamesPlayed}
 Average Time Take: ${statsObj.averageTime}
 Average Number Of Stars: ${statsObj.averageStars}
-Fastest Time: ${statsObj.bestTime}`);
+Fastest Time: ${statsObj.bestTime}
+https://thecategoriesgame.vercel.app`);
                     toast({
                       title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
                       status: "info",

@@ -28,6 +28,7 @@ import styles from "../styles/Landing/Home.module.css";
 import Link from "next/link";
 import { List } from "../components/Profile/List";
 import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
+import Help from "@mui/icons-material/Help";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -47,7 +48,11 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
     onOpen: editProfileModalOnOpen,
     onClose: editProfileModalOnClose,
   } = useDisclosure();
-  const { onOpen: howToPlayModalOnOpen } = useDisclosure();
+  const {
+    isOpen: howToPlayModalIsOpen,
+    onOpen: howToPlayModalOnOpen,
+    onClose: howToPlayModalOnClose,
+  } = useDisclosure();
   const [showMenu, setShowMenu] = React.useState(false);
   const router = useRouter();
 
@@ -68,6 +73,11 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
 
       <div className={styles.headerContainer}>
         <div className={styles.headerItems}>
+          <HowToPlayModal
+            isOpen={howToPlayModalIsOpen}
+            onClose={howToPlayModalOnClose}
+            onOpen={howToPlayModalOnOpen}
+          />
           <SettingsModal
             isOpen={settingsModalIsOpen}
             onClose={settingsModalOnClose}
@@ -82,7 +92,10 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
             style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
             onClick={settingsModalOnOpen}
           />
-          <HowToPlayModal onClick={howToPlayModalOnOpen} />
+          <Help
+            style={{ color: getColor(), cursor: "pointer", fontSize: 30 }}
+            onClick={howToPlayModalOnOpen}
+          />
 
           <Avatar
             profileImg={profileImage}

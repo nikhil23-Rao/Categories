@@ -28,13 +28,14 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
       <Avatar
         profileImg={profileImage}
         onClick={() => {}}
-        imgStyle={{ marginTop: 40 }}
+        imgStyle={{ marginTop: 40, zoom: 1.4 }}
       />
       <p
         className="divider"
         style={{
           position: "relative",
           bottom: 15,
+          zoom: 1.1,
         }}
       >
         {localStorage.getItem("name")!}
@@ -185,24 +186,6 @@ https://nikhilrao.github.io/categories/`
             }}
           />{" "}
           <p style={{ marginLeft: 20 }}>Share Game Link</p>
-        </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            borderTop: "1px solid #eaeaea",
-            width: 280,
-          }}
-        >
-          <RestartAltIcon
-            style={{
-              fontSize: 26,
-              top: 15.2,
-              position: "relative",
-              left: 10,
-            }}
-          />{" "}
-          <p style={{ marginLeft: 20 }}>Reset All Stats</p>
         </div>
       </div>
     </div>

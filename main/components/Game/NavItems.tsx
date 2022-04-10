@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Settings from "@mui/icons-material/Settings";
 import BarChart from "@mui/icons-material/BarChart";
 import Home from "@mui/icons-material/Home";
@@ -13,6 +13,7 @@ import { EditUsernameModal } from "../Modals/EditUsernameModal";
 import { SettingsModal } from "../Modals/SettingsModal";
 import { useDisclosure } from "@chakra-ui/react";
 import { MobileModal } from "../Modals/MobileModal";
+import { HowToPlayModal } from "../Modals/HowToPlayModal";
 
 interface IProps {
   onClick: () => void;
@@ -39,7 +40,25 @@ export const NavItems = ({ onClick, timer, submitted }: IProps) => {
     onClose: mobileModalOnClose,
     onOpen: mobileModalOnOpen,
   } = useDisclosure();
+  const {
+    isOpen: howToPlayModalIsOpen,
+    onClose: howToPlayModalOnClose,
+    onOpen: howToPlayModalOnOpen,
+  } = useDisclosure();
   const { onOpen, onClose, isOpen } = useDisclosure();
+  const [firstTime, setFirstTime] = useState(false);
+  useEffect(() => {
+    if (localStorage.getItem("firstTime") === "true") {
+      setFirstTime(true);
+      localStorage.setItem("firstTime", "false");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (firstTime) {
+      howToPlayModalOnOpen();
+    }
+  }, [firstTime]);
   if (isPhone) {
     return (
       <>
@@ -99,6 +118,11 @@ export const NavItems = ({ onClick, timer, submitted }: IProps) => {
         onClick={onClick}
         timer={timer}
         submitted={submitted}
+      />
+      <HowToPlayModal
+        isOpen={howToPlayModalIsOpen}
+        onClose={howToPlayModalOnClose}
+        onOpen={howToPlayModalOnOpen}
       />
       {isTablet && (
         <div
@@ -176,6 +200,7 @@ export const NavItems = ({ onClick, timer, submitted }: IProps) => {
           top: 29,
           right: 125,
         }}
+        onClick={howToPlayModalOnOpen}
       >
         <Help style={{ fontSize: 30, color: getColor() }} />
       </div>

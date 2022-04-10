@@ -9,9 +9,7 @@ import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
 import PauseCircle from "@mui/icons-material/PauseCircle";
 import { getLabelData } from "../utils/getLabelData";
-import faker from "@faker-js/faker";
-import { Badge, useDisclosure } from "@chakra-ui/react";
-import { generateCategories } from "../utils/generateCategories";
+import { useDisclosure } from "@chakra-ui/react";
 import { dailyCategories } from "../data/dailyCategories";
 import {
   getAltTextColor,
@@ -25,8 +23,7 @@ import { calculateStars } from "../utils/calculateStars";
 import { calculateAverageTime } from "../utils/calculateAverageTime";
 import { calculateBestTime } from "../utils/calculateBestTime";
 import { roundToHundred } from "../utils/roundHundredth";
-import useMediaQuery from "@mui/material/useMediaQuery";
-import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
+import { StatsModal } from "../components/Modals/StatsModal";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -72,6 +69,7 @@ const Daily = ({ profileImage }: IProps) => {
       ? JSON.parse(localStorage.getItem("savedGameData")!).inputs
       : []
   );
+  const { onOpen, onClose, isOpen } = useDisclosure();
 
   useEffect(() => {
     if (timerIsActive) {
@@ -110,6 +108,12 @@ const Daily = ({ profileImage }: IProps) => {
       setInputs(inputs);
     }
   }, [daily?.inputs]);
+
+  useEffect(() => {
+    if (submitted) {
+      onOpen();
+    }
+  }, [submitted]);
 
   useEffect(() => {
     if (!localStorage.getItem("savedGameData")) {
@@ -177,6 +181,7 @@ const Daily = ({ profileImage }: IProps) => {
   // Return JSX Markup
   return (
     <div className={styles.container} style={{ background: getBGColor() }}>
+      <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
       <div>
         <div className={styles.game}>
           {!hidden && <Confetti width={width} height={height} />}
@@ -339,6 +344,7 @@ const Daily = ({ profileImage }: IProps) => {
                               allTime,
                             })
                           );
+
                           setHidden(false);
                         }}
                       >

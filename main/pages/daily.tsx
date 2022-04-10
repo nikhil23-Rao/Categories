@@ -31,6 +31,7 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [disabled, setDisabled] = useState(false);
   const [allTimeSeconds, setAllTimeSeconds] = useState(
     localStorage.getItem("savedGameData")
       ? JSON.parse(localStorage.getItem("savedGameData")!).allTimeSeconds
@@ -180,6 +181,25 @@ const Daily = ({ profileImage }: IProps) => {
     }
   }, [daily, currMin, currSec, inputs]);
 
+  useEffect(() => {
+    let isTrue;
+    let isFalse;
+    if (inputs.length > 0) {
+      for (const input of inputs) {
+        if (input.value.length > 0) {
+          isTrue = true;
+        } else {
+          isFalse = false;
+        }
+        if (isFalse === false) {
+          setDisabled(true);
+        } else {
+          setDisabled(false);
+        }
+      }
+    }
+  }, [inputs]);
+
   // Return JSX Markup
   return (
     <div className={styles.container} style={{ background: getBGColor() }}>
@@ -313,11 +333,13 @@ const Daily = ({ profileImage }: IProps) => {
                       className={`follow-btn ${
                         !timerIsActive && !submitted ? styles.blur : ""
                       }`}
+                      style={{ cursor: disabled ? "not-allowed" : "pointer" }}
                     >
                       <button
                         style={{
-                          backgroundColor: getColor(),
+                          backgroundColor: disabled ? "gray" : getColor(),
                           fontSize: 22,
+                          pointerEvents: disabled ? "none" : "all",
                         }}
                         onClick={() => {
                           const statsObj = JSON.parse(

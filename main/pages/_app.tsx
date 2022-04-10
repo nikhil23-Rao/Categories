@@ -53,7 +53,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   // Render Splash Screen If No Data
-  if (typeof window === "undefined") return <h1>loading</h1>;
+  if (typeof window === "undefined" || !localStorage.getItem("stats"))
+    return <h1>loading</h1>;
 
   // Render Root Component
   return (

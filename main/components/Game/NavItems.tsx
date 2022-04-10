@@ -7,13 +7,67 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { useRouter } from "next/router";
 import { StatsModal } from "../Modals/StatsModal";
+import { useMediaQuery } from "react-responsive";
+import Menu from "@mui/icons-material/Menu";
+import { EditUsernameModal } from "../Modals/EditUsernameModal";
+import { SettingsModal } from "../Modals/SettingsModal";
 import { useDisclosure } from "@chakra-ui/react";
 
 export const NavItems = () => {
   const router = useRouter();
+  const isPhone = useMediaQuery({ maxWidth: 480 });
+  const {
+    isOpen: editUsernameModalIsOpen,
+    onClose: editUsernameModalOnClose,
+    onOpen: editUsernameModalOnOpen,
+  } = useDisclosure();
+  const {
+    isOpen: settingsModalIsOpen,
+    onClose: settingsModalOnClose,
+    onOpen: settingsModalOnOpen,
+  } = useDisclosure();
   const { onOpen, onClose, isOpen } = useDisclosure();
+  if (isPhone) {
+    return (
+      <>
+        <div
+          style={{
+            position: "absolute",
+            top: 29,
+            left: 45,
+            cursor: "pointer",
+            zIndex: 200,
+          }}
+          onClick={() => router.push("/")}
+        >
+          <Menu style={{ fontSize: 30, color: getColor() }} />
+        </div>
+        <div
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+            position: "relative",
+            bottom: 4,
+          }}
+        >
+          <h1 style={{ color: getTextColor() }}>Categories</h1>
+        </div>{" "}
+      </>
+    );
+  }
   return (
     <>
+      <EditUsernameModal
+        isOpen={editUsernameModalIsOpen}
+        onClose={editUsernameModalOnClose}
+        onOpen={editUsernameModalOnOpen}
+      />
+      <SettingsModal
+        isOpen={settingsModalIsOpen}
+        onClose={settingsModalOnClose}
+        onOpen={settingsModalOnOpen}
+      />
       <div
         style={{
           position: "absolute",
@@ -34,6 +88,7 @@ export const NavItems = () => {
           zIndex: 200,
           cursor: "pointer",
         }}
+        onClick={editUsernameModalOnOpen}
       >
         <AccountCircle style={{ fontSize: 30, color: getColor() }} />
       </div>
@@ -45,6 +100,7 @@ export const NavItems = () => {
           top: 29,
           right: 45,
         }}
+        onClick={settingsModalOnOpen}
       >
         <Settings style={{ fontSize: 30, color: getColor() }} />
       </div>

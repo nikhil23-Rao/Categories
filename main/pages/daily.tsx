@@ -21,6 +21,10 @@ import {
 } from "../utils/customizationsFunctions";
 import Confetti from "react-confetti";
 import useWindowSize from "react-use/lib/useWindowSize";
+import { calculateStars } from "../utils/calculateStars";
+import { calculateAverageTime } from "../utils/calculateAverageTime";
+import { calculateBestTime } from "../utils/calculateBestTime";
+import { roundToHundred } from "../utils/roundHundredth";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -28,6 +32,11 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [allTimeSeconds, setAllTimeSeconds] = useState(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).allTimeSeconds
+      : 0
+  );
   const { width, height } = useWindowSize();
   const [hidden, setHidden] = useState(true);
   const [submitted, setSubmitted] = useState(
@@ -65,6 +74,7 @@ const Daily = ({ profileImage }: IProps) => {
   useEffect(() => {
     if (timerIsActive) {
       const intervalId = setInterval(function () {
+        setAllTimeSeconds(allTimeSeconds + 1);
         if (currSec === 59) {
           setCurrSec(0);
           setCurrMin(currMin + 1);
@@ -108,6 +118,7 @@ const Daily = ({ profileImage }: IProps) => {
           currMin,
           currSec,
           date: daily?.dailyDate,
+          allTimeSeconds,
         })
       );
     }
@@ -127,6 +138,7 @@ const Daily = ({ profileImage }: IProps) => {
         setInputs(inputs);
         setCurrMin(0);
         setCurrSec(0);
+        setAllTimeSeconds(0);
         localStorage.setItem("submitted", "false");
         localStorage.setItem(
           "savedGameData",
@@ -135,6 +147,7 @@ const Daily = ({ profileImage }: IProps) => {
             currMin,
             currSec,
             date: daily?.dailyDate,
+            allTimeSeconds,
           })
         );
       }
@@ -152,6 +165,7 @@ const Daily = ({ profileImage }: IProps) => {
             currMin,
             currSec,
             date: daily?.dailyDate,
+            allTimeSeconds,
           })
         );
       }
@@ -281,6 +295,14 @@ const Daily = ({ profileImage }: IProps) => {
                           fontSize: 22,
                         }}
                         onClick={() => {
+                          const statsObj = JSON.parse(
+                            localStorage.getItem("stats")!
+                          );
+                          const allStars = [
+                            ...statsObj.allStars,
+                            calculateStars(currMin, currSec),
+                          ];
+                          const allTime = [...statsObj.allTime, allTimeSeconds];
                           localStorage.setItem("submitted", "true");
                           setTimerIsActive(false);
                           setSubmitted(true);
@@ -290,16 +312,29 @@ const Daily = ({ profileImage }: IProps) => {
                               gamesPlayed:
                                 JSON.parse(localStorage.getItem("stats")!)
                                   .gamesPlayed + 1,
-                              averageStars: 0,
-                              averageTime: { currMin: 0, currSec: 0 },
-                              bestTime: { currMin: 0, currSec: 0 },
+                              averageStars:
+                                allStars.length > 0
+                                  ? roundToHundred(
+                                      allStars.reduce(
+                                        (a: number, b: number) => a + b
+                                      ) / allStars.length
+                                    )
+                                  : roundToHundred(
+                                      calculateStars(currMin, currSec)
+                                    ),
+                              averageTime: calculateAverageTime(allTime),
+                              bestTime: calculateBestTime(allTime),
                               todaysStats: [
                                 {
                                   time: { currMin, currSec },
-                                  stars: 0,
+                                  stars: roundToHundred(
+                                    calculateStars(currMin, currSec)
+                                  ),
                                   letter: daily?.letter,
                                 },
                               ],
+                              allStars,
+                              allTime,
                             })
                           );
                           setHidden(false);
@@ -341,10 +376,10 @@ const Daily = ({ profileImage }: IProps) => {
             </div>
           </div>
           <PlayerInfoRightWrap
-            avgStars={3.74}
-            bestTime={"0:25"}
+            avgStars={JSON.parse(localStorage.getItem("stats")!).averageStars}
+            bestTime={JSON.parse(localStorage.getItem("stats")!).bestTime}
             gamesPlayed={JSON.parse(localStorage.getItem("stats")!).gamesPlayed}
-            avgTime={"0:45"}
+            avgTime={JSON.parse(localStorage.getItem("stats")!).averageTime}
             profileImage={profileImage}
           />
         </div>

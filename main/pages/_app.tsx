@@ -34,11 +34,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         JSON.stringify({
           gamesPlayed: 0,
           averageStars: 0,
-          averageTime: { currMin: 0, currSec: 0 },
-          bestTime: { currMin: 0, currSec: 0 },
+          averageTime: "0:00",
+          bestTime: "0:00",
           todaysStats: [
             { time: { currMin: 0, currSec: 0 }, stars: 0, letter: "" },
           ],
+          allStars: [],
+          allTime: [],
         })
       );
     }

@@ -6,9 +6,41 @@ import Help from "@mui/icons-material/Help";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { useRouter } from "next/router";
+import { useMediaQuery } from "react-responsive";
+import Menu from "@mui/icons-material/Menu";
 
 export const NavItems = () => {
   const router = useRouter();
+  const isPhone = useMediaQuery({ maxWidth: 480 });
+  if (isPhone) {
+    return (
+      <>
+        <div
+          style={{
+            position: "absolute",
+            top: 29,
+            left: 45,
+            cursor: "pointer",
+            zIndex: 200,
+          }}
+          onClick={() => router.push("/")}
+        >
+          <Menu style={{ fontSize: 30, color: getColor() }} />
+        </div>
+        <div
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+            position: "relative",
+            bottom: 2,
+          }}
+        >
+          <h1 style={{ color: getTextColor() }}>Categories</h1>
+        </div>{" "}
+      </>
+    );
+  }
   return (
     <>
       <div

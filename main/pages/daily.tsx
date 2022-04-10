@@ -25,6 +25,7 @@ import { calculateStars } from "../utils/calculateStars";
 import { calculateAverageTime } from "../utils/calculateAverageTime";
 import { calculateBestTime } from "../utils/calculateBestTime";
 import { roundToHundred } from "../utils/roundHundredth";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 // Props That The Home Component Takes
 interface IProps {

@@ -355,7 +355,6 @@ const Daily = ({ profileImage }: IProps) => {
                               allTime,
                             })
                           );
-
                           setHidden(false);
                         }}
                       >

@@ -13,7 +13,6 @@
   font-size: 40px;
   color: white;
   background: #4cc9f0;
-  transition: 1s;
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
 }

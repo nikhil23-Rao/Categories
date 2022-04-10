@@ -293,6 +293,13 @@ const Daily = ({ profileImage }: IProps) => {
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;
+                        if (
+                          newInputs[idx].value.length > 0 &&
+                          newInputs[idx].value.charAt(0).toLowerCase() !==
+                            daily.letter.toLowerCase()
+                        ) {
+                          return (newInputs[idx].value = "");
+                        }
                         setInputs(newInputs);
                       }}
                     />

@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       localStorage.setItem("color", colorOptions[0].color);
       localStorage.setItem("name", "Categories Player");
       localStorage.setItem("bio", "Your bio here...");
+      localStorage.setItem("firstTime", "true");
       localStorage.setItem(
         "stats",
         JSON.stringify({

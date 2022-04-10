@@ -6,11 +6,12 @@ import Help from "@mui/icons-material/Help";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import { getColor, getTextColor } from "../../utils/customizationsFunctions";
 import { useRouter } from "next/router";
+import { StatsModal } from "../Modals/StatsModal";
 import { useMediaQuery } from "react-responsive";
 import Menu from "@mui/icons-material/Menu";
 import { EditUsernameModal } from "../Modals/EditUsernameModal";
-import { useDisclosure } from "@chakra-ui/react";
 import { SettingsModal } from "../Modals/SettingsModal";
+import { useDisclosure } from "@chakra-ui/react";
 
 export const NavItems = () => {
   const router = useRouter();
@@ -25,6 +26,7 @@ export const NavItems = () => {
     onClose: settingsModalOnClose,
     onOpen: settingsModalOnOpen,
   } = useDisclosure();
+  const { onOpen, onClose, isOpen } = useDisclosure();
   if (isPhone) {
     return (
       <>
@@ -111,7 +113,11 @@ export const NavItems = () => {
           right: 85,
         }}
       >
-        <BarChart style={{ fontSize: 30, color: getColor() }} />
+        <BarChart
+          style={{ fontSize: 30, color: getColor() }}
+          onClick={() => onOpen()}
+        />
+        <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
       </div>
       <div
         style={{

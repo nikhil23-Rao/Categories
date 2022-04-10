@@ -273,9 +273,9 @@ const Daily = ({ profileImage }: IProps) => {
                     <GameInput
                       show={!timerIsActive}
                       title={item}
-                      value={inputs[idx].value}
+                      value={inputs[idx].value as string}
                       disabled={submitted}
-                      onChange={(e) => {
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;
                         setInputs(newInputs);

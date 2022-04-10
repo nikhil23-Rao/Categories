@@ -14,7 +14,6 @@ import {
   Button,
   ModalFooter,
 } from "@chakra-ui/react";
-import Check from "@mui/icons-material/Check";
 
 // Customization Imports
 import { colorOptions } from "../../data/colorOptions";

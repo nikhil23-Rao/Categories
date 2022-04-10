@@ -11,7 +11,8 @@ import BarChart from "@mui/icons-material/BarChart";
 import Share from "@mui/icons-material/Share";
 import IosShareIcon from "@mui/icons-material/IosShare";
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
-import { useToast } from "@chakra-ui/react";
+import { useDisclosure, useToast } from "@chakra-ui/react";
+import { StatsModal } from "../Modals/StatsModal";
 
 interface IProps {
   profileImage: string;
@@ -21,6 +22,7 @@ interface IProps {
 
 export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
   const toast = useToast();
+  const { onOpen, onClose, isOpen } = useDisclosure();
   return (
     <div className={styles.dropdown} style={{ zIndex: 2000 }}>
       <Avatar
@@ -104,6 +106,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
             borderBottom: "1px solid #eaeaea",
             width: 280,
           }}
+          onClick={() => onOpen()}
         >
           <BarChart
             style={{
@@ -114,6 +117,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
             }}
           />{" "}
           <p style={{ marginLeft: 20 }}>View Stats</p>
+          <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
         </div>
         <div
           style={{
@@ -124,15 +128,16 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
             width: 280,
           }}
           onClick={() => {
+            const statsObj = JSON.parse(localStorage.getItem("stats")!);
             navigator.clipboard.writeText(`
   @Nikhil Rao's All Time Stats:
-  Total Games Played: 20,
-  Average Time Take: 1:06,
-  Average Number Of Stars: 3.74,
-  Fastest Time: 0:26,
+  Total Games Played: ${statsObj.gamesPlayed},
+  Average Time Take: ${statsObj.averageTime},
+  Average Number Of Stars: ${statsObj.averageStars},
+  Fastest Time: ${statsObj.bestTime},
             `);
             toast({
-              title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
+              title: "Link Copied To Clipboard!",
               status: "info",
               duration: 3000,
               position: "bottom-right",
@@ -158,11 +163,11 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
             width: 280,
           }}
           onClick={() => {
-            navigator.clipboard.writeText(`
-    Check Out Categories! Can you beat my stats? 
-    ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
-    https://nikhilrao.github.io/categories/
-            `);
+            navigator.clipboard.writeText(
+              `Check Out Categories! Can you beat my stats? 
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+https://nikhilrao.github.io/categories/`
+            );
             toast({
               title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
               status: "info",

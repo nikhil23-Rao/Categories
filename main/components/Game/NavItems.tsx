@@ -12,10 +12,18 @@ import Menu from "@mui/icons-material/Menu";
 import { EditUsernameModal } from "../Modals/EditUsernameModal";
 import { SettingsModal } from "../Modals/SettingsModal";
 import { useDisclosure } from "@chakra-ui/react";
+import { MobileModal } from "../Modals/MobileModal";
 
-export const NavItems = () => {
+interface IProps {
+  onClick: () => void;
+  timer: [boolean, string];
+  submitted: boolean;
+}
+
+export const NavItems = ({ onClick, timer, submitted }: IProps) => {
   const router = useRouter();
-  const isPhone = useMediaQuery({ maxWidth: 480 });
+  const isPhone = useMediaQuery({ maxWidth: 642 });
+  const isTablet = useMediaQuery({ maxWidth: 1353 });
   const {
     isOpen: editUsernameModalIsOpen,
     onClose: editUsernameModalOnClose,
@@ -26,10 +34,23 @@ export const NavItems = () => {
     onClose: settingsModalOnClose,
     onOpen: settingsModalOnOpen,
   } = useDisclosure();
+  const {
+    isOpen: mobileModalIsOpen,
+    onClose: mobileModalOnClose,
+    onOpen: mobileModalOnOpen,
+  } = useDisclosure();
   const { onOpen, onClose, isOpen } = useDisclosure();
   if (isPhone) {
     return (
       <>
+        <MobileModal
+          isOpen={mobileModalIsOpen}
+          onClose={mobileModalOnClose}
+          onOpen={mobileModalOnOpen}
+          onClick={onClick}
+          timer={timer}
+          submitted={submitted}
+        />
         <div
           style={{
             position: "absolute",
@@ -38,9 +59,12 @@ export const NavItems = () => {
             cursor: "pointer",
             zIndex: 200,
           }}
-          onClick={() => router.push("/")}
+          onClick={mobileModalOnOpen}
         >
-          <Menu style={{ fontSize: 30, color: getColor() }} />
+          <Menu
+            onClick={mobileModalOnOpen}
+            style={{ fontSize: 30, color: getColor() }}
+          />
         </div>
         <div
           style={{
@@ -68,6 +92,31 @@ export const NavItems = () => {
         onClose={settingsModalOnClose}
         onOpen={settingsModalOnOpen}
       />
+      <MobileModal
+        isOpen={mobileModalIsOpen}
+        onClose={mobileModalOnClose}
+        onOpen={mobileModalOnOpen}
+        onClick={onClick}
+        timer={timer}
+        submitted={submitted}
+      />
+      {isTablet && (
+        <div
+          style={{
+            position: "absolute",
+            top: 29,
+            left: 145,
+            cursor: "pointer",
+            zIndex: 200,
+          }}
+          onClick={mobileModalOnOpen}
+        >
+          <Menu
+            onClick={mobileModalOnOpen}
+            style={{ fontSize: 30, color: getColor() }}
+          />
+        </div>
+      )}
       <div
         style={{
           position: "absolute",

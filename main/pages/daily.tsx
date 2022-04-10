@@ -266,7 +266,16 @@ const Daily = ({ profileImage }: IProps) => {
                 width: "100%",
               }}
             >
-              <NavItems />
+              <NavItems
+                onClick={() => {
+                  setTimerIsActive(!timerIsActive);
+                }}
+                timer={[
+                  timerIsActive,
+                  `${currMin}:${currSec < 10 ? `0${currSec}` : currSec}`,
+                ]}
+                submitted={submitted}
+              />
               <div
                 className={styles.gameContainer}
                 style={{

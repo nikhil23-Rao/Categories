@@ -149,6 +149,7 @@ const Daily = ({ profileImage }: IProps) => {
         setAllTimeSeconds(0);
         localStorage.removeItem("submitted");
         setSubmitted(false);
+        setHidden(true);
         localStorage.setItem(
           "savedGameData",
           JSON.stringify({

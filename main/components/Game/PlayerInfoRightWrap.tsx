@@ -150,7 +150,7 @@ https://thecategoriesgame.vercel.app`);
                     navigator.clipboard
                       .writeText(`Check Out Categories! Can you beat my stats? 
 ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
-https://nikhilrao.github.io/categories/`);
+https://thecategoriesgame.vercel.app`);
                     toast({
                       title: "Link Copied To Clipboard 🚀 🚀 🚀 ",
                       status: "info",

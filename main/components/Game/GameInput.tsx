@@ -1,8 +1,14 @@
-import { Input } from "@chakra-ui/react";
+import { Input, Spinner } from "@chakra-ui/react";
+import CheckCircle from "@mui/icons-material/CheckCircle";
+import Cancel from "@mui/icons-material/Cancel";
 import React, { useEffect, useState } from "react";
 import { dailyCategories } from "../../data/dailyCategories";
 import styles from "../../styles/Game/Board.module.css";
-import { getBGColor, getTextColor } from "../../utils/customizationsFunctions";
+import {
+  getBGColor,
+  getColor,
+  getTextColor,
+} from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
 
 interface IProps {
@@ -11,6 +17,10 @@ interface IProps {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   value: string;
   disabled?: boolean;
+  onFocus: () => void;
+  loading: boolean;
+  correct: boolean;
+  incorrect: boolean;
 }
 
 export const GameInput = ({
@@ -19,13 +29,13 @@ export const GameInput = ({
   onChange,
   value,
   disabled,
+  onFocus,
+  loading,
+  correct,
+  incorrect,
 }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
   let currIndex = dailyCategories.length;
-
-  useEffect(() => {
-    console.log(letters);
-  }, [letters]);
 
   return (
     <div
@@ -62,7 +72,37 @@ export const GameInput = ({
             onChange={(e) => onChange(e)}
             fontSize={30}
             style={{ boxShadow: "none", color: getTextColor() }}
+            onFocus={onFocus}
             disabled={disabled}
+          />
+          <Spinner
+            style={{
+              color: getColor(),
+              position: "relative",
+              left: 90,
+              display: loading ? "block" : "none",
+            }}
+            thickness={"4px"}
+          />
+          <CheckCircle
+            className="fade"
+            style={{
+              color: "lightgreen",
+              position: "relative",
+              left: 60,
+              zoom: 1.5,
+              display: correct && !loading ? "block" : "none",
+            }}
+          />
+          <Cancel
+            className="fade"
+            style={{
+              color: "#F66E72",
+              position: "relative",
+              left: 60,
+              zoom: 1.5,
+              display: incorrect && !loading ? "block" : "none",
+            }}
           />
         </div>
       </div>

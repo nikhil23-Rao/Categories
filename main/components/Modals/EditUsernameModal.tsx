@@ -107,7 +107,6 @@ export const EditUsernameModal = ({ isOpen, onClose, onOpen }: IProps) => {
               onClick={() => {
                 localStorage.setItem("name", username)!;
                 localStorage.setItem("bio", bio)!;
-                window.location.reload();
               }}
               disabled={!username || !bio ? true : false}
               backgroundColor={getColor()}

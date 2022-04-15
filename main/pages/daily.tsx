@@ -24,6 +24,9 @@ import { calculateAverageTime } from "../utils/calculateAverageTime";
 import { calculateBestTime } from "../utils/calculateBestTime";
 import { roundToHundred } from "../utils/roundHundredth";
 import { StatsModal } from "../components/Modals/StatsModal";
+import { generateCategories } from "../utils/generateCategories";
+import axios from "axios";
+import _ from "lodash";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -31,6 +34,7 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [runCount, setRunCount] = useState(null);
   const [disabled, setDisabled] = useState(false);
   const [allTimeSeconds, setAllTimeSeconds] = useState(
     localStorage.getItem("savedGameData")
@@ -38,6 +42,9 @@ const Daily = ({ profileImage }: IProps) => {
       : 0
   );
   const { width, height } = useWindowSize();
+  const [possibleAnswers, setPossibleAnswers] = useState<
+    [{ id: number; value: string[] }] | []
+  >([]);
   const [hidden, setHidden] = useState(true);
   const [submitted, setSubmitted] = useState(
     localStorage.getItem("submitted") === "true"
@@ -52,6 +59,9 @@ const Daily = ({ profileImage }: IProps) => {
       ? JSON.parse(localStorage.getItem("savedGameData")!).currMin
       : 0
   );
+  const [loading, setLoading] = useState<number[]>([]);
+  const [correct, setCorrect] = useState<number[]>([]);
+  const [inCorrect, setInCorrect] = useState<number[]>([]);
   const [pausesLeft, setPausesLeft] = useState(3);
   const [timerIsActive, setTimerIsActive] = useState(false);
   const [daily, setDaily] = useState<{
@@ -64,6 +74,7 @@ const Daily = ({ profileImage }: IProps) => {
       name: string;
       value: string;
       id: number;
+      focus: boolean;
     }[]
   >(
     localStorage.getItem("savedGameData")
@@ -104,6 +115,7 @@ const Daily = ({ profileImage }: IProps) => {
           name: item,
           value: "",
           id: idx,
+          focus: false,
         };
       });
       setInputs(inputs);
@@ -141,6 +153,7 @@ const Daily = ({ profileImage }: IProps) => {
             name: item,
             value: "",
             id: idx,
+            focus: false,
           };
         });
         setInputs(inputs);
@@ -313,6 +326,11 @@ const Daily = ({ profileImage }: IProps) => {
                       title={item}
                       value={inputs[idx].value as string}
                       disabled={submitted}
+                      onFocus={() => {
+                        const newInputs = [...inputs];
+                        newInputs[idx].focus = true;
+                        setInputs(newInputs);
+                      }}
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;
@@ -324,7 +342,41 @@ const Daily = ({ profileImage }: IProps) => {
                           return (newInputs[idx].value = "");
                         }
                         setInputs(newInputs);
+
+                        if (runCount) {
+                          clearTimeout(runCount);
+                        }
+
+                        let id = setTimeout(async () => {
+                          const { data } = await axios.get(
+                            `http://localhost:3001?query="${item.replace(
+                              /\s+/g,
+                              "-"
+                            )}-With-${daily.letter}"`
+                          );
+                          console.log(data);
+                          const lower = data.map((element: string) => {
+                            return element.toLowerCase();
+                          });
+                          if (
+                            lower.includes(newInputs[idx].value.toLowerCase())
+                          ) {
+                            setLoading(loading.filter((i) => i !== idx));
+                            setCorrect([...correct, idx]);
+                            setInCorrect(inCorrect.filter((i) => i !== idx));
+                          } else {
+                            setLoading(loading.filter((i) => i !== idx));
+                            setCorrect(correct.filter((i) => i !== idx));
+                            setInCorrect([...inCorrect, idx]);
+                          }
+                        }, 2000);
+
+                        setRunCount(id as any);
+                        setLoading([...loading, idx]);
                       }}
+                      loading={loading.includes(idx)}
+                      correct={correct.includes(idx)}
+                      incorrect={inCorrect.includes(idx)}
                     />
                   ))}
                 {!submitted ? (

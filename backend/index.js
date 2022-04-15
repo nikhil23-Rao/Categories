@@ -1,11 +1,22 @@
 const puppeteer = require("puppeteer"); // ^13.5.1
+const express = require("express");
+var cors = require("cors");
 
+const app = express();
 let browser;
-(async () => {
-  const searchQuery = "site:scattergoriesonline.net author-with-W";
+
+app.use(cors());
+
+app.get("/", async (req, res) => {
+  console.log("Here");
+  const query = req.query.query;
+  const searchQuery = `site:scattergoriesonline.net ${query}`;
 
   browser = await puppeteer.launch();
   const [page] = await browser.pages();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+  );
   await page.goto("https://www.google.com/", { waitUntil: "domcontentloaded" });
   await page.waitForSelector('input[aria-label="Search"]', { visible: true });
   await page.type('input[aria-label="Search"]', searchQuery);
@@ -37,12 +48,13 @@ let browser;
       return data;
     });
 
-    console.log(data);
+    res.send(data);
 
     await browser.close();
   } catch (err) {
     console.error(err);
   }
-})()
-  .catch((err) => console.error(err))
-  .finally(() => browser?.close());
+});
+
+app.listen(3001);
+console.log("LISTENING");

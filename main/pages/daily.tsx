@@ -27,6 +27,7 @@ import { StatsModal } from "../components/Modals/StatsModal";
 import { generateCategories } from "../utils/generateCategories";
 import axios from "axios";
 import _ from "lodash";
+import { possibleAnswers } from "../data/possibleAnswers";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -34,6 +35,7 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [validAnswers, setValidAnswers] = useState<any[]>([]);
   const [runCount, setRunCount] = useState(null);
   const [disabled, setDisabled] = useState(false);
   const [allTimeSeconds, setAllTimeSeconds] = useState(
@@ -42,9 +44,6 @@ const Daily = ({ profileImage }: IProps) => {
       : 0
   );
   const { width, height } = useWindowSize();
-  const [possibleAnswers, setPossibleAnswers] = useState<
-    [{ id: number; value: string[] }] | []
-  >([]);
   const [hidden, setHidden] = useState(true);
   const [submitted, setSubmitted] = useState(
     localStorage.getItem("submitted") === "true"
@@ -60,8 +59,16 @@ const Daily = ({ profileImage }: IProps) => {
       : 0
   );
   const [loading, setLoading] = useState<number[]>([]);
-  const [correct, setCorrect] = useState<number[]>([]);
-  const [inCorrect, setInCorrect] = useState<number[]>([]);
+  const [correct, setCorrect] = useState<number[]>(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).correct
+      : []
+  );
+  const [inCorrect, setInCorrect] = useState<number[]>(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).inCorrect
+      : []
+  );
   const [pausesLeft, setPausesLeft] = useState(3);
   const [timerIsActive, setTimerIsActive] = useState(false);
   const [daily, setDaily] = useState<{
@@ -125,7 +132,9 @@ const Daily = ({ profileImage }: IProps) => {
   useEffect(() => {
     if (submitted) {
       setHidden(false);
-      onOpen();
+      setTimeout(() => {
+        onOpen();
+      }, 1000);
     }
   }, [submitted]);
 
@@ -139,6 +148,8 @@ const Daily = ({ profileImage }: IProps) => {
           currSec,
           date: daily?.dailyDate,
           allTimeSeconds,
+          inCorrect: [],
+          correct: [],
         })
       );
     }
@@ -163,6 +174,8 @@ const Daily = ({ profileImage }: IProps) => {
         localStorage.removeItem("submitted");
         setSubmitted(false);
         setHidden(true);
+        setInCorrect([]);
+        setCorrect([]);
         onClose();
         localStorage.setItem(
           "savedGameData",
@@ -172,6 +185,8 @@ const Daily = ({ profileImage }: IProps) => {
             currSec,
             date: daily?.dailyDate,
             allTimeSeconds,
+            inCorrect: [],
+            isCorrect: [],
           })
         );
       }
@@ -190,30 +205,53 @@ const Daily = ({ profileImage }: IProps) => {
             currSec,
             date: daily?.dailyDate,
             allTimeSeconds,
+            inCorrect,
+            correct,
           })
         );
       }
     }
-  }, [daily, currMin, currSec, inputs]);
+  }, [daily, currMin, currSec, inputs, correct, inCorrect]);
 
   useEffect(() => {
-    let isTrue;
-    let isFalse;
-    if (inputs.length > 0) {
-      for (const input of inputs) {
-        if (input.value.length > 0) {
-          isTrue = true;
-        } else {
-          isFalse = false;
-        }
-        if (isFalse === false) {
-          setDisabled(true);
-        } else {
-          setDisabled(false);
+    if (inCorrect.length === 0) {
+      setDisabled(false);
+    } else {
+      setDisabled(true);
+    }
+  }, [inputs, inCorrect, correct]);
+
+  useEffect(() => {
+    console.log("HI", inCorrect);
+  }, [inCorrect]);
+
+  useEffect(() => {
+    const dom = new DOMParser();
+    let data: any[] = [];
+    if (daily && daily.inputs.length === 6) {
+      console.log("hi", daily.inputs);
+      for (const possibleAnswer of possibleAnswers) {
+        if (daily?.inputs.includes(possibleAnswer.categoryName)) {
+          const doc = dom.parseFromString(possibleAnswer.html, "text/html");
+          const lis = doc.querySelectorAll("li");
+          let arr: any[] = [];
+          lis.forEach((li) => {
+            arr.push(li.textContent);
+          });
+
+          data.push({
+            categoryName: possibleAnswer.categoryName,
+            answers: arr,
+            idx: daily?.inputs.indexOf(possibleAnswer.categoryName),
+          });
         }
       }
+      let res = _.sortBy(data, "idx");
+      setValidAnswers(res);
     }
-  }, [inputs]);
+
+    // generateCategories();
+  }, [daily]);
 
   // Return JSX Markup
   return (
@@ -348,18 +386,15 @@ const Daily = ({ profileImage }: IProps) => {
                         }
 
                         let id = setTimeout(async () => {
-                          const { data } = await axios.get(
-                            `http://localhost:3001?query="${item.replace(
-                              /\s+/g,
-                              "-"
-                            )}-With-${daily.letter}"`
+                          const lower = validAnswers[idx].answers.map(
+                            (element: string) => {
+                              return element.toLowerCase().trim();
+                            }
                           );
-                          console.log(data);
-                          const lower = data.map((element: string) => {
-                            return element.toLowerCase();
-                          });
                           if (
-                            lower.includes(newInputs[idx].value.toLowerCase())
+                            lower.includes(
+                              newInputs[idx].value.toLowerCase().trim()
+                            )
                           ) {
                             setLoading(loading.filter((i) => i !== idx));
                             setCorrect([...correct, idx]);
@@ -369,7 +404,7 @@ const Daily = ({ profileImage }: IProps) => {
                             setCorrect(correct.filter((i) => i !== idx));
                             setInCorrect([...inCorrect, idx]);
                           }
-                        }, 2000);
+                        }, 200);
 
                         setRunCount(id as any);
                         setLoading([...loading, idx]);

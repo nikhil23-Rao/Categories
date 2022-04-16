@@ -61,11 +61,12 @@ export const GameInput = ({
             position: "relative",
             bottom: 19,
             left: 3,
+            width: "100%",
           }}
         >
           <Input
             border={"none"}
-            width={"80%"}
+            width={"90%"}
             placeholder={`${title}...`}
             height={10}
             value={value}
@@ -84,26 +85,34 @@ export const GameInput = ({
             }}
             thickness={"4px"}
           />
-          <CheckCircle
-            className="fade"
+          <div
             style={{
-              color: "lightgreen",
-              position: "relative",
-              left: 60,
-              zoom: 1.5,
-              display: correct && !loading ? "block" : "none",
+              width: 10,
+              alignItems: "flex-end",
+              justifyContent: "flex-end",
             }}
-          />
-          <Cancel
-            className="fade"
-            style={{
-              color: "#F66E72",
-              position: "relative",
-              left: 60,
-              zoom: 1.5,
-              display: incorrect && !loading ? "block" : "none",
-            }}
-          />
+          >
+            <CheckCircle
+              className="fade"
+              style={{
+                color: "lightgreen",
+                position: "relative",
+                zoom: 1.5,
+                display: correct && !loading ? "flex" : "none",
+                alignSelf: "flex-end",
+              }}
+            />
+            <Cancel
+              className="fade"
+              style={{
+                color: "#F66E72",
+                position: "relative",
+                zoom: 1.5,
+                display: incorrect && !loading ? "flex" : "none",
+                alignSelf: "flex-end",
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -99,6 +99,46 @@ const Daily = ({ profileImage }: IProps) => {
   const { onOpen, onClose, isOpen } = useDisclosure();
 
   useEffect(() => {
+    if (localStorage.getItem("savedGameData") && daily) {
+      const savedGameData = JSON.parse(localStorage.getItem("savedGameData")!);
+      if (!savedGameData.correct) {
+        const inputs = daily.inputs.map((item, idx) => {
+          return {
+            name: item,
+            value: "",
+            id: idx,
+            focus: false,
+          };
+        });
+        setInputs(inputs);
+        setCurrMin(0);
+        setCurrSec(0);
+        setAllTimeSeconds(0);
+        localStorage.removeItem("submitted");
+        setSubmitted(false);
+        setHidden(true);
+        setInCorrect([]);
+        setCorrect([]);
+        setSkips({ idx: -1, skips: 1 });
+        onClose();
+        localStorage.setItem(
+          "savedGameData",
+          JSON.stringify({
+            inputs,
+            currMin,
+            currSec,
+            date: daily?.dailyDate,
+            allTimeSeconds,
+            inCorrect: [],
+            isCorrect: [],
+            skips: { idx: -1, skips: 1 },
+          })
+        );
+      }
+    }
+  }, [daily]);
+
+  useEffect(() => {
     if (timerIsActive) {
       const intervalId = setInterval(function () {
         setAllTimeSeconds(allTimeSeconds + 1);

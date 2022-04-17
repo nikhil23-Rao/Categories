@@ -26,7 +26,7 @@ import { roundToHundred } from "../utils/roundHundredth";
 import { StatsModal } from "../components/Modals/StatsModal";
 import { generateCategories } from "../utils/generateCategories";
 import axios from "axios";
-import _ from "lodash";
+import _, { shuffle } from "lodash";
 import { possibleAnswers } from "../data/possibleAnswers";
 
 // Props That The Home Component Takes
@@ -35,6 +35,14 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [skips, setSkips] = useState<{ idx: number; skips: number }>(
+    localStorage.getItem("savedGameData")
+      ? JSON.parse(localStorage.getItem("savedGameData")!).skips
+      : {
+          idx: -1,
+          skips: 1,
+        }
+  );
   const [validAnswers, setValidAnswers] = useState<any[]>([]);
   const [runCount, setRunCount] = useState(null);
   const [disabled, setDisabled] = useState(false);
@@ -150,6 +158,7 @@ const Daily = ({ profileImage }: IProps) => {
           allTimeSeconds,
           inCorrect: [],
           correct: [],
+          skips: { idx: -1, skips: 1 },
         })
       );
     }
@@ -176,6 +185,7 @@ const Daily = ({ profileImage }: IProps) => {
         setHidden(true);
         setInCorrect([]);
         setCorrect([]);
+        setSkips({ idx: -1, skips: 1 });
         onClose();
         localStorage.setItem(
           "savedGameData",
@@ -187,6 +197,7 @@ const Daily = ({ profileImage }: IProps) => {
             allTimeSeconds,
             inCorrect: [],
             isCorrect: [],
+            skips: { idx: -1, skips: 1 },
           })
         );
       }
@@ -207,14 +218,15 @@ const Daily = ({ profileImage }: IProps) => {
             allTimeSeconds,
             inCorrect,
             correct,
+            skips,
           })
         );
       }
     }
-  }, [daily, currMin, currSec, inputs, correct, inCorrect]);
+  }, [daily, currMin, currSec, inputs, correct, inCorrect, skips]);
 
   useEffect(() => {
-    if (inCorrect.length === 0) {
+    if (inCorrect.length === 0 && correct.length === 6) {
       setDisabled(false);
     } else {
       setDisabled(true);
@@ -369,6 +381,22 @@ const Daily = ({ profileImage }: IProps) => {
                         newInputs[idx].focus = true;
                         setInputs(newInputs);
                       }}
+                      onSkip={() => {
+                        setSkips({ idx, skips: 0 });
+                        const newInputs = [...inputs];
+                        const arr = validAnswers
+                          .filter((a) => a.idx === idx)[0]
+                          .answers.filter((a: string) =>
+                            a.trim().startsWith(daily?.letter)
+                          );
+                        const newArr = shuffle(arr);
+                        newInputs[idx].value = newArr[0];
+                        setInputs(newInputs);
+                        setLoading(loading.filter((i) => i !== idx));
+                        setCorrect([...correct, idx]);
+                        setInCorrect(inCorrect.filter((i) => i !== idx));
+                      }}
+                      showSkip={skips.idx !== -1}
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;
@@ -416,69 +444,148 @@ const Daily = ({ profileImage }: IProps) => {
                   ))}
                 {!submitted ? (
                   <div
-                    className="actions"
-                    style={{ width: "80%", marginTop: 70 }}
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      width: "100%",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
                   >
                     <div
-                      className={`follow-btn ${
-                        !timerIsActive && !submitted ? styles.blur : ""
-                      }`}
-                      style={{ cursor: disabled ? "not-allowed" : "pointer" }}
+                      className="actions"
+                      style={{ width: "80%", marginTop: 70 }}
                     >
-                      <button
-                        style={{
-                          backgroundColor: disabled ? "gray" : getColor(),
-                          fontSize: 22,
-                          pointerEvents: disabled ? "none" : "all",
-                        }}
-                        onClick={() => {
-                          const statsObj = JSON.parse(
-                            localStorage.getItem("stats")!
-                          );
-                          const allStars = [
-                            ...statsObj.allStars,
-                            calculateStars(currMin, currSec),
-                          ];
-                          const allTime = [...statsObj.allTime, allTimeSeconds];
-                          localStorage.setItem("submitted", "true");
-                          setTimerIsActive(false);
-                          setSubmitted(true);
-                          localStorage.setItem(
-                            "stats",
-                            JSON.stringify({
-                              gamesPlayed:
-                                JSON.parse(localStorage.getItem("stats")!)
-                                  .gamesPlayed + 1,
-                              averageStars:
-                                allStars.length > 0
-                                  ? roundToHundred(
-                                      allStars.reduce(
-                                        (a: number, b: number) => a + b
-                                      ) / allStars.length
-                                    )
-                                  : roundToHundred(
+                      <div
+                        className={`follow-btn ${
+                          !timerIsActive && !submitted ? styles.blur : ""
+                        }`}
+                        style={{ cursor: disabled ? "not-allowed" : "pointer" }}
+                      >
+                        <button
+                          style={{
+                            backgroundColor: disabled ? "gray" : getColor(),
+                            fontSize: 22,
+                            pointerEvents: disabled ? "none" : "all",
+                          }}
+                          onClick={() => {
+                            const statsObj = JSON.parse(
+                              localStorage.getItem("stats")!
+                            );
+                            const allStars = [
+                              ...statsObj.allStars,
+                              calculateStars(currMin, currSec),
+                            ];
+                            const allTime = [
+                              ...statsObj.allTime,
+                              allTimeSeconds,
+                            ];
+                            localStorage.setItem("submitted", "true");
+                            setTimerIsActive(false);
+                            setSubmitted(true);
+                            localStorage.setItem(
+                              "stats",
+                              JSON.stringify({
+                                gamesPlayed:
+                                  JSON.parse(localStorage.getItem("stats")!)
+                                    .gamesPlayed + 1,
+                                averageStars:
+                                  allStars.length > 0
+                                    ? roundToHundred(
+                                        allStars.reduce(
+                                          (a: number, b: number) => a + b
+                                        ) / allStars.length
+                                      )
+                                    : roundToHundred(
+                                        calculateStars(currMin, currSec)
+                                      ),
+                                averageTime: calculateAverageTime(allTime),
+                                bestTime: calculateBestTime(allTime),
+                                todaysStats: [
+                                  {
+                                    time: { currMin, currSec },
+                                    stars: roundToHundred(
                                       calculateStars(currMin, currSec)
                                     ),
-                              averageTime: calculateAverageTime(allTime),
-                              bestTime: calculateBestTime(allTime),
-                              todaysStats: [
-                                {
-                                  time: { currMin, currSec },
-                                  stars: roundToHundred(
-                                    calculateStars(currMin, currSec)
-                                  ),
-                                  letter: daily?.letter,
-                                },
-                              ],
-                              allStars,
-                              allTime,
-                            })
-                          );
-                          setHidden(false);
-                        }}
+                                    letter: daily?.letter,
+                                  },
+                                ],
+                                allStars,
+                                allTime,
+                              })
+                            );
+                            setHidden(false);
+                            onOpen();
+                          }}
+                        >
+                          Finish
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      className="actions"
+                      style={{ width: "80%", marginTop: 20 }}
+                    >
+                      <div
+                        className={`follow-btn ${
+                          !timerIsActive && !submitted ? styles.blur : ""
+                        }`}
+                        style={{ cursor: disabled ? "not-allowed" : "pointer" }}
                       >
-                        Finish
-                      </button>
+                        <button
+                          style={{
+                            backgroundColor: "#F66E72",
+                            fontSize: 22,
+                          }}
+                          onClick={() => {
+                            const statsObj = JSON.parse(
+                              localStorage.getItem("stats")!
+                            );
+                            const allStars = [...statsObj.allStars, 0];
+                            const allTime = [...statsObj.allTime];
+                            localStorage.setItem("submitted", "true");
+                            setTimerIsActive(false);
+                            setSubmitted(true);
+                            localStorage.setItem(
+                              "stats",
+                              JSON.stringify({
+                                gamesPlayed:
+                                  JSON.parse(localStorage.getItem("stats")!)
+                                    .gamesPlayed + 1,
+                                averageStars:
+                                  allStars.length > 0
+                                    ? roundToHundred(
+                                        allStars.reduce(
+                                          (a: number, b: number) => a + b
+                                        ) / allStars.length
+                                      )
+                                    : roundToHundred(0),
+                                averageTime:
+                                  allTime.length > 0
+                                    ? calculateAverageTime(allTime)
+                                    : "0:00",
+                                bestTime:
+                                  allTime.length > 0
+                                    ? calculateBestTime(allTime)
+                                    : "0:00",
+                                todaysStats: [
+                                  {
+                                    time: { currMin, currSec },
+                                    stars: roundToHundred(0),
+                                    letter: daily?.letter,
+                                  },
+                                ],
+                                allStars,
+                                allTime,
+                              })
+                            );
+                            setHidden(false);
+                            onOpen();
+                          }}
+                        >
+                          Give Up
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ) : (
@@ -504,7 +611,7 @@ const Daily = ({ profileImage }: IProps) => {
                           localStorage.setItem("submitted", "true");
                         }}
                       >
-                        Submitted Today's Category!
+                        Submitted!
                       </button>
                     </div>
                   </div>

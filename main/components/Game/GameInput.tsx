@@ -1,4 +1,4 @@
-import { Input, Spinner } from "@chakra-ui/react";
+import { Input, Spinner, Tooltip } from "@chakra-ui/react";
 import CheckCircle from "@mui/icons-material/CheckCircle";
 import Cancel from "@mui/icons-material/Cancel";
 import React, { useEffect, useState } from "react";
@@ -10,6 +10,7 @@ import {
   getTextColor,
 } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
+import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
 
 interface IProps {
   title: string;
@@ -21,6 +22,8 @@ interface IProps {
   loading: boolean;
   correct: boolean;
   incorrect: boolean;
+  onSkip: () => void;
+  showSkip: boolean;
 }
 
 export const GameInput = ({
@@ -33,8 +36,11 @@ export const GameInput = ({
   loading,
   correct,
   incorrect,
+  onSkip,
+  showSkip,
 }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
+  const [hovered, setHovered] = useState<boolean>(false);
   let currIndex = dailyCategories.length;
 
   return (
@@ -44,6 +50,12 @@ export const GameInput = ({
         borderBottom: "3px solid #fafafa",
       }}
       className={show && !disabled ? styles.blur : ""}
+      onMouseOver={() => {
+        setHovered(true);
+      }}
+      onMouseOut={() => {
+        setHovered(false);
+      }}
     >
       <div
         style={{
@@ -76,22 +88,26 @@ export const GameInput = ({
             onFocus={onFocus}
             disabled={disabled}
           />
-          <Spinner
-            style={{
-              color: getColor(),
-              position: "relative",
-              left: 90,
-              display: loading ? "block" : "none",
-            }}
-            thickness={"4px"}
-          />
+
           <div
             style={{
-              width: 10,
               alignItems: "flex-end",
               justifyContent: "flex-end",
+              flexDirection: "row",
+              display: "flex",
             }}
           >
+            <Spinner
+              style={{
+                color: getColor(),
+                position: "relative",
+                display: loading ? "block" : "none",
+                top: -7,
+                left: 2,
+              }}
+              thickness={"4px"}
+            />
+
             <CheckCircle
               className="fade"
               style={{
@@ -102,6 +118,7 @@ export const GameInput = ({
                 alignSelf: "flex-end",
               }}
             />
+
             <Cancel
               className="fade"
               style={{
@@ -111,6 +128,20 @@ export const GameInput = ({
                 display: incorrect && !loading ? "flex" : "none",
                 alignSelf: "flex-end",
               }}
+            />
+            <PlaylistAddCheckIcon
+              style={{
+                color: !showSkip ? getColor() : "gray",
+                position: "relative",
+                zoom: 1.8,
+                display: incorrect && !loading ? "block" : "none",
+                marginLeft: 10,
+                marginRight: 20,
+                top: 2,
+                cursor: "pointer",
+                pointerEvents: !showSkip ? "all" : "none",
+              }}
+              onClick={onSkip}
             />
           </div>
         </div>

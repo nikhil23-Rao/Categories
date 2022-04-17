@@ -80,7 +80,6 @@ export const allCategories = [
   "Items in a Refrigerator",
   "Things that are green",
   "Bird",
-  "Anime",
   "PC Games",
   "Sports",
   "Shop",

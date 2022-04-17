@@ -196,7 +196,7 @@ Stars: ${getNumberOfStars(todaysStats[0].stars)}
 Letter: ${todaysStats[0].letter}
 https://thecategoriesgame.vercel.app`);
                       toast({
-                        title: "Link Copied To Clipboard!",
+                        title: "Stats Copied To Clipboard! 🚀🚀🚀",
                         status: "info",
                         duration: 3000,
                         position: "bottom-right",

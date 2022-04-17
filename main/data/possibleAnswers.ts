@@ -10315,6 +10315,7 @@ export const possibleAnswers = [
   <li class="t3">Jod</li>
   <li class="t3">Kalium</li>
   <li class="t3">Lead</li>
+  <li class="t3">Lithium</li>
   <li class="t3">Wolfram</li>
   <li class="t3">XENON</li>
   <li class="t3">Ytterbium</li>
@@ -11675,7 +11676,10 @@ export const possibleAnswers = [
   <li class="t3">Xylophone</li>
   <li class="t3">Xylophones</li>
   <li class="t3">Zebras</li>
+  <li class="t3">Little Kids</li>
+  <li class="t3">lollipop</li>
   <li class="t3">Zoo</li>
+  <li class="t3">laughter</li>
   
 
 

@@ -265,6 +265,9 @@ const Daily = ({ profileImage }: IProps) => {
     // generateCategories();
   }, [daily]);
 
+  if (!daily || typeof window === "undefined" || inputs.length !== 6)
+    return <h1>loading</h1>;
+
   // Return JSX Markup
   return (
     <div className={styles.container} style={{ background: getBGColor() }}>

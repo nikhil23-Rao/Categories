@@ -1690,6 +1690,8 @@ export const possibleAnswers = [
     html: `
   <ul>
   <li class="t3">Coke</li>
+  <li class="t3">Cocktail</li>
+  <li class="t3">Chocolate milk</li>
   <li class="t3">Diet Coke</li>
   <li class="t3">Gin</li>
   <li class="t3">Kiwi juice</li>

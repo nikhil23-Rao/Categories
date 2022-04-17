@@ -7948,6 +7948,8 @@ export const possibleAnswers = [
   <li class="t3">Zipper</li>
   <li class="t3">Zits</li>
   <li class="t3">wax</li>
+  <li class="t3">cheese</li>
+  <li class="t3">cottage cheese</li>
   
 
 

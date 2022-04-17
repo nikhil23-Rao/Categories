@@ -17,7 +17,7 @@ import "../styles/globals.css";
 import "font-awesome/css/font-awesome.min.css";
 import { generateCategories } from "../utils/generateCategories";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: any) {
   // Hooks
   const [profileImg, setProfileImg] = useState<string>("");
 

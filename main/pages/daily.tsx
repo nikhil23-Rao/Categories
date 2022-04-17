@@ -142,7 +142,7 @@ const Daily = ({ profileImage }: IProps) => {
       setHidden(false);
       setTimeout(() => {
         onOpen();
-      }, 1000);
+      }, 100);
     }
   }, [submitted]);
 

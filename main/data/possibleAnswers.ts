@@ -12863,6 +12863,9 @@ export const possibleAnswers = [
   <li class="t3">ottawa</li>
   <li class="t3">quatar</li>
   <li class="t3">Barcelona</li>
+  <li class="t3">Connecticut</li>
+  <li class="t3">California</li>
+  <li class="t3">Colorado</li>
   
 
   <li class="t3">houston</li>

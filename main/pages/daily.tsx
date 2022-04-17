@@ -36,7 +36,8 @@ interface IProps {
 
 const Daily = ({ profileImage }: IProps) => {
   const [skips, setSkips] = useState<{ idx: number; skips: number }>(
-    localStorage.getItem("savedGameData")
+    localStorage.getItem("savedGameData") &&
+      JSON.parse(localStorage.getItem("savedGameData")!).skips
       ? JSON.parse(localStorage.getItem("savedGameData")!).skips
       : {
           idx: -1,
@@ -68,12 +69,14 @@ const Daily = ({ profileImage }: IProps) => {
   );
   const [loading, setLoading] = useState<number[]>([]);
   const [correct, setCorrect] = useState<number[]>(
-    localStorage.getItem("savedGameData")
+    localStorage.getItem("savedGameData") &&
+      JSON.parse(localStorage.getItem("savedGameData")!).correct
       ? JSON.parse(localStorage.getItem("savedGameData")!).correct
       : []
   );
   const [inCorrect, setInCorrect] = useState<number[]>(
-    localStorage.getItem("savedGameData")
+    localStorage.getItem("savedGameData") &&
+      JSON.parse(localStorage.getItem("savedGameData")!).inCorrect
       ? JSON.parse(localStorage.getItem("savedGameData")!).inCorrect
       : []
   );

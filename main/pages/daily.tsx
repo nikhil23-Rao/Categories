@@ -182,10 +182,8 @@ const Daily = ({ profileImage }: IProps) => {
 
   useEffect(() => {
     if (submitted) {
+      onOpen();
       setHidden(false);
-      setTimeout(() => {
-        onOpen();
-      }, 100);
     }
   }, [submitted]);
 

@@ -2,14 +2,14 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  bottom: 10px;
+  bottom: 20px;
   position: relative;
 }
 
 .container > * {
   margin-right: 14px;
   color: #a4a7ab;
-  font-size: 1.2vw;
+  font-size: 24px;
   top: 10px;
 }
 

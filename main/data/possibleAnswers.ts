@@ -10088,6 +10088,8 @@ export const possibleAnswers = [
     html: `
   <ul>
   <li class="t3">Apple</li>
+  <li class="t3">usurp</li>
+  <li class="t3">usher</li>
   <li class="t3">Great</li>
   <li class="t3">India</li>
   <li class="t3">Never</li>
@@ -12118,6 +12120,8 @@ export const possibleAnswers = [
   <li class="t3">Tea</li>
   <li class="t3">Lighter</li>
   <li class="t3">Nutcracker</li>
+  <li class="t3">Utensil</li>
+  <li class="t3">Utensils</li>
 
 </ul> 
   `,

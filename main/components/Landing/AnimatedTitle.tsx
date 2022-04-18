@@ -19,7 +19,7 @@ export const AnimatedTitle = () => {
     <div className={styles.bouncingText}>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -32,7 +32,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -45,7 +45,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -58,7 +58,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -71,7 +71,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -84,7 +84,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -97,7 +97,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -110,7 +110,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -123,7 +123,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone
@@ -136,7 +136,7 @@ export const AnimatedTitle = () => {
       </div>
       <div
         style={{
-          fontSize: isPhone ? 50 : "",
+          fontSize: isPhone ? 40 : "",
           color: getPrimaryColor(),
           textShadow:
             getTextShadowColor() === "none" || isPhone

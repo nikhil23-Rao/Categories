@@ -163,7 +163,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
                   style={{
                     width: "100%",
                     minWidth: 450,
-                    zoom: isPhone ? 0.9 : isMac ? 0.9 : 1.2,
+                    zoom: isPhone ? 0.8 : isMac ? 0.9 : 1.2,
                   }}
                 >
                   <button style={{ backgroundColor: getColor(), fontSize: 23 }}>
@@ -177,7 +177,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
               style={{
                 width: "100%",
                 minWidth: 450,
-                zoom: isPhone ? 0.9 : isMac ? 0.9 : 1.2,
+                zoom: isPhone ? 0.8 : isMac ? 0.9 : 1.2,
                 marginTop: 30,
               }}
             >
@@ -200,7 +200,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
               style={{
                 width: "100%",
                 minWidth: 450,
-                zoom: isPhone ? 0.9 : isMac ? 0.9 : 1.2,
+                zoom: isPhone ? 0.8 : isMac ? 0.9 : 1.2,
                 marginTop: 30,
               }}
             >

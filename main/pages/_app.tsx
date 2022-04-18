@@ -58,20 +58,22 @@ function MyApp({ Component, pageProps }: any) {
 
   // Render Root Component
   return (
-    <ChakraProvider resetCSS={false}>
-      <NextNProgress
-        color="#29D"
-        startPosition={0.3}
-        stopDelayMs={200}
-        height={4}
-        showOnShallow={true}
-      />
-      <Component
-        {...pageProps}
-        profileImage={profileImg}
-        setProfileImg={setProfileImg}
-      />
-    </ChakraProvider>
+    <>
+      <ChakraProvider resetCSS={false}>
+        <NextNProgress
+          color="#29D"
+          startPosition={0.3}
+          stopDelayMs={200}
+          height={4}
+          showOnShallow={true}
+        />
+        <Component
+          {...pageProps}
+          profileImage={profileImg}
+          setProfileImg={setProfileImg}
+        />
+      </ChakraProvider>
+    </>
   );
 }
 

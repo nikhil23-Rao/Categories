@@ -13493,6 +13493,8 @@ export const possibleAnswers = [
   <li class="t3">Wipes</li>
   <li class="t3">X-ray</li>
   <li class="t3">Yellow medicine</li>
+  <li class="t3">Cotton Balls</li>
+  <li class="t3">Cotton</li>
   <li class="t3">Zinc</li>
   <li class="t3">q-tips</li>
   

@@ -36,6 +36,7 @@
     "react-html-parser": "^2.0.2",
     "react-responsive": "^9.0.0-beta.6",
     "react-use": "^17.3.2",
+    "sitemap": "^7.1.1",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

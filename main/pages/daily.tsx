@@ -316,7 +316,7 @@ const Daily = ({ profileImage }: IProps) => {
     <div className={styles.container} style={{ background: getBGColor() }}>
       <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
       <div>
-        <div className={styles.game}>
+        <div className={styles.game} style={{ background: getBGColor() }}>
           {!hidden && <Confetti width={width} height={height} />}
           <div className={styles.leftWrap}>
             <div className={styles.letterWrap}>

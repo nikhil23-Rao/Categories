@@ -16,6 +16,7 @@ import * as style from "@dicebear/avatars-identicon-sprites";
 import "../styles/globals.css";
 import "font-awesome/css/font-awesome.min.css";
 import { generateCategories } from "../utils/generateCategories";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }: any) {
   // Hooks
@@ -59,6 +60,21 @@ function MyApp({ Component, pageProps }: any) {
   // Render Root Component
   return (
     <>
+      <Head>
+        <title>Categories - A Daily Word Game</title>
+        <meta name="description" content="The Categories Game" />
+        <meta property="og:title" content="Categories" />
+        <meta property="og:description" content="Categories word game" />
+        <meta
+          property="og:url"
+          content="https://thecategoriesgame.vercel.app"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          name="google-site-verification"
+          content="WVPJNUxImJ-g72LJw0ga1Wwx5Cz25CdXNvFSTw7dqPA"
+        />
+      </Head>
       <ChakraProvider resetCSS={false}>
         <NextNProgress
           color="#29D"

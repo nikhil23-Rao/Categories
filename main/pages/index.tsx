@@ -72,22 +72,6 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
           height: "100vh",
         }}
       >
-        <Head>
-          <title>Categories - A Daily Word Game</title>
-          <meta name="description" content="The Categories Game" />
-          <meta property="og:title" content="Categories" />
-          <meta property="og:description" content="Categories word game" />
-          <meta
-            property="og:url"
-            content="https://thecategoriesgame.vercel.app"
-          />
-          <meta property="og:type" content="website" />
-          <meta
-            name="google-site-verification"
-            content="WVPJNUxImJ-g72LJw0ga1Wwx5Cz25CdXNvFSTw7dqPA"
-          />
-        </Head>
-
         <div className={styles.headerContainer}>
           <div className={styles.headerItems}>
             {isPhone || isTablet ? (

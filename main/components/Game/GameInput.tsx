@@ -11,6 +11,8 @@ import {
 } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
 import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
+import AddTaskIcon from "@mui/icons-material/AddTask";
+import { useMediaQuery } from "react-responsive";
 
 interface IProps {
   title: string;
@@ -24,6 +26,8 @@ interface IProps {
   incorrect: boolean;
   onSkip: () => void;
   showSkip: boolean;
+  onMarkCorrect: () => void;
+  skipsObj: any;
 }
 
 export const GameInput = ({
@@ -38,8 +42,11 @@ export const GameInput = ({
   incorrect,
   onSkip,
   showSkip,
+  onMarkCorrect,
+  skipsObj,
 }: IProps) => {
   const [letters, setLetters] = useState<any[]>([]);
+  const isTablet = useMediaQuery({ maxWidth: 1353 });
   const [hovered, setHovered] = useState<boolean>(false);
   let currIndex = dailyCategories.length;
 
@@ -84,7 +91,11 @@ export const GameInput = ({
             value={value}
             onChange={(e) => onChange(e)}
             fontSize={30}
-            style={{ boxShadow: "none", color: getTextColor() }}
+            style={{
+              boxShadow: "none",
+              color: getTextColor(),
+              paddingRight: 50,
+            }}
             onFocus={onFocus}
             disabled={disabled}
           />
@@ -95,15 +106,18 @@ export const GameInput = ({
               justifyContent: "flex-end",
               flexDirection: "row",
               display: "flex",
+              position: "relative",
+              right: 10,
+              top: -5,
             }}
           >
             <Spinner
               style={{
                 color: getColor(),
                 position: "relative",
-                display: loading ? "block" : "none",
-                top: -7,
-                left: 2,
+                display: loading && value.length > 0 ? "block" : "none",
+                marginLeft: isTablet ? 80 : 40,
+                top: -3,
               }}
               thickness={"4px"}
             />
@@ -115,7 +129,7 @@ export const GameInput = ({
                 position: "relative",
                 zoom: 1.5,
                 display: correct && !loading ? "flex" : "none",
-                alignSelf: "flex-end",
+                marginLeft: isTablet ? 52 : 30,
               }}
             />
 
@@ -125,8 +139,11 @@ export const GameInput = ({
                 color: "#F66E72",
                 position: "relative",
                 zoom: 1.5,
-                display: incorrect && !loading ? "flex" : "none",
+                display:
+                  incorrect && !loading && value.length > 0 ? "flex" : "none",
                 alignSelf: "flex-end",
+                right: value.length > 0 && incorrect ? 10 : "",
+                marginLeft: 50,
               }}
             />
             <PlaylistAddCheckIcon
@@ -134,14 +151,36 @@ export const GameInput = ({
                 color: !showSkip ? getColor() : "gray",
                 position: "relative",
                 zoom: 1.8,
-                display: incorrect && !loading ? "block" : "none",
-                marginLeft: 10,
-                marginRight: 20,
+                display:
+                  (incorrect && !loading) || value.length === 0
+                    ? "block"
+                    : "none",
                 top: 2,
                 cursor: "pointer",
                 pointerEvents: !showSkip ? "all" : "none",
+                right: 2,
+                marginLeft:
+                  incorrect && !loading && value.length > 0
+                    ? ""
+                    : isTablet
+                    ? 50
+                    : 30,
               }}
               onClick={onSkip}
+              className="fade"
+            />
+            <AddTaskIcon
+              className="fade"
+              style={{
+                color: getColor(),
+                position: "relative",
+                zoom: 1.5,
+                display:
+                  incorrect && !loading && value.length > 0 ? "flex" : "none",
+                alignSelf: "flex-end",
+                cursor: "pointer",
+              }}
+              onClick={onMarkCorrect}
             />
           </div>
         </div>

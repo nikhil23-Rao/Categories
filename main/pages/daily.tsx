@@ -145,7 +145,7 @@ const Daily = ({ profileImage }: IProps) => {
     if (timerIsActive) {
       const intervalId = setInterval(function () {
         setAllTimeSeconds(allTimeSeconds + 1);
-        if (currSec === 59) {
+        if (currSec >= 59) {
           setCurrSec(0);
           setCurrMin(currMin + 1);
         } else setCurrSec(currSec + 1);
@@ -307,7 +307,7 @@ const Daily = ({ profileImage }: IProps) => {
   }, [daily]);
 
   if (!daily || typeof window === "undefined" || inputs.length !== 6)
-    return <h1>loading</h1>;
+    return <></>;
 
   // Return JSX Markup
   return (
@@ -381,7 +381,6 @@ const Daily = ({ profileImage }: IProps) => {
                     }}
                     onClick={() => {
                       setTimerIsActive(false);
-                      setPausesLeft(pausesLeft - 1);
                     }}
                   />
                 )}
@@ -440,7 +439,13 @@ const Daily = ({ profileImage }: IProps) => {
                         setCorrect([...correct, idx]);
                         setInCorrect(inCorrect.filter((i) => i !== idx));
                       }}
+                      onMarkCorrect={() => {
+                        setLoading(loading.filter((i) => i !== idx));
+                        setCorrect([...correct, idx]);
+                        setInCorrect(inCorrect.filter((i) => i !== idx));
+                      }}
                       showSkip={skips.idx !== -1}
+                      skipsObj={skips}
                       onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
                         const newInputs = [...inputs];
                         newInputs[idx].value = e.target.value;

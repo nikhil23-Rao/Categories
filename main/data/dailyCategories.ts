@@ -45,7 +45,7 @@ export const dailyCategories = [
       "Disney Character",
       "Items in a suitcase",
     ],
-    letter: "V",
+    letter: "S",
   },
   {
     dailyDate: "4/20/2022",

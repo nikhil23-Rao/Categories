@@ -28,6 +28,7 @@ import { generateCategories } from "../utils/generateCategories";
 import axios from "axios";
 import _, { shuffle } from "lodash";
 import { possibleAnswers } from "../data/possibleAnswers";
+import Check from "@mui/icons-material/Check";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -413,83 +414,115 @@ const Daily = ({ profileImage }: IProps) => {
               >
                 {inputs.length > 0 &&
                   daily?.inputs.map((item, idx) => (
-                    <GameInput
-                      key={idx}
-                      show={!timerIsActive}
-                      title={item}
-                      value={inputs[idx].value as string}
-                      disabled={submitted}
-                      onFocus={() => {
-                        const newInputs = [...inputs];
-                        newInputs[idx].focus = true;
-                        setInputs(newInputs);
-                      }}
-                      onSkip={() => {
-                        setSkips({ idx, skips: 0 });
-                        const newInputs = [...inputs];
-                        const arr = validAnswers
-                          .filter((a) => a.idx === idx)[0]
-                          .answers.filter((a: string) =>
-                            a.trim().startsWith(daily?.letter)
-                          );
-                        const newArr = shuffle(arr);
-                        newInputs[idx].value = newArr[0];
-                        setInputs(newInputs);
-                        setLoading(loading.filter((i) => i !== idx));
-                        setCorrect([...correct, idx]);
-                        setInCorrect(inCorrect.filter((i) => i !== idx));
-                      }}
-                      onMarkCorrect={() => {
-                        setLoading(loading.filter((i) => i !== idx));
-                        setCorrect([...correct, idx]);
-                        setInCorrect(inCorrect.filter((i) => i !== idx));
-                      }}
-                      showSkip={skips.idx !== -1}
-                      skipsObj={skips}
-                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-                        const newInputs = [...inputs];
-                        newInputs[idx].value = e.target.value;
-                        if (
-                          newInputs[idx].value.length > 0 &&
-                          newInputs[idx].value.charAt(0).toLowerCase() !==
-                            daily.letter.toLowerCase()
-                        ) {
-                          return (newInputs[idx].value = "");
-                        }
-                        setInputs(newInputs);
-
-                        if (runCount) {
-                          clearTimeout(runCount);
-                        }
-
-                        let id = setTimeout(async () => {
-                          const lower = validAnswers[idx].answers.map(
-                            (element: string) => {
-                              return element.toLowerCase().trim();
-                            }
-                          );
+                    <>
+                      <GameInput
+                        key={idx}
+                        show={!timerIsActive}
+                        title={item}
+                        value={inputs[idx].value as string}
+                        disabled={submitted}
+                        onFocus={() => {
+                          const newInputs = [...inputs];
+                          newInputs[idx].focus = true;
+                          setInputs(newInputs);
+                        }}
+                        onSkip={() => {
+                          setSkips({ idx, skips: 0 });
+                          const newInputs = [...inputs];
+                          const arr = validAnswers
+                            .filter((a) => a.idx === idx)[0]
+                            .answers.filter((a: string) =>
+                              a.trim().startsWith(daily?.letter)
+                            );
+                          const newArr = shuffle(arr);
+                          newInputs[idx].value = newArr[0];
+                          setInputs(newInputs);
+                          setLoading(loading.filter((i) => i !== idx));
+                          setCorrect([...correct, idx]);
+                          setInCorrect(inCorrect.filter((i) => i !== idx));
+                        }}
+                        onMarkCorrect={() => {
+                          setLoading(loading.filter((i) => i !== idx));
+                          setCorrect([...correct, idx]);
+                          setInCorrect(inCorrect.filter((i) => i !== idx));
+                        }}
+                        showSkip={skips.idx !== -1}
+                        skipsObj={skips}
+                        onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                          const newInputs = [...inputs];
+                          newInputs[idx].value = e.target.value;
                           if (
-                            lower.includes(
-                              newInputs[idx].value.toLowerCase().trim()
-                            )
+                            newInputs[idx].value.length > 0 &&
+                            newInputs[idx].value.charAt(0).toLowerCase() !==
+                              daily.letter.toLowerCase()
                           ) {
-                            setLoading(loading.filter((i) => i !== idx));
-                            setCorrect([...correct, idx]);
-                            setInCorrect(inCorrect.filter((i) => i !== idx));
-                          } else {
-                            setLoading(loading.filter((i) => i !== idx));
-                            setCorrect(correct.filter((i) => i !== idx));
-                            setInCorrect([...inCorrect, idx]);
+                            return (newInputs[idx].value = "");
                           }
-                        }, 200);
+                          setInputs(newInputs);
 
-                        setRunCount(id as any);
-                        setLoading([...loading, idx]);
-                      }}
-                      loading={loading.includes(idx)}
-                      correct={correct.includes(idx)}
-                      incorrect={inCorrect.includes(idx)}
-                    />
+                          if (runCount) {
+                            clearTimeout(runCount);
+                          }
+
+                          let id = setTimeout(async () => {
+                            const lower = validAnswers[idx].answers.map(
+                              (element: string) => {
+                                return element.toLowerCase().trim();
+                              }
+                            );
+                            if (
+                              lower.includes(
+                                newInputs[idx].value.toLowerCase().trim()
+                              )
+                            ) {
+                              setLoading(loading.filter((i) => i !== idx));
+                              setCorrect([...correct, idx]);
+                              setInCorrect(inCorrect.filter((i) => i !== idx));
+                            } else {
+                              setLoading(loading.filter((i) => i !== idx));
+                              setCorrect(correct.filter((i) => i !== idx));
+                              setInCorrect([...inCorrect, idx]);
+                            }
+                          }, 200);
+
+                          setRunCount(id as any);
+                          setLoading([...loading, idx]);
+                        }}
+                        loading={loading.includes(idx)}
+                        correct={correct.includes(idx)}
+                        incorrect={inCorrect.includes(idx)}
+                      />
+                      {submitted && (
+                        <div
+                          style={{
+                            width: "100%",
+                            borderBottom: "3px solid #fafafa",
+                          }}
+                        >
+                          <p
+                            style={{
+                              alignSelf: "flex-start",
+                              fontSize: 15,
+                              color: getTextColor(),
+                              paddingBottom: 0,
+                              paddingTop: 0,
+                            }}
+                            className="divider"
+                          >
+                            Most Common Answers:{" "}
+                            <b style={{ color: getColor() }}>
+                              {validAnswers
+                                .filter((a) => a.idx === idx)[0]
+                                .answers.filter((a: string) =>
+                                  a.trim().startsWith(daily?.letter)
+                                )
+                                .slice(0, 4)
+                                .join(", ")}
+                            </b>
+                          </p>
+                        </div>
+                      )}
+                    </>
                   ))}
                 {!submitted ? (
                   <div

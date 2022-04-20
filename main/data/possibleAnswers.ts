@@ -10093,6 +10093,7 @@ export const possibleAnswers = [
     html: `
   <ul>
   <li class="t3">Apple</li>
+  <li class="t3">Darks</li>
   <li class="t3">usurp</li>
   <li class="t3">usher</li>
   <li class="t3">Great</li>
@@ -10142,7 +10143,6 @@ export const possibleAnswers = [
   <li class="t3">Quail</li>
   <li class="t3">quack</li>
   <li class="t3">Dance</li>
-  <li class="t3">Drink</li>
   <li class="t3">Earth</li>
   <li class="t3">Light</li>
   <li class="t3">Yemen</li>

@@ -14728,6 +14728,8 @@ export const possibleAnswers = [
     categoryName: "Ways To Get From Here To There",
     html: `<ul>
   <li class="t3">Jet</li>
+  <li class="t3">Driving</li>
+  <li class="t3">Drive</li>
   <li class="t3">Kia</li>
   <li class="t3">Quest</li>
   <li class="t3">Quick walk</li>

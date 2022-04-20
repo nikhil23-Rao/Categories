@@ -492,7 +492,7 @@ const Daily = ({ profileImage }: IProps) => {
                         correct={correct.includes(idx)}
                         incorrect={inCorrect.includes(idx)}
                       />
-                      {submitted && (
+                      {submitted && validAnswers.length > 0 && (
                         <div
                           style={{
                             width: "100%",

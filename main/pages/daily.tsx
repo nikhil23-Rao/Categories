@@ -268,7 +268,7 @@ const Daily = ({ profileImage }: IProps) => {
   }, [daily, currMin, currSec, inputs, correct, inCorrect, skips]);
 
   useEffect(() => {
-    if (inCorrect.length === 0 && correct.length === 6) {
+    if (inCorrect.length === 0 || correct.length >= 6) {
       setDisabled(false);
     } else {
       setDisabled(true);

@@ -69,7 +69,7 @@ export const dailyCategories = [
       "State of the United States",
       "Gift for husband",
     ],
-    letter: "D",
+    letter: "M",
   },
   {
     dailyDate: "4/22/2022",

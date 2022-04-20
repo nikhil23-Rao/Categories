@@ -10184,7 +10184,6 @@ export const possibleAnswers = [
   <li class="t3">Lover</li>
   <li class="t3">Jumps</li>
   <li class="t3">James</li>
-  <li class="t3">Dicks</li>
   <li class="t3">Quill</li>
   <li class="t3">Order</li>
   <li class="t3">Round</li>

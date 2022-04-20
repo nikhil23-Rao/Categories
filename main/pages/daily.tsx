@@ -511,11 +511,13 @@ const Daily = ({ profileImage }: IProps) => {
                           >
                             Most Common Answers:{" "}
                             <b style={{ color: getColor() }}>
-                              {validAnswers
-                                .filter((a) => a.idx === idx)[0]
-                                .answers.filter((a: string) =>
-                                  a.trim().startsWith(daily?.letter)
-                                )
+                              {shuffle(
+                                validAnswers
+                                  .filter((a) => a.idx === idx)[0]
+                                  .answers.filter((a: string) =>
+                                    a.trim().startsWith(daily?.letter)
+                                  )
+                              )
                                 .slice(0, 4)
                                 .join(", ")}
                             </b>

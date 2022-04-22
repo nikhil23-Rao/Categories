@@ -77,7 +77,7 @@ export const dailyCategories = [
       "Things you do in the morning",
       "Hobby",
       "Furniture",
-      "Kind of Candy",
+      "kinds of pizza toppings",
       "Things that use a remote",
       "Youtuber",
     ],
@@ -93,7 +93,7 @@ export const dailyCategories = [
       "Dessert",
       "State of the United States",
     ],
-    letter: "U",
+    letter: "A",
   },
   {
     dailyDate: "4/24/2022",

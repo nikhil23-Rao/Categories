@@ -29,6 +29,7 @@ import axios from "axios";
 import _, { shuffle } from "lodash";
 import { possibleAnswers } from "../data/possibleAnswers";
 import Check from "@mui/icons-material/Check";
+import pluralize from "pluralize";
 
 // Props That The Home Component Takes
 interface IProps {

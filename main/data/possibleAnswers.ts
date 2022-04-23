@@ -8643,15 +8643,8 @@ export const possibleAnswers = [
   <li class="t3">Quiet</li>
   <li class="t3">Utah.</li>
   <li class="t3">Washington</li>
-  <li class="t3">Zoo</li>
   <li class="t3">california</li>
   <li class="t3">hawai</li>
-  <li class="t3">queensland</li>
-  
-
-
-  <li class="t3">york</li>
-  <li class="t3">zalifornia</li>
   <li class="t3">Maryland</li>
   <li class="t3">Young</li>
   <li class="t3">Yuma</li>
@@ -8674,7 +8667,6 @@ export const possibleAnswers = [
   <li class="t3">Bankrupt</li>
   <li class="t3">Vermount</li>
   <li class="t3">geogia</li>
-  <li class="t3">Spain.</li>
   <li class="t3">KENTUCKY</li>
   <li class="t3">Dellaware</li>
   <li class="t3">ukraine</li>

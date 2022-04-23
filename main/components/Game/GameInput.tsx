@@ -122,66 +122,123 @@ export const GameInput = ({
               thickness={"4px"}
             />
 
-            <CheckCircle
-              className="fade"
-              style={{
-                color: "lightgreen",
-                position: "relative",
-                zoom: 1.5,
-                display: correct && !loading ? "flex" : "none",
-                marginLeft: isTablet ? 52 : 30,
-              }}
-            />
-
-            <Cancel
-              className="fade"
-              style={{
-                color: "#F66E72",
-                position: "relative",
-                zoom: 1.5,
-                display:
-                  incorrect && !loading && value.length > 0 ? "flex" : "none",
-                alignSelf: "flex-end",
-                right: value.length > 0 && incorrect ? 10 : "",
-                marginLeft: 50,
-              }}
-            />
-            <PlaylistAddCheckIcon
-              style={{
-                color: !showSkip ? getColor() : "gray",
-                position: "relative",
-                zoom: 1.8,
-                display:
-                  (incorrect && !loading) || value.length === 0
-                    ? "block"
-                    : "none",
-                top: 2,
-                cursor: "pointer",
-                pointerEvents: !showSkip ? "all" : "none",
-                right: 2,
-                marginLeft:
-                  incorrect && !loading && value.length > 0
-                    ? ""
-                    : isTablet
-                    ? 50
-                    : 30,
-              }}
-              onClick={onSkip}
-              className="fade"
-            />
-            <AddTaskIcon
-              className="fade"
-              style={{
-                color: getColor(),
-                position: "relative",
-                zoom: 1.5,
-                display:
-                  incorrect && !loading && value.length > 0 ? "flex" : "none",
-                alignSelf: "flex-end",
-                cursor: "pointer",
-              }}
-              onClick={onMarkCorrect}
-            />
+            <div>
+              <CheckCircle
+                className="fade has-tooltip"
+                style={{
+                  color: "lightgreen",
+                  position: "relative",
+                  zoom: 1.5,
+                  display: correct && !loading ? "flex" : "none",
+                  marginLeft: isTablet ? 52 : 30,
+                  cursor: "pointer",
+                }}
+              />
+              <span
+                className="correct tooltip green"
+                style={{
+                  position: "absolute",
+                  left: "-21%",
+                  backgroundColor: "lightgreen",
+                  color: "#000",
+                  textAlign: "center",
+                  width: 200,
+                  top: -5,
+                }}
+              >
+                Accepted Answer
+              </span>
+            </div>
+            <div>
+              <Cancel
+                className="fade has-tooltip"
+                style={{
+                  color: "#F66E72",
+                  position: "relative",
+                  zoom: 1.5,
+                  display:
+                    incorrect && !loading && value.length > 0 ? "flex" : "none",
+                  alignSelf: "flex-end",
+                  right: value.length > 0 && incorrect ? 10 : "",
+                  marginLeft: 50,
+                  cursor: "pointer",
+                }}
+              />
+              <span
+                className="tooltip red"
+                style={{
+                  position: "absolute",
+                  left: "1%",
+                  backgroundColor: "#F66E72",
+                }}
+              >
+                Not Accepted
+              </span>
+            </div>
+            <div>
+              <PlaylistAddCheckIcon
+                className="fade has-tooltip"
+                style={{
+                  color: !showSkip ? getColor() : "gray",
+                  position: "relative",
+                  zoom: 1.8,
+                  display:
+                    (incorrect && !loading) || value.length === 0
+                      ? "block"
+                      : "none",
+                  top: 2,
+                  cursor: "pointer",
+                  pointerEvents: !showSkip ? "all" : "none",
+                  right: 2,
+                  marginLeft:
+                    incorrect && !loading && value.length > 0
+                      ? ""
+                      : isTablet
+                      ? 50
+                      : 30,
+                }}
+                onClick={onSkip}
+              />
+              <span
+                className="tooltip"
+                style={{
+                  position: "absolute",
+                  left: "65%",
+                  backgroundColor: getColor(),
+                }}
+              >
+                Skip
+              </span>
+            </div>
+            <div>
+              <AddTaskIcon
+                className="fade has-tooltip"
+                style={{
+                  color: getColor(),
+                  position: "relative",
+                  zoom: 1.5,
+                  display:
+                    incorrect && !loading && value.length > 0 ? "flex" : "none",
+                  alignSelf: "flex-end",
+                  cursor: "pointer",
+                }}
+                onClick={onMarkCorrect}
+              />
+              <span
+                className="correct tooltip green"
+                style={{
+                  position: "absolute",
+                  left: "48%",
+                  backgroundColor: "lightgreen",
+                  color: "#000",
+                  textAlign: "center",
+                  width: 200,
+                  top: -5,
+                }}
+              >
+                Mark as Correct
+              </span>
+            </div>
           </div>
         </div>
       </div>

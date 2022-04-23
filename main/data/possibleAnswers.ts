@@ -569,11 +569,110 @@ export const possibleAnswers = [
   <li class="t3">Quinn</li>
   <li class="t3">Sam</li>
   <li class="t3">William</li>
-  
-
-
+ <li class="t10">Sam</li>
+ <li class="t2">Santiago</li>
+ <li class="t2">Saul</li>
+ <li class="t2">Scott</li>
+ <li class="t4">Sean</li>
+ <li class="t3">Sebastian</li>
+ <li class="t2">Seth</li>
+ <li class="t2">Shawn</li>
+ <li class="t4">Simon</li>
+ <li class="t2">Stephen</li>
+<li class="t4">Steve</li>
+<li class="t4">Steven</li>
+<li class="t2">Sammy</li>
+<li class="t2">Sergio</li>
+<li class="t2">Shane</li>
+<li class="t2">Shaun</li>
+<li>Spencer</li>
+<li>Sid</li>
+<li>Stuart</li>
+<li>Sandro</li>
+<li>Stan</li>
+<li>Sal</li>
+<li>Stanley</li>
+<li>Stefan</li>
+<li>Stephan</li>
+<li>Stewart</li>
+<li>Sandy</li>
+<li>Samson</li>
+<li>Solomon</li>
+<li>Sawyer</li>
+<li>Sonny</li>
+<li>Sven</li>
+<li>Silas</li>
+<li>Sylvester</li>
+<li>Sheldon</li>
+<li>Sasha</li>
+<li>Sunny</li>
+<li>Samir</li>
+<li>Sander</li>
+<li>Salvador</li>
+<li>Smith</li>
+<li>Sami</li>
+<li>Sanjay</li>
+<li>Sahil</li>
+<li>Salomon</li>
+<li>Seamus</li>
+<li>Silvio</li>
+<li>Sidney</li>
+<li>Sully</li>
+<li>Severus</li>
+<li>Suresh</li>
+<li>Sherman</li>
+<li>Sameer</li>
+<li>Sullivan</li>
+<li>Snape</li>
+<li>Skyler</li>
+<li>Soren</li>
+<li>Simeon</li>
+<li>Suraj</li>
+<li>Sampson</li>
+ <li>Samy</li>
+ <li>Salman</li>
+ <li>Seb</li>
+ <li>Santino</li>
+ <li>Salim</li>
+ <li>Sacha</li>
+ <li>Stefano</li>
+ <li>Salem</li>
+ <li>Sebastien</li>
+ <li>Salvatore</li>
+ <li>Sirius</li>
+ <li>Sachin</li>
+ <li>SAMUEL</li>
+ <li>Sunil</li>
+ <li>Sandeep</li>
+ <li>Skylar</li>
+ <li>Sascha</li>
+ <li>Silvester</li>
+ <li>Santi</li>
+ <li>San</li>
+ <li>Scotty</li>
+ <li>Sage</li>
+ <li>Sasuke</li>
+ <li>Serge</li>
+ <li>Sai</li>
+ <li>Salazar</li>
+ <li>Simone</li>
+ <li>Sanders</li>
+ <li>Sherlock</li>
+ <li>Simba</li>
+ <li>Sydney</li>
+ <li>Surya</li>
+ <li>Saad</li>
+ <li>Shannon</li>
+ <li>Sagar</li>
+ <li>Sue</li>
+ <li>Soham</li>
+ <li>Sky</li>
+ <li>Sebastion</li>
+ <li>Samer</li>
   <li class="t3">Zack</li>
+
   <li class="t3">xander</li>
+
   <li class="t3">Ivan</li>
   <li class="t3">George</li>
   <li class="t3">Tom</li>
@@ -4295,11 +4394,116 @@ export const possibleAnswers = [
   <li class="t3">quince pie</li>
   <li class="t3">vanilla ice cream</li>
   <li class="t3">yogurt</li>
-  
+  <li class="t7">Shake</li>
+  <li class="t8">Smores</li>
+  <li class="t11">Sorbet</li>
+  <li class="t8">Sponge cake</li>
+  <li class="t7">Strawberry ice cream</li>
+  <li class="t7">Sugar cookies</li>
+  <li class="t7">Sweets</li>
+  <li class="t7">sherbert</li>
+  <li class="t8">souffle</li>
+  <li class="t7">strawberry cake</li>
+
+                                                        
+
+ <li class="t7">strawberry cheesecake</li>
+ <li class="t10">sundae</li>
+ <li class="t6">Smoothie</li>
+ <li class="t6">Sherbet</li>
+ <li class="t6">Shortcake</li>
+ <li class="t6">Sugar cookie</li>
+ <li class="t6">Strawberries</li>
+ <li class="t5">Snickers</li>
+ <li class="t5">Skittles</li>
+ <li class="t5">Strawberry pie</li>
+ <li class="t5">Strawberry</li>
+ <li class="t5">Syrup</li>
+ <li class="t4">sheet cake</li>
+ <li class="t4">Snow cone</li>
+ <li class="t4">soufle</li>
+ <li class="t4">Scones</li>
+ <li class="t4">Sticky toffee pudding</li>
+ <li class="t4">Strawberries and cream</li>
+ <li class="t4">S’mores</li>
+ <li class="t4">shortbread</li>
+ <li class="t4">Swiss roll</li>
+ <li class="t4">shaved ice</li>
+ <li class="t4">Spongecake</li>
+ <li class="t4">Strawberry icecream</li>
+ <li class="t4">Scone</li>
+ <li class="t3">sunday</li>
+ <li class="t3">salted caramel</li>
+ <li class="t3">Snowcone</li>
+ <li class="t3">Strawberry tart</li>
+ <li class="t3">sponge cake</li>
+ <li class="t3">Silk pie</li>
+ <li class="t3">Slushie</li>
+ <li class="t3">strawberry ice cream</li>
+ <li class="t3">Slice of pie</li>
+ <li class="t3">sour candy</li>
+ <li class="t3">Sweet potato pie</li>
+ <li class="t3">Smore</li>
+ <li class="t3">Spice cake</li>
+ <li class="t3">sweet tarts</li>
+ <li class="t3">soft serve</li>
+ <li class="t3">sour patch kids</li>
+ <li class="t3">Sprinkles</li>
+ <li class="t3">slurpee</li>
+ <li class="t3">sweet tart</li>
+ <li class="t3">Smarties</li>
+ <li class="t3">S'mores</li>
+ <li class="t2">Slushy</li>
+ <li class="t2">slice of cake</li>
+ <li class="t2">strawberry milkshake</li>
+ <li class="t2">strawberry icecream</li>
+ <li class="t2">salted caramel ice cream</li>
+ <li class="t2">Shakes</li>
+ <li class="t2">Sticky buns</li>
+ <li class="t2">Sponge</li>
+ <li class="t2">Sufle</li>
+ <li class="t2">Semolina</li>
+ <li class="t2">Sesame seed cake</li>
+ <li class="t2">Slice</li>
+ <li class="t2">strudel</li>
+ <li class="t2">Strawberry sundae</li>
+ <li class="t2">Snickerdoodle</li>
+ <li class="t2">Suffle</li>
+ <li class="t2">sago</li>
+ <li class="t2">Sticky date pudding</li>
+ <li class="t2">Sopapilla</li>
+ <li class="t2">sweet cream</li>
+ <li class="t2">Sweet cake</li>
+ <li class="t2">Soft serve ice cream</li>
+ <li class="t2">Strawberry mousse</li>
+ <li class="t2">Sachertorte</li>
+ <li class="t2">Salt</li>
+ <li class="t2">swedish fish</li>
+ <li class="t2">Sweet bread</li>
+ <li class="t2">Strawberry Short Cake</li>
+ <li class="t2">starburst</li>
+ <li class="t2">Souflee</li>
+ <li class="t2">Sugar pie</li>
+ <li class="t2">salted caramel cake</li>
+ <li class="t2">soft ice cream</li>
+ <li class="t2">short cake</li>
+ <li class="t2">schokolade</li>
+ <li class="t2">salted caramel icecream</li>
+ <li class="t2">Sopapillas</li>
+ <li class="t2">shortbread cookies</li>
+ <li class="t2">sticky rice</li>
+ <li class="t2">Scoop of ice cream</li>
+ <li>Soda</li>
+ <li>Snack cake</li>
+ <li>Strawberry cheese cake</li>
+ <li>Slurpie</li>
+
 
 
   <li class="t3">zebra cake</li>
+
   <li class="t3">zebra cakes</li>
+
   <li class="t3">white chocolate</li>
   <li class="t3">Icing</li>
   <li class="t3">unicorn cake</li>
@@ -4511,6 +4715,66 @@ export const possibleAnswers = [
     categoryName: "School supplies",
     html: `
   <ul>
+ <li class="t2">School bag</li>
+  <li class="t10">Scissors</li>
+  <li class="t8">Sharpener</li>
+  <li class="t5">Sharpie</li>
+  <li class="t2">Sharpies</li>
+  <li class="t2">Shoes</li>
+  <li class="t3">Stationary</li>
+  <li class="t5">Stencil</li>
+  <li class="t2">Sticky notes</li>
+  <li class="t2">school bag</li>
+<li class="t3">staples</li>
+<li class="t3">stickers</li>
+<li class="t2">Scale</li>
+<li class="t2">Satchel</li>
+<li class="t2">Sheets of paper</li>
+<li class="t2">schoolbag</li>
+<li class="t2">Staple</li>
+<li class="t2">School book</li>
+<li class="t2">School books</li>
+<li class="t2">Stationery</li>
+<li class="t2">Scissor</li>
+<li>Super glue</li>
+<li>Spiral notebook</li>
+<li>Sketchbook</li>
+<li>Sanitizer</li>
+<li>Sheet of paper</li>
+<li>Stamp</li>
+<li>Science book</li>
+<li>scrap paper</li>
+<li>sticky tape</li>
+<li>Slide rule</li>
+<li>School uniform</li>
+<li>scotch tape</li>
+<li>Scotch tape</li>
+<li>Soap</li>
+<li>Stift</li>
+<li>sacapuntas</li>
+<li>snacks</li>
+<li>Sketch book</li>
+<li>Stamps</li>
+<li>Sheet</li>
+<li>Scientific calculator</li>
+<li>sticker</li>
+<li>snack</li>
+<li>sissors</li>
+<li>Sandwich</li>
+<li>sharperner</li>
+<li>Sock</li>
+<li>sack</li>
+<li>school books</li>
+<li>Staple remover</li>
+<li>School glue</li>
+<li>Schedule</li>
+<li>Sellotape</li>
+<li>Slate</li>
+<li>Stapeler</li>
+<li>sisors</li>
+<li>Set square</li>
+<li>schoolbook</li>
+<li>Sheets</li>
   <li class="t3">Book</li>
   <li class="t3">Glue</li>
   <li class="t3">Highlighter</li>
@@ -4521,9 +4785,6 @@ export const possibleAnswers = [
   <li class="t3">Uniform</li>
   <li class="t3">Xacto knife</li>
   <li class="t3">Xbox</li>
-  
-
-
   <li class="t3">Xerox paper</li>
   <li class="t3">Zipper</li>
   <li class="t3">ipad</li>
@@ -5198,9 +5459,109 @@ export const possibleAnswers = [
   <li class="t3">Vans</li>
   <li class="t3">Xbox</li>
   <li class="t3">Yamaha</li>
-  
+  <li class="t4">Saint Laurent</li>
+  <li class="t11">Samsung</li>
+  <li class="t5">Sears</li>
+  <li class="t6">Sephora</li>
+  <li class="t4">Snickers</li>
+  <li class="t9">Sony</li>
+  <li class="t4">Sprite</li>
+  <li class="t5">Starbucks</li>
+  <li class="t4">Subaru</li>
+  <li class="t4">Superdry</li>
 
+ 
 
+<li class="t8">Supreme</li>
+<li class="t5">Suzuki</li>
+<li class="t3">Swarovski</li>
+<li class="t3">Shein</li>
+<li class="t3">Skittles</li>
+<li class="t3">Swatch</li>
+<li class="t3">Speedo</li>
+<li class="t3">Salomon</li>
+<li class="t3">Seat</li>
+<li class="t3">Subway</li>
+<li class="t3">Staples</li>
+<li class="t3">Samsonite</li>
+<li class="t3">Skoda</li>
+<li class="t3">Safeway</li>
+<li class="t2">Stradivarius</li>
+<li class="t2">Slazenger</li>
+<li class="t2">Shell</li>
+<li class="t2">Steve Madden</li>
+<li class="t2">Sega</li>
+<li class="t2">superga</li>
+<li class="t2">Siemens</li>
+<li class="t2">Smiggle</li>
+<li class="t2">Salvatore Ferragamo</li>
+<li class="t2">Snapple</li>
+<li class="t2">Sunkist</li>
+<li class="t2">Seiko</li>
+<li class="t2">Sharpie</li>
+<li class="t2">skechers</li>
+<li class="t2">Swiss</li>
+<li class="t2">Spotify</li>
+<li class="t2">Sam's Club</li>
+<li class="t2">Singer</li>
+<li class="t2">Starburst</li>
+<li class="t2">stussy</li>
+<li class="t2">Sharp</li>
+<li>Sportsgirl</li>
+<li>Sperry</li>
+<li>Snipes</li>
+<li>suave</li>
+<li>S13</li>
+<li>Saab</li>
+<li>Saturn</li>
+<li>Skype</li>
+<li>Sams Club</li>
+<li>swiss army</li>
+<li>Simple</li>
+<li>Smirnoff</li>
+<li>Stella McCartney</li>
+<li>Sally Hansen</li>
+<li>Shiseido</li>
+<li>Sisley</li>
+<li>Seed</li>
+<li>supre</li>
+<li>Silk</li>
+<li>Spanx</li>
+<li>Scott</li>
+<li>Seafolly</li>
+<li>Schweppes</li>
+<li>Sainsbury's</li>
+<li>sonic</li>
+<li>Santander</li>
+<li>Solo</li>
+<li>saucony</li>
+<li>Smuckers</li>
+<li>smiths</li>
+<li>Sainsburys</li>
+<li>Sandro</li>
+<li>Stella</li>
+<li>Secret</li>
+<li>Super dry</li>
+<li>Sams</li>
+<li>Sabritas</li>
+<li>Snapchat</li>
+<li>Spam</li>
+<li>Sunny D</li>
+<li>Sprint</li>
+<li>Supra</li>
+<li>Sonos</li>
+<li>spandex</li>
+<li>star</li>
+<li>Scion</li>
+<li>Swiffer</li>
+<li>Star Wars</li>
+<li>S'well</li>
+<li>swiss miss</li>
+<li>Seven</li>
+<li>Scotch</li>
+<li>seven eleven</li>
+<li>Spencers</li>
+<li>sanyo</li>
   <li class="t3">Zara</li>
   <li class="t3">xerox</li>
   <li class="t3">Intel</li>
@@ -8338,9 +8699,8 @@ export const possibleAnswers = [
   <li class="t3">Victorious</li>
   <li class="t3">goergia</li>
   <li class="t3">gorga</li>
-  <li class="t3">South Carolina, South Dakota</li>
-  
-
+  <li class="t3">South Carolina</li>
+  <li class="t3">South Dakota</li>
   <li class="t3">penselvania</li>
   <li class="t3">Portland.</li>
   <li class="t3">Luissiana</li>
@@ -18821,16 +19181,133 @@ export const possibleAnswers = [
   {
     categoryName: "Things found in a hospital",
     html: `<ul>
+   <li class="t7">Sanitizer</li>
+   <li class="t11">Scalpel</li>
+   <li class="t11">Scissors</li>
+   <li class="t9">Sheets</li>
+   <li class="t7">Socks</li>
+   <li class="t9">Stethoscope</li>
+   <li class="t8">Surgeon</li>
+   <li class="t7">Surgeons</li>
+   <li class="t7">saline</li>
+   <li class="t8">scrubs</li>
+
+  
+<li class="t10">sick people</li>
+<li class="t9">soap</li>
+<li class="t6">Stitches</li>
+<li class="t6">soup</li>
+<li class="t6">Stretcher</li>
+<li class="t5">shots</li>
+<li class="t5">sad people</li>
+<li class="t5">Seats</li>
+<li class="t5">syringes</li>
+<li class="t5">Sickness</li>
+<li class="t5">Stairs</li>
+<li class="t4">shoes</li>
+<li class="t4">Surgery</li>
+<li class="t4">Slippers</li>
+<li class="t4">Staff</li>
+<li class="t4">Sink</li>
+<li class="t4">Sanitiser</li>
+<li class="t3">sick</li>
+<li class="t3">Saw</li>
+<li class="t3">Sadness</li>
+<li class="t3">Scissor</li>
+<li class="t3">spoon</li>
+<li class="t3">stiches</li>
+<li class="t3">Signs</li>
+<li class="t3">Staples</li>
+<li class="t3">sponge</li>
+<li class="t3">Scars</li>
+<li class="t3">Scale</li>
+<li class="t3">Surgical masks</li>
+<li class="t3">Saline solution</li>
+<li class="t3">surgical mask</li>
+<li class="t2">salt</li>
+<li class="t2">Stool</li>
+<li class="t2">Spoons</li>
+<li class="t2">sofa</li>
+<li class="t2">Scalpal</li>
+<li class="t2">surgical equipment</li>
+<li class="t2">Stretchers</li>
+<li class="t2">scalple</li>
+<li class="t2">sutures</li>
+<li class="t2">Skin</li>
+<li class="t2">Shower</li>
+<li class="t2">samples</li>
+<li class="t2">Slings</li>
+<li class="t2">Straps</li>
+<li class="t2">sinks</li>
+<li class="t2">Seringe</li>
+<li class="t2">Sandals</li>
+<li class="t2">Sandwich</li>
+<li class="t2">sling</li>
+
+  
+
+ <li class="t2">sores</li>
+ <li class="t2">stethescope</li>
+ <li class="t2">Scapel</li>
+ <li class="t2">Swabs</li>
+ <li class="t2">Sterilizer</li>
+ <li class="t2">Surgery room</li>
+ <li class="t2">Steroids</li>
+ <li class="t2">Silicone</li>
+ <li class="t2">suture</li>
+ <li class="t2">Seat</li>
+ <li class="t2">stephascope</li>
+ <li class="t2">Stapler</li>
+ <li class="t2">Suffering</li>
+ <li class="t2">Snacks</li>
+ <li class="t2">Sandwiches</li>
+ <li class="t2">straws</li>
+ <li class="t2">Sheet</li>
+ <li class="t2">Sedatives</li>
+ <li>surgical gloves</li>
+ <li>Shirt</li>
+ <li>Schere</li>
+ <li>shot</li>
+ <li>Screens</li>
+ <li>Scanner</li>
+ <li>Screen</li>
+ <li>Syrup</li>
+ <li>sick patient</li>
+ <li>Sangre</li>
+ <li>Sleeping patients</li>
+ <li>Sepsis</li>
+ <li>serum</li>
+ <li>shirts</li>
+ <li>Stuff</li>
+ <li>Scapula</li>
+ <li>snake</li>
+ <li>Surgeries</li>
+ <li>Shoe</li>
+ <li>Sound</li>
+ <li>Stethoscopes</li>
+ <li>spit</li>
+
+                                                   
   <li class="t3">Bed</li>
+
   <li class="t3">Doctor</li>
+
   <li class="t3">Quarantine</li>
+
   <li class="t3">Quilt</li>
+
   <li class="t3">Water</li>
+
   <li class="t3">X-ray</li>
+
   <li class="t3">Xray</li>
+
   <li class="t3">Yoghurt</li>
+
   <li class="t3">You</li>
+
   <li class="t3">Zebra</li>
+
   
 
 

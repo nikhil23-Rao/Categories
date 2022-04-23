@@ -1,5 +1,5 @@
 // NextJS Imports
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 
 // Component Imports
@@ -31,6 +31,7 @@ import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 import Help from "@mui/icons-material/Help";
 import { useMediaQuery } from "react-responsive";
 import Menu from "@mui/icons-material/Menu";
+import { addToSheets } from "../utils/addToSheets";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -39,6 +40,9 @@ interface IProps {
 }
 
 const Home = ({ profileImage, setProfileImg }: IProps) => {
+  useEffect(() => {
+    // addToSheets(1);
+  }, []);
   // Hooks
   const {
     isOpen: settingsModalIsOpen,

@@ -862,3 +862,92 @@ form:invalid + button {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+.center {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.has-tooltip:hover + .tooltip,
+.has-tooltip:focus + .tooltip,
+.has-tooltip.hover + .tooltip {
+  opacity: 1;
+  transform: translate(-50%, -100%) scale(1) rotate(0deg);
+  pointer-events: inherit;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.75) rotate(5deg);
+  transform-origin: bottom center;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  color: white;
+  transition: 0.15s ease-in-out;
+  opacity: 0;
+  width: 100%;
+  max-width: 100vw;
+  pointer-events: none;
+  z-index: 5;
+}
+.tooltip.blue {
+  background: rgba(71, 184, 224, 0.75);
+}
+.tooltip.blue:after {
+  border-top: 5px solid rgba(71, 184, 224, 0.75);
+}
+.tooltip.red {
+  background:#F66E72;
+}
+.tooltip.red:after {
+  border-top: 5px solid #F66E72;
+}
+.tooltip.green {
+  background: lightgreen;
+}
+.tooltip.green:after {
+  border-top: 5px solid lightgreen;
+}
+.tooltip.purple {
+  background: rgba(165, 147, 224, 0.75);
+}
+.tooltip.purple:after {
+  border-top: 5px solid rgba(165, 147, 224, 0.75);
+}
+.tooltip:hover {
+  opacity: 1;
+  transform: translate(-50%, -100%) scale(1) rotate(0deg);
+  pointer-events: inherit;
+}
+.tooltip img {
+  max-width: 100%;
+}
+.tooltip:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  widtH: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  transform: translate(-50%, 100%);
+}
+
+.field {
+  position: relative;
+  padding: 20px;
+}

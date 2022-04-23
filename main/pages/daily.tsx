@@ -296,14 +296,9 @@ const Daily = ({ profileImage }: IProps) => {
   }, [inputs, inCorrect, correct]);
 
   useEffect(() => {
-    console.log("HI", inCorrect);
-  }, [inCorrect]);
-
-  useEffect(() => {
     const dom = new DOMParser();
     let data: any[] = [];
     if (daily && daily.inputs.length === 6) {
-      console.log("hi", daily.inputs);
       for (const possibleAnswer of possibleAnswers) {
         if (daily?.inputs.includes(possibleAnswer.categoryName)) {
           const doc = dom.parseFromString(possibleAnswer.html, "text/html");

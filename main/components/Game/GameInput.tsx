@@ -225,12 +225,11 @@ export const GameInput = ({
                 onClick={onMarkCorrect}
               />
               <span
-                className="correct tooltip green"
+                className="correct tooltip"
                 style={{
                   position: "absolute",
-                  left: "48%",
-                  backgroundColor: "lightgreen",
-                  color: "#000",
+                  left: "68%",
+                  backgroundColor: getColor(),
                   textAlign: "center",
                   width: 200,
                   top: -5,

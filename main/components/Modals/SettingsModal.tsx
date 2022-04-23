@@ -139,7 +139,7 @@ export const SettingsModal = ({ isOpen, onClose, onOpen }: IProps) => {
                         JSON.stringify(theme.correspondingThemeObject)
                       );
                       setCheckedTheme(theme);
-                      window.location.reload();
+                      onClose();
                     }}
                     type="checkbox"
                   />

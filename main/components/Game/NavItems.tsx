@@ -19,32 +19,28 @@ interface IProps {
   onClick: () => void;
   timer: [boolean, string];
   submitted: boolean;
+  howToPlayModalOnOpen: () => void;
+  settingsModalOnOpen: () => void;
+  editUsernameModalOnOpen: () => void;
 }
 
-export const NavItems = ({ onClick, timer, submitted }: IProps) => {
-  const router = useRouter();
-  const isPhone = useMediaQuery({ maxWidth: 642 });
-  const isTablet = useMediaQuery({ maxWidth: 1353 });
-  const {
-    isOpen: editUsernameModalIsOpen,
-    onClose: editUsernameModalOnClose,
-    onOpen: editUsernameModalOnOpen,
-  } = useDisclosure();
-  const {
-    isOpen: settingsModalIsOpen,
-    onClose: settingsModalOnClose,
-    onOpen: settingsModalOnOpen,
-  } = useDisclosure();
+export const NavItems = ({
+  onClick,
+  timer,
+  submitted,
+  editUsernameModalOnOpen,
+  howToPlayModalOnOpen,
+  settingsModalOnOpen,
+}: IProps) => {
   const {
     isOpen: mobileModalIsOpen,
     onClose: mobileModalOnClose,
     onOpen: mobileModalOnOpen,
   } = useDisclosure();
-  const {
-    isOpen: howToPlayModalIsOpen,
-    onClose: howToPlayModalOnClose,
-    onOpen: howToPlayModalOnOpen,
-  } = useDisclosure();
+  const router = useRouter();
+  const isPhone = useMediaQuery({ maxWidth: 642 });
+  const isTablet = useMediaQuery({ maxWidth: 1353 });
+
   const { onOpen, onClose, isOpen } = useDisclosure();
   const [firstTime, setFirstTime] = useState(false);
   useEffect(() => {
@@ -101,16 +97,6 @@ export const NavItems = ({ onClick, timer, submitted }: IProps) => {
   }
   return (
     <>
-      <EditUsernameModal
-        isOpen={editUsernameModalIsOpen}
-        onClose={editUsernameModalOnClose}
-        onOpen={editUsernameModalOnOpen}
-      />
-      <SettingsModal
-        isOpen={settingsModalIsOpen}
-        onClose={settingsModalOnClose}
-        onOpen={settingsModalOnOpen}
-      />
       <MobileModal
         isOpen={mobileModalIsOpen}
         onClose={mobileModalOnClose}
@@ -119,11 +105,7 @@ export const NavItems = ({ onClick, timer, submitted }: IProps) => {
         timer={timer}
         submitted={submitted}
       />
-      <HowToPlayModal
-        isOpen={howToPlayModalIsOpen}
-        onClose={howToPlayModalOnClose}
-        onOpen={howToPlayModalOnOpen}
-      />
+
       {isTablet && (
         <div
           style={{

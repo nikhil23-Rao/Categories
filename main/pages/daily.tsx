@@ -30,6 +30,9 @@ import _, { shuffle } from "lodash";
 import { possibleAnswers } from "../data/possibleAnswers";
 import Check from "@mui/icons-material/Check";
 import pluralize from "pluralize";
+import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
+import { SettingsModal } from "../components/Modals/SettingsModal";
+import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -37,6 +40,22 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const {
+    isOpen: editUsernameModalIsOpen,
+    onClose: editUsernameModalOnClose,
+    onOpen: editUsernameModalOnOpen,
+  } = useDisclosure();
+  const {
+    isOpen: settingsModalIsOpen,
+    onClose: settingsModalOnClose,
+    onOpen: settingsModalOnOpen,
+  } = useDisclosure();
+
+  const {
+    isOpen: howToPlayModalIsOpen,
+    onClose: howToPlayModalOnClose,
+    onOpen: howToPlayModalOnOpen,
+  } = useDisclosure();
   const [skips, setSkips] = useState<{ idx: number; skips: number }>(
     localStorage.getItem("savedGameData") &&
       JSON.parse(localStorage.getItem("savedGameData")!).skips
@@ -314,6 +333,21 @@ const Daily = ({ profileImage }: IProps) => {
   // Return JSX Markup
   return (
     <div className={styles.container} style={{ background: getBGColor() }}>
+      <EditUsernameModal
+        isOpen={editUsernameModalIsOpen}
+        onClose={editUsernameModalOnClose}
+        onOpen={editUsernameModalOnOpen}
+      />
+      <SettingsModal
+        isOpen={settingsModalIsOpen}
+        onClose={settingsModalOnClose}
+        onOpen={settingsModalOnOpen}
+      />
+      <HowToPlayModal
+        isOpen={howToPlayModalIsOpen}
+        onClose={howToPlayModalOnClose}
+        onOpen={howToPlayModalOnOpen}
+      />
       <StatsModal onOpen={onOpen} onClose={onClose} isOpen={isOpen} />
       <div>
         <div className={styles.game} style={{ background: getBGColor() }}>
@@ -398,6 +432,9 @@ const Daily = ({ profileImage }: IProps) => {
               }}
             >
               <NavItems
+                editUsernameModalOnOpen={editUsernameModalOnOpen}
+                settingsModalOnOpen={settingsModalOnOpen}
+                howToPlayModalOnOpen={howToPlayModalOnOpen}
                 onClick={() => {
                   setTimerIsActive(!timerIsActive);
                 }}

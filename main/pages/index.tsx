@@ -191,7 +191,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
                     title: "Game Mode Coming Soon!",
                     status: "info",
                     duration: 3000,
-                    position: "bottom-right",
+                    position: "bottom-left",
                   });
                 }}
                 style={{ backgroundColor: getColor(), fontSize: 23 }}

@@ -17199,6 +17199,8 @@ export const possibleAnswers = [
     categoryName: "Words with 12 or More Letters",
     html: `<ul>
     <li class="t12">Wastefulness</li>
+    <li class="t12">whitewashing</li>
+    <li class="t12">wholehearted</li>
     <li class="t18">Waterboarding</li>
     <li class="t12">Wholeheartedly</li>
     <li class="t12">Wolverhampton</li>

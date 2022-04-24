@@ -886,7 +886,7 @@ export const possibleAnswers = [
   <ul>
   <li class="t10">Waist</li>
   <li>Wange</li>
-  <li class="t2">Weiner</li>
+ 
   <li class="t2">Wiener</li>
   <li>Wishbone</li>
   <li class="t4">Womb</li>
@@ -16228,7 +16228,7 @@ export const possibleAnswers = [
     html: `<ul>
     <li class="t10">Waist</li>
   <li>Wange</li>
-  <li class="t2">Weiner</li>
+ 
   <li class="t2">Wiener</li>
   <li>Wishbone</li>
   <li class="t4">Womb</li>
@@ -16405,7 +16405,6 @@ export const possibleAnswers = [
   <li class="t3">Genitals</li>
   <li class="t3">Weenis</li>
   <li class="t3">Wing</li>
-  <li class="t3">Weiner</li>
   <li class="t3">Ventricle</li>
   <li class="t3">Kinn</li>
   <li class="t3">Ovum</li>

@@ -215,11 +215,9 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
           </div>
         </main>
 
-        {!isPhone && (
-          <footer style={{ marginTop: isMac ? -35 : -10 }}>
-            <Credits />
-          </footer>
-        )}
+        <footer>
+          <Credits />
+        </footer>
       </div>
     </>
   );

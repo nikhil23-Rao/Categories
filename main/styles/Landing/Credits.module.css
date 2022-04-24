@@ -1,24 +1,52 @@
 .container {
-  align-items: center;
-  justify-content: center;
+  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  bottom: 20px;
-  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #8235f5;
+  color: #121212;
+  padding: 18px;
+  border-top-left-radius: 20px;
 }
 
-.container > * {
-  margin-right: 14px;
-  color: #a4a7ab;
-  font-size: 24px;
-  top: 10px;
+.container > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.container > div > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-size: 22px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 16px;
+color: #1c1c1c;
 }
 
-.container > a:hover {
-  text-decoration: underline;
+
+.container > div > p > i {
+margin-right: 20px;
+font-size: 30px;
+cursor: pointer;
 }
 
 @media (max-width: 1440px) {
-  .container > * {
-    font-size: 1.3vw;
+  .container {
+    zoom: 0.8;
   }
 }

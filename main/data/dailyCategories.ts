@@ -102,7 +102,7 @@ export const dailyCategories = [
       "Games",
       "Part of the body",
       "Words with 12 or More Letters",
-      "Villain",
+      "Things you do everyday",
       "Items in a Refrigerator",
     ],
     letter: "W",

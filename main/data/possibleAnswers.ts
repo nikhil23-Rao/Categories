@@ -884,7 +884,97 @@ export const possibleAnswers = [
     categoryName: "Body part",
     html: `
   <ul>
+  <li class="t10">Waist</li>
+  <li>Wange</li>
+  <li class="t2">Weiner</li>
+  <li class="t2">Wiener</li>
+  <li>Wishbone</li>
+  <li class="t4">Womb</li>
+  <li>Wrinkle</li>
+  <li>whiskers</li>
+  <li>white blood cells</li>
+  <li>wind pipe</li>
+
+ 
+
+ <li class="t3">windpipe</li>
+ <li>wisdom tooth</li>
+ <li>wisdom teeth</li>
+ <li>Wind pipe</li>
+ <li>willie</li>
+ <li>weener</li>
+ <li>wade</li>
+ <li>Wernicke's area</li>
+ <li>WRIST</li>
+ <li>Webbed feet</li>
+ <li>wee wee</li>
+ <li>włosy</li>
+ <li>wrists</li>
+ <li>Weanus</li>
+ <li>warts</li>
+ <li>weenie</li>
+ <li>Wirbelsäule</li>
+ <li>wide hips</li>
+ <li>webbing</li>
+ <li>Weist</li>
+ <li>Webbed toes</li>
+ <li>White teeth</li>
+ <li>winky</li>
+ <li>whisker</li>
+ <li>widows peak</li>
+ <li>Wasit</li>
+ <li>Wussy</li>
+ <li>Wątroba</li>
+ <li>Wiggle</li>
+ <li>wampe</li>
+ <li>WENIS</li>
+ <li>Wish bone</li>
+ <li>Waving hands</li>
+ <li>Waden</li>
+ <li>wangen</li>
+ <li>Winis</li>
+ <li>White Blood Cell</li>
+ <li>wand</li>
+ <li>Wall</li>
+ <li>Wener</li>
+ <li>Wienis</li>
+ <li>WEENIS</li>
+ <li>Wat</li>
+ <li>why</li>
+ <li>white skin</li>
+ <li>whites of eyes</li>
+ <li>wattle</li>
+ <li>Weichteile</li>
+ <li>Washboard abs</li>
+ <li>winer</li>
+ <li>Wimper</li>
+ <li>willi</li>
+ <li>Will</li>
+ <li>Wine</li>
+ <li>Wort</li>
+ <li>wank</li>
+ <li>weinis</li>
+ <li>Wink</li>
+ <li>wata</li>
+ <li>wound</li>
+ <li>Winner</li>
+ <li>whites of your eyes</li>
+ <li>Wimpern</li>
+ <li>wor</li>
+ <li>Wurstfinger</li>
+ <li>Wool</li>
+ <li>Walrus</li>
+ <li>Webbed foot</li>
+ <li>woof</li>
+ <li>Watery eyes</li>
+ <li>Weeny</li>
+ <li>Warze</li>
+ <li>Weak</li>
+ <li>Wenius</li>
+ <li>west</li>
+                                                 
   <li class="t3">Arm</li>
+
   <li class="t3">Head</li>
   <li class="t3">Intestine</li>
   <li class="t3">Joints</li>
@@ -2916,6 +3006,88 @@ export const possibleAnswers = [
     categoryName: "Games",
     html: `
   <ul>
+  <li class="t11">War</li>
+  <li class="t6">Warframe</li>
+  <li class="t8">Warzone</li>
+  <li class="t7">Wii</li>
+  <li class="t5">World of Tanks</li>
+  <li class="t12">World of Warcraft</li>
+  <li class="t6">Wrestling</li>
+  <li class="t8">water polo</li>
+  <li class="t6">witcher</li>
+  <li class="t7">words with friends</li>
+ 
+
+ <li class="t7">wow</li>
+ <li class="t6">wwe</li>
+ <li class="t5">Walking dead</li>
+ <li class="t5">Waterpolo</li>
+ <li class="t5">warcraft</li>
+ <li class="t5">Whist</li>
+ <li class="t5">wii sports</li>
+ <li class="t4">Warioware</li>
+ <li class="t4">wall ball</li>
+ <li class="t4">Wordle</li>
+ <li class="t4">Wipeout</li>
+ <li class="t4">would you rather</li>
+ <li class="t4">wack a mole</li>
+ <li class="t4">World of Warships</li>
+ <li class="t4">Whack a mole</li>
+ <li class="t4">washers</li>
+ <li class="t4">Whack-a-mole</li>
+ <li class="t4">Witcher 3</li>
+ <li class="t4">Word search</li>
+ <li class="t4">Wimbledon</li>
+ <li class="t3">werewolf</li>
+ <li class="t3">Warhammer</li>
+ <li class="t3">Worms</li>
+ <li class="t3">WALL-E</li>
+ <li class="t3">wander</li>
+ <li class="t3">Wolfenstein</li>
+ <li class="t3">Wind Waker</li>
+ <li class="t3">wacky races</li>
+ <li class="t3">World at war</li>
+ <li class="t3">Water balloon fight</li>
+ <li class="t3">Watchdogs</li>
+ <li class="t3">wheel of fortune</li>
+ <li class="t3">warrior</li>
+ <li class="t3">Where’s waldo</li>
+ <li class="t3">Watch Dogs 2</li>
+ <li class="t3">Water</li>
+ <li class="t3">water fight</li>
+ <li class="t3">Wordscapes</li>
+ <li class="t3">whisk</li>
+ <li class="t3">Wario Ware</li>
+ <li class="t3">Where’s wally</li>
+ <li class="t2">Waddle Home</li>
+ <li class="t2">Wario World</li>
+ <li class="t2">Winecraft</li>
+ <li class="t2">We were here</li>
+ <li class="t2">Wakeboarding</li>
+ <li class="t2">Warcraft 3</li>
+ <li class="t2">Watch</li>
+ <li class="t2">War craft</li>
+ <li class="t2">Wall e</li>
+ 
+<li class="t2">what</li>
+<li class="t2">war thunder</li>
+<li class="t2">World of war craft</li>
+<li class="t2">word game</li>
+<li class="t2">World War Z</li>
+<li class="t2">Watchmen</li>
+<li class="t2">Warthunder</li>
+<li class="t2">War zone</li>
+<li class="t2">where is waldo</li>
+<li class="t2">Wizard</li>
+<li class="t2">Windy castle</li>
+<li class="t2">What do you meme</li>
+<li class="t2">Winter Olympics</li>
+<li class="t2">Watch dogs</li>
+<li class="t2">War thunder</li>
+<li class="t2">World of war</li>
+<li class="t2">wailing heights</li>
+                                               
+                                         
   <li class="t3">Fortnite</li>
   <li class="t3">Ice hockey</li>
   <li class="t3">League of Legends</li>
@@ -4405,7 +4577,7 @@ export const possibleAnswers = [
   <li class="t8">souffle</li>
   <li class="t7">strawberry cake</li>
 
-                                                        
+ 
 
  <li class="t7">strawberry cheesecake</li>
  <li class="t10">sundae</li>
@@ -4747,7 +4919,6 @@ export const possibleAnswers = [
 <li>sticky tape</li>
 <li>Slide rule</li>
 <li>School uniform</li>
-<li>scotch tape</li>
 <li>Scotch tape</li>
 <li>Soap</li>
 <li>Stift</li>
@@ -4770,7 +4941,7 @@ export const possibleAnswers = [
 <li>Schedule</li>
 <li>Sellotape</li>
 <li>Slate</li>
-<li>Stapeler</li>
+<li>Stapler</li>
 <li>sisors</li>
 <li>Set square</li>
 <li>schoolbook</li>
@@ -8072,6 +8243,39 @@ export const possibleAnswers = [
     categoryName: "things you say when youre late",
     html: `
   <ul>
+ <li class="t4">WTF</li>
+ <li class="t12">Wait</li>
+ <li class="t6">Wait for me</li>
+ <li class="t8">Welp</li>
+ <li class="t4">Whatever</li>
+ <li class="t12">Whoops</li>
+ <li class="t3">Whoopsie</li>
+ <li class="t10">Wow</li>
+ <li class="t9">what</li>
+ <li class="t4">whoops!</li>
+
+ 
+
+<li class="t8">why</li>
+<li class="t4">woke up late</li>
+<li class="t3">Wait a minute</li>
+<li class="t3">what the heck</li>
+<li class="t3">Wait for me!</li>
+<li class="t3">Wait!</li>
+<li class="t3">Why me</li>
+<li class="t2">wow im late</li>
+<li class="t2">Wow look at the time</li>
+<li class="t2">Why am I late</li>
+<li class="t2">Wow I’m late</li>
+<li class="t2">What’s up</li>
+<li class="t2">Whoops sorry</li>
+<li class="t2">we are sorry</li>
+<li class="t2">woah</li>
+<li class="t2">Why am I always late</li>
+<li class="t2">what!</li>
+
+                                                   
+                                           
   <li class="t3">Excuse me</li>
   <li class="t3">I am sorry</li>
   <li class="t3">Late</li>
@@ -10780,6 +10984,36 @@ export const possibleAnswers = [
     categoryName: "Items in a Refrigerator",
     html: `
   <ul>
+  <li class="t6">Waffles</li>
+  <li class="t6">Whipped cream</li>
+  <li class="t4">Whipping cream</li>
+  <li class="t4">Whiskey</li>
+  <li class="t5">White wine</li>
+  <li class="t4">Worms</li>
+  <li class="t7">wasabi</li>
+  <li class="t4">watercress</li>
+  <li class="t4">watermellon</li>
+  <li class="t12">watermelon</li>
+<li class="t9">wine</li>
+ <li class="t4">wings</li>
+ <li class="t4">Waffle</li>
+ <li class="t3">wax</li>
+ <li class="t3">White chocolate</li>
+ <li class="t3">white milk</li>
+ <li class="t3">white onion</li>
+ <li class="t3">water bottles</li>
+ <li class="t3">White rice</li>
+ <li class="t3">Wrap</li>
+ <li class="t3">White bread</li>
+ <li class="t3">Wraps</li>
+ <li class="t3">Whole milk</li>
+ <li class="t3">worcestershire sauce</li>
+ <li class="t3">whip cream</li>
+ <li class="t3">Wagyu Beef</li>
+ <li class="t2">Wasser</li>
+ <li class="t2">Water Bottle</li>
+
+                                                    
   <li class="t3">Fish</li>
   <li class="t3">Kiwi</li>
   <li class="t3">Milk</li>
@@ -15628,6 +15862,37 @@ export const possibleAnswers = [
   {
     categoryName: "Things you do everyday",
     html: `<ul>
+    <li class="t4">Wait</li>
+    <li class="t6">Wake up</li>
+    <li class="t11">Walk</li>
+    <li class="t4">Walking</li>
+    <li class="t4">Wash</li>
+    <li class="t3">Wear clothes</li>
+    <li class="t3">Wee</li>
+    <li class="t3">Whine</li>
+    <li class="t3">Work</li>
+    <li class="t3">Write</li>
+<li class="t3">watch tv</li>
+<li class="t3">win</li>
+<li class="t3">Wash hands</li>
+<li class="t2">Wink</li>
+<li class="t2">Workout</li>
+<li class="t2">Wish</li>
+<li class="t2">Waschen</li>
+<li class="t2">Watch</li>
+<li class="t2">Wash face</li>
+<li class="t2">Wipe</li>
+<li class="t2">Wash my face</li>
+<li class="t2">weep</li>
+<li class="t2">Water the plants</li>
+<li>Wash your face</li>
+<li>wash my hands</li>
+<li>Wash up</li>
+<li>Wash dishes</li>
+<li>water plants</li>
+<li>Whistle</li>
+
+                                                  
   <li class="t3">Jog</li>
   <li class="t3">Kick</li>
   <li class="t3">Quit</li>
@@ -15961,6 +16226,94 @@ export const possibleAnswers = [
   {
     categoryName: "Part of the body",
     html: `<ul>
+    <li class="t10">Waist</li>
+  <li>Wange</li>
+  <li class="t2">Weiner</li>
+  <li class="t2">Wiener</li>
+  <li>Wishbone</li>
+  <li class="t4">Womb</li>
+  <li>Wrinkle</li>
+  <li>whiskers</li>
+  <li>white blood cells</li>
+  <li>wind pipe</li>
+
+ 
+
+ <li class="t3">windpipe</li>
+ <li>wisdom tooth</li>
+ <li>wisdom teeth</li>
+ <li>Wind pipe</li>
+ <li>willie</li>
+ <li>weener</li>
+ <li>wade</li>
+ <li>Wernicke's area</li>
+ <li>WRIST</li>
+ <li>Webbed feet</li>
+ <li>wee wee</li>
+ <li>włosy</li>
+ <li>wrists</li>
+ <li>Weanus</li>
+ <li>warts</li>
+ <li>weenie</li>
+ <li>Wirbelsäule</li>
+ <li>wide hips</li>
+ <li>webbing</li>
+ <li>Weist</li>
+ <li>Webbed toes</li>
+ <li>White teeth</li>
+ <li>winky</li>
+ <li>whisker</li>
+ <li>widows peak</li>
+ <li>Wasit</li>
+ <li>Wussy</li>
+ <li>Wątroba</li>
+ <li>Wiggle</li>
+ <li>wampe</li>
+ <li>WENIS</li>
+ <li>Wish bone</li>
+ <li>Waving hands</li>
+ <li>Waden</li>
+ <li>wangen</li>
+ <li>Winis</li>
+ <li>White Blood Cell</li>
+ <li>wand</li>
+ <li>Wall</li>
+ <li>Wener</li>
+ <li>Wienis</li>
+ <li>WEENIS</li>
+ <li>Wat</li>
+ <li>why</li>
+ <li>white skin</li>
+ <li>whites of eyes</li>
+ <li>wattle</li>
+ <li>Weichteile</li>
+ <li>Washboard abs</li>
+ <li>winer</li>
+ <li>Wimper</li>
+ <li>willi</li>
+ <li>Will</li>
+ <li>Wine</li>
+ <li>Wort</li>
+ <li>wank</li>
+ <li>weinis</li>
+ <li>Wink</li>
+ <li>wata</li>
+ <li>wound</li>
+ <li>Winner</li>
+ <li>whites of your eyes</li>
+ <li>Wimpern</li>
+ <li>wor</li>
+ <li>Wurstfinger</li>
+ <li>Wool</li>
+ <li>Walrus</li>
+ <li>Webbed foot</li>
+ <li>woof</li>
+ <li>Watery eyes</li>
+ <li>Weeny</li>
+ <li>Warze</li>
+ <li>Weak</li>
+ <li>Wenius</li>
+ <li>west</li>
   <li class="t3">Arm</li>
   <li class="t3">Eye</li>
   <li class="t3">Foot</li>
@@ -16846,6 +17199,14 @@ export const possibleAnswers = [
   {
     categoryName: "Words with 12 or More Letters",
     html: `<ul>
+    <li class="t12">Wastefulness</li>
+    <li class="t18">Waterboarding</li>
+    <li class="t12">Wholeheartedly</li>
+    <li class="t12">Wolverhampton</li>
+    <li class="t20">Wonderfulness</li>
+    <li class="t17">Worcestershire</li>
+    <li class="t15">weatherproof</li>
+    <li class="t12">wintermelons</li>
   <li class="t3">Jurisdiction</li>
   <li class="t3">Qualifications</li>
   <li class="t3">Waterboarding</li>
@@ -16912,7 +17273,6 @@ export const possibleAnswers = [
   
 
   <li class="t3">Photosynthesis</li>
-  <li class="t3">watermelons</li>
   <li class="t3">Occupational</li>
   <li class="t3">Johannesburg</li>
   <li class="t3">gregariously</li>

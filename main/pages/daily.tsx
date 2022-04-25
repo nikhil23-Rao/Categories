@@ -33,6 +33,7 @@ import pluralize from "pluralize";
 import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 import { SettingsModal } from "../components/Modals/SettingsModal";
 import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
+import { getUniqueValuesWithCase } from "../utils/removeDuplicates";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -544,14 +545,15 @@ const Daily = ({ profileImage }: IProps) => {
                           >
                             Most Common Answers:{" "}
                             <b style={{ color: getColor() }}>
-                              {shuffle(
+                              {getUniqueValuesWithCase(
                                 validAnswers
                                   .filter((a) => a.idx === idx)[0]
                                   .answers.filter((a: string) =>
                                     a.trim().startsWith(daily?.letter)
-                                  )
+                                  ),
+                                false
                               )
-                                .slice(0, 4)
+                                .slice(0, 5)
                                 .join(", ")}
                             </b>
                           </p>

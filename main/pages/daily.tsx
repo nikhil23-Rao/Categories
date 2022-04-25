@@ -567,7 +567,8 @@ const Daily = ({ profileImage }: IProps) => {
                                 style={{
                                   color: getColor(),
                                 }}
-                                href="#"
+                                href="mailto:nikhil23.rao@gmail.com;vinay23.rao@gmail.com"
+                                target="_blank"
                               >
                                 Report it
                               </a>

@@ -161,7 +161,12 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
             style={{ display: "flex", flexDirection: "column" }}
           >
             <Link href={"/daily"}>
-              <a href="">
+              <a
+                href=""
+                style={{
+                  textDecoration: "none",
+                }}
+              >
                 <div
                   className="follow-btn"
                   style={{

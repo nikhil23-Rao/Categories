@@ -98,14 +98,14 @@ export const dailyCategories = [
   {
     dailyDate: "4/24/2022",
     inputs: [
-      "things you say when youre late",
-      "Games",
-      "Part of the body",
-      "Words with 12 or More Letters",
-      "Things you do everyday",
-      "Items in a Refrigerator",
+      "Things in a grocery store",
+      "Things that are black",
+      "Thing you find in your pockets",
+      "things that make you smile",
+      "Weapons",
+      "Things found in a desk",
     ],
-    letter: "W",
+    letter: "E",
   },
   {
     dailyDate: "4/25/2022",

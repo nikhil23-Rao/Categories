@@ -2555,6 +2555,73 @@ export const possibleAnswers = [
     categoryName: "Thing you find in your pockets",
     html: `
   <ul>
+  <li class="t4">Ear plugs</li>
+  <li class="t6">Earbuds</li>
+  <li class="t10">Earphones</li>
+  <li class="t6">Earring</li>
+  <li class="t8">Earrings</li>
+  <li class="t4">Edibles</li>
+  <li class="t5">Elastic</li>
+  <li class="t5">Electronics</li>
+  <li class="t9">Envelope</li>
+  <li class="t11">Eraser</li>
+
+  
+
+<li class="t6">elastic band</li>
+<li class="t5">extra change</li>
+<li class="t4">Eyeglasses</li>
+<li class="t4">extra gum</li>
+<li class="t4">Euros</li>
+<li class="t4">earings</li>
+<li class="t4">Elastic bands</li>
+<li class="t3">Empty wrappers</li>
+<li class="t3">Eyeliner</li>
+<li class="t3">Earplugs</li>
+<li class="t3">epipen</li>
+<li class="t3">Elastics</li>
+<li class="t3">Erasers</li>
+<li class="t3">Earphone</li>
+<li class="t3">eye drops</li>
+<li class="t3">Extra money</li>
+<li class="t3">E-cigarette</li>
+<li class="t3">Earing</li>
+<li class="t3">earpods</li>
+<li class="t3">Empty wallet</li>
+<li class="t3">earbuds</li>
+<li class="t3">Euro</li>
+<li class="t3">eye glasses</li>
+<li class="t3">envelopes</li>
+<li class="t3">Ear phones</li>
+<li class="t2">Electronic device</li>
+<li class="t2">earpiece</li>
+<li class="t2">epi pen</li>
+<li class="t2">extra coins</li>
+<li class="t2">energy bar</li>
+<li class="t2">Eleven cents</li>
+<li class="t2">Extra cash</li>
+<li class="t2">Eyedrops</li>
+<li class="t2">Ear buds</li>
+<li class="t2">elephant toy</li>
+<li class="t2">Energy bar</li>
+<li class="t2">E-cig</li>
+<li class="t2">E cigarette</li>
+<li class="t2">Ear ring</li>
+<li class="t2">ecstasy</li>
+<li class="t2">Essen</li>
+<li class="t2">Easter eggs</li>
+<li class="t2">energy bars</li>
+<li class="t2">Earbud</li>
+<li class="t2">Ear rings</li>
+<li class="t2">ear pods</li>
+<li class="t2">Eclairs</li>
+<li class="t2">Empty wrapper</li>
+<li class="t2">earplugs</li>
+<li class="t2">Envelop</li>
+
+  
+
+ 
   <li class="t3">Iphone</li>
   <li class="t3">Key</li>
   <li class="t3">Kleenex</li>
@@ -5056,7 +5123,114 @@ export const possibleAnswers = [
     categoryName: "Things found in a desk",
     html: `
   <ul>
+ <li class="t7">Earbuds</li>
+ <li class="t5">Earphone</li>
+ <li class="t11">Earphones</li>
+ <li class="t5">Earplugs</li>
+ <li class="t7">Earrings</li>
+ <li class="t4">Elastic band</li>
+ <li class="t4">Electric pencil sharpener</li>
+ <li class="t6">Electronics</li>
+ <li class="t5">Epipen</li>
+ <li class="t5">Eyeglasses</li>
+
+  
+
+ <li class="t4">earring</li>
+ <li class="t5">elastic bands</li>
+ <li class="t4">electric stapler</li>
+ <li class="t4">eye glasses</li>
+ <li class="t4">Earring</li>
+ <li class="t4">epi pen</li>
+ <li class="t4">Ear phones</li>
+ <li class="t3">Elmers glue</li>
+ <li class="t3">Encyclopedia</li>
+ <li class="t3">Elmer's glue</li>
+ <li>ear plugs</li>
+ <li class="t3">eyeliner</li>
+ <li class="t3">Electric fan</li>
+ <li class="t3">envelope opener</li>
+ <li class="t3">energy drink</li>
+ <li class="t3">elastics</li>
+ <li class="t3">Electric sharpener</li>
+ <li class="t3">Ear buds</li>
+ <li class="t3">Ethernet cable</li>
+ <li class="t3">estuche</li>
+ <li class="t3">Extra pencils</li>
+ <li class="t3">Edibles</li>
+ <li class="t3">eraser shavings</li>
+ <li class="t2">envelop</li>
+ <li class="t2">English book</li>
+ <li class="t2">English dictionary</li>
+ <li class="t2">Earings</li>
+ <li class="t2">Email</li>
+ <li class="t2">E-book</li>
+ <li class="t2">Energy drink</li>
+ <li class="t2">elastic</li>
+ <li class="t2">Electrical tape</li>
+ <li class="t2">Extra paper</li>
+ <li class="t2">Envelope.</li>
+ <li class="t2">Earnings</li>
+ <li class="t2">Epi pen</li>
+ <li class="t2">Energy bar</li>
+ <li class="t2">Eye drops</li>
+ <li class="t2">Exercise book</li>
+ <li class="t2">eracer</li>
+ <li class="t2">Electric tape</li>
+ <li class="t2">Electronic calculator</li>
+ <li class="t2">Ebook</li>
+ <li class="t2">envellopes</li>
+ <li class="t2">exacto knife</li>
+ <li class="t2">envolope</li>
+ <li class="t2">Earplug</li>
+ <li class="t2">Essay</li>
+ <li class="t2">expo marker</li>
+ <li>empty box</li>
+
+  
+<li>electronic devices</li>
+<li>Electric lamp</li>
+<li>ENVELOPE</li>
+<li>exam</li>
+<li>erasure</li>
+<li>Egg timer</li>
+<li>Earaser</li>
+<li>Equipment</li>
+<li>essays</li>
+<li>ear piece</li>
+<li>Earser</li>
+<li>Elephant toy</li>
+<li>Ecstasy</li>
+<li>Erasable pens</li>
+<li>eels</li>
+<li>ekierka</li>
+<li>escritorio</li>
+<li>Electric pen</li>
+<li>Eraser.</li>
+<li>Ear ring</li>
+<li>Ear pods</li>
+<li>Essensreste</li>
+<li>Essen</li>
+<li>ebook</li>
+<li>E-reader</li>
+<li>Earing</li>
+<li>Energy drinks</li>
+<li>Electric charger</li>
+<li>Engrapadora</li>
+<li>Etui</li>
+<li>E book</li>
+<li>Edding</li>
+<li>Earpods</li>
+<li>encil</li>
+<li>Energizer batteries</li>
+<li>Eaten food</li>
+<li>eraser,</li>
+<li>eraiser</li>
+<li>Empty bottle</li>
+
+                                                 
   <li class="t3">Book</li>
+
   <li class="t3">Glue</li>
   <li class="t3">Keys</li>
   <li class="t3">Notebook</li>
@@ -11805,6 +11979,114 @@ export const possibleAnswers = [
     categoryName: "Things that are black",
     html: `
   <ul>
+ <li class="t7">Eagle</li>
+ <li class="t7">Earphones</li>
+ <li class="t8">Earrings</li>
+ <li class="t10">Ebony</li>
+ <li class="t7">Eclipse</li>
+ <li class="t9">Eel</li>
+ <li class="t6">Enderman</li>
+ <li class="t5">Evening</li>
+ <li class="t11">Eyes</li>
+ <li class="t7">ears</li>
+
+  
+
+ <li class="t6">eels</li>
+ <li class="t7">eye</li>
+ <li class="t5">emo</li>
+ <li class="t5">Eagles</li>
+ <li class="t5">envelope</li>
+ <li class="t5">Emos</li>
+ <li class="t5">Eraser</li>
+ <li class="t4">Engine</li>
+ <li class="t4">Electronics</li>
+ <li class="t4">eyeliner</li>
+ <li class="t4">earring</li>
+ <li class="t4">Earphone</li>
+ <li class="t3">Earwig</li>
+ <li class="t3">Earwigs</li>
+ <li class="t3">Eddie murphy</li>
+ <li class="t3">earings</li>
+ <li class="t3">Eye pupils</li>
+ <li class="t3">eyelashes</li>
+ <li class="t3">Endermen</li>
+ <li class="t3">Evenings</li>
+ <li class="t3">Emptiness</li>
+ <li class="t3">Ender dragon</li>
+ <li class="t3">Elk</li>
+ <li class="t3">Ear</li>
+ <li class="t3">emu</li>
+ <li class="t3">elevator</li>
+ <li class="t3">Escalator</li>
+ <li class="t2">Engines</li>
+ <li class="t2">Eye pupil</li>
+ <li class="t2">Evening sky</li>
+ <li class="t2">erasers</li>
+ <li class="t2">Eyebrows</li>
+ <li class="t2">eyelash</li>
+ <li class="t2">Electrical Tape</li>
+ <li class="t2">elastic</li>
+ <li class="t2">elbow</li>
+ <li class="t2">Eritreans</li>
+ <li class="t2">Engine oil</li>
+ <li class="t2">earmuffs</li>
+ <li class="t2">eight ball</li>
+ <li class="t2">Escalators</li>
+ <li class="t2">every black person</li>
+ <li class="t2">Electric tape</li>
+ <li class="t2">eye lashes</li>
+ <li class="t2">Ember</li>
+ <li class="t2">Ethiopian</li>
+ <li class="t2">ebony wood</li>
+ <li class="t2">Elbows</li>
+ <li class="t2">ear rings</li>
+ <li class="t2">Electric car</li>
+
+  
+
+<li class="t2">Ear rings</li>
+<li class="t2">Ether</li>
+<li class="t2">Empty Space</li>
+<li class="t2">Empty hole</li>
+<li class="t2">Electric wire</li>
+<li class="t2">Ethiopian People</li>
+<li class="t2">Ethan</li>
+<li class="t2">Eye shadow</li>
+<li>Elks</li>
+<li>Eyeglasses</li>
+<li>Easel</li>
+<li>Ebony furniture</li>
+<li>Ear muffs</li>
+<li>eyebrow</li>
+<li>Eye ball</li>
+<li>electric guitar</li>
+<li>ear phones</li>
+<li>Eagle feathers</li>
+<li>eclips</li>
+<li>eric</li>
+<li>Earhole</li>
+<li>eve</li>
+<li>Eyeshadow</li>
+<li>emptyness</li>
+<li>Ebony people</li>
+<li>ends</li>
+<li>evening gown</li>
+<li>Ego</li>
+<li>Earthworm</li>
+<li>Exhaust fumes</li>
+<li>echidna</li>
+<li>ear buds</li>
+<li>emo kids</li>
+<li>earplugs</li>
+<li>Elastic bands</li>
+<li>Everything in the dark</li>
+<li>Esky</li>
+<li>emo people</li>
+<li>egyptians</li>
+<li>ebony keys</li>
+
+                                                   
   <li class="t3">Ant</li>
   <li class="t3">Cat</li>
   <li class="t3">Hair</li>
@@ -12262,7 +12544,115 @@ export const possibleAnswers = [
     categoryName: "things that make you smile",
     html: `
   <ul>
+<li class="t5">Easter</li>
+<li class="t4">Eat</li>
+<li class="t11">Eating</li>
+<li class="t3">Eating food</li>
+<li class="t5">Egg</li>
+<li class="t7">Eggs</li>
+<li class="t4">Elephant</li>
+<li class="t4">Everyone</li>
+<li class="t7">Everything</li>
+<li class="t3">Eyes</li>
+
+  
+
+<li class="t4">earrings</li>
+<li class="t3">earth</li>
+<li class="t3">ears</li>
+<li class="t3">Eagles</li>
+<li class="t3">Elves</li>
+<li class="t3">Elmo</li>
+<li class="t3">Energy</li>
+<li class="t2">easter eggs</li>
+<li class="t2">Entertainment</li>
+<li class="t2">Ecstasy</li>
+<li class="t2">Excitement</li>
+<li class="t2">emily</li>
+<li class="t2">Evenings</li>
+<li class="t2">edibles</li>
+<li class="t2">Emeralds</li>
+<li class="t2">Easter bunny</li>
+<li class="t2">Eating good food</li>
+<li class="t2">Elf</li>
+<li class="t2">exercise</li>
+<li class="t2">Electricity</li>
+<li class="t2">Elfs</li>
+<li class="t2">Empathy</li>
+<li>Evening</li>
+<li>Enchiladas</li>
+<li>Emojis</li>
+<li>Emma</li>
+<li>Eagle</li>
+<li>Earning money</li>
+<li>Essen</li>
+<li>eating ice cream</li>
+<li>English</li>
+<li>England</li>
+<li>Even numbers</li>
+<li>Early mornings</li>
+<li>eels</li>
+<li>Everybody</li>
+<li>Electronics</li>
+<li>emus</li>
+<li>Emoji</li>
+<li>Eggos</li>
+<li>Elon Musk</li>
+<li>Elevators</li>
+<li>Ethan</li>
+<li>evergreen trees</li>
+<li>Eclairs</li>
+<li>Emotions</li>
+<li>education</li>
+<li>Evan</li>
+<li>Erection</li>
+<li>Ella</li>
+
+  
+<li>Events</li>
+<li>Elegance</li>
+<li>Elsa</li>
+<li>Empanadas</li>
+<li>Elderly people</li>
+<li>Elephant baby</li>
+<li>eggs on toast</li>
+<li>Eternity</li>
+<li>Equality</li>
+<li>eeyore</li>
+<li>ecstacy</li>
+<li>estrellas</li>
+<li>Erin</li>
+<li>eloping</li>
+<li>Egrets</li>
+<li>Enjoyment</li>
+<li>Eating candy</li>
+<li>Enthusiasm</li>
+<li>erections</li>
+<li>Ellen</li>
+<li>Excellence</li>
+<li>envelopes</li>
+<li>encanto</li>
+<li>Engagement</li>
+<li>elefantes</li>
+<li>Ewoks</li>
+<li>Ear</li>
+<li>Earnings</li>
+<li>Elizabeth</li>
+<li>earphones</li>
+<li>eggnog</li>
+<li>Easy things</li>
+<li>Easter bunnies</li>
+<li>earings</li>
+<li>Eating pizza</li>
+<li>Environment</li>
+<li>Eis</li>
+<li>Eye</li>
+<li>eating chocolate</li>
+<li>Everyone here</li>
+
+                                                   
   <li class="t3">Animals</li>
+
   <li class="t3">Food</li>
   <li class="t3">Love</li>
   <li class="t3">Money</li>
@@ -14641,6 +15031,73 @@ export const possibleAnswers = [
   {
     categoryName: "Weapons",
     html: `<ul>
+   <li class="t11">EMP</li>
+   <li class="t12">Electric chair</li>
+   <li class="t5">Electric fence</li>
+   <li class="t5">Elephant gun</li>
+   <li class="t5">Energy Sword</li>
+   <li class="t10">Excalibur</li>
+   <li class="t6">Explosive</li>
+   <li class="t10">Explosives</li>
+   <li class="t5">elbow</li>
+   <li class="t4">electric knife</li>
+
+  
+
+ <li class="t5">electricity</li>
+ <li class="t5">exacto knife</li>
+ <li class="t4">espada</li>
+ <li class="t4">electric taser</li>
+ <li class="t4">electric stun gun</li>
+ <li class="t4">Electric tazer</li>
+ <li class="t4">ether</li>
+ <li class="t4">Elephant tusk</li>
+ <li class="t4">everything</li>
+ <li class="t3">EMER-K1</li>
+ <li class="t3">Electric saw</li>
+ <li class="t3">Egg launcher</li>
+ <li class="t3">engine</li>
+ <li class="t3">Electric drill</li>
+ <li class="t3">Electric sword</li>
+ <li class="t3">e gun</li>
+ <li class="t3">excaliber</li>
+ <li class="t3">EDDA submachine gun</li>
+ <li class="t3">Embers</li>
+ <li class="t3">earrings</li>
+ <li class="t3">EDM Arms</li>
+ <li class="t3">Elephant trunk</li>
+ <li class="t3">Electric razor</li>
+ <li class="t3">Electric shocker</li>
+ <li class="t3">earth</li>
+ <li class="t2">Electric Eel</li>
+ <li class="t2">Exocet</li>
+ <li class="t2">Epic sword</li>
+ <li class="t2">Electric Gun</li>
+ <li class="t2">egg gun</li>
+ <li class="t2">Epi pen</li>
+ <li class="t2">Emerald Sword</li>
+ <li class="t2">Elektroschocker</li>
+ <li class="t2">Earring</li>
+ <li class="t2">Energy blaster</li>
+ <li class="t2">Eyes</li>
+ <li class="t2">Electric shock</li>
+ <li class="t2">elephant rifle</li>
+ <li class="t2">Explosion</li>
+ <li class="t2">epée</li>
+ <li class="t2">electric ray gun</li>
+ <li class="t2">Escopeta</li>
+ <li class="t2">e-gun</li>
+ <li class="t2">electric baton</li>
+ <li class="t2">Electric prod</li>
+ <li class="t2">Egg shooter</li>
+ <li class="t2">EMP Grenade</li>
+ <li class="t2">Egg Shells</li>
+ <li class="t2">Extinguisher</li>
+ <li class="t2">Explosive Device</li>
+
+  
+
+
   <li class="t3">Bomb</li>
   <li class="t3">Dart</li>
   <li class="t3">Glock</li>
@@ -15193,6 +15650,107 @@ export const possibleAnswers = [
   {
     categoryName: "Things in a grocery store",
     html: `<ul>
+    <li class="t3">Ear of corn</li>
+    <li class="t2">Easter eggs</li>
+    <li class="t10">Egg</li>
+    <li class="t2">Egg noodles</li>
+    <li class="t2">Egg plant</li>
+    <li class="t2">Eggnog</li>
+    <li class="t2">Empanadas</li>
+    <li class="t2">Energy drink</li>
+    <li class="t2">Eraser</li>
+    <li class="t3">edamame</li>
+
+  
+
+<li class="t3">egg salad</li>
+<li class="t3">energy drinks</li>
+<li class="t2">eclairs</li>
+<li class="t2">Egg cartons</li>
+<li class="t2">Eats</li>
+<li class="t2">Endive</li>
+<li class="t2">EGGS</li>
+<li class="t2">Employees</li>
+<li class="t2">Eggo Waffles</li>
+<li class="t2">Eclair</li>
+<li>Energy bars</li>
+<li>Electronics</li>
+<li>envelope</li>
+<li>Elbow macaroni</li>
+<li>Earl grey tea</li>
+<li>Eye drops</li>
+<li>Energy bar</li>
+<li>Ear buds</li>
+<li>english muffins</li>
+<li>espinaca</li>
+<li>Earbuds</li>
+<li>Egg whites</li>
+<li>Elevator</li>
+<li>elastic bands</li>
+<li>Electricity</li>
+<li>Easter egg</li>
+<li>English muffin</li>
+<li>Elotes</li>
+<li>enchiladas</li>
+<li>Electric toothbrush</li>
+<li>Elderberries</li>
+<li>Earphones</li>
+<li>Entrance</li>
+<li>Exits</li>
+<li>eels</li>
+<li>endives</li>
+<li>elote</li>
+<li>Extra Virgin Olive Oil</li>
+<li>Essentials</li>
+<li>Earings</li>
+<li>Everything bagels</li>
+<li>Escargot</li>
+<li>Ear plugs</li>
+<li>earplugs</li>
+<li>eno</li>
+<li>edibles</li>
+<li>edam cheese</li>
+<li>Elk</li>
+<li>Eal</li>
+<li>Edemame</li>
+
+  
+<li>Enchilada</li>
+<li>Eating utensils</li>
+<li>Eggroll</li>
+<li>Eggo</li>
+<li>Extra gum</li>
+<li>elk meat</li>
+<li>espresso</li>
+<li>everything bagel</li>
+<li>Earrings</li>
+<li>Edible items</li>
+<li>exit</li>
+<li>Elmer's Glue</li>
+<li>eyeglasses</li>
+<li>Eier</li>
+<li>Easy Mac</li>
+<li>elderberry</li>
+<li>elephant food</li>
+<li>elephant ears</li>
+<li>Eggs,</li>
+<li>Earth</li>
+<li>empanada</li>
+<li>enchilladas</li>
+<li>Egg rolls</li>
+<li>elaichi</li>
+<li>Elephant garlic</li>
+<li>Elmers glue</li>
+<li>Evaporated milk</li>
+<li>Erasers</li>
+<li>Erbsen</li>
+<li>elephant toy</li>
+<li>eatables</li>
+<li>egg tray</li>
+<li>ecoli</li>
+<li>Exit sign</li>
+
+                                                   
   <li class="t3">Apple</li>
   <li class="t3">Egg</li>
   <li class="t3">Food</li>

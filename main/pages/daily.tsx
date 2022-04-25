@@ -569,6 +569,7 @@ const Daily = ({ profileImage }: IProps) => {
                                 }}
                                 href="mailto:nikhil23.rao@gmail.com;vinay23.rao@gmail.com"
                                 target="_blank"
+                                rel="noopener"
                               >
                                 Report it
                               </a>

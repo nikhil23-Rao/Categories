@@ -566,10 +566,14 @@ const Daily = ({ profileImage }: IProps) => {
                               <a
                                 style={{
                                   color: getColor(),
+                                  cursor: "pointer",
                                 }}
-                                href="mailto:nikhil23.rao@gmail.com;vinay23.rao@gmail.com"
-                                target="_blank"
-                                rel="noopener"
+                                onClick={() => {
+                                  window.open(
+                                    "mailto:nikhil23.rao@gmail.com;vinay23.rao@gmail.com",
+                                    "_blank"
+                                  );
+                                }}
                               >
                                 Report it
                               </a>

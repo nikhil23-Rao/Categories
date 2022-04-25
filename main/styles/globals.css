@@ -951,3 +951,7 @@ form:invalid + button {
   position: relative;
   padding: 20px;
 }
+
+a:hover {
+text-decoration: underline;
+}

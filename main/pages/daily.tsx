@@ -544,7 +544,11 @@ const Daily = ({ profileImage }: IProps) => {
                             className="divider"
                           >
                             Most Common Answers:{" "}
-                            <b style={{ color: getColor() }}>
+                            <b
+                              style={{
+                                color: getColor(),
+                              }}
+                            >
                               {getUniqueValuesWithCase(
                                 validAnswers
                                   .filter((a) => a.idx === idx)[0]
@@ -556,6 +560,19 @@ const Daily = ({ profileImage }: IProps) => {
                                 .slice(0, 5)
                                 .join(", ")}
                             </b>
+                            <br />
+                            <p>
+                              (See an issue?{" "}
+                              <a
+                                style={{
+                                  color: getColor(),
+                                }}
+                                href="#"
+                              >
+                                Report it
+                              </a>
+                              )
+                            </p>
                           </p>
                         </div>
                       )}

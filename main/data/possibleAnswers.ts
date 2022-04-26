@@ -11862,12 +11862,11 @@ export const possibleAnswers = [
   <ul>
  <li class="t6">Dance</li>
  <li class="t6">Danish longball</li>
- <li class="t6">Danish long ball</li>
  <li class="t5">Dancing</li>
- <li class="t2">Dart</li>
  <li class="t9">Darts</li>
- <li class="t2">Decathlon</li>
  <li class="t2">Dirt biking</li>
+ <li class="t2">Decathlon</li>
+ <li class="t2">Dart</li>
  <li class="t2">Disc golf</li>
  <li class="t4">Discus</li>
  <li class="t10">Diving</li>

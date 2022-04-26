@@ -18856,7 +18856,6 @@ export const possibleAnswers = [
     categoryName: "Expensive",
     html: `<ul>
 <li class="t11">Diamond</li>
-<li class="t2">Dimond</li>
 <li class="t3">Dinner</li>
 <li class="t10">Dior</li>
 <li class="t8">Dog</li>

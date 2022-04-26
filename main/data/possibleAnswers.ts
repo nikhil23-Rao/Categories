@@ -446,6 +446,113 @@ export const possibleAnswers = [
     categoryName: "Girl's name",
     html: `
   <ul>
+ <li class="t7">Daisy</li>
+ <li class="t5">Dana</li>
+ <li class="t6">Daniela</li>
+ <li class="t4">Daniella</li>
+ <li class="t7">Danielle</li>
+ <li class="t4">Delilah</li>
+ <li class="t5">Denise</li>
+ <li class="t10">Diana</li>
+ <li class="t5">Diane</li>
+ <li class="t4">Dina</li>
+
+      
+<li class="t4">Donna</li>
+<li class="t5">Dora</li>
+<li class="t4">Dorothy</li>
+<li class="t3">Darla</li>
+<li class="t3">Debbie</li>
+<li class="t3">Daphne</li>
+<li class="t3">Dolly</li>
+<li class="t3">Daria</li>
+<li class="t3">Debra</li>
+<li class="t3">Dani</li>
+<li class="t3">Darcy</li>
+<li class="t3">Dianna</li>
+<li class="t3">Deborah</li>
+<li class="t2">Destiny</li>
+<li class="t2">Doris</li>
+<li class="t2">Danny</li>
+<li class="t2">Dalia</li>
+<li class="t2">Dianne</li>
+<li class="t2">Danica</li>
+<li class="t2">Delia</li>
+<li class="t2">Dawn</li>
+<li class="t2">Darlene</li>
+<li class="t2">Danna</li>
+<li class="t2">Dahlia</li>
+<li class="t2">Dania</li>
+<li class="t2">Debby</li>
+<li class="t2">Dixie</li>
+<li class="t2">Deanna</li>
+<li class="t2">Diya</li>
+<li>Divya</li>
+<li>Dakota</li>
+<li>Demi</li>
+<li>Dory</li>
+<li>Desiree</li>
+<li>Dolores</li>
+<li>Davina</li>
+<li>Deirdre</li>
+<li>Danika</li>
+<li>Delila</li>
+<li>Dylan</li>
+<li>Denice</li>
+<li>Dara</li>
+<li>Dee</li>
+<li>Disha</li>
+<li>Della</li>
+<li>Deidre</li>
+<li>Dominique</li>
+<li>Doreen</li>
+<li>Dia</li>
+<li>Deena</li>
+
+      
+
+    <li>Delaney</li>
+    <li>Danni</li>
+    <li>Dona</li>
+    <li>Didi</li>
+    <li>Dorthy</li>
+    <li>Dinah</li>
+    <li>Daina</li>
+    <li>Deedee</li>
+    <li>Deandra</li>
+    <li>Dayana</li>
+    <li>Denisse</li>
+    <li>Dalila</li>
+    <li>Dany</li>
+    <li>Dayna</li>
+    <li>Drew</li>
+    <li>Deb</li>
+    <li>Delphine</li>
+    <li>Denny</li>
+    <li>Dorothea</li>
+    <li>Debora</li>
+    <li>Devin</li>
+    <li>Diamond</li>
+    <li>Dena</li>
+    <li>Deliah</li>
+    <li>Dorris</li>
+    <li>Delta</li>
+    <li>daniel</li>
+    <li>Delores</li>
+    <li>Deana</li>
+    <li>delfina</li>
+    <li>Daniele</li>
+    <li>Daiana</li>
+    <li>Dasha</li>
+    <li>Devon</li>
+    <li>Darcey</li>
+    <li>Dian</li>
+    <li>Diona</li>
+    <li>Devi</li>
+    <li>Danelle</li>
+    <li>Dede</li>
+
+ 
 <li class="t3">Fiona</li>
 <li class="t3">Hannah</li>
 <li class="t3">Queen</li>
@@ -551,7 +658,7 @@ export const possibleAnswers = [
 <li class="t3">Patty</li>
 <li class="t3">Bianca</li>
 <li class="t3">Amy</li>
-                                                   
+ 
                                             </ul>
 					    `,
   },
@@ -6915,7 +7022,7 @@ export const possibleAnswers = [
 <li class="t11">Avatar</li><li class="t11">Avengers</li><li class="t6">Annie</li><li class="t6">Animal Kingdom</li><li class="t6">After</li><li class="t6">archer</li><li class="t6">avatar the last airbender</li><li class="t6">all american</li><li class="t5">all in the family</li><li class="t5">Ant man</li><li class="t5">Attack on Titan</li><li class="t5">Alice in Wonderland</li><li class="t5">American Dad</li><li class="t5">alvin and the chipmunks</li><li class="t5">Action movies</li><li class="t5">A walk to remember</li><li class="t4">Anaconda</li><li class="t4">Anabelle</li><li class="t4">Alien</li><li class="t4">A Team</li><li class="t4">Animal Planet</li><li class="t4">a cinderella story</li><li class="t4">Aquaman</li><li class="t4">A quiet place</li><li class="t4">angry birds</li><li class="t4">about a boy</li><li class="t4">Anastasia</li><li class="t4">Armageddon</li><li class="t4">Adventure Time</li><li class="t4">all the bright places</li><li class="t4">Ace Ventura</li><li class="t3">A list</li><li class="t3">American Psycho</li><li class="t3">Alice in wonderland</li><li class="t3">Afterlife</li><li class="t3">Amelie</li><li class="t3">Arcane</li><li class="t3">Alice in Borderland</li><li class="t3">Animal house</li><li class="t3">Altered carbon</li><li class="t3">Alive</li><li class="t3">American Sniper</li><li class="t3">Anchorman</li><li class="t3">always be my maybe</li><li class="t3">Action</li><li class="t3">a silent voice</li><li class="t3">After life</li><li class="t3">A star is born</li><li class="t3">amazing spiderman</li><li class="t3">Antz</li>
 
 <li class="t3">American beauty</li><li class="t3">anne of green gables</li><li class="t3">Addams Family</li><li class="t3">Argo</li><li class="t2">A love story</li><li class="t2">American Vandal</li><li class="t2">about time</li><li class="t2">A night to remember</li><li class="t2">Away</li><li class="t2">Aliens</li><li class="t2">A Christmas Story</li><li class="t2">Airplane</li><li class="t2">ants</li><li class="t2">Amazing race</li><li class="t2">Aladin</li><li class="t2">American idol</li><li class="t2">A knights tale</li><li class="t2">All my children</li><li class="t2">A Wrinkle in Time</li><li class="t2">Along came polly</li><li class="t2">Austin Powers</li><li class="t2">Alone</li><li class="t2">Ace</li><li class="t2">American Hustle</li><li class="t2">adams family</li><li class="t2">a bugs life</li><li class="t2">Alias</li><li class="t2">All of us are dead</li><li class="t2">A Christmas prince</li><li class="t2">Alexa &amp; Katie</li><li class="t2">After Life</li><li class="t2">Avatar: The Last Airbender</li><li class="t2">another cinderella story</li><li class="t2">Americans</li><li class="t2">Anger management</li><li class="t2">Action movie</li><li class="t2">are we there yet</li><li class="t2">Adam Project</li><li class="t2">Arrival</li><li class="t2">Agents of Shield</li>
-                                                    <li class="ad visible-xs">
+  <li class="ad visible-xs">
 <b>Categories game</b>
         <div class="row">
             <div class="col-xs-8" style="padding-right: 5px">
@@ -6929,7 +7036,7 @@ export const possibleAnswers = [
                 </a>
             </div>
         </div>
-                                                    </li>
+  </li>
                                             </ul>
   `,
   },
@@ -6942,7 +7049,7 @@ export const possibleAnswers = [
 <li class="t7">archery</li><li class="t7">arm wrestle</li><li class="t5">Acting</li><li class="t5">Adventure</li><li class="t4">Athletics</li><li class="t4">Arrive</li><li class="t4">Ask questions</li><li class="t4">A walk</li><li class="t3">Acrobats</li><li class="t3">Act silly</li><li class="t3">Apple pick</li><li class="t3">Anything</li><li class="t3">appreciate nature</li><li class="t3">Arm wrestling</li><li class="t2">Apply sunscreen</li><li class="t2">Admire nature</li><li class="t2">act crazy</li><li class="t2">Alcohol</li><li class="t2">Act up</li><li class="t2">admire</li><li class="t2">Arson</li><li class="t2">Age</li><li class="t2">Ask directions</li><li class="t2">Ask for money</li><li class="t2">act out</li><li class="t2">apple eating</li><li class="t2">Attack birds</li><li class="t2">Angeln</li><li class="t2">Act a fool</li><li class="t2">acid</li><li class="t2">act cool</li><li class="t2">Aerobic exercise</li><li class="t2">Act normal</li><li class="t2">Animal watch</li><li class="t2">ate food</li><li class="t2">Ant hunting</li><li class="t2">ant hunt</li><li class="t2">Activity</li><li class="t2">Artwork</li><li class="t2">Arrest</li><li class="t2">Ask people for money</li><li class="t2">Answer the phone</li><li class="t2">Adventures</li><li class="t2">add</li><li class="t2">A swing</li><li class="t2">attack people</li><li class="t2">ask people questions</li><li class="t2">act natural</li><li class="t2">ant killing</li><li class="t2">Assemble</li>
 
 <li>ate an apple</li><li>animal watching</li><li>act like a kid</li><li>aerobic</li><li>Amuse</li><li>animal walking</li><li>applaud</li><li>attack pigeons</li><li>ambulate</li><li>ask for help</li><li>admire the view</li><li>a slide</li><li>almorzar</li><li>American football</li><li>Arse around</li><li>arobics</li><li>Arse about</li><li>Arts and crafts</li><li>Ask to play</li><li>Aimlessly wander</li><li>airplane</li><li>act like a child</li><li>Ake</li><li>Attack kids</li><li>Ask for ice cream</li><li>aspirate</li><li>agitate</li><li>army crawl</li><li>accelerate</li><li>Acrobat</li><li>A nap</li><li>air out</li><li>Act weird</li><li>annoy parents</li><li>attack children</li><li>Anything you want</li><li>Act in a play</li><li>Ant eating</li><li>Amaze</li><li>Abseil</li>
-                                                   
+ 
                                             </ul>
   `,
   },
@@ -7394,7 +7501,7 @@ export const possibleAnswers = [
 <li class="t3">jalapeno</li>
 <li class="t3">Abracadabra</li>
 <li class="t3">Velociraptor</li>
-                                                   
+ 
                                             </ul>
   `,
   },
@@ -8448,7 +8555,7 @@ export const possibleAnswers = [
 <li class="t2">Why am I always late</li>
 <li class="t2">what!</li>
 
-                                                   
+ 
                                            
   <li class="t3">Excuse me</li>
   <li class="t3">I am sorry</li>
@@ -11187,7 +11294,7 @@ export const possibleAnswers = [
  <li class="t2">Wasser</li>
  <li class="t2">Water Bottle</li>
 
-                                                    
+  
   <li class="t3">Fish</li>
   <li class="t3">Kiwi</li>
   <li class="t3">Milk</li>
@@ -11753,10 +11860,108 @@ export const possibleAnswers = [
     categoryName: "Sports",
     html: `
   <ul>
+ <li class="t6">Dance</li>
+ <li class="t5">Dancing</li>
+ <li class="t2">Dart</li>
+ <li class="t9">Darts</li>
+ <li class="t2">Decathlon</li>
+ <li class="t2">Dirt biking</li>
+ <li class="t2">Disc golf</li>
+ <li class="t4">Discus</li>
+ <li class="t10">Diving</li>
+ <li class="t2">Dogeball</li>
+
+  
+<li>dodge ball</li>
+<li class="t4">drag racing</li>
+<li class="t2">Dog racing</li>
+<li class="t2">deer hunting</li>
+<li>Derby</li>
+<li>Drag race</li>
+<li>Doge ball</li>
+<li>Danza</li>
+<li>Dardos</li>
+<li>Dog sledding</li>
+<li>dive</li>
+<li>Downhill Mountain Biking</li>
+<li>Danse</li>
+<li>disc</li>
+<li>Discus throw</li>
+<li>DODGEBALL</li>
+<li>Double dutch</li>
+<li>downball</li>
+<li>downhill skiing</li>
+<li>donkey riding</li>
+<li>Dice</li>
+<li>dirt bike racing</li>
+<li>Dragonboat</li>
+<li>Dancesport</li>
+<li>Deep sea fishing</li>
+<li>duck hunting</li>
+<li>Disk Golf</li>
+<li>Dog race</li>
+<li>Dirt bike riding</li>
+<li>Downhill</li>
+<li>dragon boat racing</li>
+<li>dart throwing</li>
+<li>Dog</li>
+<li>dirt racing</li>
+<li>deadlifting</li>
+<li>disc throwing</li>
+<li>Dressage</li>
+<li>Dribbling</li>
+<li>Drive</li>
+<li>Drama</li>
+<li>Disk</li>
+<li>Deep sea diving</li>
+<li>Deep diving</li>
+<li>Distance running</li>
+<li>dunk</li>
+<li>dans</li>
+<li>Dogsledding</li>
+<li>Donkey</li>
+<li>dead</li>
+<li>docking</li>
+
+  
+<li>Drone racing</li>
+<li>dodge</li>
+<li>doughnut eating</li>
+<li>duck</li>
+<li>Darting</li>
+<li>Dad</li>
+<li>Deadlift</li>
+<li>Dominó</li>
+<li>damas</li>
+<li>Decatlon</li>
+<li>Dueling</li>
+<li>done</li>
+<li>danish longball</li>
+<li>diver</li>
+<li>dont</li>
+<li>Dards</li>
+<li>Dragracing</li>
+<li>downhill ski</li>
+<li>Disco</li>
+<li>Decathalon</li>
+<li>D1 Basketball</li>
+<li>Dungeons and dragons</li>
+<li>Denver nuggets</li>
+<li>downhill biking</li>
+<li>dumb</li>
+<li>dog frisbee</li>
+<li>dragon boating</li>
+<li>Doubles</li>
+
+  
   <li class="t3">Basketball</li>
+
   <li class="t3">Cricket</li>
+
   <li class="t3">Gymnastics</li>
+
   <li class="t3">Karate</li>
+
   <li class="t3">Quidditch</li>
   <li class="t3">Running</li>
   <li class="t3">Wrestling</li>
@@ -12086,7 +12291,7 @@ export const possibleAnswers = [
 <li>egyptians</li>
 <li>ebony keys</li>
 
-                                                   
+ 
   <li class="t3">Ant</li>
   <li class="t3">Cat</li>
   <li class="t3">Hair</li>
@@ -12544,6 +12749,113 @@ export const possibleAnswers = [
     categoryName: "things that make you smile",
     html: `
   <ul>
+  <li class="t5">Dad</li>
+  <li class="t3">Daisies</li>
+  <li class="t4">Dance</li>
+  <li class="t6">Dancing</li>
+  <li class="t3">Diamonds</li>
+  <li class="t3">Dimples</li>
+  <li class="t4">Dinner</li>
+  <li class="t6">Dog</li>
+  <li class="t11">Dogs</li>
+  <li class="t6">Donuts</li>
+
+      
+
+      <li class="t4">Dreams</li>
+      <li class="t4">Ducks</li>
+      <li class="t3">Deer</li>
+      <li class="t3">Dinosaurs</li>
+      <li class="t3">Donut</li>
+      <li class="t3">Drugs</li>
+      <li class="t3">Dollars</li>
+      <li class="t3">Dolphins</li>
+      <li class="t3">Drinks</li>
+      <li class="t2">Dessert</li>
+      <li class="t2">Dandelions</li>
+      <li class="t2">Daffodils</li>
+      <li class="t2">Dolls</li>
+      <li class="t2">Daisy</li>
+      <li class="t2">Drawing</li>
+      <li class="t2">Dragons</li>
+      <li class="t2">Disney</li>
+      <li class="t2">Drinking</li>
+      <li class="t2">Donkeys</li>
+      <li class="t2">Daylight</li>
+      <li class="t2">Duck</li>
+      <li class="t2">Dark chocolate</li>
+      <li class="t2">Donkey</li>
+      <li class="t2">Doughnuts</li>
+      <li class="t2">Drums</li>
+      <li class="t2">Doll</li>
+      <li class="t2">Daddy</li>
+      <li class="t2">Driving</li>
+      <li class="t2">Doritos</li>
+      <li class="t2">Dream</li>
+      <li class="t2">Dentist</li>
+      <li class="t2">Dates</li>
+      <li>Dormir</li>
+      <li>Delicious food</li>
+      <li>Doors</li>
+      <li>Dinosaur</li>
+      <li>drama</li>
+      <li>Doodles</li>
+      <li>Diamond</li>
+      <li>Drink</li>
+      <li>Dumb people</li>
+      <li>Dad jokes</li>
+      <li>Desserts</li>
+      <li>Dudes</li>
+      <li>Day</li>
+      <li>Death</li>
+      <li>Dentures</li>
+      <li>Dingos</li>
+      <li>Dirt</li>
+
+      
+
+      <li>Doves</li>
+      <li>Doughnut</li>
+      <li>Daisys</li>
+      <li>Dawn</li>
+      <li>deers</li>
+      <li>dresses</li>
+      <li>Ducklings</li>
+      <li>Dreaming</li>
+      <li>Dalmatians</li>
+      <li>Dank memes</li>
+      <li>Donald Duck</li>
+      <li>Dolphin</li>
+      <li>dating</li>
+      <li>dinero</li>
+      <li>Disco</li>
+      <li>Doodling</li>
+      <li>Diving</li>
+      <li>Dorks</li>
+      <li>dancers</li>
+      <li>doggies</li>
+      <li>Disney movies</li>
+      <li>Danger</li>
+      <li>Dice</li>
+      <li>dinos</li>
+      <li>drake</li>
+      <li>Door</li>
+      <li>Dandelion</li>
+      <li>Daughter</li>
+      <li>Dumbo</li>
+      <li>Dying</li>
+      <li>Dandilions</li>
+      <li>Dopamine</li>
+      <li>Darts</li>
+      <li>Delight</li>
+      <li>dollar bills</li>
+      <li>Dark</li>
+      <li>Day light</li>
+      <li>doctors</li>
+      <li>Dora</li>
+      <li>dentists</li>
+
+ 
 <li class="t5">Easter</li>
 <li class="t4">Eat</li>
 <li class="t11">Eating</li>
@@ -12650,7 +12962,7 @@ export const possibleAnswers = [
 <li>eating chocolate</li>
 <li>Everyone here</li>
 
-                                                   
+ 
   <li class="t3">Animals</li>
 
   <li class="t3">Food</li>
@@ -15750,7 +16062,7 @@ export const possibleAnswers = [
 <li>ecoli</li>
 <li>Exit sign</li>
 
-                                                   
+ 
   <li class="t3">Apple</li>
   <li class="t3">Egg</li>
   <li class="t3">Food</li>
@@ -16450,7 +16762,7 @@ export const possibleAnswers = [
 <li>water plants</li>
 <li>Whistle</li>
 
-                                                  
+
   <li class="t3">Jog</li>
   <li class="t3">Kick</li>
   <li class="t3">Quit</li>
@@ -17529,7 +17841,7 @@ export const possibleAnswers = [
 <li class="t3">wife</li>
 <li class="t3">washing machine</li>
 <li class="t3">Energy</li>
-                                                   
+ 
                                             </ul>`,
   },
   {
@@ -18541,6 +18853,113 @@ export const possibleAnswers = [
   {
     categoryName: "Expensive",
     html: `<ul>
+<li class="t11">Diamond</li>
+<li class="t2">Dimond</li>
+<li class="t3">Dinner</li>
+<li class="t10">Dior</li>
+<li class="t8">Dog</li>
+<li class="t6">Dogs</li>
+<li class="t3">Dollar</li>
+<li class="t2">Dollars</li>
+<li class="t3">Dress</li>
+<li class="t2">Drone</li>
+
+      
+
+<li class="t5">Drugs</li>
+<li class="t3">door</li>
+<li class="t2">Ducati</li>
+<li class="t2">Duck</li>
+<li class="t2">dentist</li>
+<li class="t2">Dates</li>
+<li class="t2">Drums</li>
+<li class="t2">designer</li>
+<li class="t2">Desk</li>
+<li class="t2">Designer clothes</li>
+<li class="t2">Dynamite</li>
+<li class="t2">Drinks</li>
+<li class="t2">drum</li>
+<li class="t2">Diamond ring</li>
+<li class="t2">Dolls</li>
+<li class="t2">doors</li>
+<li class="t2">Dodge</li>
+<li class="t2">Dresses</li>
+<li class="t2">Diamond necklace</li>
+<li class="t2">Dishes</li>
+<li class="t2">Diamantes</li>
+<li class="t2">Diamant</li>
+<li class="t2">Dolce and Gabbana</li>
+<li>Doll</li>
+<li>Doctor</li>
+<li>Dinosaur</li>
+<li>Dam</li>
+<li>Deer</li>
+<li>Dinero</li>
+<li>Designer bag</li>
+<li>Dolce and gabana</li>
+<li>Dubai</li>
+<li>Dinosaur bones</li>
+<li>dimonds</li>
+<li>Deck</li>
+<li>donuts</li>
+<li>Disney</li>
+<li>Dock</li>
+<li>dentures</li>
+<li>death</li>
+<li>Dragons</li>
+<li>Drug</li>
+<li>date</li>
+<li>Diapers</li>
+<li>diamond rings</li>
+<li>Dragon</li>
+<li>Divorce</li>
+<li>Dior bag</li>
+<li>Denmark</li>
+<li>Donkey</li>
+
+      
+
+    <li>Drumset</li>
+    <li>diamond earrings</li>
+    <li>Driving</li>
+    <li>Dear</li>
+    <li>Drink</li>
+    <li>Dad</li>
+    <li>Dishwasher</li>
+    <li>DIAMONDS</li>
+    <li>Designer bags</li>
+    <li>Dodge Viper</li>
+    <li>daddy</li>
+    <li>Dolce and Gabanna</li>
+    <li>Dodge car</li>
+    <li>Debt</li>
+    <li>Drake</li>
+    <li>Dodge Challenger</li>
+    <li>Dodge Charger</li>
+    <li>Durango</li>
+    <li>Dolce &amp; Gabanna</li>
+    <li>dark chocolate</li>
+    <li>Dang</li>
+    <li>Dolphin</li>
+    <li>Dell computer</li>
+    <li>driveway</li>
+    <li>Dryer</li>
+    <li>DKNY</li>
+    <li>Diamons</li>
+    <li>Daimond</li>
+    <li>dreams</li>
+    <li>Disco</li>
+    <li>Diamante</li>
+    <li>Doctors</li>
+    <li>Drum set</li>
+    <li>Dinosaurs</li>
+    <li>Dolce &amp; Gabbana</li>
+    <li>Decorations</li>
+    <li>Dish</li>
+    <li>dog food</li>
+    <li>D&amp;G</li>
+
+ 
   <li class="t3">Car</li>
   <li class="t3">Gold</li>
   <li class="t3">Gucci</li>
@@ -19094,6 +19513,110 @@ export const possibleAnswers = [
   {
     categoryName: "Leisure Activity",
     html: `<ul>
+ <li class="t5">Dating</li>
+ <li class="t5">Daydreaming</li>
+ <li class="t4">Digging</li>
+ <li class="t4">Dining</li>
+ <li class="t4">Dodgeball</li>
+ <li class="t5">Doodling</li>
+ <li class="t10">Drawing</li>
+ <li class="t4">Dreaming</li>
+ <li class="t10">Driving</li>
+ <li class="t4">Drumming</li>
+
+  
+
+<li class="t5">dance</li>
+<li class="t3">darts</li>
+<li class="t3">dog walking</li>
+<li class="t3">Drink</li>
+<li class="t3">Draw</li>
+<li class="t3">Doing nothing</li>
+<li class="t3">Dunking</li>
+<li class="t2">Dodge ball</li>
+<li class="t2">day dreaming</li>
+<li class="t2">dicking around</li>
+<li class="t2">Drag racing</li>
+<li class="t2">Dormir</li>
+<li class="t2">Dominoes</li>
+<li class="t2">Drive</li>
+<li class="t2">Dirt biking</li>
+<li class="t2">Dominos</li>
+<li class="t2">daydream</li>
+<li class="t2">Dogging</li>
+<li class="t2">Dinner</li>
+<li class="t2">disco dancing</li>
+<li class="t2">Dream</li>
+<li class="t2">downhill skiing</li>
+<li class="t2">Drinking wine</li>
+<li class="t2">Dabbing</li>
+<li class="t2">dicking down</li>
+<li class="t2">Duck hunting</li>
+<li>disco</li>
+<li>Day Drinking</li>
+<li>deer hunting</li>
+<li>drugs</li>
+<li>Dumpster diving</li>
+<li>Digging for gold</li>
+<li>Dining Out</li>
+<li>Dicking</li>
+<li>Dozing</li>
+<li>Drama</li>
+<li>Digging holes</li>
+<li>Dive</li>
+<li>drums</li>
+<li>dungeons and dragons</li>
+<li>ding dong ditch</li>
+<li>Duck watching</li>
+<li>Deep sea diving</li>
+<li>Dunk</li>
+<li>Dusting</li>
+<li>Discus</li>
+<li>Doodle</li>
+<li>dipping in the pool</li>
+<li>Dealing cards</li>
+<li>Dogwalking</li>
+
+  
+<li>Dog</li>
+<li>dolls</li>
+<li>Driving around</li>
+<li>dumping</li>
+<li>Doing it</li>
+<li>drowning</li>
+<li>Dress up</li>
+<li>Dressing up</li>
+<li>Doing homework</li>
+<li>D&amp;D</li>
+<li>dozing off</li>
+<li>Diddling</li>
+<li>Dog sledding</li>
+<li>dibujar</li>
+<li>DRINKING</li>
+<li>Donut eating</li>
+<li>Dandelion picking</li>
+<li>Doing the dishes</li>
+<li>Drinks</li>
+<li>Die</li>
+<li>Disk Golf</li>
+<li>Dice</li>
+<li>Drone flying</li>
+<li>Dilly dallying</li>
+<li>doping</li>
+<li>Dressage</li>
+<li>Drinking coffee</li>
+<li>Drum</li>
+<li>Domino</li>
+<li>dressing</li>
+<li>Decorating</li>
+<li>deep sea fishing</li>
+<li>Doing</li>
+<li>Dribbling</li>
+<li>Danc</li>
+<li>drinking water</li>
+<li>Drink wine</li>
+
+ 
   <li class="t3">Art</li>
   <li class="t3">Football</li>
   <li class="t3">Jumping</li>
@@ -20198,7 +20721,7 @@ export const possibleAnswers = [
  <li>Stethoscopes</li>
  <li>spit</li>
 
-                                                   
+ 
   <li class="t3">Bed</li>
 
   <li class="t3">Doctor</li>
@@ -21207,6 +21730,46 @@ export const possibleAnswers = [
   {
     categoryName: "Harry Potter Characters",
     html: `<ul>
+<li class="t6">Dark Lord</li>
+<li class="t8">Dean</li>
+<li class="t5">Death Eaters</li>
+<li class="t4">Dementor</li>
+<li class="t5">Dementors</li>
+<li class="t8">Diggory</li>
+<li class="t12">Dolores Umbridge</li>
+<li class="t11">Draco malfoy</li>
+<li class="t9">Dumbeldore</li>
+<li class="t9">Dursley</li>
+<li class="t7">Dursleys</li>
+<li class="t6">dean thomas</li>
+<li class="t4">delores umbridge</li>
+<li class="t4">dedalus diggle</li>
+<li class="t4">DRACO</li>
+<li class="t4">doby</li>
+<li class="t3">DUMBLEDORE</li>
+<li class="t3">Dumbeldoor</li>
+<li class="t3">Delacour</li>
+<li class="t3">Dumbuldore</li>
+<li class="t3">dobby the elf</li>
+<li class="t3">Dobi</li>
+<li class="t3">dudley dursely</li>
+<li class="t3">dolores</li>
+<li class="t3">Delacour, Fleur</li>
+<li class="t2">Dirk</li>
+<li class="t2">dave</li>
+<li class="t2">dont know</li>
+<li class="t2">Dumbledorr</li>
+<li class="t2">Dumblebore</li>
+<li class="t2">doyle</li>
+<li class="t2">dad</li>
+<li class="t2">dear</li>
+<li class="t2">Dumbo</li>
+<li class="t2">dumbaldore</li>
+<li class="t2">Duddly</li>
+<li class="t2">Duddley</li>
+<li class="t2">Dumbldoor</li>
+<li class="t2">dumbl</li>
+<li class="t2">daniel radcliff</li>
   <li class="t3">Ernie Macmillan</li>
   <li class="t3">Hermione Granger</li>
   <li class="t3">Igor Karkaroff</li>

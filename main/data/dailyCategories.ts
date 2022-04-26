@@ -125,7 +125,7 @@ export const dailyCategories = [
       "Sports",
       "Leisure Activity",
       "things that make you smile",
-      "Provinces or States",
+      "Expensive",
       "Girl's name",
       "Harry Potter Characters",
     ],

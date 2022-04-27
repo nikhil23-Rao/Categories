@@ -13647,10 +13647,108 @@ export const possibleAnswers = [
     categoryName: "Team name",
     html: `
   <ul>
+<li class="t6">Iceland</li>
+<li class="t4">Illini</li>
+<li class="t4">Illinois</li>
+<li class="t10">India</li>
+<li class="t11">Indiana Pacers</li>
+<li class="t8">Indianapolis Colts</li>
+<li class="t4">Inter</li>
+<li class="t7">Inter Milan</li>
+<li class="t7">Ireland</li>
+<li class="t4">Italy</li>
+
+
+<li class="t5">iguanas</li>
+<li class="t8">indians</li>
+<li class="t4">Ipswich town</li>
+<li class="t3">Ipswich</li>
+<li class="t3">Incredibles</li>
+<li class="t3">Indian cricket team</li>
+<li class="t3">Irish</li>
+<li class="t3">Indiana Hoosiers</li>
+<li class="t3">Icelanders</li>
+<li class="t3">Isotopes</li>
+<li class="t3">Iguana</li>
+<li class="t3">Iowa Hawkeyes</li>
+<li class="t3">igloo</li>
+<li class="t2">Infernos</li>
+<li class="t2">Iran</li>
+<li class="t2">Iris</li>
+<li class="t2">Inter de milan</li>
+<li class="t2">ice dogs</li>
+<li class="t2">Indiana Colts</li>
+<li class="t2">Iowa</li>
+<li class="t2">Inverness</li>
+<li class="t2">Internacional</li>
+<li class="t2">Indonesia</li>
+<li class="t2">ions</li>
+<li class="t2">Independiente</li>
+<li class="t2">Indies</li>
+<li class="t2">Idaho</li>
+<li class="t2">Israel</li>
+<li>Ice cream</li>
+<li>Ian</li>
+<li>Ivy</li>
+<li>Ice ice baby</li>
+<li>Imperials</li>
+<li>Ice team</li>
+<li>Icebergs</li>
+<li>Indian National Cricket Team</li>
+<li>Icebreakers</li>
+<li>Ice breakers</li>
+<li>Illinois State</li>
+<li>International</li>
+<li>Intermilan</li>
+<li>Invictus</li>
+<li>Invincibles</li>
+<li>Icedogs</li>
+<li>indian raiders</li>
+<li>Icarus</li>
+<li>Icers</li>
+<li>Istanbul</li>
+<li>Indiana red skins</li>
+<li>Inter Miami</li>
+
+
+<li>Inter Mailand</li>
+<li>Ingland</li>
+<li>Iron</li>
+<li>insane</li>
+<li>Indiana State</li>
+<li>Ibis</li>
+<li>Incredible</li>
+<li>ice men</li>
+<li>Idiot</li>
+<li>Internet</li>
+<li>Icy</li>
+<li>Iowa state</li>
+<li>Ice crackers</li>
+<li>Ivory</li>
+<li>i love you</li>
+<li>ill</li>
+<li>India team</li>
+<li>ice storm</li>
+<li>Iceland National Team</li>
+<li>Ingolstadt Fc</li>
+<li>Inchworms</li>
+<li>Intensity</li>
+<li>Iions</li>
+<li>Ireland FC</li>
+<li>Ice skaters</li>
+<li>India Cricket Team</li>
+<li>indie</li>
+<li>India cricket</li>
+
+                                                  
   <li class="t3">Everton</li>
+
   <li class="t3">Juventus</li>
+
   <li class="t3">Knicks</li>
+
   <li class="t3">Liverpool</li>
+
   <li class="t3">Qatar</li>
   <li class="t3">Quakers</li>
   <li class="t3">Warriors</li>
@@ -15007,6 +15105,59 @@ export const possibleAnswers = [
     categoryName: "3 letter words",
     html: `
   <ul>
+<li class="t10">ice</li>
+<li class="t3">Ivy</li>
+<li class="t7">Ink</li>
+<li class="t2">Icy</li>
+<li>It’s</li>
+<li class="t3">Ian</li>
+<li class="t2">Ick</li>
+<li class="t2">Imp</li>
+<li class="t3">Inn</li>
+<li class="t2">Ire</li>
+<li>Its</li>
+<li>Ill</li>
+                                                    <li class="t3">ill</li>
+                                                    <li class="t3">its</li>
+                                                    <li>I've</li>
+                                                    <li>Irk</li>
+                                                    <li>Isa</li>
+                                                    <li>I’ll</li>
+                                                    <li>Iam</li>
+                                                    <li>Ike</li>
+                                                    <li>Ira</li>
+                                                    <li>Inc</li>
+                                                    <li>ilk</li>
+                                                    <li>Ida</li>
+                                                    <li>Ina</li>
+                                                    <li>ish</li>
+                                                    <li>ios</li>
+                                                    <li>iva</li>
+                                                    <li>Ins</li>
+                                                    <li>IPA</li>
+                                                    <li>ino</li>
+                                                    <li>ive</li>
+                                                    <li>Iss</li>
+                                                    <li>Ima</li>
+                                                    <li>Ich</li>
+                                                    <li>ind</li>
+                                                    <li>ION</li>
+                                                    <li>ING</li>
+                                                    <li>ist</li>
+                                                    <li>iso</li>
+                                                    <li>i'll</li>
+                                                    <li>Igo</li>
+                                                    <li>ips</li>
+                                                    <li>irl</li>
+                                                    <li>Iie</li>
+                                                    <li>iou</li>
+                                                    <li>ILU</li>
+                                                    <li>ink,</li>
+                                                    <li>IDK</li>
+                                                    <li>ivi</li>
+                                                    <li>IMO</li>
+
+                                                   
   <li class="t3">Cat</li>
   <li class="t3">Eat</li>
   <li class="t3">Ice</li>
@@ -18069,9 +18220,118 @@ export const possibleAnswers = [
   {
     categoryName: "Words with 12 or More Letters",
     html: `<ul>
+ <li class="t6">Illustration</li>
+ <li class="t6">Impossibility</li>
+ <li class="t6">Incredulously</li>
+ <li class="t9">Independence</li>
+ <li class="t8">Indianapolis</li>
+ <li class="t10">Intelligence</li>
+ <li class="t11">Interestingly</li>
+ <li class="t7">Intergalactic</li>
+ <li class="t12">International</li>
+ <li class="t6">Internationally</li>
+
+<li class="t6">Interstellar</li>
+<li class="t6">incandescent</li>
+<li class="t6">Indescribable</li>
+<li class="t6">Identification</li>
+<li class="t5">independently</li>
+<li class="t5">Inconceivable</li>
+<li class="t5">Indecisiveness</li>
+<li class="t5">Intercontinental</li>
+<li class="t5">Instantaneous</li>
+<li class="t5">Illustrations</li>
+<li class="t5">Intellectual</li>
+<li class="t5">Indestructible</li>
+<li class="t5">Irresponsible</li>
+<li class="t5">Imaginations</li>
+<li class="t5">Incidentally</li>
+<li class="t5">Interdisciplinary</li>
+<li class="t5">incomprehensible</li>
+<li class="t4">investigation</li>
+<li class="t4">Informational</li>
+<li class="t4">Idiosyncrasies</li>
+<li class="t4">Industrialization</li>
+<li class="t4">Intelligently</li>
+<li class="t4">irreplaceable</li>
+<li class="t4">Idiosyncratic</li>
+<li class="t4">Indigenously</li>
+<li class="t4">Individuality</li>
+<li class="t4">interdimensional</li>
+<li class="t4">Inconspicuous</li>
+<li class="t4">Indistinguishable</li>
+<li class="t4">illumination</li>
+<li class="t4">Indispensable</li>
+<li class="t4">Invisibility</li>
+<li class="t4">Intellectually</li>
+<li class="t3">Intermediate</li>
+<li class="t3">idiosyncrasy</li>
+<li class="t3">Iconoclastic</li>
+<li class="t3">illegitimate</li>
+<li class="t3">Intimidation</li>
+<li class="t3">Inexplicable</li>
+<li class="t3">Inspirational</li>
+<li class="t3">individualistic</li>
+<li class="t3">Institutional</li>
+<li class="t3">iridescently</li>
+<li class="t3">Introduction</li>
+<li class="t3">instrumental</li>
+<li class="t3">Individually</li>
+<li class="t3">illuminations</li>
+<li class="t3">interconnected</li>
+<li class="t3">incantations</li>
+<li class="t3">institutionalized</li>
+
+   
+
+  <li class="t3">Irresponsibility</li>
+  <li class="t3">illustriousness</li>
+  <li class="t3">Interpersonal</li>
+                                                       <li class="t3">Instantaneously</li>
+                                                       <li class="t3">Incapacitated</li>
+                                                       <li class="t3">interception</li>
+                                                       <li class="t3">Introspection</li>
+                                                       <li class="t3">Impossibilities</li>
+                                                       <li class="t3">indefinitely</li>
+                                                       <li class="t3">Incarceration</li>
+                                                       <li class="t2">Illuminating</li>
+                                                       <li class="t2">Individualism</li>
+                                                       <li class="t2">Irrationally</li>
+                                                       <li class="t2">Inconsequential</li>
+                                                       <li class="t2">Ideologically</li>
+                                                       <li class="t2">illegitimately</li>
+                                                       <li class="t2">Indiscriminate</li>
+                                                       <li class="t2">iconographer</li>
+                                                       <li class="t2">identifiable</li>
+                                                       <li class="t2">Interviewing</li>
+                                                       <li class="t2">Introspective</li>
+                                                       <li class="t2">Inconspicuously</li>
+                                                       <li class="t2">Insecticides</li>
+                                                       <li class="t2">incarcerated</li>
+                                                       <li class="t2">Introductions</li>
+                                                       <li class="t2">Indifference</li>
+                                                       <li class="t2">Invincibility</li>
+                                                       <li class="t2">Inconvenience</li>
+                                                       <li class="t2">Irreversible</li>
+                                                       <li class="t2">incredibleness</li>
+                                                       <li class="t2">Intermittent</li>
+                                                       <li class="t2">iconological</li>
+                                                       <li class="t2">Insurrection</li>
+                                                       <li class="t2">irresistible</li>
+                                                       <li class="t2">Interdependence</li>
+                                                       <li class="t2">illegitimacy</li>
+                                                       <li class="t2">Intergenerational</li>
+                                                       <li class="t2">incompetence</li>
+                                                       <li class="t2">ichthyosaurus</li>
+                                                       <li class="t2">Independents</li>
+
+                                                   
     <li class="t12">Wastefulness</li>
+
     <li class="t12">whitewashing</li>
+
     <li class="t12">wholehearted</li>
+
     <li class="t18">Waterboarding</li>
     <li class="t12">Wholeheartedly</li>
     <li class="t12">Wolverhampton</li>
@@ -19292,7 +19552,57 @@ export const possibleAnswers = [
   {
     categoryName: "Asian food",
     html: `<ul>
+ <li class="t4">Ichiban</li>
+ <li class="t4">Idk</li>
+ <li class="t11">Idli</li>
+ <li class="t5">Idly</li>
+ <li class="t5">Indian Food</li>
+ <li class="t4">Indomie</li>
+ <li class="t5">Indonesian food</li>
+ <li class="t4">Instant ramen</li>
+ <li class="t7">ice cream</li>
+ <li class="t7">indian curry</li>
+
+
+<li class="t5">instant noodles</li>
+<li class="t5">isaw</li>
+<li class="t3">Insects</li>
+<li class="t3">Itlog</li>
+<li class="t3">Inari</li>
+<li class="t3">ink noodles</li>
+<li class="t3">Iron Goddess Tea</li>
+<li class="t3">Indian rice</li>
+<li class="t3">ice kacang</li>
+<li class="t3">Iced tea</li>
+<li class="t3">Indonesian noodles</li>
+<li class="t3">india</li>
+<li class="t2">ikura</li>
+<li class="t2">Imitation crab</li>
+<li class="t2">Ilish</li>
+<li class="t2">Ian</li>
+<li class="t2">ice tea</li>
+<li class="t2">Imli</li>
+<li class="t2">ink</li>
+<li class="t2">Ice kachang</li>
+<li class="t2">Ika</li>
+<li class="t2">Indomee</li>
+<li class="t2">iron</li>
+<li class="t2">intestines</li>
+<li class="t2">Inasal</li>
+<li class="t2">Isda</li>
+<li class="t2">idili</li>
+<li class="t2">Ice cream mochi</li>
+<li class="t2">Instant noodle</li>
+<li class="t2">Indian takeaway</li>
+<li class="t2">Ikan goreng</li>
+<li>Italian</li>
+<li>Iced Coffee</li>
+<li>Igloo</li>
+<li>ichiban sushi</li>
+
+                                                  
   <li class="t3">Curry</li>
+
   <li class="t3">Fish</li>
   <li class="t3">Quail eggs</li>
   <li class="t3">Ramen</li>
@@ -21176,7 +21486,63 @@ export const possibleAnswers = [
   {
     categoryName: "Wireless things",
     html: `<ul>
+    <li>I pad</li>
+    <li>I phone</li>
+    <li class="t2">Ice</li>
+    <li>Ice cream</li>
+    <li>Iguana</li>
+    <li class="t4">Ipad</li>
+    <li class="t10">Iphone</li>
+    <li class="t2">Iphones</li>
+    <li>Ipods</li>
+    <li>Iron</li>
+
+
+<li>Island</li>
+<li>india</li>
+<li>Instagram</li>
+<li>I-phone</li>
+<li>Iphone charger</li>
+<li>Insect</li>
+<li>Intranet</li>
+<li>inkjet printer</li>
+<li>internet router</li>
+<li>i pod</li>
+<li>Islands</li>
+<li>iman</li>
+<li>Imac</li>
+<li>I-pad</li>
+<li>ink jet printer</li>
+<li>Ivy</li>
+<li>Ignition</li>
+<li>Ice cubes</li>
+<li>Internet of things</li>
+<li>icecream</li>
+<li>iphone 12</li>
+<li>iphone headphones</li>
+<li>Igel</li>
+<li>Ideas</li>
+<li>IPod</li>
+<li>Item</li>
+<li>Internet modem</li>
+<li>I am</li>
+<li>infrared</li>
+<li>iRobot</li>
+<li>Idiots</li>
+<li>Ill</li>
+<li>iphone airpods</li>
+<li>Inkpot</li>
+<li>intercom</li>
+<li>ireland</li>
+<li>IoT</li>
+<li>Ink printer</li>
+<li>Imp</li>
+<li>Intel</li>
+<li>instrument</li>
+
+                                               
   <li class="t3">Fan</li>
+
   <li class="t3">Iphone</li>
   <li class="t3">Keyboard</li>
   <li class="t3">Quack</li>
@@ -21878,6 +22244,58 @@ export const possibleAnswers = [
   {
     categoryName: "place to travel",
     html: `<ul>
+<li class="t2">Ibiza</li>
+<li class="t3">Illinois</li>
+<li class="t10">India</li>
+<li class="t4">Indiana</li>
+<li class="t5">Indonesia</li>
+<li class="t2">Iowa</li>
+<li class="t3">Iran</li>
+<li class="t2">Iraq</li>
+<li class="t5">Ireland</li>
+<li class="t4">Island</li>
+
+
+<li class="t3">Istanbul</li>
+<li class="t8">Italy</li>
+<li class="t2">Indianapolis</li>
+<li class="t2">Idaho</li>
+<li>Irland</li>
+<li>Irlanda</li>
+<li>israel</li>
+<li>Isreal</li>
+<li>Ice land</li>
+<li>Islands</li>
+<li>Indien</li>
+<li>Italia</li>
+<li>Iberia</li>
+<li>Ithaca</li>
+<li>Indian</li>
+<li>Ipswich</li>
+<li>Inglaterra</li>
+<li>Indore</li>
+<li>Inverness</li>
+<li>Irlandia</li>
+<li>ICELAND</li>
+<li>Islandia</li>
+<li>Isla</li>
+<li>Ingolstadt</li>
+<li>isle of man</li>
+<li>irak</li>
+<li>Indonisia</li>
+<li>Incheon</li>
+<li>Instanbul</li>
+<li>Ipanema</li>
+<li>Italien</li>
+<li>Ierland</li>
+<li>Irish</li>
+<li>Igloos</li>
+<li>Invercargill</li>
+<li>Indian ocean</li>
+<li>Innisfail</li>
+<li>Internet</li>
+
+                                                   
   <li class="t3">England</li>
   <li class="t3">Fiji</li>
   <li class="t3">India</li>

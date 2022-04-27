@@ -19572,7 +19572,6 @@ export const possibleAnswers = [
 <li class="t3">ice kacang</li>
 <li class="t3">Iced tea</li>
 <li class="t3">Indonesian noodles</li>
-<li class="t3">india</li>
 <li class="t2">ikura</li>
 <li class="t2">Imitation crab</li>
 <li class="t2">Ilish</li>

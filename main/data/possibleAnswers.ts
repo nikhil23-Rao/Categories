@@ -15153,7 +15153,6 @@ export const possibleAnswers = [
                                                     <li>iou</li>
                                                     <li>ILU</li>
                                                     <li>ink,</li>
-                                                    <li>IDK</li>
                                                     <li>ivi</li>
                                                     <li>IMO</li>
 
@@ -16038,7 +16037,6 @@ export const possibleAnswers = [
   <li class="t3">zip</li>
   <li class="t3">KYS</li>
   <li class="t3">Q&amp;A</li>
-  <li class="t3">Idk</li>
   <li class="t3">lmk</li>
   <li class="t3">rip</li>
   <li class="t3">WAP</li>
@@ -19553,7 +19551,6 @@ export const possibleAnswers = [
     categoryName: "Asian food",
     html: `<ul>
  <li class="t4">Ichiban</li>
- <li class="t4">Idk</li>
  <li class="t11">Idli</li>
  <li class="t5">Idly</li>
  <li class="t5">Indian Food</li>

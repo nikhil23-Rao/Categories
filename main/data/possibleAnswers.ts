@@ -21484,6 +21484,7 @@ export const possibleAnswers = [
     html: `<ul>
     <li>I pad</li>
     <li>I phone</li>
+    <li>Internet</li>
     <li class="t2">Ice</li>
     <li>Ice cream</li>
     <li>Iguana</li>

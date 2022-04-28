@@ -659,7 +659,7 @@ export const possibleAnswers = [
 <li class="t3">Bianca</li>
 <li class="t3">Amy</li>
  
-                                            </ul>
+</ul>
 					    `,
   },
   {
@@ -1079,7 +1079,7 @@ export const possibleAnswers = [
  <li>Weak</li>
  <li>Wenius</li>
  <li>west</li>
-                                                 
+     
   <li class="t3">Arm</li>
 
   <li class="t3">Head</li>
@@ -3260,7 +3260,7 @@ export const possibleAnswers = [
 <li class="t2">War thunder</li>
 <li class="t2">World of war</li>
 <li class="t2">wailing heights</li>
-                                               
+   
                                          
   <li class="t3">Fortnite</li>
   <li class="t3">Ice hockey</li>
@@ -5335,7 +5335,7 @@ export const possibleAnswers = [
 <li>eraiser</li>
 <li>Empty bottle</li>
 
-                                                 
+     
   <li class="t3">Book</li>
 
   <li class="t3">Glue</li>
@@ -7037,7 +7037,7 @@ export const possibleAnswers = [
             </div>
         </div>
   </li>
-                                            </ul>
+</ul>
   `,
   },
   {
@@ -7050,7 +7050,7 @@ export const possibleAnswers = [
 
 <li>ate an apple</li><li>animal watching</li><li>act like a kid</li><li>aerobic</li><li>Amuse</li><li>animal walking</li><li>applaud</li><li>attack pigeons</li><li>ambulate</li><li>ask for help</li><li>admire the view</li><li>a slide</li><li>almorzar</li><li>American football</li><li>Arse around</li><li>arobics</li><li>Arse about</li><li>Arts and crafts</li><li>Ask to play</li><li>Aimlessly wander</li><li>airplane</li><li>act like a child</li><li>Ake</li><li>Attack kids</li><li>Ask for ice cream</li><li>aspirate</li><li>agitate</li><li>army crawl</li><li>accelerate</li><li>Acrobat</li><li>A nap</li><li>air out</li><li>Act weird</li><li>annoy parents</li><li>attack children</li><li>Anything you want</li><li>Act in a play</li><li>Ant eating</li><li>Amaze</li><li>Abseil</li>
  
-                                            </ul>
+</ul>
   `,
   },
   {
@@ -7502,7 +7502,7 @@ export const possibleAnswers = [
 <li class="t3">Abracadabra</li>
 <li class="t3">Velociraptor</li>
  
-                                            </ul>
+</ul>
   `,
   },
   {
@@ -10934,7 +10934,7 @@ export const possibleAnswers = [
 <li class="t6">Robot</li>
 <li class="t6">Rocks</li>
 
-                                                        
+            
 <li class="t6">Roses</li>
 <li class="t9">Round</li>
 <li class="t5">Ropes</li>
@@ -10986,7 +10986,7 @@ export const possibleAnswers = [
 <li class="t2">Roach</li>
 <li class="t2">rests</li>
 
-                                                        
+            
 <li class="t2">rapes</li>
 <li class="t2">Realm</li>
 <li class="t2">Rabid</li>
@@ -11028,7 +11028,7 @@ export const possibleAnswers = [
 <li>Ralph</li>
 <li>ratty</li>
 
-                                                  
+      
   <li class="t3">Apple</li>
   <li class="t3">Darks</li>
   <li class="t3">usurp</li>
@@ -13846,7 +13846,7 @@ export const possibleAnswers = [
 <li>indie</li>
 <li>India cricket</li>
 
-                                                  
+      
   <li class="t3">Everton</li>
 
   <li class="t3">Juventus</li>
@@ -15223,46 +15223,46 @@ export const possibleAnswers = [
 <li class="t2">Ire</li>
 <li>Its</li>
 <li>Ill</li>
-                                                    <li class="t3">ill</li>
-                                                    <li class="t3">its</li>
-                                                    <li>I've</li>
-                                                    <li>Irk</li>
-                                                    <li>Isa</li>
-                                                    <li>I’ll</li>
-                                                    <li>Iam</li>
-                                                    <li>Ike</li>
-                                                    <li>Ira</li>
-                                                    <li>Inc</li>
-                                                    <li>ilk</li>
-                                                    <li>Ida</li>
-                                                    <li>Ina</li>
-                                                    <li>ish</li>
-                                                    <li>ios</li>
-                                                    <li>iva</li>
-                                                    <li>Ins</li>
-                                                    <li>IPA</li>
-                                                    <li>ino</li>
-                                                    <li>ive</li>
-                                                    <li>Iss</li>
-                                                    <li>Ima</li>
-                                                    <li>Ich</li>
-                                                    <li>ind</li>
-                                                    <li>ION</li>
-                                                    <li>ING</li>
-                                                    <li>ist</li>
-                                                    <li>iso</li>
-                                                    <li>i'll</li>
-                                                    <li>Igo</li>
-                                                    <li>ips</li>
-                                                    <li>irl</li>
-                                                    <li>Iie</li>
-                                                    <li>iou</li>
-                                                    <li>ILU</li>
-                                                    <li>ink,</li>
-                                                    <li>ivi</li>
-                                                    <li>IMO</li>
+        <li class="t3">ill</li>
+        <li class="t3">its</li>
+        <li>I've</li>
+        <li>Irk</li>
+        <li>Isa</li>
+        <li>I’ll</li>
+        <li>Iam</li>
+        <li>Ike</li>
+        <li>Ira</li>
+        <li>Inc</li>
+        <li>ilk</li>
+        <li>Ida</li>
+        <li>Ina</li>
+        <li>ish</li>
+        <li>ios</li>
+        <li>iva</li>
+        <li>Ins</li>
+        <li>IPA</li>
+        <li>ino</li>
+        <li>ive</li>
+        <li>Iss</li>
+        <li>Ima</li>
+        <li>Ich</li>
+        <li>ind</li>
+        <li>ION</li>
+        <li>ING</li>
+        <li>ist</li>
+        <li>iso</li>
+        <li>i'll</li>
+        <li>Igo</li>
+        <li>ips</li>
+        <li>irl</li>
+        <li>Iie</li>
+        <li>iou</li>
+        <li>ILU</li>
+        <li>ink,</li>
+        <li>ivi</li>
+        <li>IMO</li>
 
-                                                   
+       
   <li class="t3">Cat</li>
   <li class="t3">Eat</li>
   <li class="t3">Ice</li>
@@ -16778,7 +16778,7 @@ export const possibleAnswers = [
    <li class="t3">red table</li>
    <li class="t9">round table</li>
 
-                                                        
+            
 <li class="t3">roundtable</li>
 <li class="t9">rug</li>
 <li class="t2">red carpet</li>
@@ -16830,20 +16830,20 @@ export const possibleAnswers = [
 <li>rock table</li>
 <li>rocking horse</li>
 
-                                                        <li>reading desk</li>
-                                                        <li>Rolling table</li>
-                                                        <li>Redwood table</li>
-                                                        <li>Rocks</li>
-                                                        <li>rose</li>
-                                                        <li>ratan chair</li>
-                                                        <li>Rolling cart</li>
-                                                        <li>road</li>
-                                                        <li>Rolling desk</li>
-                                                        <li>reading table</li>
-                                                        <li>Relaxing chair</li>
-                                                        <li>rustic table</li>
+            <li>reading desk</li>
+            <li>Rolling table</li>
+            <li>Redwood table</li>
+            <li>Rocks</li>
+            <li>rose</li>
+            <li>ratan chair</li>
+            <li>Rolling cart</li>
+            <li>road</li>
+            <li>Rolling desk</li>
+            <li>reading table</li>
+            <li>Relaxing chair</li>
+            <li>rustic table</li>
 
-                                                  
+      
   <li class="t3">Bed</li>
 
   <li class="t3">Kitchen table</li>
@@ -17081,60 +17081,60 @@ export const possibleAnswers = [
     <li class="t3">Roll</li>
     <li class="t3">Roll out of bed</li>
 
-                                                        
+            
 
-                                                      <li class="t6">Running</li>
-                                                      <li class="t3">Rush</li>
-                                                      <li class="t3">Rap</li>
-                                                      <li class="t3">Read a book</li>
-                                                      <li class="t2">Ride bike</li>
-                                                      <li class="t2">roar</li>
-                                                      <li class="t2">Remember</li>
-                                                      <li class="t2">Read the news</li>
-                                                      <li class="t2">Reach</li>
-                                                      <li class="t2">reir</li>
-                                                      <li class="t2">React</li>
-                                                      <li class="t2">Read books</li>
-                                                      <li class="t2">regret</li>
-                                                      <li class="t2">READ</li>
-                                                      <li class="t2">ramble</li>
-                                                      <li class="t2">row</li>
-                                                      <li class="t2">Race</li>
-                                                      <li class="t2">recycle</li>
-                                                      <li class="t2">Rave</li>
-                                                      <li class="t2">Ring</li>
-                                                      <li class="t2">rise and shine</li>
-                                                      <li class="t2">rake</li>
-                                                      <li class="t2">Roam</li>
-                                                      <li>Ride in a car</li>
-                                                      <li>Ring people</li>
-                                                      <li>rage</li>
-                                                      <li>Rhyme</li>
-                                                      <li>Run errands</li>
-                                                      <li>Ruminate</li>
-                                                      <li>Rock</li>
-                                                      <li>Ride in the car</li>
-                                                      <li>Rinse my face</li>
-                                                      <li>Racing</li>
-                                                      <li>roncar</li>
-                                                      <li>Read email</li>
-                                                      <li>Run to the bathroom</li>
-                                                      <li>Roam around</li>
-                                                      <li>Rake the leaves</li>
-                                                      <li>Rise up</li>
-                                                      <li>Relaxing</li>
-                                                      <li>roll over in bed</li>
-                                                      <li>Roll over</li>
-                                                      <li>Rub</li>
-                                                      <li>Robar</li>
-                                                      <li>riding</li>
-                                                      <li>Read words</li>
-                                                      <li>Run around the house</li>
-                                                      <li>Rotate</li>
-                                                      <li>ran</li>
-                                                      <li>Repeat</li>
+          <li class="t6">Running</li>
+          <li class="t3">Rush</li>
+          <li class="t3">Rap</li>
+          <li class="t3">Read a book</li>
+          <li class="t2">Ride bike</li>
+          <li class="t2">roar</li>
+          <li class="t2">Remember</li>
+          <li class="t2">Read the news</li>
+          <li class="t2">Reach</li>
+          <li class="t2">reir</li>
+          <li class="t2">React</li>
+          <li class="t2">Read books</li>
+          <li class="t2">regret</li>
+          <li class="t2">READ</li>
+          <li class="t2">ramble</li>
+          <li class="t2">row</li>
+          <li class="t2">Race</li>
+          <li class="t2">recycle</li>
+          <li class="t2">Rave</li>
+          <li class="t2">Ring</li>
+          <li class="t2">rise and shine</li>
+          <li class="t2">rake</li>
+          <li class="t2">Roam</li>
+          <li>Ride in a car</li>
+          <li>Ring people</li>
+          <li>rage</li>
+          <li>Rhyme</li>
+          <li>Run errands</li>
+          <li>Ruminate</li>
+          <li>Rock</li>
+          <li>Ride in the car</li>
+          <li>Rinse my face</li>
+          <li>Racing</li>
+          <li>roncar</li>
+          <li>Read email</li>
+          <li>Run to the bathroom</li>
+          <li>Roam around</li>
+          <li>Rake the leaves</li>
+          <li>Rise up</li>
+          <li>Relaxing</li>
+          <li>roll over in bed</li>
+          <li>Roll over</li>
+          <li>Rub</li>
+          <li>Robar</li>
+          <li>riding</li>
+          <li>Read words</li>
+          <li>Run around the house</li>
+          <li>Rotate</li>
+          <li>ran</li>
+          <li>Repeat</li>
 
-                                                        
+            
 <li>Rolling</li>
 <li>Resting</li>
 <li>Reden</li>
@@ -17176,7 +17176,7 @@ export const possibleAnswers = [
 <li>run from my problems</li>
 <li>Rub my eyes</li>
 
-                                                   
+       
     <li class="t4">Wait</li>
 
     <li class="t6">Wake up</li>
@@ -18288,7 +18288,7 @@ export const possibleAnswers = [
 <li class="t3">washing machine</li>
 <li class="t3">Energy</li>
  
-                                            </ul>`,
+</ul>`,
   },
   {
     categoryName: "Something in the Bible",
@@ -18581,45 +18581,45 @@ export const possibleAnswers = [
   <li class="t3">Irresponsibility</li>
   <li class="t3">illustriousness</li>
   <li class="t3">Interpersonal</li>
-                                                       <li class="t3">Instantaneously</li>
-                                                       <li class="t3">Incapacitated</li>
-                                                       <li class="t3">interception</li>
-                                                       <li class="t3">Introspection</li>
-                                                       <li class="t3">Impossibilities</li>
-                                                       <li class="t3">indefinitely</li>
-                                                       <li class="t3">Incarceration</li>
-                                                       <li class="t2">Illuminating</li>
-                                                       <li class="t2">Individualism</li>
-                                                       <li class="t2">Irrationally</li>
-                                                       <li class="t2">Inconsequential</li>
-                                                       <li class="t2">Ideologically</li>
-                                                       <li class="t2">illegitimately</li>
-                                                       <li class="t2">Indiscriminate</li>
-                                                       <li class="t2">iconographer</li>
-                                                       <li class="t2">identifiable</li>
-                                                       <li class="t2">Interviewing</li>
-                                                       <li class="t2">Introspective</li>
-                                                       <li class="t2">Inconspicuously</li>
-                                                       <li class="t2">Insecticides</li>
-                                                       <li class="t2">incarcerated</li>
-                                                       <li class="t2">Introductions</li>
-                                                       <li class="t2">Indifference</li>
-                                                       <li class="t2">Invincibility</li>
-                                                       <li class="t2">Inconvenience</li>
-                                                       <li class="t2">Irreversible</li>
-                                                       <li class="t2">incredibleness</li>
-                                                       <li class="t2">Intermittent</li>
-                                                       <li class="t2">iconological</li>
-                                                       <li class="t2">Insurrection</li>
-                                                       <li class="t2">irresistible</li>
-                                                       <li class="t2">Interdependence</li>
-                                                       <li class="t2">illegitimacy</li>
-                                                       <li class="t2">Intergenerational</li>
-                                                       <li class="t2">incompetence</li>
-                                                       <li class="t2">ichthyosaurus</li>
-                                                       <li class="t2">Independents</li>
+           <li class="t3">Instantaneously</li>
+           <li class="t3">Incapacitated</li>
+           <li class="t3">interception</li>
+           <li class="t3">Introspection</li>
+           <li class="t3">Impossibilities</li>
+           <li class="t3">indefinitely</li>
+           <li class="t3">Incarceration</li>
+           <li class="t2">Illuminating</li>
+           <li class="t2">Individualism</li>
+           <li class="t2">Irrationally</li>
+           <li class="t2">Inconsequential</li>
+           <li class="t2">Ideologically</li>
+           <li class="t2">illegitimately</li>
+           <li class="t2">Indiscriminate</li>
+           <li class="t2">iconographer</li>
+           <li class="t2">identifiable</li>
+           <li class="t2">Interviewing</li>
+           <li class="t2">Introspective</li>
+           <li class="t2">Inconspicuously</li>
+           <li class="t2">Insecticides</li>
+           <li class="t2">incarcerated</li>
+           <li class="t2">Introductions</li>
+           <li class="t2">Indifference</li>
+           <li class="t2">Invincibility</li>
+           <li class="t2">Inconvenience</li>
+           <li class="t2">Irreversible</li>
+           <li class="t2">incredibleness</li>
+           <li class="t2">Intermittent</li>
+           <li class="t2">iconological</li>
+           <li class="t2">Insurrection</li>
+           <li class="t2">irresistible</li>
+           <li class="t2">Interdependence</li>
+           <li class="t2">illegitimacy</li>
+           <li class="t2">Intergenerational</li>
+           <li class="t2">incompetence</li>
+           <li class="t2">ichthyosaurus</li>
+           <li class="t2">Independents</li>
 
-                                                   
+       
     <li class="t12">Wastefulness</li>
 
     <li class="t12">whitewashing</li>
@@ -19892,7 +19892,7 @@ export const possibleAnswers = [
 <li>Igloo</li>
 <li>ichiban sushi</li>
 
-                                                  
+      
   <li class="t3">Curry</li>
 
   <li class="t3">Fish</li>
@@ -20563,7 +20563,7 @@ export const possibleAnswers = [
    <li class="t10">Ruffles</li>
    <li class="t6">rice cake</li>
 
-                                                        
+            
 <li class="t6">rice crackers</li>
 <li class="t10">ritz</li>
 <li class="t6">Raisin</li>
@@ -20615,50 +20615,50 @@ export const possibleAnswers = [
 <li class="t2">Roll</li>
 <li class="t2">ricecake</li>
 
-                                                        
+            
 
-                                                       <li class="t2">Ramen noodles</li>
-                                                       <li class="t2">Red pepper</li>
-                                                       <li class="t2">Rice Krispy Treats</li>
-                                                       <li class="t2">ranch and carrots</li>
-                                                       <li class="t2">red velvet cake</li>
-                                                       <li class="t2">rice crispy</li>
-                                                       <li class="t2">Resses</li>
-                                                       <li class="t2">Roti</li>
-                                                       <li class="t2">Redvines</li>
-                                                       <li class="t2">Relish</li>
-                                                       <li class="t2">rollups</li>
-                                                       <li class="t2">ranch dressing</li>
-                                                       <li class="t2">rits</li>
-                                                       <li class="t2">rice krispy</li>
-                                                       <li class="t2">Razzles</li>
-                                                       <li class="t2">reese cups</li>
-                                                       <li class="t2">Rum cake</li>
-                                                       <li class="t2">Rhubarb pie</li>
-                                                       <li class="t2">rice crispy treats</li>
-                                                       <li class="t2">Rice crisps</li>
-                                                       <li class="t2">Ringos</li>
-                                                       <li class="t2">Reeses cups</li>
-                                                       <li class="t2">Ruffle chips</li>
-                                                       <li class="t2">Redskins</li>
-                                                       <li class="t2">Roll up</li>
-                                                       <li class="t2">Rasgulla</li>
-                                                       <li class="t2">ringo</li>
-                                                       <li class="t2">Rainbow skittles</li>
-                                                       <li class="t2">Revels</li>
-                                                       <li>ritz cracker</li>
-                                                       <li>Reese's cups</li>
-                                                       <li>Rice chips</li>
-                                                       <li>Raisens</li>
-                                                       <li>red beans</li>
-                                                       <li>red wine</li>
-                                                       <li>Red M&amp;Ms</li>
-                                                       <li>red velvet</li>
-                                                       <li>Rusks</li>
-                                                       <li>root beer</li>
-                                                       <li>red chips</li>
+           <li class="t2">Ramen noodles</li>
+           <li class="t2">Red pepper</li>
+           <li class="t2">Rice Krispy Treats</li>
+           <li class="t2">ranch and carrots</li>
+           <li class="t2">red velvet cake</li>
+           <li class="t2">rice crispy</li>
+           <li class="t2">Resses</li>
+           <li class="t2">Roti</li>
+           <li class="t2">Redvines</li>
+           <li class="t2">Relish</li>
+           <li class="t2">rollups</li>
+           <li class="t2">ranch dressing</li>
+           <li class="t2">rits</li>
+           <li class="t2">rice krispy</li>
+           <li class="t2">Razzles</li>
+           <li class="t2">reese cups</li>
+           <li class="t2">Rum cake</li>
+           <li class="t2">Rhubarb pie</li>
+           <li class="t2">rice crispy treats</li>
+           <li class="t2">Rice crisps</li>
+           <li class="t2">Ringos</li>
+           <li class="t2">Reeses cups</li>
+           <li class="t2">Ruffle chips</li>
+           <li class="t2">Redskins</li>
+           <li class="t2">Roll up</li>
+           <li class="t2">Rasgulla</li>
+           <li class="t2">ringo</li>
+           <li class="t2">Rainbow skittles</li>
+           <li class="t2">Revels</li>
+           <li>ritz cracker</li>
+           <li>Reese's cups</li>
+           <li>Rice chips</li>
+           <li>Raisens</li>
+           <li>red beans</li>
+           <li>red wine</li>
+           <li>Red M&amp;Ms</li>
+           <li>red velvet</li>
+           <li>Rusks</li>
+           <li>root beer</li>
+           <li>red chips</li>
 
-                                                   
+       
   <li class="t3">Almonds</li>
 
   <li class="t3">Kiwi</li>
@@ -21667,108 +21667,109 @@ export const possibleAnswers = [
     categoryName: "Things You Shout",
     html: `<ul>
    <li class="t5">Run</li>
-   <li class="t5">Rat</li>
+   <li class="t5">Really</li>
+   <li class="t5">Ready</li>
    <li class="t6">Rats</li>
+   <li class="t7">Right</li>
+   <li class="t5">Rat</li>
+   <li class="t5">Run!</li>
    <li class="t5">Rats!</li>
    <li class="t7">Rawr</li>
-   <li class="t5">Ready</li>
-   <li class="t5">Really</li>
-   <li class="t7">Right</li>
    <li class="t6">Right!</li>
    <li class="t11">Roar</li>
    <li class="t5">Roar!</li>
 
-                                            <li class="t5">Rude</li>
-                                            <li class="t5">Racist</li>
-                                            <li class="t4">Rude!</li>
-                                            <li class="t4">Racist!</li>
-                                            <li class="t4">Right on!</li>
-                                            <li class="t3">RUN AWAY</li>
-                                            <li class="t3">Rock</li>
-                                            <li class="t3">Right now</li>
-                                            <li class="t3">run forest run</li>
-                                            <li class="t3">Right on</li>
-                                            <li class="t3">RIP</li>
-                                            <li class="t3">Rascal</li>
-                                            <li class="t3">rock on</li>
-                                            <li class="t3">rad</li>
-                                            <li class="t3">Run away!</li>
-                                            <li class="t3">rah</li>
-                                            <li class="t3">RAT!</li>
-                                            <li class="t3">Relax!</li>
-                                            <li class="t3">Rah!</li>
-                                            <li class="t2">Riot</li>
-                                            <li class="t2">Roll over</li>
-                                            <li class="t2">Ridiculous!</li>
-                                            <li class="t2">rain</li>
-                                            <li class="t2">Rah rah</li>
-                                            <li class="t2">rah rah rah</li>
-                                            <li class="t2">Run Forest Run!</li>
-                                            <li class="t2">Rawr!</li>
-                                            <li class="t2">Robber!</li>
-                                            <li class="t2">ready!</li>
-                                            <li class="t2">Really!</li>
-                                            <li class="t2">Rap</li>
-                                            <li class="t2">Row!</li>
-                                            <li class="t2">Rain!</li>
-                                            <li class="t2">Rata</li>
-                                            <li class="t2">Right there!</li>
-                                            <li class="t2">READY SET GO</li>
-                                            <li class="t2">red</li>
-                                            <li class="t2">RIDICULOUS</li>
-                                            <li class="t2">Rabbit</li>
-                                            <li class="t2">Right now!</li>
-                                            <li class="t2">red rover</li>
-                                            <li class="t2">rubbish</li>
-                                            <li class="t2">rock and roll</li>
-                                            <li class="t2">Row</li>
-                                            <li class="t2">run!!</li>
-                                            <li class="t2">Rad!</li>
-                                            <li class="t2">Relax</li>
-                                            <li class="t2">rapist</li>
+<li class="t5">Rude</li>
+<li class="t5">Racist</li>
+<li class="t4">Rude!</li>
+<li class="t4">Racist!</li>
+<li class="t4">Right on!</li>
+<li class="t3">RUN AWAY</li>
+<li class="t3">Rock</li>
+<li class="t3">Right now</li>
+<li class="t3">run forest run</li>
+<li class="t3">Right on</li>
+<li class="t3">RIP</li>
+<li class="t3">Rascal</li>
+<li class="t3">rock on</li>
+<li class="t3">rad</li>
+<li class="t3">Run away!</li>
+<li class="t3">rah</li>
+<li class="t3">RAT!</li>
+<li class="t3">Relax!</li>
+<li class="t3">Rah!</li>
+<li class="t2">Riot</li>
+<li class="t2">Roll over</li>
+<li class="t2">Ridiculous!</li>
+<li class="t2">rain</li>
+<li class="t2">Rah rah</li>
+<li class="t2">rah rah rah</li>
+<li class="t2">Run Forest Run!</li>
+<li class="t2">Rawr!</li>
+<li class="t2">Robber!</li>
+<li class="t2">ready!</li>
+<li class="t2">Really!</li>
+<li class="t2">Rap</li>
+<li class="t2">Row!</li>
+<li class="t2">Rain!</li>
+<li class="t2">Rata</li>
+<li class="t2">Right there!</li>
+<li class="t2">READY SET GO</li>
+<li class="t2">red</li>
+<li class="t2">RIDICULOUS</li>
+<li class="t2">Rabbit</li>
+<li class="t2">Right now!</li>
+<li class="t2">red rover</li>
+<li class="t2">rubbish</li>
+<li class="t2">rock and roll</li>
+<li class="t2">Row</li>
+<li class="t2">run!!</li>
+<li class="t2">Rad!</li>
+<li class="t2">Relax</li>
+<li class="t2">rapist</li>
 
-                                                      <li>Rough</li>
-                                                      <li>Radical</li>
-                                                      <li>Right here!</li>
-                                                      <li>Reach!</li>
-                                                      <li>Roger</li>
-                                                      <li>roll</li>
-                                                      <li>rawr xD</li>
-                                                      <li>Race</li>
-                                                      <li>RUN FOR YOUR LIFE</li>
-                                                      <li>Roger!</li>
-                                                      <li>Riot!</li>
-                                                      <li>Rage</li>
-                                                      <li>RAR</li>
-                                                      <li>Roger that</li>
-                                                      <li>rocket</li>
-                                                      <li>Reverse</li>
-                                                      <li>Raid!</li>
-                                                      <li>rack off</li>
-                                                      <li>Right there</li>
-                                                      <li>Ram</li>
-                                                      <li>Ready or not</li>
-                                                      <li>Run for your life!</li>
-                                                      <li>Red light!</li>
-                                                      <li>Rayos</li>
-                                                      <li>RED LIGHT</li>
-                                                      <li>Race you!</li>
-                                                      <li>RAIL ME</li>
-                                                      <li>Rat!!</li>
-                                                      <li>retard!</li>
-                                                      <li>ready to go!</li>
-                                                      <li>rachel</li>
-                                                      <li>retreat</li>
-                                                      <li>Ready, set, go!</li>
-                                                      <li>read</li>
-                                                      <li>run fast</li>
-                                                      <li>Raw</li>
-                                                      <li>read the room</li>
-                                                      <li>Run him over!</li>
-                                                      <li>rum</li>
-                                                      <li>REE</li>
+          <li>Rough</li>
+          <li>Radical</li>
+          <li>Right here!</li>
+          <li>Reach!</li>
+          <li>Roger</li>
+          <li>roll</li>
+          <li>rawr xD</li>
+          <li>Race</li>
+          <li>RUN FOR YOUR LIFE</li>
+          <li>Roger!</li>
+          <li>Riot!</li>
+          <li>Rage</li>
+          <li>RAR</li>
+          <li>Roger that</li>
+          <li>rocket</li>
+          <li>Reverse</li>
+          <li>Raid!</li>
+          <li>rack off</li>
+          <li>Right there</li>
+          <li>Ram</li>
+          <li>Ready or not</li>
+          <li>Run for your life!</li>
+          <li>Red light!</li>
+          <li>Rayos</li>
+          <li>RED LIGHT</li>
+          <li>Race you!</li>
+          <li>RAIL ME</li>
+          <li>Rat!!</li>
+          <li>retard!</li>
+          <li>ready to go!</li>
+          <li>rachel</li>
+          <li>retreat</li>
+          <li>Ready, set, go!</li>
+          <li>read</li>
+          <li>run fast</li>
+          <li>Raw</li>
+          <li>read the room</li>
+          <li>Run him over!</li>
+          <li>rum</li>
+          <li>REE</li>
 
-                                                   
+       
   <li class="t3">Hello</li>
 
   <li class="t3">Quit it!</li>
@@ -21893,7 +21894,7 @@ export const possibleAnswers = [
    <li class="t6">Roger Federer</li>
    <li class="t11">Ronaldo</li>
 
-                                                        
+            
 <li class="t3">Russel Wilson</li>
 <li class="t3">Ryan Giggs</li>
 <li class="t2">Rick Fox</li>
@@ -21945,48 +21946,48 @@ export const possibleAnswers = [
 <li>Robinson, Jackie</li>
 <li>Roger Federrer</li>
 
-                                                        <li>rory mcilroy</li>
-                                                        <li>Roberto Clemente</li>
-                                                        <li>rooney</li>
-                                                        <li>Ruth</li>
-                                                        <li>Robbie Fowler</li>
-                                                        <li>Rickey Henderson</li>
-                                                        <li>rio ferdinand</li>
-                                                        <li>Randall Cobb</li>
-                                                        <li>rudy gobert</li>
-                                                        <li>Reece James</li>
-                                                        <li>Roger</li>
-                                                        <li>Roy Jones Jr</li>
-                                                        <li>Race</li>
-                                                        <li>Richard Anderson</li>
-                                                        <li>Ricky Williams</li>
-                                                        <li>Rajon Rando</li>
-                                                        <li>Riccardo</li>
-                                                        <li>Rodrigo</li>
-                                                        <li>Ronnie O'Sullivan</li>
-                                                        <li>romelu lukaku</li>
-                                                        <li>Rick Nash</li>
-                                                        <li>raphael nadal</li>
-                                                        <li>Rodriguez, Alex</li>
-                                                        <li>run</li>
-                                                        <li>Ronaldihno</li>
-                                                        <li>Rodney hood</li>
-                                                        <li>Rodgers, Aaron</li>
-                                                        <li>Ribery</li>
-                                                        <li>ronald</li>
-                                                        <li>Rick Barry</li>
-                                                        <li>Rally</li>
-                                                        <li>Ronaldinho gaucho</li>
-                                                        <li>romo</li>
-                                                        <li>Richard Hamilton</li>
-                                                        <li>roger feder</li>
-                                                        <li>Ronaldo Cristiano</li>
-                                                        <li>Ryan Fitzpatrick</li>
-                                                        <li>Reggie White</li>
-                                                        <li>Rice, Jerry</li>
-                                                        <li>Rhonda Rousey</li>
+            <li>rory mcilroy</li>
+            <li>Roberto Clemente</li>
+            <li>rooney</li>
+            <li>Ruth</li>
+            <li>Robbie Fowler</li>
+            <li>Rickey Henderson</li>
+            <li>rio ferdinand</li>
+            <li>Randall Cobb</li>
+            <li>rudy gobert</li>
+            <li>Reece James</li>
+            <li>Roger</li>
+            <li>Roy Jones Jr</li>
+            <li>Race</li>
+            <li>Richard Anderson</li>
+            <li>Ricky Williams</li>
+            <li>Rajon Rando</li>
+            <li>Riccardo</li>
+            <li>Rodrigo</li>
+            <li>Ronnie O'Sullivan</li>
+            <li>romelu lukaku</li>
+            <li>Rick Nash</li>
+            <li>raphael nadal</li>
+            <li>Rodriguez, Alex</li>
+            <li>run</li>
+            <li>Ronaldihno</li>
+            <li>Rodney hood</li>
+            <li>Rodgers, Aaron</li>
+            <li>Ribery</li>
+            <li>ronald</li>
+            <li>Rick Barry</li>
+            <li>Rally</li>
+            <li>Ronaldinho gaucho</li>
+            <li>romo</li>
+            <li>Richard Hamilton</li>
+            <li>roger feder</li>
+            <li>Ronaldo Cristiano</li>
+            <li>Ryan Fitzpatrick</li>
+            <li>Reggie White</li>
+            <li>Rice, Jerry</li>
+            <li>Rhonda Rousey</li>
 
-                                                  
+      
   <li class="t3">Lionel Messi</li>
 
   <li class="t3">Neymar</li>
@@ -22154,7 +22155,7 @@ export const possibleAnswers = [
 <li>Intel</li>
 <li>instrument</li>
 
-                                               
+   
   <li class="t3">Fan</li>
 
   <li class="t3">Iphone</li>
@@ -22909,7 +22910,7 @@ export const possibleAnswers = [
 <li>Innisfail</li>
 <li>Internet</li>
 
-                                                   
+       
   <li class="t3">England</li>
   <li class="t3">Fiji</li>
   <li class="t3">India</li>

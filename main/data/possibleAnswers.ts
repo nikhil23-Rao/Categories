@@ -21891,6 +21891,8 @@ export const possibleAnswers = [
    <li class="t3">Ricky Rubio</li>
    <li class="t2">Rocky</li>
    <li class="t3">Rodman</li>
+   <li class="t3">Rafa Nadal</li>
+   <li class="t3">Rafa</li>
    <li class="t6">Roger Federer</li>
    <li class="t11">Ronaldo</li>
 

@@ -13,6 +13,9 @@ import { pressTab } from "../../utils/pressTab";
 import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 import { useMediaQuery } from "react-responsive";
+import Lottie from "react-lottie";
+import correctAnimationData from "../../public/correct.json";
+import incorrectAnimationData from "../../public/incorrect.json";
 
 interface IProps {
   title: string;
@@ -48,7 +51,25 @@ export const GameInput = ({
   const [letters, setLetters] = useState<any[]>([]);
   const isTablet = useMediaQuery({ maxWidth: 1353 });
   const [hovered, setHovered] = useState<boolean>(false);
+
+  const isMac = useMediaQuery({ maxWidth: 1500 });
+  const isPhone = useMediaQuery({ maxWidth: 642 });
+
   let currIndex = dailyCategories.length;
+
+  const incorrectAnimationOptions = {
+    animationData: incorrectAnimationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const correctAnimationOptions = {
+    animationData: correctAnimationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   return (
     <div
@@ -123,27 +144,36 @@ export const GameInput = ({
             />
 
             <div>
-              <CheckCircle
-                className="fade has-tooltip"
-                style={{
-                  color: "lightgreen",
-                  position: "relative",
-                  zoom: 1.5,
-                  display: correct && !loading ? "flex" : "none",
-                  marginLeft: isTablet ? 52 : 30,
-                  cursor: "pointer",
-                }}
-              />
+              <div className="fade has-tooltip">
+                <Lottie
+                  isStopped={!correct}
+                  options={{
+                    ...correctAnimationOptions,
+                    loop: false,
+                  }}
+                  style={{
+                    position: "absolute",
+                    zoom: 1.3,
+                    display: correct && !loading ? "flex" : "none",
+                    marginLeft: isTablet ? 52 : 30,
+                    cursor: "pointer",
+                    bottom: -5,
+                    left: isPhone ? -60 : isMac ? -30 : -10,
+                  }}
+                  height={40}
+                  width={40}
+                />
+              </div>
               <span
                 className="correct tooltip green"
                 style={{
                   position: "absolute",
-                  left: "-21%",
                   backgroundColor: "lightgreen",
                   color: "#000",
                   textAlign: "center",
                   width: 200,
-                  top: -5,
+                  left: -20,
+                  top: -7,
                 }}
               >
                 Accepted Answer
@@ -164,11 +194,12 @@ export const GameInput = ({
                   cursor: "pointer",
                 }}
               />
+
               <span
                 className="tooltip red"
                 style={{
                   position: "absolute",
-                  left: "1%",
+                  left: "31%",
                   backgroundColor: "#F66E72",
                 }}
               >

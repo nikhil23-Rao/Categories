@@ -149,7 +149,7 @@ export const dailyCategories = [
       "Snacks",
       "Things You Shout",
       "5 Letter Word",
-      "Villain",
+      "Sports Stars",
       "Things you do everyday",
       "Furniture",
     ],

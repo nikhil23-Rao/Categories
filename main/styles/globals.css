@@ -934,19 +934,6 @@ form:invalid + button {
 .tooltip img {
   max-width: 100%;
 }
-.tooltip:after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  widtH: 0;
-  height: 0;
-  border: 5px solid transparent;
-  position: absolute;
-  bottom: 0;
-  left: 90%;
-  transform: translate(-50%, 100%);
-}
-
 .field {
   position: relative;
   padding: 20px;

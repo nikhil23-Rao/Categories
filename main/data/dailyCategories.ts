@@ -160,7 +160,7 @@ export const dailyCategories = [
     inputs: [
       "Famous male",
       "Song titles",
-      "Team name",
+      "Food",
       "Body of water",
       "Dessert",
       "Place",

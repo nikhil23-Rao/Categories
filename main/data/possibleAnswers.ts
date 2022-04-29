@@ -112,6 +112,109 @@ export const possibleAnswers = [
     categoryName: "Food",
     html: `
   <ul>
+  <li class="t2">Eclair</li>
+  <li class="t2">Edamame</li>
+  <li class="t3">Eel</li>
+  <li class="t10">Egg</li>
+  <li class="t8">Eggs</li>
+  <li>Elote</li>
+  <li>Empanada</li>
+  <li>Empanadas</li>
+  <li class="t2">Enchilada</li>
+  <li class="t2">Enchiladas</li>
+
+                                                    <li>Escargot</li>
+                                                    <li>english muffin</li>
+                                                    <li>egg salad</li>
+                                                    <li>Easter egg</li>
+                                                    <li>Ear of corn</li>
+                                                    <li>Eggnog</li>
+                                                    <li>Elk</li>
+                                                    <li>Endive</li>
+                                                    <li>Ensalada</li>
+                                                    <li>Egg sandwich</li>
+                                                    <li>Energy bar</li>
+                                                    <li>Eclairs</li>
+                                                    <li>Estofado</li>
+                                                    <li>everything bagel</li>
+                                                    <li>Espinaca</li>
+                                                    <li>Escargo</li>
+                                                    <li>Elderberry</li>
+                                                    <li>easter eggs</li>
+                                                    <li>Egg rolls</li>
+                                                    <li>Eis</li>
+                                                    <li>Egg noodles</li>
+                                                    <li>Eggs Benedict</li>
+                                                    <li>Egg roll</li>
+                                                    <li>Eggos</li>
+                                                    <li>Edemame</li>
+                                                    <li>eggroll</li>
+                                                    <li>Eclaire</li>
+                                                    <li>English breakfast</li>
+                                                    <li>Egg fried rice</li>
+                                                    <li>Edam</li>
+                                                    <li>esparragos</li>
+                                                    <li>Elotes</li>
+                                                    <li>enchilladas</li>
+                                                    <li>Erdbeere</li>
+                                                    <li>Egg curry</li>
+                                                    <li>Emmental</li>
+                                                    <li>English muffins</li>
+                                                    <li>eels</li>
+                                                    <li>Eggo waffles</li>
+                                                    <li>Egg tart</li>
+                                                    <li>Eton mess</li>
+                                                    <li>Eggrolls</li>
+                                                    <li>Eel sushi</li>
+                                                    <li>Edam cheese</li>
+                                                    <li>Endives</li>
+                                                    <li>Enchillada</li>
+                                                    <li>Eggo</li>
+                                                    <li>Ente</li>
+                                                    <li>Enchalada</li>
+                                                    <li>Egg pie</li>
+
+                                                       <li>Eier</li>
+                                                       <li>EGGPLANT</li>
+                                                       <li>Elbow macaroni</li>
+                                                       <li>easy mac</li>
+                                                       <li>elbow pasta</li>
+                                                       <li>egg sandwich</li>
+                                                       <li>Erbsen</li>
+                                                       <li>esparrago</li>
+                                                       <li>Escalope</li>
+                                                       <li>Emental</li>
+                                                       <li>Eggroll</li>
+                                                       <li>Eba</li>
+                                                       <li>Epinard</li>
+                                                       <li>Espaguetis</li>
+                                                       <li>Eggplant parm</li>
+                                                       <li>Edamame beans</li>
+                                                       <li>Energy bars</li>
+                                                       <li>eal</li>
+                                                       <li>Escargots</li>
+                                                       <li>Ears of corn</li>
+                                                       <li>Egg drop soup</li>
+                                                       <li>Eggpie</li>
+                                                       <li>Enchaladas</li>
+                                                       <li>Escabeche</li>
+                                                       <li>Espresso</li>
+                                                       <li>Egg omelette</li>
+                                                       <li>Estragon</li>
+                                                       <li>Eggplant curry</li>
+                                                       <li>Eaton mess</li>
+                                                       <li>Egg rice</li>
+                                                       <li>Egg whites</li>
+                                                       <li>Espinacas</li>
+                                                       <li>Elaichi</li>
+                                                       <li>Empenada</li>
+                                                       <li>Elderberries</li>
+                                                       <li>Egg McMuffin</li>
+                                                       <li>Eggs.</li>
+                                                       <li>Emmentaler</li>
+                                                       <li>Eggs,</li>
+
+                                                   
   <li class="t3">Apple</li>
   <li class="t3">Egg</li>
   <li class="t3">Eggs</li>
@@ -1872,6 +1975,112 @@ export const possibleAnswers = [
     categoryName: "Song titles",
     html: `
   <ul>
+<li class="t9">Easy</li>
+<li class="t7">Endless love</li>
+<li class="t7">Enter Sandman</li>
+<li class="t7">Euphoria</li>
+<li class="t7">Everlong</li>
+<li class="t8">Evermore</li>
+<li class="t9">Every breath you take</li>
+<li class="t11">Everybody</li>
+<li class="t8">Everybody hurts</li>
+<li class="t12">Everyday</li>
+
+                                                        
+<li class="t9">Everything</li>
+<li class="t7">Everytime</li>
+<li class="t7">everything i wanted</li>
+<li class="t7">everybody talks</li>
+<li class="t6">Everywhere</li>
+<li class="t6">Evergreen</li>
+<li class="t6">Everlasting love</li>
+<li class="t6">Every time we touch</li>
+<li class="t6">Everything I do</li>
+<li class="t6">Everyone</li>
+<li class="t6">End of the world</li>
+<li class="t6">Everybody dance now</li>
+<li class="t5">Easy on me</li>
+<li class="t5">Enemy</li>
+<li class="t5">Everything has changed</li>
+<li class="t5">eye of the tiger</li>
+<li class="t5">Enchanted</li>
+<li class="t5">Everything is awesome</li>
+<li class="t5">Electric love</li>
+<li class="t5">eastside</li>
+<li class="t5">End</li>
+<li class="t5">End of time</li>
+<li class="t5">everytime we touch</li>
+<li class="t4">Eleanor Rigby</li>
+<li class="t4">Ever after</li>
+<li class="t4">electric slide</li>
+<li class="t4">Elephant</li>
+<li class="t4">end game</li>
+<li class="t4">everything about you</li>
+<li class="t4">Earth</li>
+<li class="t4">Earth song</li>
+<li class="t4">Electric</li>
+<li class="t4">Energy</li>
+<li class="t4">E.T.</li>
+<li class="t4">End of the road</li>
+<li class="t4">empire state of mind</li>
+<li class="t4">everlasting</li>
+<li class="t4">end of the day</li>
+<li class="t4">Every little thing</li>
+<li class="t4">earfquake</li>
+<li class="t4">east side</li>
+<li class="t4">elastic heart</li>
+<li class="t4">Eat it</li>
+<li class="t4">Escape</li>
+<li class="t4">Earned it</li>
+<li class="t4">Eleven</li>
+<li class="t3">Empty</li>
+<li class="t3">Everglow</li>
+<li class="t3">Every day</li>
+<li class="t3">Echo</li>
+
+                                                        
+<li class="t3">Endgame</li>
+<li class="t3">Easy Street</li>
+<li class="t3">Electric Feel</li>
+<li class="t3">Electric Avenue</li>
+<li class="t3">Eagle</li>
+<li class="t3">Ego</li>
+<li class="t3">Electricity</li>
+<li class="t3">Emotions</li>
+<li class="t3">Ever</li>
+<li class="t3">Epiphany</li>
+<li class="t3">enough for you</li>
+<li class="t3">Elevate</li>
+<li class="t3">easier</li>
+<li class="t3">every day</li>
+<li class="t3">Eternity</li>
+<li class="t3">Ebony and Ivory</li>
+<li class="t3">Everybody dance</li>
+<li class="t3">early in the morning</li>
+<li class="t3">Enough</li>
+<li class="t3">Emily</li>
+<li class="t3">Eres</li>
+<li class="t2">Easy Rider</li>
+<li class="t2">E.T</li>
+<li class="t2">ever since new york</li>
+<li class="t2">easy like sunday morning</li>
+<li class="t2">eclipse</li>
+<li class="t2">Everyday People</li>
+<li class="t2">every time</li>
+<li class="t2">Everywhere you go</li>
+<li class="t2">Evil Woman</li>
+<li class="t2">Elvira</li>
+<li class="t2">Edge of glory</li>
+<li class="t2">element</li>
+<li class="t2">Everything is everything</li>
+<li class="t2">east to west</li>
+<li class="t2">Ella</li>
+<li class="t2">Eyes</li>
+<li class="t2">Even if</li>
+<li class="t2">Everybody needs somebody</li>
+<li class="t2">everybody loves somebody</li>
+
+                                                    
   <li class="t3">Baby</li>
   <li class="t3">Hello</li>
   <li class="t3">I love you</li>
@@ -4730,6 +4939,71 @@ export const possibleAnswers = [
     categoryName: "Dessert",
     html: `
   <ul>
+<li class="t4">Easter candy</li>
+<li class="t6">Easter egg</li>
+<li class="t3">Egg Tart</li>
+<li class="t11">Eggnog</li>
+<li class="t3">Eskimo pie</li>
+<li class="t10">egg custard</li>
+<li class="t3">egg nog</li>
+<li class="t4">egg pie</li>
+<li class="t5">egg pudding</li>
+<li class="t4">elderberry pie</li>
+
+                                                  <li class="t4">elephant ear</li>
+                                                  <li class="t4">eton mess</li>
+                                                  <li class="t3">Easter eggs</li>
+                                                  <li class="t3">egg cream</li>
+                                                  <li class="t3">Elephant ears</li>
+                                                  <li class="t3">Egg pie</li>
+                                                  <li class="t2">Empanada</li>
+                                                  <li class="t2">english toffee</li>
+                                                  <li class="t2">Eggpie</li>
+                                                  <li class="t2">Elote</li>
+                                                  <li class="t2">eggpie</li>
+                                                  <li class="t2">Empanadas</li>
+                                                  <li class="t2">eggless cake</li>
+                                                  <li class="t2">eis</li>
+                                                  <li class="t2">Eclair au chocolat</li>
+                                                  <li class="t2">egg roll</li>
+                                                  <li class="t2">Eccles cake</li>
+                                                  <li class="t2">English pudding</li>
+                                                  <li class="t2">egg custard tart</li>
+                                                  <li class="t2">Edible arrangements</li>
+                                                  <li class="t2">easter chocolate</li>
+                                                  <li class="t2">Eclair.</li>
+                                                  <li class="t2">eclare</li>
+                                                  <li class="t2">Ecclair</li>
+                                                  <li class="t2">Eggos</li>
+                                                  <li class="t2">egg custard pie</li>
+                                                  <li class="t2">Elephant cake</li>
+                                                  <li>earl grey ice cream</li>
+                                                  <li>ensalada de frutas</li>
+                                                  <li>eggnogg</li>
+                                                  <li>English muffins</li>
+                                                  <li>Ecclairs</li>
+                                                  <li>Egg rolls</li>
+                                                  <li>Easter egg chocolate</li>
+                                                  <li>easter cake</li>
+                                                  <li>Eggnog ice cream</li>
+                                                  <li>Eggtarts</li>
+                                                  <li>elegant cake</li>
+                                                  <li>Edible cookie dough</li>
+                                                  <li>Eggo Waffles</li>
+                                                  <li>English Trifle</li>
+                                                  <li>Earl Grey Cake</li>
+                                                  <li>Easter egg candy</li>
+                                                  <li>ekler</li>
+                                                  <li>English pie</li>
+                                                  <li>Eggies</li>
+                                                  <li>Elderberry</li>
+                                                  <li>easter egg cake</li>
+                                                  <li>eggo</li>
+                                                  <li>Easter</li>
+
+                                                        
+<li>Easter bunny</li><li>Egg Cake</li><li>edamame</li><li>Egg waffle</li><li>Egg waffles</li><li>Eaten mess</li><li>Ensaymada</li><li>edible flowers</li><li>Erin mess</li><li>Erdbeerkuchen</li><li>energy bar</li><li>Earl grey</li><li>ecler</li><li>ECLAIRS</li><li>Eves pudding</li><li>English Muffin</li><li>Entremet</li><li>easter cookies</li><li>egg yolk</li><li>Elderberry ice cream</li><li>Eggcream</li><li>espresso</li><li>eggo waffle</li><li>Egg tarte</li><li>Edible paper</li><li>egg soufle</li><li>eats</li><li>Every dessert</li><li>Egg bread</li><li>egg nog ice cream</li><li>Egg chocolate</li><li>Erdbeere</li><li>Eating</li><li>Eierkuchen</li><li>easy bake oven cookies</li><li>elk</li><li>Elderberries</li><li>Egg souffle</li><li>Elderflower sorbet</li><li>Easter chocolate egg</li>
+                                                   
   <li class="t3">Cake</li>
   <li class="t3">Nutella</li>
   <li class="t3">Pie</li>
@@ -5450,7 +5724,115 @@ export const possibleAnswers = [
     categoryName: "Place",
     html: `
   <ul>
+<li class="t4">Earth</li>
+<li class="t3">Easter Island</li>
+<li class="t4">Ecuador</li>
+<li class="t2">Eden</li>
+<li class="t4">Edinburgh</li>
+<li class="t7">Egypt</li>
+<li class="t2">Elevator</li>
+<li class="t10">England</li>
+<li class="t2">España</li>
+<li class="t4">Estonia</li>
+
+                                                        
+
+                                                     <li class="t7">Europe</li>
+                                                     <li class="t3">Everest</li>
+                                                     <li class="t2">Eiffel Tower</li>
+                                                     <li class="t2">Eritrea</li>
+                                                     <li class="t2">Equador</li>
+                                                     <li>Everglades</li>
+                                                     <li>El Paso</li>
+                                                     <li>East Coast</li>
+                                                     <li>Exeter</li>
+                                                     <li>El Salvador</li>
+                                                     <li>Elementary school</li>
+                                                     <li>Erie</li>
+                                                     <li>Essen</li>
+                                                     <li>Emergency room</li>
+                                                     <li>Equator</li>
+                                                     <li>Europa</li>
+                                                     <li>Empire State Building</li>
+                                                     <li>edmonton</li>
+                                                     <li>Edinburg</li>
+                                                     <li>East London</li>
+                                                     <li>Evanston</li>
+                                                     <li>Ethopia</li>
+                                                     <li>Eatery</li>
+                                                     <li>Everton</li>
+                                                     <li>Eastern Europe</li>
+                                                     <li>Elk Grove</li>
+                                                     <li>East Asia</li>
+                                                     <li>East Timor</li>
+                                                     <li>Epping</li>
+                                                     <li>Escocia</li>
+                                                     <li>eastwood</li>
+                                                     <li>Estados unidos</li>
+                                                     <li>Estocolmo</li>
+                                                     <li>Ealing</li>
+                                                     <li>Ellis Island</li>
+                                                     <li>Englewood</li>
+                                                     <li>Epcot</li>
+                                                     <li>Etiopia</li>
+                                                     <li>Eton</li>
+                                                     <li>eifel tower</li>
+                                                     <li>Egipto</li>
+                                                     <li>Enfield</li>
+                                                     <li>Endor</li>
+                                                     <li>Emirates</li>
+                                                     <li>Entrance</li>
+                                                     <li>Elizabethtown</li>
+                                                     <li>Eagleton</li>
+                                                     <li>Evansville</li>
+                                                     <li>Everett</li>
+                                                     <li>Erfurt</li>
+
+                                                        
+
+                                                     <li>Evergreen</li>
+                                                     <li>Eugene</li>
+                                                     <li>Elizabeth</li>
+                                                     <li>East Africa</li>
+                                                     <li>East Germany</li>
+                                                     <li>Elista</li>
+                                                     <li>Ely</li>
+                                                     <li>Eastbourne</li>
+                                                     <li>Estadio</li>
+                                                     <li>Eurasia</li>
+                                                     <li>Encino</li>
+                                                     <li>Evesham</li>
+                                                     <li>Elgin</li>
+                                                     <li>Edinborough</li>
+                                                     <li>Emeryville</li>
+                                                     <li>Eltham</li>
+                                                     <li>Estland</li>
+                                                     <li>Enchanted Forest</li>
+                                                     <li>eygpt</li>
+                                                     <li>Edison</li>
+                                                     <li>Emerald City</li>
+                                                     <li>England.</li>
+                                                     <li>el dorado</li>
+                                                     <li>Eaton Centre</li>
+                                                     <li>Eindhoven</li>
+                                                     <li>Edwardsville</li>
+                                                     <li>east lansing</li>
+                                                     <li>Easter Islands</li>
+                                                     <li>Eswatini</li>
+                                                     <li>Erode</li>
+                                                     <li>East Anglia</li>
+                                                     <li>ecole</li>
+                                                     <li>Eye doctor</li>
+                                                     <li>Euston</li>
+                                                     <li>Eaton</li>
+                                                     <li>Estambul</li>
+                                                     <li>Empire State</li>
+                                                     <li>EDSA</li>
+                                                     <li>east end</li>
+                                                     <li>Ethipoia</li>
+
   <li class="t3">England</li>
+
   <li class="t3">Florida</li>
   <li class="t3">India</li>
   <li class="t3">London</li>
@@ -9905,6 +10287,113 @@ export const possibleAnswers = [
     categoryName: "Famous male",
     html: `
   <ul>
+ <li class="t8">Ed Sheeran</li>
+ <li class="t7">Eddie Murphy</li>
+ <li class="t5">Edward Norton</li>
+ <li class="t11">Einstein</li>
+ <li class="t5">Eli Manning</li>
+ <li class="t5">Elijah Wood</li>
+ <li class="t10">Elon musk</li>
+ <li class="t8">Elton John</li>
+ <li class="t8">Elvis</li>
+ <li class="t6">Elvis Presley</li>
+
+                                                        
+
+<li class="t8">Eminem</li>
+<li class="t5">Eric Clapton</li>
+<li class="t5">Ernest Hemingway</li>
+<li class="t4">ethan dolan</li>
+<li class="t4">Edward Scissorhands</li>
+<li class="t4">Evan Peters</li>
+<li class="t4">Ethan Hawk</li>
+<li class="t4">edgar allen poe</li>
+<li class="t3">ewan mcgregor</li>
+<li class="t3">Elmo</li>
+<li class="t3">Edison</li>
+<li class="t3">Eddie Redmayne</li>
+<li class="t3">Enrique Iglesias</li>
+<li class="t3">Eisenhower</li>
+<li class="t3">Edward Snowden</li>
+<li class="t3">Eric cantona</li>
+<li class="t3">Eric Bana</li>
+<li class="t3">ethan hawke</li>
+<li class="t3">Ernest Hemmingway</li>
+<li class="t2">Ed Harris</li>
+<li class="t2">eric andre</li>
+<li class="t2">Ed Norton</li>
+<li class="t2">Eddie Izzard</li>
+<li class="t2">Eli Whitney</li>
+<li class="t2">Edward scissor hands</li>
+<li class="t2">Eugene Levy</li>
+<li class="t2">Earnest Hemingway</li>
+<li class="t2">eddy murphy</li>
+<li class="t2">Elijah</li>
+<li class="t2">Eddie Vedder</li>
+<li class="t2">Edward Kennedy</li>
+<li class="t2">Eden Hazard</li>
+<li class="t2">Ed Helms</li>
+<li class="t2">Ed Westwick</li>
+<li class="t2">Evan Hansen</li>
+<li class="t2">Elliot Page</li>
+<li class="t2">Emilio Estevez</li>
+<li class="t2">elton john</li>
+<li class="t2">Eric Estrada</li>
+<li class="t2">Elephant man</li>
+<li class="t2">Englebert Humperdink</li>
+<li class="t2">errol flynn</li>
+<li class="t2">Eric Trump</li>
+<li class="t2">Enrique</li>
+<li class="t2">Elijah Woods</li>
+<li class="t2">Ed Asner</li>
+<li class="t2">Eric Church</li>
+<li class="t2">Edgar Wright</li>
+<li class="t2">Ed sheran</li>
+<li class="t2">Eddie Van Halen</li>
+
+                                                        
+<li class="t2">Ethan Allen</li>
+<li class="t2">Einstien</li>
+<li class="t2">Ed Sullivan</li>
+<li class="t2">Eric Roberts</li>
+<li class="t2">Edgar Alan Poe</li>
+<li class="t2">Eric Nam</li>
+<li class="t2">Ethan Hunt</li>
+<li>Evans, Chris</li>
+<li>Eric idle</li>
+<li>Elon</li>
+<li>Einstine</li>
+<li>Eazy E</li>
+<li>ewan mcgreggor</li>
+<li>Emma Watson</li>
+<li>earl thomas</li>
+<li>Ebert</li>
+<li>Ernest</li>
+<li>Eric Stonestreet</li>
+<li>Ewen McGregor</li>
+<li>Evander Holyfield</li>
+<li>Elmer Fudd</li>
+<li>Ernie Banks</li>
+<li>ernie dingo</li>
+<li>Edward cullen</li>
+<li>Ernie Els</li>
+<li>Evan Hanson</li>
+<li>Eric Banner</li>
+<li>Earl Jones</li>
+<li>ernie</li>
+<li>Eric b</li>
+<li>Erik Estrada</li>
+<li>ellen</li>
+<li>Eric Dane</li>
+<li>Ethan Klein</li>
+<li>Ed Sheeren</li>
+<li>Ed Murphy</li>
+<li>Evan Longoria</li>
+<li>Erdogan</li>
+<li>Edward Woodward</li>
+<li>Evan Turner</li>
+
+                                                   
   <li class="t3">George Clooney</li>
   <li class="t3">Michael Jackson</li>
   <li class="t3">Quentin tarantino</li>
@@ -14534,6 +15023,70 @@ export const possibleAnswers = [
     categoryName: "Body of water",
     html: `
   <ul>
+<li class="t5">Eagle lake</li>
+<li class="t6">East China Sea</li>
+<li class="t3">East Indian Ocean</li>
+<li class="t3">Eastern sea</li>
+<li class="t3">Egg</li>
+<li class="t6">Elbe</li>
+<li class="t11">English Channel</li>
+<li class="t3">Euphrates river</li>
+<li class="t3">Eyre</li>
+<li class="t7">east river</li>
+
+                                                        
+
+                                                    <li class="t3">euphrates</li>
+                                                    <li class="t2">everglades</li>
+                                                    <li class="t2">Exodus</li>
+                                                    <li class="t2">eagle river</li>
+                                                    <li class="t2">emerald lake</li>
+                                                    <li class="t2">elba</li>
+                                                    <li class="t2">Eastern Atlantic</li>
+                                                    <li class="t2">Elk Lake</li>
+                                                    <li class="t2">Equator</li>
+                                                    <li class="t2">Ear</li>
+                                                    <li class="t2">ERIE</li>
+                                                    <li class="t2">eddy</li>
+                                                    <li class="t2">Enns</li>
+                                                    <li>Eastern Pacific Ocean</li>
+                                                    <li>east bay</li>
+                                                    <li>evian</li>
+                                                    <li>East Siberian Sea</li>
+                                                    <li>Elk</li>
+                                                    <li>East coast</li>
+                                                    <li>east pacific</li>
+                                                    <li>egypt river</li>
+                                                    <li>east lake</li>
+                                                    <li>Earie</li>
+                                                    <li>Ems</li>
+                                                    <li>England</li>
+                                                    <li>Elephant</li>
+                                                    <li>Elterwater</li>
+                                                    <li>English Chanel</li>
+                                                    <li>every lake</li>
+                                                    <li>European River</li>
+                                                    <li>England river</li>
+                                                    <li>every body of water</li>
+                                                    <li>Everyone</li>
+                                                    <li>Europe</li>
+                                                    <li>eastern river</li>
+                                                    <li>Egyptian Sea</li>
+                                                    <li>Earl Lake</li>
+                                                    <li>English bay</li>
+                                                    <li>eggs</li>
+                                                    <li>evergreen lake</li>
+                                                    <li>everywhere</li>
+                                                    <li>eat</li>
+                                                    <li>Eufrates</li>
+                                                    <li>european ocean</li>
+                                                    <li>energy drink</li>
+                                                    <li>Elk river</li>
+                                                    <li>Europa</li>
+                                                    <li>End</li>
+                                                    <li>eye</li>
+
+                                                    
   <li class="t3">English Channel</li>
   <li class="t3">Gulf</li>
   <li class="t3">Inlet</li>

@@ -69,16 +69,28 @@ export const HowToPlayModal = ({ isOpen, onClose, onOpen }: IProps) => {
               <br />
               <br />
               <b>
-                If the item doesn't exist or you google the answer, that is
+                If the item is not accepted or you google the answer, that is
                 considered cheating
               </b>
               <br />
               <br />
+              <b>
+                If you are stuck, try using your skip. You only get one per
+                game, so use wisely.
+              </b>
+              <br />
+              <br />
+              <b>
+                If the item is real, yet not accepted, click the mark as correct
+                button to help us add it to our data.
+              </b>
+              <br />
+              <br />
+              <b>Our data only contains the most common answers.</b>
+              <br />
+              <br />
               Your goal is to fill out the category as fast as you can to gain
               the most stars for that day.
-              <br />
-              Spelling/Capitalization does not matter; although, try to be
-              clear.
               <br />
               the most stars you can recieve is 5 and the least is 1. The
               requirements are down below
@@ -105,7 +117,7 @@ export const HowToPlayModal = ({ isOpen, onClose, onOpen }: IProps) => {
               <br />
               Letter Of The Day: <b>C</b>
               <br />
-              Possible Answer: <b>Chocolate Chip Cookies</b>
+              Possible Answer: <b>Chocolate Brownies</b>
               <br />
               <br />
               <br />

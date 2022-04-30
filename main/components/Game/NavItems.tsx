@@ -14,6 +14,7 @@ import { SettingsModal } from "../Modals/SettingsModal";
 import { useDisclosure } from "@chakra-ui/react";
 import { MobileModal } from "../Modals/MobileModal";
 import { HowToPlayModal } from "../Modals/HowToPlayModal";
+import AccessAlarmsSharpIcon from "@mui/icons-material/AccessAlarmsSharp";
 
 interface IProps {
   onClick: () => void;

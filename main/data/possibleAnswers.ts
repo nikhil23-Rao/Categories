@@ -1862,7 +1862,113 @@ export const possibleAnswers = [
     categoryName: "Hobby",
     html: `
   <ul>
+  <li class="t5">Acrobatics</li>
+  <li class="t10">Acting</li>
+  <li class="t3">Aerobics</li>
+  <li class="t3">Air hockey</li>
+  <li class="t2">Alpine skiing</li>
+  <li class="t4">Angling</li>
+  <li class="t2">Ant farming</li>
+  <li class="t3">Astronomy</li>
+  <li class="t3">Athletics</li>
+  <li class="t3">Axe throwing</li>
+
+                                               <li class="t3">arm wrestling</li>
+                                               <li class="t8">art</li>
+                                               <li class="t2">Arts</li>
+                                               <li class="t2">Airplane flying</li>
+                                               <li class="t2">Astrology</li>
+                                               <li class="t2">Arts and crafts</li>
+                                               <li class="t2">Aviation</li>
+                                               <li class="t2">Abseiling</li>
+                                               <li class="t2">Anime</li>
+                                               <li class="t2">Animation</li>
+                                               <li class="t2">animal crossing</li>
+                                               <li class="t2">Arm wrestling</li>
+                                               <li class="t2">Artist</li>
+                                               <li class="t2">Act</li>
+                                               <li class="t2">Antiquing</li>
+                                               <li class="t2">Architecture</li>
+                                               <li>Ant farm</li>
+                                               <li>Airsoft</li>
+                                               <li>Ant collecting</li>
+                                               <li>Adventuring</li>
+                                               <li>Acrobats</li>
+                                               <li>Animal watching</li>
+                                               <li>Airplane models</li>
+                                               <li>Animal hunting</li>
+                                               <li>American football</li>
+                                               <li>Animating</li>
+                                               <li>apple bobbing</li>
+                                               <li>Aiming</li>
+                                               <li>Art collecting</li>
+                                               <li>Ax throwing</li>
+                                               <li>Acupuncture</li>
+                                               <li>Animals</li>
+                                               <li>Alchemy</li>
+                                               <li>Arranging flowers</li>
+                                               <li>Air gliding</li>
+                                               <li>Andar</li>
+                                               <li>agriculture</li>
+                                               <li>air guitar</li>
+                                               <li>arson</li>
+                                               <li>acrobat</li>
+                                               <li>Arobics</li>
+                                               <li>Airplane building</li>
+                                               <li>Armwrestling</li>
+                                               <li>Aerobic</li>
+                                               <li>antique collecting</li>
+                                               <li>Alpinism</li>
+                                               <li>Archeology</li>
+                                               <li>Asking</li>
+                                               <li>Artwork</li>
+                                               <li>Acrylic painting</li>
+
+                                                        
+<li>Applepicking</li>
+<li>Archaeology</li>
+<li>Airbrushing</li>
+<li>Astrophysics</li>
+<li>Advertising</li>
+<li>Arts &amp; Crafts</li>
+<li>Apple-picking</li>
+<li>Anime watching</li>
+<li>Ant farms</li>
+<li>Aeronautics</li>
+<li>Armar rompecabezas</li>
+<li>absailing</li>
+<li>Airhockey</li>
+<li>ARCHERY</li>
+<li>Anthropology</li>
+<li>Antiques</li>
+<li>airplane spotting</li>
+<li>Arrow shooting</li>
+<li>Actor</li>
+<li>APPLE PICKING</li>
+<li>Andar en bici</li>
+<li>Action figure collecting</li>
+<li>amar</li>
+<li>Anagrams</li>
+<li>artistry</li>
+<li>Animal care</li>
+<li>Aeroplane flying</li>
+<li>Arm wrestle</li>
+<li>Apple pie making</li>
+<li>Animal husbandry</li>
+<li>Applying makeup</li>
+<li>Anarchy</li>
+<li>Abrazar</li>
+<li>Achery</li>
+<li>Art collector</li>
+<li>Angler</li>
+<li>animal training</li>
+<li>Apple pie baking</li>
+<li>acampar</li>
+<li>arts and craft</li>
+
+                                                   
   <li class="t3">Acting</li>
+
   <li class="t3">Drawing</li>
   <li class="t3">Football</li>
   <li class="t3">Jogging</li>
@@ -2871,10 +2977,118 @@ export const possibleAnswers = [
     categoryName: "Thing you find in your pockets",
     html: `
   <ul>
+  <li class="t8">Advil</li>
+  <li class="t5">Alcohol</li>
+  <li class="t9">Almonds</li>
+  <li class="t5">Android</li>
+  <li class="t5">Apple iphone</li>
+  <li class="t5">Apple watch</li>
+  <li class="t10">Aspirin</li>
+  <li class="t5">acorn</li>
+  <li class="t11">airpods</li>
+  <li class="t5">altoids</li>
+
+<li class="t8">apple phone</li>
+<li class="t5">asprin</li>
+<li class="t5">animal crackers</li>
+<li class="t5">Altoid</li>
+<li class="t5">Air pods</li>
+<li class="t4">Almond</li>
+<li class="t4">Anillo</li>
+<li class="t4">allowance</li>
+<li class="t4">Army knife</li>
+<li class="t4">Armband</li>
+<li class="t4">acorns</li>
+<li class="t4">Anklet</li>
+<li class="t4">Antacid</li>
+<li class="t4">Anillos</li>
+<li class="t3">air pods</li>
+<li class="t3">android phone</li>
+<li class="t3">Apple products</li>
+<li class="t3">adderall</li>
+<li class="t3">Art supplies</li>
+<li class="t3">aretes</li>
+<li class="t3">Amulet</li>
+<li class="t3">Ammo</li>
+<li class="t3">A piece of paper</li>
+<li class="t3">A button</li>
+<li class="t3">ATM card</li>
+<li class="t3">Alarm</li>
+<li class="t3">A set of keys</li>
+<li class="t3">Asthma inhaler</li>
+<li class="t3">APPLE</li>
+<li class="t2">Antibiotics</li>
+<li class="t2">Accessories</li>
+<li class="t2">Argent</li>
+<li class="t2">Arena</li>
+<li class="t2">Apfel</li>
+<li class="t2">ace card</li>
+<li class="t2">A receipt</li>
+<li class="t2">American Express</li>
+<li class="t2">action figure</li>
+<li class="t2">antidote</li>
+<li class="t2">Animal hair</li>
+<li class="t2">ascot</li>
+<li class="t2">Allen wrench</li>
+<li class="t2">ammunition</li>
+<li class="t2">Ale</li>
+<li class="t2">Ameisen</li>
+<li class="t2">Artwork</li>
+<li class="t2">an apple</li>
+<li class="t2">Atoms</li>
+<li class="t2">animals</li>
+<li class="t2">Apple Watch</li>
+
+  <li class="t2">aros</li>
+  <li class="t2">Arma</li>
+  <li class="t2">Aluminum</li>
+  <li class="t2">Amethyst</li>
+  <li class="t2">apple seed</li>
+  <li class="t2">american express card</li>
+  <li class="t2">apple slice</li>
+  <li class="t2">Ameise</li>
+  <li class="t2">Allen key</li>
+  <li class="t2">A pocket knife</li>
+  <li class="t2">Ace of spades</li>
+  <li class="t2">Apple charger</li>
+  <li class="t2">Adapter</li>
+  <li class="t2">Andes Mints</li>
+  <li class="t2">a dollar</li>
+  <li class="t2">Apple headphones</li>
+  <li class="t2">Ace</li>
+  <li class="t2">anthrax</li>
+  <li class="t2">a piece of candy</li>
+  <li class="t2">Amex card</li>
+  <li class="t2">address book</li>
+  <li class="t2">Arrowhead</li>
+  <li class="t2">almendras</li>
+  <li class="t2">Airhead</li>
+  <li class="t2">animal treats</li>
+  <li class="t2">Ashtray</li>
+  <li class="t2">amazon gift card</li>
+  <li class="t2">a mint</li>
+  <li class="t2">another pocket</li>
+  <li class="t2">allergy pills</li>
+  <li class="t2">A keychain</li>
+  <li class="t2">allergy medicine</li>
+  <li class="t2">apple device</li>
+  <li class="t2">Azucar</li>
+  <li>Access card</li>
+  <li>Allsorts</li>
+  <li>Apple candy</li>
+  <li>arroz</li>
+  <li>America</li>
+  <li>Always maxi pad</li>
+
+                                                    
   <li class="t4">Ear plugs</li>
+
   <li class="t6">Earbuds</li>
+
   <li class="t10">Earphones</li>
+
   <li class="t6">Earring</li>
+
   <li class="t8">Earrings</li>
   <li class="t4">Edibles</li>
   <li class="t5">Elastic</li>
@@ -3810,15 +4024,95 @@ export const possibleAnswers = [
     categoryName: "Fruit",
     html: `
   <ul>
+<li class="t7">APPLE</li>
+<li class="t3">Abricot</li>
+<li class="t4">Acai</li>
+<li class="t3">Acai berry</li>
+<li class="t4">Aguacate</li>
+<li class="t5">Anana</li>
+<li class="t3">Anona</li>
+<li class="t5">Apfel</li>
+<li class="t4">Appel</li>
+<li class="t11">Arandano</li>
+
+                                                      <li class="t5">Arandanos</li>
+                                                      <li class="t3">Atis</li>
+                                                      <li class="t3">arancia</li>
+                                                      <li class="t3">Albaricoque</li>
+                                                      <li class="t3">apple,</li>
+                                                      <li class="t3">apel</li>
+                                                      <li class="t2">almendra</li>
+                                                      <li class="t2">arbuz</li>
+                                                      <li class="t2">Avocados</li>
+                                                      <li class="t2">almond</li>
+                                                      <li class="t2">Ackee</li>
+                                                      <li class="t2">Apple.</li>
+                                                      <li class="t2">Anggur</li>
+                                                      <li class="t2">annanas</li>
+                                                      <li class="t2">Amla</li>
+                                                      <li class="t2">aubergine</li>
+                                                      <li class="t2">Apple, Apricot</li>
+                                                      <li>Aarohi</li>
+                                                      <li>abacate</li>
+                                                      <li>avocat</li>
+                                                      <li>Aardbei</li>
+                                                      <li>apple pear</li>
+                                                      <li>Armut</li>
+                                                      <li>Ameixa</li>
+                                                      <li>Angelfruit</li>
+                                                      <li>Anbe</li>
+                                                      <li>Amora</li>
+                                                      <li>abacaxi</li>
+                                                      <li>Asian Pear</li>
+                                                      <li>Ananás</li>
+                                                      <li>Apple 🍎</li>
+                                                      <li>Acerola</li>
+                                                      <li>Apricot.</li>
+                                                      <li>Almonds</li>
+                                                      <li>An apple</li>
+                                                      <li>applw</li>
+                                                      <li>Alvaricoque</li>
+                                                      <li>Aloo</li>
+                                                      <li>ananass</li>
+                                                      <li>Anis</li>
+                                                      <li>Apol</li>
+                                                      <li>anans</li>
+                                                      <li>APPLES</li>
+                                                      <li>Apple but green</li>
+                                                      <li>Angel fruit</li>
+                                                      <li>apio</li>
+                                                      <li>apple apricot</li>
+                                                      <li>Aprico</li>
+                                                      <li>Amande</li>
+                                                      <li>Avacados</li>
+                                                      
+                                                        <li>Aloe</li>
+                                                        <li>albicocca</li>
+                                                        <li>Appls</li>
+                                                        <li>apricot, apple</li>
+                                                        <li>Awokado</li>
+                                                        <li>Apple sauce</li>
+                                                        <li>A strawberry</li>
+                                                        
+                                                    
   <li class="t3">Berry</li>
+  
   <li class="t3">Coconut</li>
+  
   <li class="t3">Date</li>
+  
   <li class="t3">Erdbeere</li>
+  
   <li class="t3">Naranja</li>
+  
   <li class="t3">Pear</li>
+  
   <li class="t3">Quadcum</li>
+  
   <li class="t3">Queen</li>
+  
   <li class="t3">Qumkwat</li>
+  
   <li class="t3">Sandia</li>
   
 
@@ -5504,10 +5798,120 @@ export const possibleAnswers = [
     categoryName: "Things found in a desk",
     html: `
   <ul>
+  <li class="t5">A pencil</li>
+  <li class="t6">Abacus</li>
+  <li class="t4">Agenda</li>
+  <li class="t5">Alarm clock</li>
+  <li class="t5">Alcohol</li>
+  <li class="t6">Ant</li>
+  <li class="t4">Apple computer</li>
+  <li class="t11">Art</li>
+  <li class="t7">Atlas</li>
+  <li class="t7">airpods</li>
+
+     <li class="t4">altoids</li>
+     <li class="t10">art supplies</li>
+     <li class="t4">Ashtray</li>
+     <li class="t4">alarm</li>
+     <li class="t4">Apple Watch</li>
+     <li class="t4">Address book</li>
+     <li class="t3">Articles</li>
+     <li class="t3">artwork</li>
+     <li class="t3">Apple pen</li>
+     <li class="t3">Album</li>
+     <li class="t3">apple pencil</li>
+     <li class="t3">apple phone</li>
+     <li class="t3">a book</li>
+     <li class="t3">Almanac</li>
+     <li class="t3">An eraser</li>
+     <li class="t3">Aspirin</li>
+     <li class="t3">A paper</li>
+     <li class="t3">adding machine</li>
+     <li class="t2">Apple charger</li>
+     <li class="t2">Animal crackers</li>
+     <li class="t2">A4 paper</li>
+     <li class="t2">Article</li>
+     <li class="t2">assignments</li>
+     <li class="t2">Ash tray</li>
+     <li class="t2">Apple laptop</li>
+     <li class="t2">Advil</li>
+     <li class="t2">Applications</li>
+     <li class="t2">Art book</li>
+     <li class="t2">Answer key</li>
+     <li class="t2">Apple.</li>
+     <li class="t2">A rubber</li>
+     <li class="t2">Air pods</li>
+     <li class="t2">Asprin</li>
+     <li class="t2">Apfel</li>
+     <li class="t2">android</li>
+     <li class="t2">animal</li>
+     <li class="t2">Application</li>
+     <li class="t2">AA batteries</li>
+     <li class="t2">Apple ipad</li>
+     <li class="t2">Adapter</li>
+     <li class="t2">Answers</li>
+     <li class="t2">Apple Mac</li>
+     <li class="t2">Air freshener</li>
+     <li class="t2">angle</li>
+     <li class="t2">Apple iPhone</li>
+     <li class="t2">Arrow</li>
+     <li class="t2">A notebook</li>
+     <li class="t2">Art work</li>
+     <li class="t2">Alexa</li>
+     <li class="t2">anything</li>
+
+  
+
+  <li class="t2">agua</li>
+  <li class="t2">Ashes</li>
+  <li class="t2">apricot</li>
+  <li class="t2">A Pencil</li>
+  <li class="t2">Android phone</li>
+  <li class="t2">Appel</li>
+  <li>Arts</li>
+  <li>answering machine</li>
+  <li>Airpod</li>
+  <li>art work</li>
+  <li>angle ruler</li>
+  <li>Astuccio</li>
+  <li>Art paper</li>
+  <li>aftershave</li>
+  <li>apple,</li>
+  <li>Artbook</li>
+  <li>Amplifier</li>
+  <li>A eraser</li>
+  <li>American flag</li>
+  <li>ash tray</li>
+  <li>answer sheet</li>
+  <li>Aloe</li>
+  <li>and</li>
+  <li>air pods</li>
+  <li>Apple Juice</li>
+  <li>almonds</li>
+  <li>action figure</li>
+  <li>Art pencils</li>
+  <li>Algebra book</li>
+  <li>Arm rest</li>
+  <li>A laptop</li>
+  <li>apple macbook</li>
+  <li>agrafka</li>
+  <li>air freshner</li>
+  <li>a cup</li>
+  <li>Apps</li>
+  <li>Allen key</li>
+  <li>A phone</li>
+  <li>Adaptor</li>
+  <li>aces</li>
+
+
  <li class="t7">Earbuds</li>
+
  <li class="t5">Earphone</li>
+
  <li class="t11">Earphones</li>
+
  <li class="t5">Earplugs</li>
+
  <li class="t7">Earrings</li>
  <li class="t4">Elastic band</li>
  <li class="t4">Electric pencil sharpener</li>
@@ -15652,10 +16056,109 @@ export const possibleAnswers = [
     categoryName: "Things at a circus",
     html: `
   <ul>
+ <li class="t3">Actors</li>
+ <li class="t3">Acts</li>
+ <li class="t2">Alligator</li>
+ <li class="t3">Animal</li>
+ <li class="t10">Animals</li>
+ <li class="t2">Ant</li>
+ <li class="t3">Ape</li>
+ <li class="t4">Apes</li>
+ <li class="t2">Art</li>
+ <li class="t2">Artist</li>
+
+                                                  <li class="t2">ants</li>
+                                                  <li class="t2">audience</li>
+                                                  <li>anaconda</li>
+                                                  <li>act</li>
+                                                  <li>acrobatics</li>
+                                                  <li>Applause</li>
+                                                  <li>Arrows</li>
+                                                  <li>Axe</li>
+                                                  <li>Artists</li>
+                                                  <li>actor</li>
+                                                  <li>Affe</li>
+                                                  <li>Angry clowns</li>
+                                                  <li>Aligator</li>
+                                                  <li>Anus</li>
+                                                  <li>Arrow</li>
+                                                  <li>Acrobate</li>
+                                                  <li>A lot of people</li>
+                                                  <li>African elephant</li>
+                                                  <li>arcade</li>
+                                                  <li>Arena</li>
+                                                  <li>Arm</li>
+                                                  <li>Americans</li>
+                                                  <li>Apparatus</li>
+                                                  <li>Apple candy</li>
+                                                  <li>Announcer</li>
+                                                  <li>angry people</li>
+                                                  <li>A ringmaster</li>
+                                                  <li>aerobics</li>
+                                                  <li>Alpaca</li>
+                                                  <li>A tiger</li>
+                                                  <li>Athletes</li>
+                                                  <li>Adults</li>
+                                                  <li>Asses</li>
+                                                  <li>Armadillo</li>
+                                                  <li>A ball</li>
+                                                  <li>action</li>
+                                                  <li>air balloon</li>
+                                                  <li>aerialist</li>
+                                                  <li>apples that are candied</li>
+                                                  <li>Archer</li>
+                                                  <li>Antics</li>
+                                                  <li>Arch</li>
+                                                  <li>Acrabat</li>
+                                                  <li>Almonds</li>
+                                                  <li>A tightrope walker</li>
+                                                  <li>aquarium</li>
+                                                  <li>Akrobat</li>
+                                                  <li>apple caramel</li>
+                                                  <li>a lot of clowns</li>
+                                                  <li>Acorn</li>
+
+                                                      <li>Attractions</li>
+                                                      <li>Archery</li>
+                                                      <li>Antelopes</li>
+                                                      <li>Affen</li>
+                                                      <li>Armor</li>
+                                                      <li>A joker</li>
+                                                      <li>Apple juice</li>
+                                                      <li>Amphibian</li>
+                                                      <li>amanda</li>
+                                                      <li>alpacas</li>
+                                                      <li>animal trainers</li>
+                                                      <li>Attendees</li>
+                                                      <li>A juggler</li>
+                                                      <li>aro</li>
+                                                      <li>Aerialists</li>
+                                                      <li>Alien</li>
+                                                      <li>Arocobat</li>
+                                                      <li>Ashley</li>
+                                                      <li>A kid</li>
+                                                      <li>afro</li>
+                                                      <li>air horn</li>
+                                                      <li>Abracadabra</li>
+                                                      <li>APPLE</li>
+                                                      <li>apple juggling</li>
+                                                      <li>Alcohol</li>
+                                                      <li>aligators</li>
+                                                      <li>Airplane</li>
+                                                      <li>A person</li>
+                                                      <li>Ambulance</li>
+                                                      <li>A CLOWN</li>
+                                                      <li>Abacus</li>
+
+                                                    
   <li class="t3">Animals</li>
+
   <li class="t3">Ball</li>
+
   <li class="t3">Clown</li>
+
   <li class="t3">Net</li>
+
   <li class="t3">Queer</li>
   <li class="t3">Water</li>
   <li class="t3">Xray</li>
@@ -17873,8 +18376,115 @@ export const possibleAnswers = [
   {
     categoryName: "things that can get you fired",
     html: `<ul>
+  <li class="t7">Abuse</li>
+  <li class="t6">Acting out</li>
+  <li class="t5">Acting up</li>
+  <li class="t7">Alcohol</li>
+  <li class="t6">Always being late</li>
+  <li class="t9">Anger</li>
+  <li class="t8">Arguing</li>
+  <li class="t5">Arrogance</li>
+  <li class="t11">Arson</li>
+  <li class="t6">Asking too many questions</li>
+
+                                                        
+<li class="t8">Attitude</li>
+<li class="t7">assault</li>
+<li class="t5">Absenteeism</li>
+<li class="t5">Armed robbery</li>
+<li class="t5">Arrested</li>
+<li class="t4">Alcoholism</li>
+<li class="t4">Anarchy</li>
+<li class="t4">angry</li>
+<li class="t4">Assult</li>
+<li class="t4">always late</li>
+<li class="t4">Absent</li>
+<li class="t4">attendance</li>
+<li class="t4">attacking your boss</li>
+<li class="t4">Anger issues</li>
+<li class="t4">annoying your boss</li>
+<li class="t4">Arguing with boss</li>
+<li class="t4">Absence</li>
+<li class="t4">Affair</li>
+<li class="t3">annoying</li>
+<li class="t3">Arguing with your boss</li>
+<li class="t3">Answering back</li>
+<li class="t3">attacking people</li>
+<li class="t3">arriving late</li>
+<li class="t3">Absences</li>
+<li class="t3">aggression</li>
+<li class="t3">Assassination</li>
+<li class="t3">Attacking</li>
+<li class="t3">adultery</li>
+<li class="t3">Arguments</li>
+<li class="t3">AWOL</li>
+<li class="t3">acting a fool</li>
+<li class="t3">attack</li>
+<li class="t3">Annoying the boss</li>
+<li class="t3">accidents</li>
+<li class="t3">avoiding work</li>
+<li class="t3">apple</li>
+<li class="t3">acting rude</li>
+<li class="t3">arsen</li>
+<li class="t3">Animals</li>
+<li class="t2">Alarm</li>
+<li class="t2">Acting dumb</li>
+<li class="t2">Attacking the boss</li>
+<li class="t2">Arm wrestling</li>
+<li class="t2">Arrest</li>
+<li class="t2">argue</li>
+<li class="t2">A fight</li>
+<li class="t2">Accusations</li>
+<li class="t2">asking to be fired</li>
+<li class="t2">Ask</li>
+<li class="t2">Accident</li>
+
+                                                        <li class="t2">Adultry</li>
+                                                        <li class="t2">Acting crazy</li>
+                                                        <li class="t2">apples</li>
+                                                        <li class="t2">Asleep</li>
+                                                        <li class="t2">Asking stupid questions</li>
+                                                        <li class="t2">assualt</li>
+                                                        <li class="t2">Always showing up late</li>
+                                                        <li class="t2">Anxiety</li>
+                                                        <li class="t2">attacking someone</li>
+                                                        <li class="t2">Acting stupid</li>
+                                                        <li class="t2">attacking boss</li>
+                                                        <li class="t2">Aggressive behaviour</li>
+                                                        <li class="t2">alkohol</li>
+                                                        <li class="t2">acting</li>
+                                                        <li class="t2">Assless chaps</li>
+                                                        <li class="t2">Attacking a customer</li>
+                                                        <li class="t2">acting weird</li>
+                                                        <li class="t2">Asking</li>
+                                                        <li class="t2">Assasination</li>
+                                                        <li class="t2">acid</li>
+                                                        <li class="t2">Acting like a monkey</li>
+                                                        <li class="t2">Arsin</li>
+                                                        <li class="t2">Attacking customers</li>
+                                                        <li class="t2">Annoyance</li>
+                                                        <li class="t2">A bad attitude</li>
+                                                        <li class="t2">acting like a fool</li>
+                                                        <li class="t2">Angry outburst</li>
+                                                        <li class="t2">argument</li>
+                                                        <li class="t2">Arguing with the boss</li>
+                                                        <li class="t2">agression</li>
+                                                        <li class="t2">Addiction</li>
+                                                        <li class="t2">Apps</li>
+                                                        <li class="t2">arsing around</li>
+                                                        <li class="t2">A lie</li>
+                                                        <li class="t2">Attacking coworkers</li>
+                                                        <li>Acting rudely</li>
+                                                        <li>arguing with everyone</li>
+                                                        <li>Aggravated Assault</li>
+                                                        <li>Assaulting your boss</li>
+                                                        <li>Axe murder</li>
+
+                                                    
   <li class="t3">Questioning the boss</li>
+
   <li class="t3">Violence</li>
+
   <li class="t3">Whining</li>
   <li class="t3">Xenophobia</li>
   <li class="t3">Yelling at customers</li>

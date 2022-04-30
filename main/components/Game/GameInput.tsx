@@ -10,7 +10,7 @@ import {
   getTextColor,
 } from "../../utils/customizationsFunctions";
 import { pressTab } from "../../utils/pressTab";
-import PlaylistAddCheckIcon from "@mui/icons-material/PlaylistAddCheck";
+import NextPlanIcon from "@mui/icons-material/NextPlan";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 import { useMediaQuery } from "react-responsive";
 import Lottie from "react-lottie";
@@ -207,20 +207,19 @@ export const GameInput = ({
               </span>
             </div>
             <div>
-              <PlaylistAddCheckIcon
+              <NextPlanIcon
                 className="fade has-tooltip"
                 style={{
+                  zoom: 1.5,
+                  alignSelf: "flex-end",
+                  cursor: "pointer",
                   color: !showSkip ? getColor() : "gray",
                   position: "relative",
-                  zoom: 1.8,
                   display:
                     (incorrect && !loading) || value.length === 0
                       ? "block"
                       : "none",
-                  top: 2,
-                  cursor: "pointer",
-                  pointerEvents: !showSkip ? "all" : "none",
-                  right: 2,
+                  right: 4,
                   marginLeft:
                     incorrect && !loading && value.length > 0
                       ? ""
@@ -236,6 +235,7 @@ export const GameInput = ({
                   position: "absolute",
                   left: "65%",
                   backgroundColor: getColor(),
+                  width: 105,
                 }}
               >
                 Skip

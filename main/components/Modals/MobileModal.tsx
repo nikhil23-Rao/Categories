@@ -75,7 +75,7 @@ export const MobileModal = ({
           />
           <ModalBody
             alignSelf={"center"}
-            style={{ overflowX: "hidden", maxWidth: "80%" }}
+            style={{ overflowX: "hidden", width: "100%", height: "100%" }}
           >
             <p
               style={{
@@ -86,7 +86,8 @@ export const MobileModal = ({
                 position: "relative",
               }}
             >
-              View Your Stats for Today and All Time Stats Here.
+              Click the start button to play today's category. The timer will
+              start automatically when you click the start button.
             </p>
             <div
               style={{
@@ -97,7 +98,11 @@ export const MobileModal = ({
               }}
             >
               <p
-                style={{ color: getTextColor(), fontSize: 20 }}
+                style={{
+                  color: getTextColor(),
+                  fontSize: 20,
+                  marginBottom: -10,
+                }}
                 className="divider"
               >
                 Letter: {daily?.letter}
@@ -105,7 +110,7 @@ export const MobileModal = ({
               <div
                 className="actions"
                 style={{
-                  width: "80%",
+                  width: "100%",
                 }}
               >
                 {submitted ? (
@@ -129,27 +134,49 @@ export const MobileModal = ({
                       }}
                       onClick={() => {
                         onClick();
+                        if (timer[0]) {
+                          return;
+                        }
                         onClose();
                       }}
                     >
-                      {timer[0] ? "Stop" : "Start"}
+                      {timer[0]
+                        ? "Stop"
+                        : timer[1] === "0:00"
+                        ? "Start"
+                        : "Continue"}
                     </button>
                   </div>
                 )}
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <p
+                  style={{ color: getTextColor(), fontSize: 20 }}
+                  className="divider"
                 >
-                  <p
-                    style={{ color: getTextColor(), fontSize: 20 }}
-                    className="divider"
-                  >
-                    Timer: {timer[1]}
-                  </p>
-                </div>
+                  Timer: {timer[1]}
+                </p>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginBottom: 30,
+                }}
+              >
+                <a
+                  style={{ color: getColor(), fontSize: 20 }}
+                  className="divider"
+                >
+                  Back Home
+                </a>
               </div>
             </div>
           </ModalBody>

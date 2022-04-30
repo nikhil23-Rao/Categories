@@ -140,7 +140,9 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
         <main
           className={styles.main}
           onClick={() => setShowMenu(false)}
-          style={{ overflowY: "scroll" }}
+          style={{
+            overflowY: "scroll",
+          }}
         >
           <h1 className={styles.title} style={{ marginTop: 60 }}>
             <AnimatedTitle />
@@ -158,7 +160,12 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
 
           <div
             className="actions"
-            style={{ display: "flex", flexDirection: "column" }}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignSelf: "center",
+              zoom: isPhone ? 0.95 : 1,
+            }}
           >
             <Link href={"/daily"}>
               <a
@@ -220,7 +227,7 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
           </div>
         </main>
 
-        <footer>
+        <footer style={{ display: isPhone ? "none" : "block" }}>
           <Credits />
         </footer>
       </div>

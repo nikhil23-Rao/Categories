@@ -172,7 +172,7 @@ export const dailyCategories = [
     inputs: [
       "things that can get you fired",
       "Thing you find in your pockets",
-      "Something in the Bible",
+      "Fruit",
       "Things found in a desk",
       "Hobby",
       "Things at a circus",

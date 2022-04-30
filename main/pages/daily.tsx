@@ -9,7 +9,7 @@ import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
 import PauseCircle from "@mui/icons-material/PauseCircle";
 import { getLabelData } from "../utils/getLabelData";
-import { useDisclosure } from "@chakra-ui/react";
+import { useDisclosure, useToast } from "@chakra-ui/react";
 import { dailyCategories } from "../data/dailyCategories";
 import {
   getAltTextColor,
@@ -69,6 +69,7 @@ const Daily = ({ profileImage }: IProps) => {
   const [validAnswers, setValidAnswers] = useState<any[]>([]);
   const [runCount, setRunCount] = useState(null);
   const [disabled, setDisabled] = useState(false);
+  const [markAsCorrect, setMarkAsCorrect] = useState(true);
   const [allTimeSeconds, setAllTimeSeconds] = useState(
     localStorage.getItem("savedGameData")
       ? JSON.parse(localStorage.getItem("savedGameData")!).allTimeSeconds
@@ -122,6 +123,7 @@ const Daily = ({ profileImage }: IProps) => {
       : []
   );
   const { onOpen, onClose, isOpen } = useDisclosure();
+  const toast = useToast();
 
   useEffect(() => {
     if (localStorage.getItem("savedGameData") && daily) {
@@ -476,9 +478,23 @@ const Daily = ({ profileImage }: IProps) => {
                           setInCorrect(inCorrect.filter((i) => i !== idx));
                         }}
                         onMarkCorrect={() => {
-                          setLoading(loading.filter((i) => i !== idx));
-                          setCorrect([...correct, idx]);
-                          setInCorrect(inCorrect.filter((i) => i !== idx));
+                          if (markAsCorrect) {
+                            setLoading(loading.filter((i) => i !== idx));
+                            setCorrect([...correct, idx]);
+                            setInCorrect(inCorrect.filter((i) => i !== idx));
+                            setMarkAsCorrect(false);
+                            setTimeout(() => {
+                              setMarkAsCorrect(true);
+                            }, 10000);
+                          } else {
+                            toast({
+                              title:
+                                "Already Used: Wait 5 Seconds, Or Enter An Accepted Answer.",
+                              status: "error",
+                              duration: 4000,
+                              position: "bottom-left",
+                            });
+                          }
                         }}
                         showSkip={skips.idx !== -1}
                         skipsObj={skips}

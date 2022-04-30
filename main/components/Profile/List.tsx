@@ -134,7 +134,7 @@ export const List = ({ profileImage, setProfileImg, setOpen }: IProps) => {
               "name"
             )!}'s All Time Stats:
 Total Games Played: ${statsObj.gamesPlayed}
-Average Time Take: ${statsObj.averageTime}
+Average Time Taken: ${statsObj.averageTime}
 Average Number Of Stars: ${statsObj.averageStars}
 Fastest Time: ${statsObj.bestTime}
 https://thecategoriesgame.vercel.app/`);

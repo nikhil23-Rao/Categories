@@ -465,13 +465,16 @@ const Daily = ({ profileImage }: IProps) => {
                         onSkip={() => {
                           setSkips({ idx, skips: 0 });
                           const newInputs = [...inputs];
-                          const arr = validAnswers
-                            .filter((a) => a.idx === idx)[0]
-                            .answers.filter((a: string) =>
-                              a.trim().startsWith(daily?.letter)
-                            );
-                          const newArr = shuffle(arr);
-                          newInputs[idx].value = newArr[0];
+                          const arr = getUniqueValuesWithCase(
+                            validAnswers
+                              .filter((a) => a.idx === idx)[0]
+                              .answers.filter((a: string) =>
+                                a.trim().startsWith(daily?.letter)
+                              ),
+                            false
+                          );
+                          newInputs[idx].value =
+                            arr[Math.floor(Math.random() * 6)];
                           setInputs(newInputs);
                           setLoading(loading.filter((i) => i !== idx));
                           setCorrect([...correct, idx]);

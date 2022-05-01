@@ -123,96 +123,96 @@ export const possibleAnswers = [
   <li class="t2">Enchilada</li>
   <li class="t2">Enchiladas</li>
 
-                                                    <li>Escargot</li>
-                                                    <li>english muffin</li>
-                                                    <li>egg salad</li>
-                                                    <li>Easter egg</li>
-                                                    <li>Ear of corn</li>
-                                                    <li>Eggnog</li>
-                                                    <li>Elk</li>
-                                                    <li>Endive</li>
-                                                    <li>Ensalada</li>
-                                                    <li>Egg sandwich</li>
-                                                    <li>Energy bar</li>
-                                                    <li>Eclairs</li>
-                                                    <li>Estofado</li>
-                                                    <li>everything bagel</li>
-                                                    <li>Espinaca</li>
-                                                    <li>Escargo</li>
-                                                    <li>Elderberry</li>
-                                                    <li>easter eggs</li>
-                                                    <li>Egg rolls</li>
-                                                    <li>Eis</li>
-                                                    <li>Egg noodles</li>
-                                                    <li>Eggs Benedict</li>
-                                                    <li>Egg roll</li>
-                                                    <li>Eggos</li>
-                                                    <li>Edemame</li>
-                                                    <li>eggroll</li>
-                                                    <li>Eclaire</li>
-                                                    <li>English breakfast</li>
-                                                    <li>Egg fried rice</li>
-                                                    <li>Edam</li>
-                                                    <li>esparragos</li>
-                                                    <li>Elotes</li>
-                                                    <li>enchilladas</li>
-                                                    <li>Erdbeere</li>
-                                                    <li>Egg curry</li>
-                                                    <li>Emmental</li>
-                                                    <li>English muffins</li>
-                                                    <li>eels</li>
-                                                    <li>Eggo waffles</li>
-                                                    <li>Egg tart</li>
-                                                    <li>Eton mess</li>
-                                                    <li>Eggrolls</li>
-                                                    <li>Eel sushi</li>
-                                                    <li>Edam cheese</li>
-                                                    <li>Endives</li>
-                                                    <li>Enchillada</li>
-                                                    <li>Eggo</li>
-                                                    <li>Ente</li>
-                                                    <li>Enchalada</li>
-                                                    <li>Egg pie</li>
+<li>Escargot</li>
+<li>english muffin</li>
+<li>egg salad</li>
+<li>Easter egg</li>
+<li>Ear of corn</li>
+<li>Eggnog</li>
+<li>Elk</li>
+<li>Endive</li>
+<li>Ensalada</li>
+<li>Egg sandwich</li>
+<li>Energy bar</li>
+<li>Eclairs</li>
+<li>Estofado</li>
+<li>everything bagel</li>
+<li>Espinaca</li>
+<li>Escargo</li>
+<li>Elderberry</li>
+<li>easter eggs</li>
+<li>Egg rolls</li>
+<li>Eis</li>
+<li>Egg noodles</li>
+<li>Eggs Benedict</li>
+<li>Egg roll</li>
+<li>Eggos</li>
+<li>Edemame</li>
+<li>eggroll</li>
+<li>Eclaire</li>
+<li>English breakfast</li>
+<li>Egg fried rice</li>
+<li>Edam</li>
+<li>esparragos</li>
+<li>Elotes</li>
+<li>enchilladas</li>
+<li>Erdbeere</li>
+<li>Egg curry</li>
+<li>Emmental</li>
+<li>English muffins</li>
+<li>eels</li>
+<li>Eggo waffles</li>
+<li>Egg tart</li>
+<li>Eton mess</li>
+<li>Eggrolls</li>
+<li>Eel sushi</li>
+<li>Edam cheese</li>
+<li>Endives</li>
+<li>Enchillada</li>
+<li>Eggo</li>
+<li>Ente</li>
+<li>Enchalada</li>
+<li>Egg pie</li>
 
-                                                       <li>Eier</li>
-                                                       <li>EGGPLANT</li>
-                                                       <li>Elbow macaroni</li>
-                                                       <li>easy mac</li>
-                                                       <li>elbow pasta</li>
-                                                       <li>egg sandwich</li>
-                                                       <li>Erbsen</li>
-                                                       <li>esparrago</li>
-                                                       <li>Escalope</li>
-                                                       <li>Emental</li>
-                                                       <li>Eggroll</li>
-                                                       <li>Eba</li>
-                                                       <li>Epinard</li>
-                                                       <li>Espaguetis</li>
-                                                       <li>Eggplant parm</li>
-                                                       <li>Edamame beans</li>
-                                                       <li>Energy bars</li>
-                                                       <li>eal</li>
-                                                       <li>Escargots</li>
-                                                       <li>Ears of corn</li>
-                                                       <li>Egg drop soup</li>
-                                                       <li>Eggpie</li>
-                                                       <li>Enchaladas</li>
-                                                       <li>Escabeche</li>
-                                                       <li>Espresso</li>
-                                                       <li>Egg omelette</li>
-                                                       <li>Estragon</li>
-                                                       <li>Eggplant curry</li>
-                                                       <li>Eaton mess</li>
-                                                       <li>Egg rice</li>
-                                                       <li>Egg whites</li>
-                                                       <li>Espinacas</li>
-                                                       <li>Elaichi</li>
-                                                       <li>Empenada</li>
-                                                       <li>Elderberries</li>
-                                                       <li>Egg McMuffin</li>
-                                                       <li>Eggs.</li>
-                                                       <li>Emmentaler</li>
-                                                       <li>Eggs,</li>
+   <li>Eier</li>
+   <li>EGGPLANT</li>
+   <li>Elbow macaroni</li>
+   <li>easy mac</li>
+   <li>elbow pasta</li>
+   <li>egg sandwich</li>
+   <li>Erbsen</li>
+   <li>esparrago</li>
+   <li>Escalope</li>
+   <li>Emental</li>
+   <li>Eggroll</li>
+   <li>Eba</li>
+   <li>Epinard</li>
+   <li>Espaguetis</li>
+   <li>Eggplant parm</li>
+   <li>Edamame beans</li>
+   <li>Energy bars</li>
+   <li>eal</li>
+   <li>Escargots</li>
+   <li>Ears of corn</li>
+   <li>Egg drop soup</li>
+   <li>Eggpie</li>
+   <li>Enchaladas</li>
+   <li>Escabeche</li>
+   <li>Espresso</li>
+   <li>Egg omelette</li>
+   <li>Estragon</li>
+   <li>Eggplant curry</li>
+   <li>Eaton mess</li>
+   <li>Egg rice</li>
+   <li>Egg whites</li>
+   <li>Espinacas</li>
+   <li>Elaichi</li>
+   <li>Empenada</li>
+   <li>Elderberries</li>
+   <li>Egg McMuffin</li>
+   <li>Eggs.</li>
+   <li>Emmentaler</li>
+   <li>Eggs,</li>
 
                                                    
   <li class="t3">Apple</li>
@@ -1636,8 +1636,114 @@ export const possibleAnswers = [
     categoryName: "Things you see in the zoo",
     html: `
   <ul>
+  <li class="t4">MONKEY</li>
+  <li class="t4">Macaw</li>
+  <li class="t4">Mammal</li>
+  <li class="t11">Mammals</li>
+  <li class="t4">Marsupial</li>
+  <li class="t7">Meerkat</li>
+  <li class="t8">Mongoose</li>
+  <li class="t4">Monos</li>
+  <li class="t11">Moose</li>
+  <li class="t10">Mouse</li>
+
+                                                  <li class="t6">mice</li>
+                                                  <li class="t5">mountain lion</li>
+                                                  <li class="t4">Mink</li>
+                                                  <li class="t4">Map</li>
+                                                  <li class="t4">Marmot</li>
+                                                  <li class="t4">Mule</li>
+                                                  <li class="t3">marsupials</li>
+                                                  <li class="t3">Mud</li>
+                                                  <li class="t3">Many people</li>
+                                                  <li class="t3">Man</li>
+                                                  <li class="t3">Magpie</li>
+                                                  <li class="t3">manta ray</li>
+                                                  <li class="t3">Mole</li>
+                                                  <li class="t3">Muskrat</li>
+                                                  <li class="t3">Money</li>
+                                                  <li class="t3">Mandrill</li>
+                                                  <li class="t2">meerkats</li>
+                                                  <li class="t2">Macaque</li>
+                                                  <li class="t2">Mantis</li>
+                                                  <li class="t2">Macaws</li>
+                                                  <li class="t2">Maus</li>
+                                                  <li class="t2">Males</li>
+                                                  <li class="t2">Moles</li>
+                                                  <li class="t2">Mountain lions</li>
+                                                  <li class="t2">Mums</li>
+                                                  <li class="t2">Moths</li>
+                                                  <li class="t2">Mallard</li>
+                                                  <li class="t2">Marmosets</li>
+                                                  <li class="t2">Mosquito</li>
+                                                  <li class="t2">mamals</li>
+                                                  <li class="t2">mono</li>
+                                                  <li class="t2">macaco</li>
+                                                  <li class="t2">maps</li>
+                                                  <li class="t2">Magpies</li>
+                                                  <li class="t2">manatees</li>
+                                                  <li class="t2">Mamba</li>
+                                                  <li class="t2">Meercats</li>
+                                                  <li class="t2">Meat</li>
+                                                  <li class="t2">marmoset</li>
+                                                  <li class="t2">Mules</li>
+                                                  <li class="t2">Macaques</li>
+                                                  <li class="t2">Minks</li>
+                                                  <li class="t2">Monkey.</li>
+                                                  <li class="t2">marmota</li>
+                                                  <li class="t2">monky</li>
+                                                  <li class="t2">Minx</li>
+                                                  <li class="t2">Marmots</li>
+                                                  <li class="t2">Monyet</li>
+                                                  <li>mountain goat</li>
+                                                  <li>Moss</li>
+
+  <li>Mop</li>
+  <li>Mops</li>
+  <li>Mandril</li>
+  <li>Mantaray</li>
+  <li>Mother</li>
+  <li>mountain goats</li>
+  <li>mating</li>
+  <li>Morons</li>
+  <li>Manta rays</li>
+  <li>Marmotas</li>
+  <li>Mating animals</li>
+  <li>Maultier</li>
+  <li>millipede</li>
+  <li>Male animals</li>
+  <li>Mosquitos</li>
+  <li>manati</li>
+  <li>monk</li>
+  <li>Mangoose</li>
+  <li>mommy</li>
+  <li>mokey</li>
+  <li>Manager</li>
+  <li>monarch butterfly</li>
+  <li>Murciélagos</li>
+  <li>Mouses</li>
+  <li>Mäuse</li>
+  <li>Mammels</li>
+  <li>Mango</li>
+  <li>Mat</li>
+  <li>marsupiales</li>
+  <li>Micos</li>
+  <li>Morsa</li>
+  <li>merkats</li>
+  <li>marine animals</li>
+  <li>Mare</li>
+  <li>Moray eel</li>
+  <li>Manure</li>
+  <li>meer cat</li>
+  <li>Monkey enclosure</li>
+  <li>monkfish</li>
+  <li>musk ox</li>
+
+                                                   
   <li class="t3">Bear</li>
+
   <li class="t3">Deer</li>
+
   <li class="t3">Fish</li>
   <li class="t3">Horse</li>
   <li class="t3">Insects</li>
@@ -1924,7 +2030,7 @@ export const possibleAnswers = [
                                                <li>Artwork</li>
                                                <li>Acrylic painting</li>
 
-                                                        
+    
 <li>Applepicking</li>
 <li>Archaeology</li>
 <li>Airbrushing</li>
@@ -2092,7 +2198,7 @@ export const possibleAnswers = [
 <li class="t8">Everybody hurts</li>
 <li class="t12">Everyday</li>
 
-                                                        
+    
 <li class="t9">Everything</li>
 <li class="t7">Everytime</li>
 <li class="t7">everything i wanted</li>
@@ -2144,7 +2250,7 @@ export const possibleAnswers = [
 <li class="t3">Every day</li>
 <li class="t3">Echo</li>
 
-                                                        
+    
 <li class="t3">Endgame</li>
 <li class="t3">Easy Street</li>
 <li class="t3">Electric Feel</li>
@@ -2186,7 +2292,7 @@ export const possibleAnswers = [
 <li class="t2">Everybody needs somebody</li>
 <li class="t2">everybody loves somebody</li>
 
-                                                    
+
   <li class="t3">Baby</li>
   <li class="t3">Hello</li>
   <li class="t3">I love you</li>
@@ -3080,7 +3186,7 @@ export const possibleAnswers = [
   <li>America</li>
   <li>Always maxi pad</li>
 
-                                                    
+
   <li class="t4">Ear plugs</li>
 
   <li class="t6">Earbuds</li>
@@ -4035,66 +4141,66 @@ export const possibleAnswers = [
 <li class="t4">Appel</li>
 <li class="t11">Arandano</li>
 
-                                                      <li class="t5">Arandanos</li>
-                                                      <li class="t3">Atis</li>
-                                                      <li class="t3">arancia</li>
-                                                      <li class="t3">Albaricoque</li>
-                                                      <li class="t3">apple,</li>
-                                                      <li class="t3">apel</li>
-                                                      <li class="t2">almendra</li>
-                                                      <li class="t2">arbuz</li>
-                                                      <li class="t2">Avocados</li>
-                                                      <li class="t2">almond</li>
-                                                      <li class="t2">Ackee</li>
-                                                      <li class="t2">Apple.</li>
-                                                      <li class="t2">Anggur</li>
-                                                      <li class="t2">annanas</li>
-                                                      <li class="t2">Amla</li>
-                                                      <li class="t2">aubergine</li>
-                                                      <li class="t2">Apple, Apricot</li>
-                                                      <li>Aarohi</li>
-                                                      <li>abacate</li>
-                                                      <li>avocat</li>
-                                                      <li>Aardbei</li>
-                                                      <li>apple pear</li>
-                                                      <li>Armut</li>
-                                                      <li>Ameixa</li>
-                                                      <li>Angelfruit</li>
-                                                      <li>Anbe</li>
-                                                      <li>Amora</li>
-                                                      <li>abacaxi</li>
-                                                      <li>Asian Pear</li>
-                                                      <li>Ananás</li>
-                                                      <li>Apple 🍎</li>
-                                                      <li>Acerola</li>
-                                                      <li>Apricot.</li>
-                                                      <li>Almonds</li>
-                                                      <li>An apple</li>
-                                                      <li>applw</li>
-                                                      <li>Alvaricoque</li>
-                                                      <li>Aloo</li>
-                                                      <li>ananass</li>
-                                                      <li>Anis</li>
-                                                      <li>Apol</li>
-                                                      <li>anans</li>
-                                                      <li>APPLES</li>
-                                                      <li>Apple but green</li>
-                                                      <li>Angel fruit</li>
-                                                      <li>apio</li>
-                                                      <li>apple apricot</li>
-                                                      <li>Aprico</li>
-                                                      <li>Amande</li>
-                                                      <li>Avacados</li>
-                                                      
-                                                        <li>Aloe</li>
-                                                        <li>albicocca</li>
-                                                        <li>Appls</li>
-                                                        <li>apricot, apple</li>
-                                                        <li>Awokado</li>
-                                                        <li>Apple sauce</li>
-                                                        <li>A strawberry</li>
-                                                        
-                                                    
+  <li class="t5">Arandanos</li>
+  <li class="t3">Atis</li>
+  <li class="t3">arancia</li>
+  <li class="t3">Albaricoque</li>
+  <li class="t3">apple,</li>
+  <li class="t3">apel</li>
+  <li class="t2">almendra</li>
+  <li class="t2">arbuz</li>
+  <li class="t2">Avocados</li>
+  <li class="t2">almond</li>
+  <li class="t2">Ackee</li>
+  <li class="t2">Apple.</li>
+  <li class="t2">Anggur</li>
+  <li class="t2">annanas</li>
+  <li class="t2">Amla</li>
+  <li class="t2">aubergine</li>
+  <li class="t2">Apple, Apricot</li>
+  <li>Aarohi</li>
+  <li>abacate</li>
+  <li>avocat</li>
+  <li>Aardbei</li>
+  <li>apple pear</li>
+  <li>Armut</li>
+  <li>Ameixa</li>
+  <li>Angelfruit</li>
+  <li>Anbe</li>
+  <li>Amora</li>
+  <li>abacaxi</li>
+  <li>Asian Pear</li>
+  <li>Ananás</li>
+  <li>Apple 🍎</li>
+  <li>Acerola</li>
+  <li>Apricot.</li>
+  <li>Almonds</li>
+  <li>An apple</li>
+  <li>applw</li>
+  <li>Alvaricoque</li>
+  <li>Aloo</li>
+  <li>ananass</li>
+  <li>Anis</li>
+  <li>Apol</li>
+  <li>anans</li>
+  <li>APPLES</li>
+  <li>Apple but green</li>
+  <li>Angel fruit</li>
+  <li>apio</li>
+  <li>apple apricot</li>
+  <li>Aprico</li>
+  <li>Amande</li>
+  <li>Avacados</li>
+  
+    <li>Aloe</li>
+    <li>albicocca</li>
+    <li>Appls</li>
+    <li>apricot, apple</li>
+    <li>Awokado</li>
+    <li>Apple sauce</li>
+    <li>A strawberry</li>
+    
+
   <li class="t3">Berry</li>
   
   <li class="t3">Coconut</li>
@@ -5295,7 +5401,7 @@ export const possibleAnswers = [
                                                   <li>eggo</li>
                                                   <li>Easter</li>
 
-                                                        
+    
 <li>Easter bunny</li><li>Egg Cake</li><li>edamame</li><li>Egg waffle</li><li>Egg waffles</li><li>Eaten mess</li><li>Ensaymada</li><li>edible flowers</li><li>Erin mess</li><li>Erdbeerkuchen</li><li>energy bar</li><li>Earl grey</li><li>ecler</li><li>ECLAIRS</li><li>Eves pudding</li><li>English Muffin</li><li>Entremet</li><li>easter cookies</li><li>egg yolk</li><li>Elderberry ice cream</li><li>Eggcream</li><li>espresso</li><li>eggo waffle</li><li>Egg tarte</li><li>Edible paper</li><li>egg soufle</li><li>eats</li><li>Every dessert</li><li>Egg bread</li><li>egg nog ice cream</li><li>Egg chocolate</li><li>Erdbeere</li><li>Eating</li><li>Eierkuchen</li><li>easy bake oven cookies</li><li>elk</li><li>Elderberries</li><li>Egg souffle</li><li>Elderflower sorbet</li><li>Easter chocolate egg</li>
                                                    
   <li class="t3">Cake</li>
@@ -6139,101 +6245,101 @@ export const possibleAnswers = [
 <li class="t2">España</li>
 <li class="t4">Estonia</li>
 
-                                                        
+    
 
-                                                     <li class="t7">Europe</li>
-                                                     <li class="t3">Everest</li>
-                                                     <li class="t2">Eiffel Tower</li>
-                                                     <li class="t2">Eritrea</li>
-                                                     <li class="t2">Equador</li>
-                                                     <li>Everglades</li>
-                                                     <li>El Paso</li>
-                                                     <li>East Coast</li>
-                                                     <li>Exeter</li>
-                                                     <li>El Salvador</li>
-                                                     <li>Elementary school</li>
-                                                     <li>Erie</li>
-                                                     <li>Essen</li>
-                                                     <li>Emergency room</li>
-                                                     <li>Equator</li>
-                                                     <li>Europa</li>
-                                                     <li>Empire State Building</li>
-                                                     <li>edmonton</li>
-                                                     <li>Edinburg</li>
-                                                     <li>East London</li>
-                                                     <li>Evanston</li>
-                                                     <li>Ethopia</li>
-                                                     <li>Eatery</li>
-                                                     <li>Everton</li>
-                                                     <li>Eastern Europe</li>
-                                                     <li>Elk Grove</li>
-                                                     <li>East Asia</li>
-                                                     <li>East Timor</li>
-                                                     <li>Epping</li>
-                                                     <li>Escocia</li>
-                                                     <li>eastwood</li>
-                                                     <li>Estados unidos</li>
-                                                     <li>Estocolmo</li>
-                                                     <li>Ealing</li>
-                                                     <li>Ellis Island</li>
-                                                     <li>Englewood</li>
-                                                     <li>Epcot</li>
-                                                     <li>Etiopia</li>
-                                                     <li>Eton</li>
-                                                     <li>eifel tower</li>
-                                                     <li>Egipto</li>
-                                                     <li>Enfield</li>
-                                                     <li>Endor</li>
-                                                     <li>Emirates</li>
-                                                     <li>Entrance</li>
-                                                     <li>Elizabethtown</li>
-                                                     <li>Eagleton</li>
-                                                     <li>Evansville</li>
-                                                     <li>Everett</li>
-                                                     <li>Erfurt</li>
+ <li class="t7">Europe</li>
+ <li class="t3">Everest</li>
+ <li class="t2">Eiffel Tower</li>
+ <li class="t2">Eritrea</li>
+ <li class="t2">Equador</li>
+ <li>Everglades</li>
+ <li>El Paso</li>
+ <li>East Coast</li>
+ <li>Exeter</li>
+ <li>El Salvador</li>
+ <li>Elementary school</li>
+ <li>Erie</li>
+ <li>Essen</li>
+ <li>Emergency room</li>
+ <li>Equator</li>
+ <li>Europa</li>
+ <li>Empire State Building</li>
+ <li>edmonton</li>
+ <li>Edinburg</li>
+ <li>East London</li>
+ <li>Evanston</li>
+ <li>Ethopia</li>
+ <li>Eatery</li>
+ <li>Everton</li>
+ <li>Eastern Europe</li>
+ <li>Elk Grove</li>
+ <li>East Asia</li>
+ <li>East Timor</li>
+ <li>Epping</li>
+ <li>Escocia</li>
+ <li>eastwood</li>
+ <li>Estados unidos</li>
+ <li>Estocolmo</li>
+ <li>Ealing</li>
+ <li>Ellis Island</li>
+ <li>Englewood</li>
+ <li>Epcot</li>
+ <li>Etiopia</li>
+ <li>Eton</li>
+ <li>eifel tower</li>
+ <li>Egipto</li>
+ <li>Enfield</li>
+ <li>Endor</li>
+ <li>Emirates</li>
+ <li>Entrance</li>
+ <li>Elizabethtown</li>
+ <li>Eagleton</li>
+ <li>Evansville</li>
+ <li>Everett</li>
+ <li>Erfurt</li>
 
-                                                        
+    
 
-                                                     <li>Evergreen</li>
-                                                     <li>Eugene</li>
-                                                     <li>Elizabeth</li>
-                                                     <li>East Africa</li>
-                                                     <li>East Germany</li>
-                                                     <li>Elista</li>
-                                                     <li>Ely</li>
-                                                     <li>Eastbourne</li>
-                                                     <li>Estadio</li>
-                                                     <li>Eurasia</li>
-                                                     <li>Encino</li>
-                                                     <li>Evesham</li>
-                                                     <li>Elgin</li>
-                                                     <li>Edinborough</li>
-                                                     <li>Emeryville</li>
-                                                     <li>Eltham</li>
-                                                     <li>Estland</li>
-                                                     <li>Enchanted Forest</li>
-                                                     <li>eygpt</li>
-                                                     <li>Edison</li>
-                                                     <li>Emerald City</li>
-                                                     <li>England.</li>
-                                                     <li>el dorado</li>
-                                                     <li>Eaton Centre</li>
-                                                     <li>Eindhoven</li>
-                                                     <li>Edwardsville</li>
-                                                     <li>east lansing</li>
-                                                     <li>Easter Islands</li>
-                                                     <li>Eswatini</li>
-                                                     <li>Erode</li>
-                                                     <li>East Anglia</li>
-                                                     <li>ecole</li>
-                                                     <li>Eye doctor</li>
-                                                     <li>Euston</li>
-                                                     <li>Eaton</li>
-                                                     <li>Estambul</li>
-                                                     <li>Empire State</li>
-                                                     <li>EDSA</li>
-                                                     <li>east end</li>
-                                                     <li>Ethipoia</li>
+ <li>Evergreen</li>
+ <li>Eugene</li>
+ <li>Elizabeth</li>
+ <li>East Africa</li>
+ <li>East Germany</li>
+ <li>Elista</li>
+ <li>Ely</li>
+ <li>Eastbourne</li>
+ <li>Estadio</li>
+ <li>Eurasia</li>
+ <li>Encino</li>
+ <li>Evesham</li>
+ <li>Elgin</li>
+ <li>Edinborough</li>
+ <li>Emeryville</li>
+ <li>Eltham</li>
+ <li>Estland</li>
+ <li>Enchanted Forest</li>
+ <li>eygpt</li>
+ <li>Edison</li>
+ <li>Emerald City</li>
+ <li>England.</li>
+ <li>el dorado</li>
+ <li>Eaton Centre</li>
+ <li>Eindhoven</li>
+ <li>Edwardsville</li>
+ <li>east lansing</li>
+ <li>Easter Islands</li>
+ <li>Eswatini</li>
+ <li>Erode</li>
+ <li>East Anglia</li>
+ <li>ecole</li>
+ <li>Eye doctor</li>
+ <li>Euston</li>
+ <li>Eaton</li>
+ <li>Estambul</li>
+ <li>Empire State</li>
+ <li>EDSA</li>
+ <li>east end</li>
+ <li>Ethipoia</li>
 
   <li class="t3">England</li>
 
@@ -7843,11 +7949,121 @@ export const possibleAnswers = [
     categoryName: "band or musician",
     html: `
   <ul>
+<li class="t10">Madonna</li>
+<li class="t6">Mariah Carey</li>
+<li class="t9">Maroon 5</li>
+<li class="t10">Metallica</li>
+<li class="t4">Michael Buble</li>
+<li class="t11">Michael Jackson</li>
+<li class="t7">Miley Cyrus</li>
+<li class="t4">Monkees</li>
+<li class="t5">Mozart</li>
+<li class="t7">Muse</li>
+
+<li class="t6">My chemical romance</li>
+<li class="t5">mumford and sons</li>
+<li class="t4">Marilyn Manson</li>
+<li class="t4">Modest Mouse</li>
+<li class="t4">Micheal Jackson</li>
+<li class="t3">Motley Crue</li>
+<li class="t3">Melanie Martinez</li>
+<li class="t3">Monkeys</li>
+<li class="t3">Meatloaf</li>
+<li class="t3">Mana</li>
+<li class="t3">Mick Jagger</li>
+<li class="t3">Mandy Moore</li>
+<li class="t3">Metalica</li>
+<li class="t3">Matchbox 20</li>
+<li class="t3">Motorhead</li>
+<li class="t3">Madness</li>
+<li class="t2">Megadeth</li>
+<li class="t2">Mac Miller</li>
+<li class="t2">Mayday Parade</li>
+<li class="t2">mother mother</li>
+<li class="t2">Moby</li>
+<li class="t2">Maluma</li>
+<li class="t2">machine gun kelly</li>
+<li class="t2">Mika</li>
+<li class="t2">Migos</li>
+<li class="t2">Marshmello</li>
+<li class="t2">megan thee stallion</li>
+<li class="t2">Madona</li>
+<li class="t2">Marina and the diamonds</li>
+<li class="t2">MGMT</li>
+<li class="t2">maroon five</li>
+<li class="t2">Meek Mill</li>
+<li class="t2">Megadeath</li>
+<li class="t2">Mcfly</li>
+<li class="t2">Men at work</li>
+<li class="t2">Macklemore</li>
+<li class="t2">Morat</li>
+<li class="t2">M people</li>
+<li class="t2">Michael Bolton</li>
+<li class="t2">monsta x</li>
+<li class="t2">madison beer</li>
+<li class="t2">Morrisey</li>
+<li class="t2">Mike and the mechanics</li>
+<li class="t2">mitski</li>
+<li class="t2">maneskin</li>
+<li class="t2">M83</li>
+<li class="t2">Marky Mark</li>
+<li>Menudo</li>
+<li>Marc Anthony</li>
+<li>marshmellow</li>
+
+    
+<li>Marron 5</li>
+<li>Mister Mister</li>
+<li>Mary J Blige</li>
+<li>Michel Jackson</li>
+<li>Maroon5</li>
+<li>Miley cirus</li>
+<li>Marianas Trench</li>
+<li>Missy elliot</li>
+<li>mike posner</li>
+<li>Mark Ronson</li>
+<li>meghan trainor</li>
+<li>Mark</li>
+<li>Mumford &amp; Sons</li>
+<li>Martin Garrix</li>
+<li>Megan Trainor</li>
+<li>mayday</li>
+<li>Monica</li>
+<li>Missy Elliott</li>
+<li>magic</li>
+<li>Marylin manson</li>
+<li>Morrissey</li>
+<li>Maren Morris</li>
+<li>Micheal buble</li>
+<li>Misfits</li>
+<li>Michelle Branch</li>
+<li>Mary Mary</li>
+<li>My Morning Jacket</li>
+<li>Manic street preachers</li>
+<li>Michael bubble</li>
+<li>Morgan wallen</li>
+<li>mcr</li>
+<li>Mud</li>
+<li>mark forster</li>
+<li>Miranda Lambert</li>
+<li>Mandisa</li>
+<li>MIA</li>
+<li>Molotov</li>
+<li>Miranda cosgrove</li>
+<li>Mario</li>
+<li>Momoland</li>
+
+                                                   
   <li class="t3">Imagine Dragons</li>
+
   <li class="t3">Oasis</li>
+
   <li class="t3">One Direction</li>
+
   <li class="t3">UB40</li>
+
   <li class="t3">Van Halen</li>
+
   <li class="t3">Xtreme</li>
   <li class="t3">Yellowcard</li>
   <li class="t3">Yes</li>
@@ -10702,7 +10918,7 @@ export const possibleAnswers = [
  <li class="t8">Elvis</li>
  <li class="t6">Elvis Presley</li>
 
-                                                        
+    
 
 <li class="t8">Eminem</li>
 <li class="t5">Eric Clapton</li>
@@ -10755,7 +10971,7 @@ export const possibleAnswers = [
 <li class="t2">Ed sheran</li>
 <li class="t2">Eddie Van Halen</li>
 
-                                                        
+    
 <li class="t2">Ethan Allen</li>
 <li class="t2">Einstien</li>
 <li class="t2">Ed Sullivan</li>
@@ -11249,9 +11465,117 @@ export const possibleAnswers = [
     categoryName: "Youtuber",
     html: `
   <ul>
+ <li class="t3">Mark Rober</li>
+ <li class="t10">Markiplier</li>
+ <li class="t4">Miniminter</li>
+ <li class="t3">Miranda Sings</li>
+ <li class="t3">Morgz</li>
+ <li class="t5">Mr beast</li>
+ <li class="t3">Mr. Beast</li>
+ <li class="t2">Mr.Beast</li>
+ <li class="t7">Mrbeast</li>
+ <li class="t2">Mythpat</li>
+
+                                                 <li class="t2">mark</li>
+                                                 <li class="t7">mr beast</li>
+                                                 <li class="t2">Muselk</li>
+                                                 <li class="t2">Moriah Elizabeth</li>
+                                                 <li class="t2">Markaplier</li>
+                                                 <li>Minecraft</li>
+                                                 <li>Marcus Butler</li>
+                                                 <li>Mary</li>
+                                                 <li>markeplier</li>
+                                                 <li>Manny MUA</li>
+                                                 <li>Markplier</li>
+                                                 <li>MeganPlays</li>
+                                                 <li>Mumbo Jumbo</li>
+                                                 <li>Matpat</li>
+                                                 <li>Matt Stonie</li>
+                                                 <li>MMG</li>
+                                                 <li>Max</li>
+                                                 <li>marzia</li>
+                                                 <li>Mangel</li>
+                                                 <li>MandJTV</li>
+                                                 <li>Markiplyer</li>
+                                                 <li>MKBHD</li>
+                                                 <li>Markipler</li>
+                                                 <li>mylifeaseva</li>
+                                                 <li>Michael Jackson</li>
+                                                 <li>Manny</li>
+                                                 <li>Molly</li>
+                                                 <li>MrBeast</li>
+                                                 <li>mike</li>
+                                                 <li>Maudado</li>
+                                                 <li>My story animated</li>
+                                                 <li>Minx</li>
+                                                 <li>Merrell Twins</li>
+                                                 <li>Michael</li>
+                                                 <li>Mango</li>
+                                                 <li>Mandy</li>
+                                                 <li>Melanie Martinez</li>
+                                                 <li>Man</li>
+                                                 <li>Mamrie Hart</li>
+                                                 <li>maxmoefoe</li>
+                                                 <li>Molly Burke</li>
+                                                 <li>mia maples</li>
+                                                 <li>Madison Beer</li>
+                                                 <li>Maddie Ziegler</li>
+                                                 <li>Maddie</li>
+                                                 <li>Memeulous</li>
+                                                 <li>merrel twins</li>
+                                                 <li>matthdgamer</li>
+                                                 <li>michelle phan</li>
+                                                 <li>Maria</li>
+
+    
+<li>Molly Mae</li>
+<li>Mia</li>
+<li>Mikey</li>
+<li>Matt and rebecca</li>
+<li>Mrwhosetheboss</li>
+<li>Me beast</li>
+<li>Matt</li>
+<li>Marcus</li>
+<li>Manlikeisaac</li>
+<li>Mudja</li>
+<li>Mia Khalifa</li>
+<li>mo vlogs</li>
+<li>Machinima</li>
+<li>Morgs</li>
+<li>MannyMUA</li>
+<li>Michael Reeves</li>
+<li>Martin</li>
+<li>Madonna</li>
+<li>Mother</li>
+<li>mommy</li>
+<li>Mama</li>
+<li>Moose</li>
+<li>Monkey</li>
+<li>monster</li>
+<li>Matthias</li>
+<li>mariale</li>
+<li>Messyourself</li>
+<li>mizkif</li>
+<li>My mom</li>
+<li>miles</li>
+<li>Moo</li>
+<li>Mouse</li>
+<li>Maya</li>
+<li>mimi</li>
+<li>Moresidemen</li>
+<li>Miranda</li>
+<li>Monty</li>
+<li>MTV</li>
+<li>Missmangobutt</li>
+<li>Markiplayer</li>
+
+                                                   
   <li class="t3">DanTDM</li>
+
   <li class="t3">KSI</li>
+
   <li class="t3">Markiplier</li>
+
   <li class="t3">Pewdiepie</li>
   <li class="t3">Quackity</li>
   <li class="t3">Unspeakable</li>
@@ -12406,7 +12730,113 @@ export const possibleAnswers = [
   {
     categoryName: "Things that are green",
     html: `
+
   <ul>
+  <li class="t6">Mango</li>
+  <li class="t3">Mat</li>
+  <li class="t6">Melon</li>
+  <li class="t8">Mint</li>
+  <li class="t6">Mold</li>
+  <li class="t11">Money</li>
+  <li class="t9">Moss</li>
+  <li class="t3">Mould</li>
+  <li class="t3">Mountain</li>
+  <li class="t3">Mountains</li>
+
+                                                <li class="t4">Mucus</li>
+                                                <li class="t3">marker</li>
+                                                <li class="t3">Markers</li>
+                                                <li class="t3">Mint leaves</li>
+                                                <li class="t3">melons</li>
+                                                <li class="t3">Monster</li>
+                                                <li class="t2">Mints</li>
+                                                <li class="t2">Mask</li>
+                                                <li class="t2">Matcha</li>
+                                                <li class="t2">monsters</li>
+                                                <li class="t2">Mug</li>
+                                                <li class="t2">Meadow</li>
+                                                <li class="t2">Marbles</li>
+                                                <li class="t2">Mantis</li>
+                                                <li class="t2">Mats</li>
+                                                <li class="t2">Maps</li>
+                                                <li class="t2">Mangoes</li>
+                                                <li class="t2">Marble</li>
+                                                <li class="t2">Martians</li>
+                                                <li class="t2">marsh</li>
+                                                <li class="t2">Map</li>
+                                                <li class="t2">Meadows</li>
+                                                <li class="t2">Mittens</li>
+                                                <li class="t2">M&amp;Ms</li>
+                                                <li>maple tree</li>
+                                                <li>Mulch</li>
+                                                <li>Mistletoe</li>
+                                                <li>Mountain Dew</li>
+                                                <li>maple leaves</li>
+                                                <li>Mushy peas</li>
+                                                <li>maple trees</li>
+                                                <li>makeup</li>
+                                                <li>Mugs</li>
+                                                <li>Macha</li>
+                                                <li>my eyes</li>
+                                                <li>maple leaf</li>
+                                                <li>Mop</li>
+                                                <li>mint leaf</li>
+                                                <li>Masks</li>
+                                                <li>Mail</li>
+                                                <li>Martian</li>
+                                                <li>Maple</li>
+                                                <li>mildew</li>
+                                                <li>Marijuana</li>
+                                                <li>Mushroom</li>
+                                                <li>Manzana</li>
+                                                <li>Mangos</li>
+                                                <li>Marshes</li>
+                                                <li>Mustard greens</li>
+                                                <li>M&amp;M's</li>
+
+    
+<li>muck</li>
+<li>Moldy cheese</li>
+<li>Mint ice cream</li>
+<li>Meals</li>
+<li>Maple tree leaves</li>
+<li>Muppets</li>
+<li>m&amp;ms</li>
+<li>Mentos</li>
+<li>macaroon</li>
+<li>M&amp;M</li>
+<li>mike wazowski</li>
+<li>Mustard</li>
+<li>mangroves</li>
+<li>Moco</li>
+<li>Mush</li>
+<li>men</li>
+<li>Mango tree</li>
+<li>Mermaid</li>
+<li>Monkey</li>
+<li>mellon</li>
+<li>moths</li>
+<li>Matts</li>
+<li>mice</li>
+<li>M and ms</li>
+<li>Mango leaves</li>
+<li>Minze</li>
+<li>Mouse</li>
+<li>Muppet</li>
+<li>Medicine</li>
+<li>Moos</li>
+<li>Mirror</li>
+<li>mall</li>
+<li>my plants</li>
+<li>mochi</li>
+<li>mine</li>
+<li>Menta</li>
+<li>Magic</li>
+<li>Money plant</li>
+<li>moldy bread</li>
+<li>mops</li>
+
+
   <li class="t3">Emerald</li>
   <li class="t3">Kelp</li>
   <li class="t3">Kiwi</li>
@@ -13630,10 +14060,119 @@ export const possibleAnswers = [
     categoryName: "Things that use a remote",
     html: `
   <ul>
+  <li class="t6">Massage chair</li>
+  <li class="t3">Mattress</li>
+  <li class="t11">Monitor</li>
+  <li class="t3">Motor car</li>
+  <li class="t5">Movie player</li>
+  <li class="t3">Movie projector</li>
+  <li class="t6">Music player</li>
+  <li class="t6">machine</li>
+  <li class="t4">microphone</li>
+  <li class="t5">motor</li>
+
+    
+<li class="t3">movie screen</li>
+<li class="t4">music box</li>
+<li class="t3">mute</li>
+<li class="t3">Mike</li>
+<li class="t3">Man</li>
+<li class="t3">Massager</li>
+<li class="t2">mic</li>
+<li class="t2">Motorcycle</li>
+<li class="t2">mars rover</li>
+<li class="t2">Mini car</li>
+<li class="t2">Monitors</li>
+<li class="t2">Motors</li>
+<li class="t2">mini tv</li>
+<li class="t2">Modem</li>
+<li class="t2">macbook</li>
+<li class="t2">Mazda</li>
+<li class="t2">My vibrator</li>
+<li class="t2">Mercedes</li>
+<li class="t2">music</li>
+<li class="t2">Motorbike</li>
+<li class="t2">Mario Kart</li>
+<li class="t2">Mirror</li>
+<li class="t2">mac</li>
+<li class="t2">mp3 player</li>
+<li class="t2">Media player</li>
+<li class="t2">monster truck</li>
+<li class="t2">Moped</li>
+<li class="t2">monster trucks</li>
+<li class="t2">Motor vehicle</li>
+<li class="t2">Mothers</li>
+<li>Motorcar</li>
+<li>Music system</li>
+<li>Motorcycle toy</li>
+<li>mobile car</li>
+<li>My car</li>
+<li>Music speaker</li>
+<li>Microwave oven</li>
+<li>moniter</li>
+<li>machines</li>
+<li>Motorbike toy</li>
+<li>Motorized cars</li>
+<li>Monster truck toy</li>
+<li>Motorized car</li>
+<li>mtv</li>
+<li>Mop</li>
+<li>Mother</li>
+<li>Motherboard</li>
+<li>Motor bike</li>
+<li>machinery</li>
+<li>my robot</li>
+
+ <li>Mario</li>
+ <li>Mechanic</li>
+ <li>my mom</li>
+ <li>Microsoft Xbox</li>
+ <li>many things</li>
+ <li>Missiles</li>
+ <li>Motor cars</li>
+ <li>mechanical bull</li>
+ <li>Motor boat</li>
+ <li>Model car</li>
+ <li>Musikanlage</li>
+ <li>mat</li>
+ <li>Magic</li>
+ <li>My phone</li>
+ <li>mind</li>
+ <li>Metal detector</li>
+ <li>Movie camera</li>
+ <li>Machine Gun</li>
+ <li>Mower</li>
+ <li>mice</li>
+ <li>mine</li>
+ <li>movie theater</li>
+ <li>more</li>
+ <li>Moto de juguete</li>
+ <li>Maps</li>
+ <li>model cars</li>
+ <li>Media</li>
+ <li>monkey robot</li>
+ <li>mario cart</li>
+ <li>Mercedes car</li>
+ <li>money machine</li>
+ <li>Moat</li>
+ <li>Mikrowelle</li>
+ <li>Miniature car</li>
+ <li>meter</li>
+ <li>Movie players</li>
+ <li>my fan</li>
+ <li>melody</li>
+ <li>My dad</li>
+ <li>Music stereo</li>
+
+                                                   
   <li class="t3">Fireplace</li>
+
   <li class="t3">Heater</li>
+
   <li class="t3">Lamp</li>
+
   <li class="t3">Netflix</li>
+
   <li class="t3">Quibi</li>
   <li class="t3">Robot</li>
   <li class="t3">Xbox</li>
@@ -15314,11 +15853,120 @@ export const possibleAnswers = [
     categoryName: "Cartoon",
     html: `
   <ul>
+<li class="t3">Madagascar</li>
+<li class="t4">Mario</li>
+<li class="t2">Megamind</li>
+<li class="t4">Mickey</li>
+<li class="t3">Mickey Mouse Clubhouse</li>
+<li class="t3">Mulan</li>
+<li class="t3">My Hero Academia</li>
+<li class="t6">My little pony</li>
+<li class="t10">mickey mouse</li>
+<li class="t4">micky mouse</li>
+
+                                                <li class="t3">monsters inc</li>
+                                                <li class="t3">mr bean</li>
+                                                <li class="t2">max and ruby</li>
+                                                <li class="t2">Moana</li>
+                                                <li class="t2">Marvin the Martian</li>
+                                                <li class="t2">Miraculous Ladybug</li>
+                                                <li class="t2">Mikey Mouse</li>
+                                                <li class="t2">Magic school bus</li>
+                                                <li class="t2">Minions</li>
+                                                <li class="t2">Marmaduke</li>
+                                                <li class="t2">Megaman</li>
+                                                <li class="t2">Minnie mouse</li>
+                                                <li class="t2">mr magoo</li>
+                                                <li class="t2">Maleficent</li>
+                                                <li>Miraculous</li>
+                                                <li>Monster high</li>
+                                                <li>Morty</li>
+                                                <li>mega man</li>
+                                                <li>Mr. Bean</li>
+                                                <li>Madeline</li>
+                                                <li>mickey mouse club house</li>
+                                                <li>monster inc</li>
+                                                <li>Max</li>
+                                                <li>Medabots</li>
+                                                <li>Motu Patlu</li>
+                                                <li>Mafalda</li>
+                                                <li>mary</li>
+                                                <li>Magilla Gorilla</li>
+                                                <li>marge simpson</li>
+                                                <li>mr.bean</li>
+                                                <li>Muppet Babies</li>
+                                                <li>Moon</li>
+                                                <li>Minnie</li>
+                                                <li>mario bros</li>
+                                                <li>Mr Men</li>
+                                                <li>Masha and the bear</li>
+                                                <li>Mandy</li>
+                                                <li>mufasa</li>
+                                                <li>Martin Mystery</li>
+                                                <li>matilda</li>
+                                                <li>Mickey and friends</li>
+                                                <li>Monsters</li>
+                                                <li>Mona the Vampire</li>
+                                                <li>Money</li>
+                                                <li>Monkey</li>
+                                                <li>mogli</li>
+                                                <li>Misadventures of Flapjack</li>
+                                                <li>mama</li>
+                                                <li>Magilla Gorilla.</li>
+                                                <li>Mary poppins</li>
+
+  <li>Micky mouse club house</li>
+  <li>mini mouse</li>
+  <li>Miky mouse</li>
+  <li>Moose</li>
+  <li>Milo</li>
+  <li>micky</li>
+  <li>Mr. Magoo</li>
+  <li>My life</li>
+  <li>Mr Krabs</li>
+  <li>Men in Black</li>
+  <li>mowgli</li>
+  <li>Manny</li>
+  <li>Mordecai</li>
+  <li>marlin</li>
+  <li>Mia and me</li>
+  <li>momo</li>
+  <li>Marty</li>
+  <li>mermaid man</li>
+  <li>mega mind</li>
+  <li>Martha speaks</li>
+  <li>Madeleine</li>
+  <li>mighty ducks</li>
+  <li>Mike</li>
+  <li>mommy</li>
+  <li>Mickey Mouse Club</li>
+  <li>Mad Max</li>
+  <li>morty and rick</li>
+  <li>Mario Brothers Super Show</li>
+  <li>mack</li>
+  <li>mickey mouse and friends</li>
+  <li>mickey mou</li>
+  <li>magic mike</li>
+  <li>Marvel Avengers</li>
+  <li>Marry</li>
+  <li>Martin</li>
+  <li>Marge</li>
+  <li>Mickey's Playhouse</li>
+  <li>Moomins</li>
+  <li>Monk</li>
+  <li>Metalocalypse</li>
+
+
   <li class="t3">Family Guy</li>
+
   <li class="t3">Naruto</li>
+
   <li class="t3">Quick Draw McGraw</li>
+
   <li class="t3">Tom and Jerry</li>
+
   <li class="t3">Voltron</li>
+
   <li class="t3">X men</li>
   <li class="t3">Yogi bear</li>
   <li class="t3">Zelda</li>
@@ -15438,59 +16086,59 @@ export const possibleAnswers = [
 <li class="t3">Eyre</li>
 <li class="t7">east river</li>
 
-                                                        
+    
 
-                                                    <li class="t3">euphrates</li>
-                                                    <li class="t2">everglades</li>
-                                                    <li class="t2">Exodus</li>
-                                                    <li class="t2">eagle river</li>
-                                                    <li class="t2">emerald lake</li>
-                                                    <li class="t2">elba</li>
-                                                    <li class="t2">Eastern Atlantic</li>
-                                                    <li class="t2">Elk Lake</li>
-                                                    <li class="t2">Equator</li>
-                                                    <li class="t2">Ear</li>
-                                                    <li class="t2">ERIE</li>
-                                                    <li class="t2">eddy</li>
-                                                    <li class="t2">Enns</li>
-                                                    <li>Eastern Pacific Ocean</li>
-                                                    <li>east bay</li>
-                                                    <li>evian</li>
-                                                    <li>East Siberian Sea</li>
-                                                    <li>Elk</li>
-                                                    <li>East coast</li>
-                                                    <li>east pacific</li>
-                                                    <li>egypt river</li>
-                                                    <li>east lake</li>
-                                                    <li>Earie</li>
-                                                    <li>Ems</li>
-                                                    <li>England</li>
-                                                    <li>Elephant</li>
-                                                    <li>Elterwater</li>
-                                                    <li>English Chanel</li>
-                                                    <li>every lake</li>
-                                                    <li>European River</li>
-                                                    <li>England river</li>
-                                                    <li>every body of water</li>
-                                                    <li>Everyone</li>
-                                                    <li>Europe</li>
-                                                    <li>eastern river</li>
-                                                    <li>Egyptian Sea</li>
-                                                    <li>Earl Lake</li>
-                                                    <li>English bay</li>
-                                                    <li>eggs</li>
-                                                    <li>evergreen lake</li>
-                                                    <li>everywhere</li>
-                                                    <li>eat</li>
-                                                    <li>Eufrates</li>
-                                                    <li>european ocean</li>
-                                                    <li>energy drink</li>
-                                                    <li>Elk river</li>
-                                                    <li>Europa</li>
-                                                    <li>End</li>
-                                                    <li>eye</li>
+<li class="t3">euphrates</li>
+<li class="t2">everglades</li>
+<li class="t2">Exodus</li>
+<li class="t2">eagle river</li>
+<li class="t2">emerald lake</li>
+<li class="t2">elba</li>
+<li class="t2">Eastern Atlantic</li>
+<li class="t2">Elk Lake</li>
+<li class="t2">Equator</li>
+<li class="t2">Ear</li>
+<li class="t2">ERIE</li>
+<li class="t2">eddy</li>
+<li class="t2">Enns</li>
+<li>Eastern Pacific Ocean</li>
+<li>east bay</li>
+<li>evian</li>
+<li>East Siberian Sea</li>
+<li>Elk</li>
+<li>East coast</li>
+<li>east pacific</li>
+<li>egypt river</li>
+<li>east lake</li>
+<li>Earie</li>
+<li>Ems</li>
+<li>England</li>
+<li>Elephant</li>
+<li>Elterwater</li>
+<li>English Chanel</li>
+<li>every lake</li>
+<li>European River</li>
+<li>England river</li>
+<li>every body of water</li>
+<li>Everyone</li>
+<li>Europe</li>
+<li>eastern river</li>
+<li>Egyptian Sea</li>
+<li>Earl Lake</li>
+<li>English bay</li>
+<li>eggs</li>
+<li>evergreen lake</li>
+<li>everywhere</li>
+<li>eat</li>
+<li>Eufrates</li>
+<li>european ocean</li>
+<li>energy drink</li>
+<li>Elk river</li>
+<li>Europa</li>
+<li>End</li>
+<li>eye</li>
 
-                                                    
+
   <li class="t3">English Channel</li>
   <li class="t3">Gulf</li>
   <li class="t3">Inlet</li>
@@ -16118,39 +16766,39 @@ export const possibleAnswers = [
                                                   <li>a lot of clowns</li>
                                                   <li>Acorn</li>
 
-                                                      <li>Attractions</li>
-                                                      <li>Archery</li>
-                                                      <li>Antelopes</li>
-                                                      <li>Affen</li>
-                                                      <li>Armor</li>
-                                                      <li>A joker</li>
-                                                      <li>Apple juice</li>
-                                                      <li>Amphibian</li>
-                                                      <li>amanda</li>
-                                                      <li>alpacas</li>
-                                                      <li>animal trainers</li>
-                                                      <li>Attendees</li>
-                                                      <li>A juggler</li>
-                                                      <li>aro</li>
-                                                      <li>Aerialists</li>
-                                                      <li>Alien</li>
-                                                      <li>Arocobat</li>
-                                                      <li>Ashley</li>
-                                                      <li>A kid</li>
-                                                      <li>afro</li>
-                                                      <li>air horn</li>
-                                                      <li>Abracadabra</li>
-                                                      <li>APPLE</li>
-                                                      <li>apple juggling</li>
-                                                      <li>Alcohol</li>
-                                                      <li>aligators</li>
-                                                      <li>Airplane</li>
-                                                      <li>A person</li>
-                                                      <li>Ambulance</li>
-                                                      <li>A CLOWN</li>
-                                                      <li>Abacus</li>
+  <li>Attractions</li>
+  <li>Archery</li>
+  <li>Antelopes</li>
+  <li>Affen</li>
+  <li>Armor</li>
+  <li>A joker</li>
+  <li>Apple juice</li>
+  <li>Amphibian</li>
+  <li>amanda</li>
+  <li>alpacas</li>
+  <li>animal trainers</li>
+  <li>Attendees</li>
+  <li>A juggler</li>
+  <li>aro</li>
+  <li>Aerialists</li>
+  <li>Alien</li>
+  <li>Arocobat</li>
+  <li>Ashley</li>
+  <li>A kid</li>
+  <li>afro</li>
+  <li>air horn</li>
+  <li>Abracadabra</li>
+  <li>APPLE</li>
+  <li>apple juggling</li>
+  <li>Alcohol</li>
+  <li>aligators</li>
+  <li>Airplane</li>
+  <li>A person</li>
+  <li>Ambulance</li>
+  <li>A CLOWN</li>
+  <li>Abacus</li>
 
-                                                    
+
   <li class="t3">Animals</li>
 
   <li class="t3">Ball</li>
@@ -18387,7 +19035,7 @@ export const possibleAnswers = [
   <li class="t11">Arson</li>
   <li class="t6">Asking too many questions</li>
 
-                                                        
+    
 <li class="t8">Attitude</li>
 <li class="t7">assault</li>
 <li class="t5">Absenteeism</li>
@@ -18439,48 +19087,48 @@ export const possibleAnswers = [
 <li class="t2">Ask</li>
 <li class="t2">Accident</li>
 
-                                                        <li class="t2">Adultry</li>
-                                                        <li class="t2">Acting crazy</li>
-                                                        <li class="t2">apples</li>
-                                                        <li class="t2">Asleep</li>
-                                                        <li class="t2">Asking stupid questions</li>
-                                                        <li class="t2">assualt</li>
-                                                        <li class="t2">Always showing up late</li>
-                                                        <li class="t2">Anxiety</li>
-                                                        <li class="t2">attacking someone</li>
-                                                        <li class="t2">Acting stupid</li>
-                                                        <li class="t2">attacking boss</li>
-                                                        <li class="t2">Aggressive behaviour</li>
-                                                        <li class="t2">alkohol</li>
-                                                        <li class="t2">acting</li>
-                                                        <li class="t2">Assless chaps</li>
-                                                        <li class="t2">Attacking a customer</li>
-                                                        <li class="t2">acting weird</li>
-                                                        <li class="t2">Asking</li>
-                                                        <li class="t2">Assasination</li>
-                                                        <li class="t2">acid</li>
-                                                        <li class="t2">Acting like a monkey</li>
-                                                        <li class="t2">Arsin</li>
-                                                        <li class="t2">Attacking customers</li>
-                                                        <li class="t2">Annoyance</li>
-                                                        <li class="t2">A bad attitude</li>
-                                                        <li class="t2">acting like a fool</li>
-                                                        <li class="t2">Angry outburst</li>
-                                                        <li class="t2">argument</li>
-                                                        <li class="t2">Arguing with the boss</li>
-                                                        <li class="t2">agression</li>
-                                                        <li class="t2">Addiction</li>
-                                                        <li class="t2">Apps</li>
-                                                        <li class="t2">arsing around</li>
-                                                        <li class="t2">A lie</li>
-                                                        <li class="t2">Attacking coworkers</li>
-                                                        <li>Acting rudely</li>
-                                                        <li>arguing with everyone</li>
-                                                        <li>Aggravated Assault</li>
-                                                        <li>Assaulting your boss</li>
-                                                        <li>Axe murder</li>
+    <li class="t2">Adultry</li>
+    <li class="t2">Acting crazy</li>
+    <li class="t2">apples</li>
+    <li class="t2">Asleep</li>
+    <li class="t2">Asking stupid questions</li>
+    <li class="t2">assualt</li>
+    <li class="t2">Always showing up late</li>
+    <li class="t2">Anxiety</li>
+    <li class="t2">attacking someone</li>
+    <li class="t2">Acting stupid</li>
+    <li class="t2">attacking boss</li>
+    <li class="t2">Aggressive behaviour</li>
+    <li class="t2">alkohol</li>
+    <li class="t2">acting</li>
+    <li class="t2">Assless chaps</li>
+    <li class="t2">Attacking a customer</li>
+    <li class="t2">acting weird</li>
+    <li class="t2">Asking</li>
+    <li class="t2">Assasination</li>
+    <li class="t2">acid</li>
+    <li class="t2">Acting like a monkey</li>
+    <li class="t2">Arsin</li>
+    <li class="t2">Attacking customers</li>
+    <li class="t2">Annoyance</li>
+    <li class="t2">A bad attitude</li>
+    <li class="t2">acting like a fool</li>
+    <li class="t2">Angry outburst</li>
+    <li class="t2">argument</li>
+    <li class="t2">Arguing with the boss</li>
+    <li class="t2">agression</li>
+    <li class="t2">Addiction</li>
+    <li class="t2">Apps</li>
+    <li class="t2">arsing around</li>
+    <li class="t2">A lie</li>
+    <li class="t2">Attacking coworkers</li>
+    <li>Acting rudely</li>
+    <li>arguing with everyone</li>
+    <li>Aggravated Assault</li>
+    <li>Assaulting your boss</li>
+    <li>Axe murder</li>
 
-                                                    
+
   <li class="t3">Questioning the boss</li>
 
   <li class="t3">Violence</li>

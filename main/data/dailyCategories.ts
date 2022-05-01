@@ -170,14 +170,14 @@ export const dailyCategories = [
   {
     dailyDate: "4/30/2022",
     inputs: [
-      "Youtuber",
-      "Cartoon",
-      "Things that are green",
-      "Things that use a remote",
-      "Things you see in the zoo",
-      "band or musician",
+      "things that can get you fired",
+      "Thing you find in your pockets",
+      "Fruit",
+      "Things found in a desk",
+      "Hobby",
+      "Things at a circus",
     ],
-    letter: "M",
+    letter: "A",
   },
   {
     dailyDate: "5/1/2022",

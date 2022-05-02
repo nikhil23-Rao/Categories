@@ -195,13 +195,13 @@ export const dailyCategories = [
     dailyDate: "5/2/2022",
     inputs: [
       "Things Found In The Ocean",
-      "Vegetable",
+      "Fruit or vegetable",
       "Pet",
       "Villain",
       "Nickname",
       "Hobby",
     ],
-    letter: "M",
+    letter: "F",
   },
   {
     dailyDate: "5/3/2022",

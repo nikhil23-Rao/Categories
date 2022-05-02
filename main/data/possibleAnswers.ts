@@ -1297,6 +1297,109 @@ export const possibleAnswers = [
     categoryName: "Fruit or vegetable",
     html: `
   <ul>
+  <li class="t3">FIG</li>
+<li class="t4">Feijoa</li>
+<li class="t3">Figue</li>
+<li class="t6">Frambuesa</li>
+<li class="t3">French bean</li>
+<li class="t4">French beans</li>
+<li class="t10">Fresa</li>
+<li class="t3">Fresas</li>
+<li class="t4">fava beans</li>
+<li class="t8">figs</li>
+
+<li class="t4">frutilla</li>
+<li class="t7">fuji apple</li>
+<li class="t3">Fingerling potatoes</li>
+<li class="t3">fava bean</li>
+<li class="t3">Feige</li>
+<li class="t2">fingerling potato</li>
+<li class="t2">fraise</li>
+<li class="t2">Framboise</li>
+<li class="t2">Figa</li>
+<li class="t2">Fungi</li>
+<li class="t2">Fuji apples</li>
+<li class="t2">fenchel</li>
+<li class="t2">Fenouil</li>
+<li class="t2">Figo</li>
+<li class="t2">Frisee</li>
+<li class="t2">french onion</li>
+<li class="t2">Fuji</li>
+<li>fresh grapes</li>
+<li>Fragola</li>
+<li>Finger Lime</li>
+<li>Fenel</li>
+<li>fiji apple</li>
+<li>Falsa</li>
+<li>fiji apples</li>
+<li>Fig.</li>
+<li>fava</li>
+<li>Felfel</li>
+<li>Fenouille</li>
+<li>Fasola</li>
+<li>fenugreek</li>
+<li>Feijoa Fruit</li>
+<li>Frozen grapes</li>
+<li>Fried okra</li>
+<li>fresh apples</li>
+<li>Funghi</li>
+<li>Fruit Salad</li>
+<li>Fejoia</li>
+<li>frozen strawberries</li>
+<li>frambuaz</li>
+<li>Fresh tomatoes</li>
+<li>Florida Orange</li>
+<li>frute</li>
+<li>fig,</li>
+<li>Fried green tomatoes</li>
+<li>frozen peas</li>
+<li>falberry</li>
+<li>Fresh apple</li>
+<li>Frutas</li>
+<li>Fry</li>
+<li>fige</li>
+
+
+<li>figg</li>
+<li>Fresh lettuce</li>
+<li>Feijoa Fruit.</li>
+<li>Frozen carrots</li>
+<li>five finger</li>
+<li>farkleberry</li>
+<li>fried apple</li>
+<li>Fanny</li>
+<li>Fennell</li>
+<li>Fenne</li>
+<li>fro</li>
+<li>finger lime fruit</li>
+<li>Figs.</li>
+<li>Feldsalat</li>
+<li>Figues</li>
+<li>FENNEL</li>
+<li>foul</li>
+<li>Fascell Mango</li>
+<li>finger melon</li>
+<li>Fan</li>
+<li>fried onions</li>
+<li>Fandogh</li>
+<li>Fingers</li>
+<li>Foot</li>
+<li>Fruit of passion</li>
+<li>fast</li>
+<li>fresh orange</li>
+<li>fejioa</li>
+<li>Florets of broccoli</li>
+<li>Fool</li>
+<li>Freijoa</li>
+<li>flax</li>
+<li>fried pickles</li>
+<li>Fresh greens</li>
+<li>Figus</li>
+<li>fried zucchini</li>
+<li>Fico</li>
+<li>Falho</li>
+<li>fallobst</li>
+<li>Feferoni</li>
   <li class="t3">Date</li>
   <li class="t3">Elderberry</li>
   <li class="t3">Lemon</li>
@@ -1968,6 +2071,109 @@ export const possibleAnswers = [
     categoryName: "Hobby",
     html: `
   <ul>
+  <li class="t5">Farming</li>
+<li class="t7">Fighting</li>
+<li class="t3">Filming</li>
+<li class="t2">Finger painting</li>
+<li class="t2">Flower arranging</li>
+<li class="t7">Flying</li>
+<li class="t3">Flying kites</li>
+<li class="t10">Football</li>
+<li class="t4">Frisbee</li>
+<li class="t5">fencing</li>
+
+<li class="t9">fishing</li>
+<li class="t2">flying planes</li>
+<li class="t2">Figure skating</li>
+<li class="t2">Fortnite</li>
+<li class="t2">Flying a kite</li>
+<li class="t2">Fiddling</li>
+<li class="t2">food</li>
+<li class="t2">Futbol</li>
+<li class="t2">Flower picking</li>
+<li class="t2">field hockey</li>
+<li class="t2">Fight</li>
+<li>Foraging</li>
+<li>Film</li>
+<li>Fischen</li>
+<li>Face painting</li>
+<li>Fingering</li>
+<li>Fixing things</li>
+<li>Flute playing</li>
+<li>Follar</li>
+<li>Felting</li>
+<li>Framing</li>
+<li>Flying kite</li>
+<li>Fitness</li>
+<li>frisbee golf</li>
+<li>Fixing cars</li>
+<li>Fly</li>
+<li>Fingerpainting</li>
+<li>Fashion</li>
+<li>Fumar</li>
+<li>frying food</li>
+<li>Fox hunting</li>
+<li>Foosball</li>
+<li>Finding rocks</li>
+<li>finger knitting</li>
+<li>Fangirling</li>
+<li>fiddle</li>
+<li>flute</li>
+<li>French braiding</li>
+<li>fish</li>
+<li>food eating</li>
+<li>Fasting</li>
+<li>flying drones</li>
+<li>Flying airplanes</li>
+<li>flying a plane</li>
+<li>Fooseball</li>
+<li>Fußball</li>
+<li>flirting</li>
+<li>fire eating</li>
+<li>Fan dancing</li>
+<li>Flipping</li>
+
+
+<li>Free running</li>
+<li>Frying</li>
+<li>Finding things</li>
+<li>fantasy football</li>
+<li>Fireworks</li>
+<li>Fixing</li>
+<li>Flame throwing</li>
+<li>Films</li>
+<li>Free diving</li>
+<li>Fan making</li>
+<li>Facebook</li>
+<li>Florist</li>
+<li>Free climbing</li>
+<li>falling</li>
+<li>Furniture making</li>
+<li>Falconry</li>
+<li>Frisby</li>
+<li>Fist fighting</li>
+<li>Folding paper</li>
+<li>flamenco dancing</li>
+<li>Fornication</li>
+<li>Flowering</li>
+<li>foot ball</li>
+<li>Forestry</li>
+<li>fliegen</li>
+<li>Filmmaking</li>
+<li>flower planting</li>
+<li>fire dancing</li>
+<li>Frog catching</li>
+<li>firefighting</li>
+<li>french kissing</li>
+<li>fire breathing</li>
+<li>Fussball</li>
+<li>Friends</li>
+<li>footbal</li>
+<li>Fiddle playing</li>
+<li>Funny jokes</li>
+<li>Fishing.</li>
+<li>Fort building</li>
+<li>Fechten</li>
   <li class="t5">Acrobatics</li>
   <li class="t10">Acting</li>
   <li class="t3">Aerobics</li>
@@ -9301,6 +9507,109 @@ export const possibleAnswers = [
     categoryName: "Nickname",
     html: `
   <ul>
+  <li class="t8">Fanny</li>
+<li class="t8">Frank</li>
+<li class="t8">Fifi</li>
+<li class="t11">Fred</li>
+<li class="t6">Fin</li>
+<li class="t5">Finn</li>
+<li class="t8">Fran</li>
+<li class="t5">Fatty</li>
+<li class="t5">Franky</li>
+<li class="t5">Franny</li>
+
+<li class="t7">Freddie</li>
+<li class="t8">freddy</li>
+<li class="t5">Flo</li>
+<li class="t4">friend</li>
+<li class="t4">Frannie</li>
+<li class="t3">Fool</li>
+<li class="t3">Finny</li>
+<li class="t3">Frenchie</li>
+<li class="t3">fiona</li>
+<li class="t3">Flower</li>
+<li class="t3">Foxy</li>
+<li class="t3">Fam</li>
+<li class="t3">Freak</li>
+<li class="t3">Fella</li>
+<li class="t2">Fay</li>
+<li class="t2">Fishy</li>
+<li class="t2">fufu</li>
+<li class="t2">Fuzzy</li>
+<li class="t2">Fairy</li>
+<li class="t2">Fabi</li>
+<li class="t2">fluffy</li>
+<li class="t2">Fer</li>
+<li class="t2">fefe</li>
+<li class="t2">Fernando</li>
+<li class="t2">Fancy</li>
+<li class="t2">Francis</li>
+<li class="t2">Filly</li>
+<li class="t2">Frenchy</li>
+<li class="t2">Flora</li>
+<li class="t2">Fish</li>
+<li class="t2">Furry</li>
+<li class="t2">Faith</li>
+<li class="t2">Felicia</li>
+<li class="t2">Funky</li>
+<li class="t2">Flor</li>
+<li class="t2">fido</li>
+<li class="t2">Flash</li>
+<li class="t2">Froggy</li>
+<li class="t2">felix</li>
+<li class="t2">Faye</li>
+<li class="t2">Frodo</li>
+<li class="t2">Fox</li>
+<li class="t2">Fee</li>
+<li class="t2">Fel</li>
+<li class="t2">fern</li>
+<li class="t2">Funny</li>
+<li class="t2">Feli</li>
+<li>fat</li>
+<li>fatso</li>
+<li>Fatima</li>
+
+
+<li>Fitz</li>
+<li>fatass</li>
+<li>Flipper</li>
+<li>Freckles</li>
+<li>funny face</li>
+<li>fenny</li>
+<li>Fez</li>
+<li>fritz</li>
+<li>Fag.</li>
+<li>Fredy</li>
+<li>Franco</li>
+<li>Francie</li>
+<li>Fill</li>
+<li>fart face</li>
+<li>Fredo</li>
+<li>Franz</li>
+<li>Farah</li>
+<li>frog</li>
+<li>Franzi</li>
+<li>Frosty</li>
+<li>funny guy</li>
+<li>Fly</li>
+<li>Flip</li>
+<li>Felipe</li>
+<li>Fede</li>
+<li>foofoo</li>
+<li>Fae</li>
+<li>Freya</li>
+<li>Fab</li>
+<li>Flynn</li>
+<li>Ferry</li>
+<li>Flaco</li>
+<li>Fati</li>
+<li>Ferb</li>
+<li>Fattu</li>
+<li>Franko</li>
+<li>Floppy</li>
+<li>Firulais</li>
+<li>farty</li>
+<li>Foxy lady</li>
   <li class="t3">Queenie</li>
   <li class="t3">Quin</li>
   <li class="t3">Quinn</li>
@@ -11239,7 +11548,7 @@ export const possibleAnswers = [
   {
     categoryName: "Author",
     html: `
-  <ul>
+  <ul
   <li class="t3">Quincy jones</li>
   <li class="t3">Quinn</li>
   <li class="t3">Upton Sinclair</li>
@@ -12028,6 +12337,109 @@ export const possibleAnswers = [
     categoryName: "Things Found In The Ocean",
     html: `
   <ul>
+  <li class="t5">Fish</li>
+<li class="t11">Fins</li>
+<li class="t6">Flippers</li>
+<li class="t5">Flotsam</li>
+<li class="t8">Foam</li>
+<li class="t5">Fungi</li>
+<li class="t7">Fungus</li>
+  <li class="t5">Feces</li>
+<li class="t9">Food</li>
+<li class="t6">fishes</li>
+<li class="t5">Feet</li>
+
+<li class="t4">fossil</li>
+<li class="t5">fossils</li>
+<li class="t4">Fin</li>
+<li class="t4">Flowers</li>
+<li class="t4">Floaties</li>
+<li class="t4">Fishermen</li>
+<li class="t4">Floor</li>
+<li class="t4">Flatfish</li>
+<li class="t4">Fische</li>
+<li class="t4">Fishing nets</li>
+<li class="t4">Flying Fish</li>
+<li class="t4">Flounders</li>
+<li class="t3">Fauna</li>
+<li class="t3">Flipper</li>
+<li class="t3">fish eggs</li>
+<li class="t3">Fisch</li>
+<li class="t3">Friends</li>
+<li class="t3">Fishing Line</li>
+<li class="t3">Feathers</li>
+<li class="t3">Flora</li>
+<li class="t3">Ferry</li>
+<li class="t3">Foca</li>
+<li class="t3">filth</li>
+<li class="t3">Fear</li>
+<li class="t3">Flip flops</li>
+<li class="t3">fart</li>
+<li class="t3">fork</li>
+<li class="t2">Fish,</li>
+<li class="t2">Flat fish</li>
+<li class="t2">Fun</li>
+<li class="t2">Fish food</li>
+<li class="t2">floaters</li>
+<li class="t2">Fire</li>
+<li class="t2">Fat</li>
+<li class="t2">Fisherman</li>
+<li class="t2">Food wrappers</li>
+<li class="t2">forks</li>
+<li class="t2">Fishing net</li>
+<li class="t2">fan</li>
+<li class="t2">Fan coral</li>
+<li class="t2">Foot</li>
+<li class="t2">Fresh fish</li>
+<li class="t2">fat fish</li>
+<li class="t2">Fish bones</li>
+<li class="t2">fern</li>
+<li class="t2">Fruit</li>
+<li class="t2">Flounder Fish</li>
+<li class="t2">Fishing rod</li>
+<li class="t2">flag</li>
+<li class="t2">Freedom</li>
+
+
+<li class="t2">Fish nets</li>
+<li class="t2">foil</li>
+<li class="t2">Fans</li>
+<li class="t2">Fish hooks</li>
+<li class="t2">focas</li>
+<li class="t2">frozen water</li>
+<li class="t2">Fur</li>
+<li class="t2">Floats</li>
+<li class="t2">ferries</li>
+<li class="t2">Fog</li>
+<li class="t2">FIsh</li>
+<li>Fat people</li>
+<li>Fruits</li>
+<li>Fishnets</li>
+<li>floating trash</li>
+<li>feather</li>
+<li>Flathead</li>
+<li>fire coral</li>
+<li>Fries</li>
+<li>food waste</li>
+<li>Football</li>
+<li>Foliage</li>
+<li>fin whale</li>
+<li>Frogfish</li>
+<li>float</li>
+<li>faces</li>
+<li>flesh</li>
+<li>flouder</li>
+<li>Freight ships</li>
+<li>floatie</li>
+<li>Footwear</li>
+<li>fluke</li>
+<li>Fisheries</li>
+<li>Fast fish</li>
+<li>Frigates</li>
+<li>Farhan</li>
+<li>ferns</li>
+<li>Frigate</li>
+<li>fowl</li>
   <li class="t3">Ink</li>
   <li class="t3">Lobster</li>
   <li class="t3">Net</li>
@@ -14618,6 +15030,79 @@ export const possibleAnswers = [
     categoryName: "Pet",
     html: `
   <ul>
+  <li class="t3">Falcon</li>
+<li>Farret</li>
+<li>Fat cat</li>
+<li>Feline</li>
+<li class="t10">Fish</li>
+<li class="t2">Flamingo</li>
+<li>Flying squirrel</li>
+<li>Foca</li>
+<li class="t4">Fox</li>
+<li>French bulldog</li>
+
+<li class="t6">Frog</li>
+<li>farrot</li>
+<li>Fisch</li>
+<li>Firefly</li>
+<li>Flounder</li>
+<li>finch</li>
+<li>Fawn</li>
+<li>Feret</li>
+<li>French poodle</li>
+<li>Fairy</li>
+<li>French bull dog</li>
+<li>Foal</li>
+<li>Fishy</li>
+<li>Fowl</li>
+<li>Fluffy cat</li>
+<li>Farm animal</li>
+<li>Fluffy dog</li>
+<li>feral cat</li>
+<li>fat dog</li>
+<li>fennec fox</li>
+<li>ferrat</li>
+<li>fido</li>
+<li>food</li>
+<li>ferrets</li>
+<li>Feet</li>
+<li>Fat</li>
+<li>frank</li>
+<li>firulais</li>
+<li>furry rabbit</li>
+<li>fred</li>
+<li>Farrow</li>
+<li>fet</li>
+<li>Fungus</li>
+<li>Frenchie</li>
+<li>Floor</li>
+<li>Fro</li>
+<li>faret</li>
+<li>Falco</li>
+<li>Flys</li>
+<li>Fishies</li>
+<li>Flying fox</li>
+<li>fat rat</li>
+<li>France</li>
+<li>Fishes</li>
+<li>Ferit</li>
+<li>fluffy bunny</li>
+<li>Foot</li>
+<li>flower</li>
+<li>Flea</li>
+<li>fury</li>
+
+
+<li>frankie</li>
+<li>Faun</li>
+<li>furball</li>
+<li>Field mouse</li>
+<li>fishie</li>
+<li>Fur ball</li>
+<li>Ferrot</li>
+<li>Falcons</li>
+<li>Furret</li>
+<li>Fledermaus</li>
   <li class="t3">Cat</li>
   <li class="t3">Dog</li>
   <li class="t3">Eagle</li>
@@ -22916,6 +23401,80 @@ export const possibleAnswers = [
   {
     categoryName: "Villain",
     html: `<ul>
+<li class="t10">frankenstein</li>
+<li class="t12">Farquad</li>
+<li class="t12">Freddy</li>
+    <li class="t5">Faceless Man</li>
+<li class="t8">Falcon</li>
+<li class="t6">Farquaad</li>
+<li class="t7">Firefly</li>
+<li class="t7">Freddie</li>
+<li class="t6">Freddie Kruger</li>
+<li class="t10">Freddy Krueger</li>
+<li class="t9">Freddy Kruger</li>
+
+<li class="t5">frost</li>
+<li class="t5">frieza</li>
+<li class="t5">fabian cortez</li>
+<li class="t5">Freeze</li>
+<li class="t5">Fish</li>
+<li class="t4">Food</li>
+<li class="t4">Fara</li>
+<li class="t4">freiza</li>
+<li class="t4">Facilier</li>
+<li class="t4">frankenstien</li>
+<li class="t4">Freddy Fazbear</li>
+<li class="t4">frolo</li>
+<li class="t4">Frankenstein's monster</li>
+<li class="t4">freeza</li>
+<li class="t4">Freddy Kreuger</li>
+<li class="t4">Freeze, Mr.</li>
+<li class="t4">Fox</li>
+<li class="t4">Fat Man</li>
+<li class="t3">Fatman</li>
+<li class="t3">Faust</li>
+<li class="t3">Ferdinand</li>
+<li class="t3">Flame</li>
+<li class="t3">frankestein</li>
+<li class="t3">Fredrick</li>
+<li class="t3">foe</li>
+<li class="t3">frollo</li>
+<li class="t3">france</li>
+<li class="t3">frosty</li>
+<li class="t3">Fallon</li>
+<li class="t3">Fagin</li>
+<li class="t3">Fenrir Greyback</li>
+<li class="t3">fancy dan</li>
+<li class="t3">Falcone</li>
+<li class="t3">Fidel Castro</li>
+<li class="t3">Fantom</li>
+<li class="t3">frank underwood</li>
+<li class="t3">farquad, lord</li>
+<li class="t3">Freddie Krueger</li>
+<li class="t2">Fusion</li>
+<li class="t2">Felicia</li>
+<li class="t2">Fly</li>
+<li class="t2">Famine</li>
+<li class="t2">fiend</li>
+<li class="t2">fin fang foom</li>
+<li class="t2">finn</li>
+<li class="t2">felix</li>
+<li class="t2">Faora</li>
+<li class="t2">Frankinstine</li>
+<li class="t2">Floop</li>
+
+
+<li class="t2">frost giant</li>
+<li class="t2">Franken</li>
+<li class="t2">foxy</li>
+<li class="t2">Frankenfurter</li>
+<li class="t2">Farquhar</li>
+<li class="t2">Franz Ferdinand</li>
+<li class="t2">Freddie mercury</li>
+<li class="t2">Franklin the Turtle</li>
+<li class="t2">Fantasma</li>
+<li class="t2">Flash, Reverse</li>
+<li class="t2">Fisk</li>
   <li class="t3">Loki</li>
   <li class="t3">Queen Wasp</li>
   <li class="t3">Scar</li>

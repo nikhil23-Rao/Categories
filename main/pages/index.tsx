@@ -89,7 +89,14 @@ const Home = ({ profileImage, setProfileImg }: IProps) => {
                     top: 0,
                     right: -50,
                   }}
-                  onClick={settingsModalOnOpen}
+                  onClick={() => {
+                    toast({
+                      title: "Mobile Support Coming Soon!",
+                      status: "info",
+                      duration: 3000,
+                      position: "bottom-left",
+                    });
+                  }}
                 />
               </>
             ) : (

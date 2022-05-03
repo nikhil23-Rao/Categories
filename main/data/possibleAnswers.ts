@@ -3177,6 +3177,109 @@ export const possibleAnswers = [
     categoryName: "Fictional Characters",
     html: `
   <ul>
+  <li class="t10">Tarzan</li>
+<li class="t6">Thanos</li>
+<li class="t11">Thor</li>
+<li class="t6">Tiana</li>
+<li class="t8">Tigger</li>
+<li class="t7">Timmy Turner</li>
+<li class="t6">Tinkerbell</li>
+<li class="t7">Tom</li>
+<li class="t6">Tom Riddle</li>
+<li class="t5">Tom Sawyer</li>
+
+<li class="t5">Tony the Tiger</li>
+<li class="t6">tony stark</li>
+<li class="t5">Ted</li>
+<li class="t5">Thomas the train</li>
+<li class="t4">Tintin</li>
+<li class="t4">tom thumb</li>
+<li class="t4">Tom and Jerry</li>
+<li class="t4">Troy Bolton</li>
+<li class="t4">Terminator</li>
+<li class="t4">Tinker bell</li>
+<li class="t3">Titan</li>
+<li class="t3">Tiger</li>
+<li class="t3">Thomas</li>
+<li class="t3">Tin tin</li>
+<li class="t3">Timon</li>
+<li class="t3">Toto</li>
+<li class="t3">Teletubbies</li>
+<li class="t3">Timmy</li>
+<li class="t3">Thumbelina</li>
+<li class="t3">Totoro</li>
+<li class="t3">Tommy</li>
+<li class="t2">Tommy Pickles</li>
+<li class="t2">ted mosby</li>
+<li class="t2">Troy</li>
+<li class="t2">Tonks</li>
+<li class="t2">thomas the tank engine</li>
+<li class="t2">Toad</li>
+<li class="t2">Tin man</li>
+<li class="t2">Trelawney</li>
+<li class="t2">Tanjiro</li>
+<li class="t2">Teenage mutant ninja turtles</li>
+<li class="t2">Teddy</li>
+<li class="t2">Tina</li>
+<li class="t2">Todoroki</li>
+<li class="t2">Tom from tom and jerry</li>
+<li class="t2">teen titans</li>
+<li class="t2">Tyrion Lannister</li>
+<li class="t2">Theodore</li>
+<li class="t2">Tooth Fairy</li>
+<li class="t2">Tom Nook</li>
+<li class="t2">Thumbalina</li>
+<li class="t2">Tasmanian Devil</li>
+<li class="t2">tweety bird</li>
+<li class="t2">Toby</li>
+<li class="t2">Teemo</li>
+<li class="t2">Tom Bombadil</li>
+<li class="t2">Timone</li>
+<li class="t2">tom the cat</li>
+<li class="t2">Tris</li>
+<li class="t2">Tracy Beaker</li>
+
+
+<li>The hulk</li>
+<li>Tinman</li>
+<li>The Flash</li>
+<li>Tom Cat</li>
+<li>Titans</li>
+<li>Transformers</li>
+<li>Tin Man</li>
+<li>Tigress</li>
+<li>Thalia</li>
+<li>Tommy boy</li>
+<li>The Thing</li>
+<li>thomas the tank</li>
+<li>Trevor</li>
+<li>terry jeffords</li>
+<li>Thomas Shelby</li>
+<li>Tom &amp; Jerry</li>
+<li>Tara</li>
+<li>T'Challa</li>
+<li>Tyrion</li>
+<li>Tazmanian Devil</li>
+<li>Troll</li>
+<li>Tonto</li>
+<li>Tony Soprano</li>
+<li>Tails</li>
+<li>Toph</li>
+<li>Trunks</li>
+<li>Tartaglia</li>
+<li>Terra</li>
+<li>Theon Greyjoy</li>
+<li>Thumper</li>
+<li>Tobias</li>
+<li>tyrone</li>
+<li>Tito</li>
+<li>Trolls</li>
+<li>Tanaka</li>
+<li>Tinkerbelle</li>
+<li>Timothy Green</li>
+<li>Tenten</li>
+<li>Talon</li>
+<li>Tristan</li>
   <li class="t3">Batman</li>
   <li class="t3">Naruto</li>
   <li class="t3">Nemo</li>
@@ -6999,6 +7102,109 @@ export const possibleAnswers = [
     categoryName: "Brand",
     html: `
   <ul>
+  <li class="t2">T-Mobile</li>
+<li class="t2">TJ Maxx</li>
+<li class="t10">Target</li>
+<li class="t3">Tea shop</li>
+<li class="t6">Tesco</li>
+<li class="t3">Tillys</li>
+<li class="t3">Tommy Hilfiger</li>
+<li class="t2">Top shop</li>
+<li class="t3">Topshop</li>
+<li class="t4">Toys r us</li>
+
+<li class="t4">taco bell</li>
+<li class="t2">tj max</li>
+<li class="t2">Tim Hortons</li>
+<li class="t2">trader joes</li>
+<li class="t2">Timberland</li>
+<li class="t2">Tesla</li>
+<li class="t2">the body shop</li>
+<li class="t2">topshop</li>
+<li class="t2">TK Maxx</li>
+<li class="t2">Tilly's</li>
+<li class="t2">Tiffany's</li>
+<li class="t2">tj maxx</li>
+<li class="t2">toysrus</li>
+<li class="t2">Tiffanys</li>
+<li class="t2">Talbots</li>
+<li>Trader Joe's</li>
+<li>T mobile</li>
+<li>Tea</li>
+<li>tk max</li>
+<li>Toy shop</li>
+<li>tescos</li>
+<li>Thrift shop</li>
+<li>Tiffany</li>
+<li>top shop</li>
+<li>Torrid</li>
+<li>tiffany and co</li>
+<li>Thrift store</li>
+<li>Toyota</li>
+<li>tjmax</li>
+<li>Topman</li>
+<li>Timpsons</li>
+<li>Toys</li>
+<li>Tkmaxx</li>
+<li>Tjmaxx</li>
+<li>tmobile</li>
+<li>The warehouse</li>
+<li>Ted Baker</li>
+<li>Tops</li>
+<li>Tailor</li>
+<li>Titan</li>
+<li>the north face</li>
+<li>Thorntons</li>
+<li>Toy</li>
+<li>top</li>
+<li>tom ford</li>
+<li>Telstra</li>
+<li>Teavana</li>
+<li>tiger</li>
+<li>Tire shop</li>
+<li>Toms</li>
+
+
+<li>tory burch</li>
+<li>Top man</li>
+<li>The shop</li>
+<li>Timex</li>
+<li>Tommy</li>
+<li>Terranova</li>
+<li>toy store</li>
+<li>Things Remembered</li>
+<li>Tree</li>
+<li>Tires</li>
+<li>Tailor shop</li>
+<li>Tools</li>
+<li>Tj Max</li>
+<li>the gap</li>
+<li>TNA</li>
+<li>The Bay</li>
+<li>Tkmax</li>
+<li>Tims</li>
+<li>Tennis</li>
+<li>Truck</li>
+<li>Time</li>
+<li>Tamaris</li>
+<li>Totto</li>
+<li>tnt</li>
+<li>tennis shop</li>
+<li>T-shirt shop</li>
+<li>tiffany &amp; co</li>
+<li>the limited</li>
+<li>Taco shop</li>
+<li>Tan</li>
+<li>Tool shop</li>
+<li>The dollar store</li>
+<li>Tailors</li>
+<li>Tattoo shop</li>
+<li>Trousers</li>
+<li>tank</li>
+<li>Toys are us</li>
+<li>tshirt</li>
+<li>Texaco</li>
+<li>telephone</li>
   <li class="t3">Fila</li>
   <li class="t3">Gap</li>
   <li class="t3">H&amp;M</li>
@@ -8491,6 +8697,91 @@ export const possibleAnswers = [
     categoryName: "Instrument",
     html: `
   <ul>
+  <li class="t2">Tabla</li>
+<li>Tabor drum</li>
+<li class="t2">Tambor</li>
+<li>Tenor Saxophone</li>
+<li>Theremin</li>
+<li>Tin whistle</li>
+<li>Trombon</li>
+<li class="t2">Trompeta</li>
+<li>Trompete</li>
+<li class="t10">Trumpet</li>
+
+<li>tenor sax</li>
+<li>trompet</li>
+<li>Trommel</li>
+<li>tamberine</li>
+<li>Theramin</li>
+<li>Triangel</li>
+<li>triangulo</li>
+<li>Tambour</li>
+<li>timbal</li>
+<li>Trumpet.</li>
+<li>TUBA</li>
+<li>Timbales</li>
+<li>Tamborin</li>
+<li>Trumphet</li>
+<li>Tanpura</li>
+<li>teclado</li>
+<li>Tin drum</li>
+<li>Tamburo</li>
+<li>Tambarine</li>
+<li>Tambourin</li>
+<li>Tamburine</li>
+<li>Tympany</li>
+<li>Telescope</li>
+<li>trombone, trumpet</li>
+<li>trump</li>
+<li>truba</li>
+<li>tromba</li>
+<li>tom tom</li>
+<li>TAMBOURINE</li>
+<li>Tabor</li>
+<li>trombo</li>
+<li>tambura</li>
+<li>trumpet, trombone</li>
+<li>Tamburin</li>
+<li>trumbon</li>
+<li>Tom tom</li>
+<li>Toms</li>
+<li>Triangles</li>
+<li>Tambol</li>
+<li>tuning fork</li>
+<li>The Triangle</li>
+<li>Tenor Saxaphone</li>
+<li>trumpit</li>
+<li>Tumpet</li>
+<li>Timber</li>
+<li>Theorbo</li>
+<li>Taar</li>
+<li>Tube</li>
+<li>taiko drum</li>
+<li>tammorra</li>
+
+
+<li>Typewriter</li>
+<li>Trumpet,</li>
+<li>Timbale</li>
+<li>Tomtom</li>
+<li>Tumba</li>
+<li>Trombones</li>
+<li>tom toms</li>
+<li>Tenor</li>
+<li>Trupmet</li>
+<li>tin can</li>
+<li>tam tam</li>
+<li>Terompet</li>
+<li>Timpani Drum</li>
+<li>time</li>
+<li>Tinwhistle</li>
+<li>the clarinet</li>
+<li>The guitar</li>
+<li>trumpets</li>
+<li>Timbre</li>
+<li>Tongue</li>
+<li>Tuber</li>
+<li>tiny piano</li>
   <li class="t3">Flauta</li>
   <li class="t3">Keyboard</li>
   <li class="t3">Ocarina</li>
@@ -11774,6 +12065,109 @@ export const possibleAnswers = [
     categoryName: "Youtuber",
     html: `
   <ul>
+  <li class="t10">T series</li>
+<li class="t8">T-Series</li>
+<li class="t6">T-series</li>
+<li class="t7">Technoblade</li>
+<li class="t5">Tfue</li>
+<li class="t6">Timthetatman</li>
+<li class="t6">Tommyinit</li>
+<li class="t11">Tommyinnit</li>
+<li class="t5">Tseries</li>
+<li class="t5">Tubbo</li>
+
+<li class="t5">tana mongeau</li>
+<li class="t5">tyler oakley</li>
+<li class="t5">Trisha Paytas</li>
+<li class="t4">taylor swift</li>
+<li class="t4">try guys</li>
+<li class="t4">Tyler</li>
+<li class="t4">Tom</li>
+<li class="t4">typical gamer</li>
+<li class="t4">Tobuscus</li>
+<li class="t3">Triggered insaan</li>
+<li class="t3">Tommy</li>
+<li class="t3">Tati</li>
+<li class="t3">Taddl</li>
+<li class="t3">T Series</li>
+<li class="t3">Tina</li>
+<li class="t3">Tyler1</li>
+<li class="t3">Troydan</li>
+<li class="t3">Thinknoodles</li>
+<li class="t3">The Try Guys</li>
+<li class="t3">Thomas Sanders</li>
+<li class="t3">travis scott</li>
+<li class="t3">the ace family</li>
+<li class="t3">The Diamond Minecart</li>
+<li class="t3">Tanner fox</li>
+<li class="t3">Tommy innit</li>
+<li class="t2">Thomas</li>
+<li class="t2">Tiana</li>
+<li class="t2">Tom holland</li>
+<li class="t2">Tiko</li>
+<li class="t2">tanqr</li>
+<li class="t2">tanya burr</li>
+<li class="t2">tenz</li>
+<li class="t2">tim the tat man</li>
+<li class="t2">Troye Sivan</li>
+<li class="t2">Troom Troom</li>
+<li class="t2">tom scott</li>
+<li class="t2">Trisha</li>
+<li class="t2">the norris nuts</li>
+<li class="t2">Tilly</li>
+<li class="t2">TheDiamondMinecart</li>
+<li class="t2">Terroriser</li>
+<li class="t2">Techno gamerz</li>
+<li class="t2">team edge</li>
+<li class="t2">Ted</li>
+<li class="t2">toast</li>
+<li class="t2">Tiger</li>
+<li class="t2">Tasty</li>
+<li class="t2">Timmy</li>
+<li class="t2">Tyler the creator</li>
+<li class="t2">the game theorists</li>
+
+
+<li class="t2">Tiny Turtle</li>
+<li class="t2">titan</li>
+<li class="t2">Tanmay bhat</li>
+<li class="t2">tbjzl</li>
+<li class="t2">tanner</li>
+<li class="t2">tdm</li>
+<li class="t2">Tammy</li>
+<li class="t2">TapL</li>
+<li class="t2">The Rock</li>
+<li class="t2">Travis</li>
+<li class="t2">Team 10</li>
+<li class="t2">TayZonday</li>
+<li class="t2">trump</li>
+<li class="t2">TheWillyrex</li>
+<li class="t2">Tiktok</li>
+<li class="t2">Tomska</li>
+<li class="t2">Technical guruji</li>
+<li class="t2">Tomas</li>
+<li>theo baker</li>
+<li>TheGrefg</li>
+<li>Tuonto</li>
+<li>Tanzverbot</li>
+<li>talia</li>
+<li>Thorn</li>
+<li>Trent</li>
+<li>Tree</li>
+<li>ted talk</li>
+<li>Timeworks</li>
+<li>Tia</li>
+<li>T seires</li>
+<li>Tatiana</li>
+<li>Twomad</li>
+<li>Tiny tim</li>
+<li>Twice</li>
+<li>Tana</li>
+<li>Tim the tatman</li>
+<li>trevor</li>
+<li>Tony Hawk</li>
+<li>Tessa</li>
+<li>Tgg</li>
  <li class="t3">Mark Rober</li>
  <li class="t10">Markiplier</li>
  <li class="t4">Miniminter</li>
@@ -16222,6 +16616,11 @@ export const possibleAnswers = [
     categoryName: "Provinces or States",
     html: `
   <ul>
+  <li class="t10">Taiwan</li><li class="t12">Tamil Nadu</li><li class="t7">Tanzania</li><li class="t11">Telangana</li><li class="t7">Tibet</li><li class="t6">Tuscany</li><li class="t6">tamilnadu</li><li class="t8">tasmania</li><li class="t7">tenesse</li><li class="t6">thailand</li>
+                                                 <li class="t5">tripura</li><li class="t7">turkey</li><li class="t5">tucuman</li><li class="t5">Telengana</li><li class="t4">tampa</li><li class="t4">Tijuana</li><li class="t4">tokyo</li><li class="t4">tirol</li><li class="t4">Tennese</li><li class="t4">Tazmania</li><li class="t4">Taipei</li><li class="t4">Thüringen</li><li class="t4">tamaulipas</li><li class="t4">Tenasee</li><li class="t3">Transilvania</li><li class="t3">Tehran</li><li class="t3">transylvania</li><li class="t3">Tan</li><li class="t3">Toledo</li><li class="t3">teruel</li><li class="t3">terengganu</li><li class="t3">Tarragona</li><li class="t3">Tunisia</li><li class="t3">Tianjin</li><li class="t3">Trinidad</li><li class="t3">TENNESSEE</li><li class="t3">Timbuktu</li><li class="t3">TORONTO</li><li class="t3">Tennessee, Texas</li><li class="t3">Tahoe</li><li class="t3">Tottenham</li><li class="t3">Tea</li><li class="t3">tailandia</li><li class="t2">Turin</li><li class="t2">Tonga</li><li class="t2">tyrone</li><li class="t2">Tansania</li><li class="t2">Taguig</li><li class="t2">The Dakotas</li><li class="t2">Tahiti</li><li class="t2">Tenassee</li><li class="t2">tampa bay</li><li class="t2">Tirana</li><li class="t2">Toranto</li><li class="t2">Temecula</li><li class="t2">tailand</li><li class="t2">Turkmenistan</li><li class="t2">Togo</li><li class="t2">Tennase</li><li class="t2">TENNESEE</li>
+                                                        
+<li class="t2">toluca</li><li class="t2">Tenneessee</li><li class="t2">Tel Aviv</li><li class="t2">Thai</li><li class="t2">Tennessee,</li><li class="t2">texes</li><li class="t2">Tiajuana</li><li class="t2">Tiwan</li><li class="t2">tex</li><li class="t2">talahasee</li>
+                                                    
   <li class="t3">Arizona</li>
   <li class="t3">Delhi</li>
   <li class="t3">Michigan</li>
@@ -22411,6 +22810,114 @@ export const possibleAnswers = [
   {
     categoryName: "Leisure Activity",
     html: `<ul>
+  <li class="t9">Tanning</li><li class="t9">Tap dancing</li><li class="t7">Texting</li><li class="t8">Training</li><li class="t6">Trampolining</li><li class="t8">Travel</li><li class="t7">Travelling</li><li class="t8">Trekking</li><li class="t6">table tennis</li><li class="t12">talking</li>
+                                                        
+<li class="t12">tennis</li><li class="t7">thinking</li><li class="t6">Talk</li><li class="t5">Typing</li><li class="t5">tree climbing</li><li class="t5">TV watching</li><li class="t5">tubing</li><li class="t5">Tumbling</li><li class="t4">Track</li><li class="t4">Tag</li><li class="t4">television</li><li class="t4">trampoline</li><li class="t4">Teaching</li><li class="t4">take a nap</li><li class="t4">Taking a nap</li><li class="t4">Tap dance</li><li class="t4">traveling</li><li class="t4">Triathlon</li><li class="t4">talking to friends</li><li class="t4">Taking a stroll</li><li class="t4">Taekwondo</li><li class="t4">tea drinking</li><li class="t4">Take a walk</li><li class="t4">Tracking</li><li class="t4">Train spotting</li><li class="t4">taking a walk</li><li class="t3">treasure hunting</li><li class="t3">tailgating</li><li class="t3">Taking a bath</li><li class="t3">talking on the phone</li><li class="t3">Tricycling</li><li class="t3">tea time</li><li class="t3">Tobogganing</li><li class="t3">television watching</li><li class="t3">Trail running</li><li class="t3">Tai chi</li><li class="t3">Trolling</li><li class="t3">Tea party</li><li class="t3">Tightrope walking</li><li class="t3">Touring</li><li class="t3">tea</li><li class="t3">Track and field</li><li class="t3">Twister</li><li class="t3">Trecking</li><li class="t3">Tailoring</li><li class="t3">Tug of war</li><li class="t3">track running</li><li class="t3">tetherball</li><li class="t3">Tapdancing</li><li class="t3">Telling stories</li>
+                                                      <li class="t2">taking pictures</li><li class="t2">Think</li><li class="t2">Tan</li><li class="t2">Taking a hike</li><li class="t2">Trainspotting</li><li class="t2">Tetris</li><li class="t2">torture</li><li class="t2">Taco eating</li><li class="t2">Tapping</li><li class="t2">treasure hunt</li><li class="t2">Throwing</li><li class="t2">talking with friends</li><li class="t2">Throwing a ball</li><li class="t2">Tying knots</li><li class="t2">Trapeze</li><li class="t2">Trail hiking</li><li class="t2">Trip</li><li class="t2">tango</li><li class="t2">Tenis</li><li class="t2">Tie dying</li><li class="t2">TikTok</li><li class="t2">Treadmill</li><li class="t2">tight rope walking</li><li class="t2">Taking naps</li><li class="t2">tee ball</li><li class="t2">trotting</li><li class="t2">tic tac toe</li><li class="t2">Trading</li><li class="t2">Trumpet</li><li class="t2">Talk on the phone</li><li class="t2">Training dogs</li><li class="t2">Tramping</li><li class="t2">Trumpet playing</li><li class="t2">Time pass</li><li class="t2">Tipping</li><li class="t2">tball</li><li class="t2">Trailing</li><li class="t2">Theater</li><li class="t2">Tagging</li><li class="t2">Taking a break</li>
+                                                  
+    <li class="t11">Laughing</li>
+<li class="t6">Lay down</li>
+<li class="t7">Learning</li>
+<li class="t8">Line dancing</li>
+<li class="t12">Listening to music</li>
+<li class="t6">Long jump</li>
+<li class="t5">Long walks</li>
+<li class="t5">Lying in bed</li>
+<li class="t9">lacrosse</li>
+<li class="t8">larping</li>
+
+<li class="t5">limbo</li>
+<li class="t6">longboarding</li>
+<li class="t5">Looking at birds</li>
+<li class="t5">Legos</li>
+<li class="t5">Logging</li>
+<li class="t5">listening</li>
+<li class="t5">Lake swimming</li>
+<li class="t4">Lazing</li>
+<li class="t4">lazing around</li>
+<li class="t4">leaping</li>
+<li class="t4">Lifting weights</li>
+<li class="t4">Loafing</li>
+<li class="t4">Long walk</li>
+<li class="t4">Landscaping</li>
+<li class="t4">Lacross</li>
+<li class="t4">Leer</li>
+<li class="t4">Lap swimming</li>
+<li class="t4">laying in bed</li>
+<li class="t4">lego building</li>
+<li class="t3">lawn bowling</li>
+<li class="t3">Listening music</li>
+<li class="t3">Laps</li>
+<li class="t3">Lap dancing</li>
+<li class="t3">Lay around</li>
+<li class="t3">Looting</li>
+<li class="t3">Lego</li>
+<li class="t3">Listen to music</li>
+<li class="t3">Lawn darts</li>
+<li class="t3">Learn</li>
+<li class="t3">Lake fishing</li>
+<li class="t3">Lovemaking</li>
+<li class="t3">Looking</li>
+<li class="t3">Laying out</li>
+<li class="t3">lollygagging</li>
+<li class="t3">laziness</li>
+<li class="t3">lunch</li>
+<li class="t3">Laying by the pool</li>
+<li class="t3">Letter writing</li>
+<li class="t3">Love making</li>
+<li class="t3">Leap</li>
+<li class="t3">Lawn bowls</li>
+<li class="t3">laser tag</li>
+<li class="t3">laying in the sun</li>
+<li class="t3">Lying in the sun</li>
+<li class="t3">Loitering</li>
+<li class="t3">luge</li>
+<li class="t3">lay</li>
+<li class="t2">Learning a new language</li>
+<li class="t2">lassoing</li>
+<li class="t2">Looking out the window</li>
+
+
+<li class="t2">love making</li>
+<li class="t2">lie</li>
+<li class="t2">Laying in the grass</li>
+<li class="t2">Ludo</li>
+<li class="t2">lunges</li>
+<li class="t2">Lazy River</li>
+<li class="t2">Laying on the couch</li>
+<li class="t2">loving</li>
+<li class="t2">long boarding</li>
+<li class="t2">Laufen</li>
+<li class="t2">lovemaking</li>
+<li class="t2">lawn mowing</li>
+<li class="t2">laughing with friends</li>
+<li class="t2">Lap dance</li>
+<li class="t2">Lying on the beach</li>
+<li class="t2">Lying Down</li>
+<li class="t2">Looking at the sky</li>
+<li class="t2">Lounging by the pool</li>
+<li class="t2">Listening to podcasts</li>
+<li class="t2">Lighting fires</li>
+<li class="t2">Lolling</li>
+<li class="t2">lounging in the sun</li>
+<li class="t2">Lap Dancing</li>
+<li class="t2">Love</li>
+<li class="t2">Leisure Activity</li>
+<li class="t2">Leaving</li>
+<li class="t2">Leisurely walking</li>
+<li class="t2">lettering</li>
+<li class="t2">Leapfrog</li>
+<li class="t2">Lunching</li>
+<li class="t2">Lipsynching</li>
+<li class="t2">Laying on bed</li>
+<li class="t2">Look</li>
+<li class="t2">Lottery</li>
+<li class="t2">Luging</li>
+<li class="t2">Lying around doing nothing</li>
+<li class="t2">leap frog</li>
+<li class="t2">long distance running</li>
+<li class="t2">lurking</li>
+<li class="t2">Live</li>
  <li class="t5">Dating</li>
  <li class="t5">Daydreaming</li>
  <li class="t4">Digging</li>

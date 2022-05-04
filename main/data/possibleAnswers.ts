@@ -10990,7 +10990,6 @@ export const possibleAnswers = [
   <li class="t3">South Carolina</li>
   <li class="t3">South Dakota</li>
   <li class="t3">penselvania</li>
-  <li class="t3">Portland.</li>
   <li class="t3">Luissiana</li>
   <li class="t3">Louisiane</li>
   <li class="t3">Uttah</li>

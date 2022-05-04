@@ -206,14 +206,14 @@ export const dailyCategories = [
   {
     dailyDate: "5/3/2022",
     inputs: [
-      "Hobby",
-      "Sports Stars",
-      "State of the United States",
-      "Product Name",
-      "Useless hero powers",
-      "Things you plug in",
+      "Provinces or States",
+      "Youtuber",
+      "Fictional Characters",
+      "Leisure Activity",
+      "Brand",
+      "Instrument",
     ],
-    letter: "P",
+    letter: "T",
   },
   {
     dailyDate: "5/4/2022",

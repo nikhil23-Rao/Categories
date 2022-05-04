@@ -2071,6 +2071,109 @@ export const possibleAnswers = [
     categoryName: "Hobby",
     html: `
   <ul>
+  <li class="t11">Paint</li>
+<li class="t9">Parachuting</li>
+<li class="t9">Paragliding</li>
+<li class="t9">Partying</li>
+<li class="t12">Photography</li>
+<li class="t11">Piano</li>
+<li class="t11">Ping pong</li>
+<li class="t11">Playing</li>
+<li class="t8">Playing games</li>
+<li class="t9">Polo</li>
+
+<li class="t9">Pool</li>
+<li class="t12">Pottery</li>
+<li class="t8">Parasailing</li>
+<li class="t8">Planting</li>
+<li class="t8">Poker</li>
+<li class="t8">Pole dancing</li>
+<li class="t7">Pilates</li>
+<li class="t7">Play</li>
+<li class="t7">picking flowers</li>
+<li class="t6">playing video games</li>
+<li class="t6">Puzzles</li>
+<li class="t6">Playing cards</li>
+<li class="t6">Paintball</li>
+<li class="t6">Parkour</li>
+<li class="t5">Paper mache</li>
+<li class="t5">Praying</li>
+<li class="t5">Printing</li>
+<li class="t5">Picking apples</li>
+<li class="t5">Poetry</li>
+<li class="t4">Playing guitar</li>
+<li class="t4">pintar</li>
+<li class="t4">piano playing</li>
+<li class="t4">Pickling</li>
+<li class="t4">Playing sports</li>
+<li class="t4">Playing football</li>
+<li class="t4">pie making</li>
+<li class="t4">Punching</li>
+<li class="t4">Playing chess</li>
+<li class="t4">Playing soccer</li>
+<li class="t4">Putting</li>
+<li class="t4">Pole vaulting</li>
+<li class="t4">playing piano</li>
+<li class="t4">Play games</li>
+<li class="t4">Pickleball</li>
+<li class="t4">Patinar</li>
+<li class="t3">Paddling</li>
+<li class="t3">Pingpong</li>
+<li class="t3">pony riding</li>
+<li class="t3">Party</li>
+<li class="t3">Puzzle</li>
+<li class="t3">PAINTING</li>
+<li class="t3">Pranking</li>
+<li class="t3">Playstation</li>
+<li class="t3">playing basketball</li>
+<li class="t3">Pokemon</li>
+<li class="t3">Planking</li>
+<li class="t3">Penny collecting</li>
+<li class="t3">planting flowers</li>
+<li class="t3">Playing golf</li>
+<li class="t3">Printmaking</li>
+
+
+<li class="t3">Pinball</li>
+<li class="t3">Paintballing</li>
+<li class="t3">Paddle boarding</li>
+<li class="t3">popping pimples</li>
+<li class="t3">pizza making</li>
+<li class="t3">paper folding</li>
+<li class="t3">picking fruit</li>
+<li class="t3">Picture taking</li>
+<li class="t3">playing tennis</li>
+<li class="t3">Plumbing</li>
+<li class="t3">Play piano</li>
+<li class="t3">Play video games</li>
+<li class="t3">people watching</li>
+<li class="t3">Patchwork</li>
+<li class="t3">Play videogames</li>
+<li class="t3">Pie eating</li>
+<li class="t3">Piloting</li>
+<li class="t2">Picking</li>
+<li class="t2">Planting plants</li>
+<li class="t2">Play guitar</li>
+<li class="t2">Plants</li>
+<li class="t2">Pencil drawing</li>
+<li class="t2">Planes</li>
+<li class="t2">Planting trees</li>
+<li class="t2">Picking berries</li>
+<li class="t2">Paddle</li>
+<li class="t2">Picnicking</li>
+<li class="t2">play soccer</li>
+<li class="t2">paddle boarding</li>
+<li class="t2">Playing an instrument</li>
+<li class="t2">Penmanship</li>
+<li class="t2">pilot</li>
+<li class="t2">picnic</li>
+<li class="t2">playing ball</li>
+<li class="t2">Pinterest</li>
+<li class="t2">play tennis</li>
+<li class="t2">Pancake making</li>
+<li class="t2">pray</li>
+<li class="t2">Paint ball</li>
+<li class="t2">Playing videogames</li>
   <li class="t5">Farming</li>
 <li class="t7">Fighting</li>
 <li class="t3">Filming</li>
@@ -9008,6 +9111,111 @@ export const possibleAnswers = [
     categoryName: "Things you plug in",
     html: `
   <ul>
+  <li class="t4">Paper shredder</li>
+<li class="t6">Phone</li>
+<li class="t6">Phone charger</li>
+<li class="t4">Play station</li>
+<li class="t8">Playstation</li>
+<li class="t4">Popcorn machine</li>
+<li class="t5">Popcorn maker</li>
+<li class="t4">Power strip</li>
+<li class="t11">Printer</li>
+<li class="t4">Pump</li>
+<li class="t6">Phones</li>
+<li class="t3">piano</li>
+
+<li class="t6">portable charger</li>
+<li class="t6">power cord</li>
+<li class="t3">Projector</li>
+<li class="t3">Pizza oven</li>
+<li class="t3">popcorn popper</li>
+<li class="t3">Powerbank</li>
+<li class="t3">PS4</li>
+<li class="t2">Power tools</li>
+<li class="t2">Panini press</li>
+<li class="t2">phone charger</li>
+<li class="t2">power bar</li>
+<li class="t2">Power cable</li>
+<li class="t2">power drill</li>
+<li class="t2">Pressure cooker</li>
+<li class="t2">power tool</li>
+<li class="t2">Plancha</li>
+<li class="t2">Phone chargers</li>
+<li class="t2">portable heater</li>
+<li class="t2">Prius</li>
+<li class="t2">portable chargers</li>
+<li class="t2">Panasonic TV</li>
+<li class="t2">Power cords</li>
+<li class="t2">Party lights</li>
+<li class="t2">Personal Computer</li>
+<li class="t2">Playstation 4</li>
+<li class="t2">Photocopier</li>
+<li class="t2">Pizza maker</li>
+<li class="t2">Power</li>
+<li class="t2">Processor</li>
+<li class="t2">Pancake griddle</li>
+<li class="t2">Pie maker</li>
+<li class="t2">portable radio</li>
+<li class="t2">power adapter</li>
+<li class="t2">plasma tv</li>
+<li class="t2">Playstation 2</li>
+<li class="t2">power saw</li>
+<li class="t2">Panini maker</li>
+<li class="t2">pencil sharpner</li>
+<li class="t2">Pods</li>
+<li class="t2">Picture frame</li>
+<li>pancake maker</li>
+<li>Portable speaker</li>
+<li>Portable DVD player</li>
+<li>Purifier</li>
+<li>percolator</li>
+<li>Powercord</li>
+<li>Phone.</li>
+<li>Powerboard</li>
+<li>printers</li>
+<li>Powerstrip</li>
+
+
+<li>power bank</li>
+<li>Prise</li>
+<li>Powerplug</li>
+<li>palm pilot</li>
+<li>pots</li>
+<li>Pager</li>
+<li>powercord</li>
+<li>Portable battery</li>
+<li>pendrive</li>
+<li>Ports</li>
+<li>Phonograph</li>
+<li>pot warmer</li>
+<li>pasta maker</li>
+<li>plate</li>
+<li>portable tv</li>
+<li>pumps</li>
+<li>power washer</li>
+<li>powerpoint</li>
+<li>porch light</li>
+<li>PS5</li>
+<li>Pod</li>
+<li>Pito</li>
+<li>Pan.</li>
+<li>pene</li>
+<li>Pool heater</li>
+<li>plugger</li>
+<li>pool</li>
+<li>Plane</li>
+<li>Planer</li>
+<li>pole</li>
+<li>Plantsa</li>
+<li>Play</li>
+<li>paper</li>
+<li>pop corn maker</li>
+<li>Power pack</li>
+<li>Pie warmer</li>
+<li>Playstation 5</li>
+<li>Plug adapter</li>
+<li>Power saw</li>
+<li>pacemaker</li>
   <li class="t3">Blender</li>
   <li class="t3">Freezer</li>
   <li class="t3">Iphone</li>
@@ -10724,6 +10932,7 @@ export const possibleAnswers = [
     categoryName: "State of the United States",
     html: `
   <ul>
+  <li class="t9">Pennsylvania</li>
   <li class="t3">Boston.</li>
   <li class="t3">Florida</li>
   <li class="t3">Mississippi</li>
@@ -18366,6 +18575,109 @@ export const possibleAnswers = [
   {
     categoryName: "Product Name",
     html: `<ul>
+    <li class="t8">Pampers</li>
+<li class="t5">Pandora</li>
+<li class="t8">Pantene</li>
+<li class="t7">Paper</li>
+<li class="t6">Pen</li>
+<li class="t6">Pencil</li>
+<li class="t11">Pepsi</li>
+<li class="t5">Phone</li>
+<li class="t5">Porsche</li>
+<li class="t8">Prada</li>
+
+<li class="t9">Pringles</li>
+<li class="t9">Puma</li>
+<li class="t5">Playstation</li>
+<li class="t4">Panasonic</li>
+<li class="t4">Polo</li>
+<li class="t3">Paint</li>
+<li class="t3">pillow</li>
+<li class="t3">Pink</li>
+<li class="t3">Pizza Hut</li>
+<li class="t3">Popeyes</li>
+<li class="t3">Polly pocket</li>
+<li class="t3">pan</li>
+<li class="t3">Ponds</li>
+<li class="t3">popcorn</li>
+<li class="t3">Pie</li>
+<li class="t3">pants</li>
+<li class="t3">Persil</li>
+<li class="t3">pot</li>
+<li class="t3">Pizza</li>
+<li class="t3">Phillips</li>
+<li class="t3">Palmolive</li>
+<li class="t3">Philips</li>
+<li class="t3">Pokemon</li>
+<li class="t2">product</li>
+<li class="t2">Pasta</li>
+<li class="t2">Paper towel</li>
+<li class="t2">Powerade</li>
+<li class="t2">Perfume</li>
+<li class="t2">Pop</li>
+<li class="t2">Paypal</li>
+<li class="t2">Peloton</li>
+<li class="t2">Printer</li>
+<li class="t2">Pledge</li>
+<li class="t2">Pillsbury</li>
+<li class="t2">Patagonia</li>
+<li class="t2">poptart</li>
+<li class="t2">Peter Pan Peanut Butter</li>
+<li class="t2">Pez</li>
+<li class="t2">peanuts</li>
+<li class="t2">pens</li>
+<li class="t2">Pontiac</li>
+<li class="t2">Pinesol</li>
+<li class="t2">Penguin</li>
+<li class="t2">Panda Express</li>
+<li class="t2">Pin</li>
+<li class="t2">Pop tarts</li>
+<li class="t2">Purell</li>
+<li class="t2">Proctor and Gamble</li>
+<li class="t2">purse</li>
+<li class="t2">Pinterest</li>
+
+
+<li class="t2">Popsicle</li>
+<li class="t2">Playdoh</li>
+<li class="t2">Planters</li>
+<li class="t2">Proactive</li>
+<li class="t2">Polaroid</li>
+<li class="t2">Prozac</li>
+<li class="t2">Penicillin</li>
+<li class="t2">pickles</li>
+<li class="t2">Playdough</li>
+<li class="t2">Pencils</li>
+<li class="t2">Primer</li>
+<li class="t2">Pears</li>
+<li class="t2">Panadol</li>
+<li class="t2">Perrier</li>
+<li class="t2">Pixel</li>
+<li class="t2">Peugeot</li>
+<li class="t2">pant</li>
+<li class="t2">Play doh</li>
+<li class="t2">Pear</li>
+<li class="t2">porche</li>
+<li>Pipe</li>
+<li>platypus</li>
+<li>Papa Johns</li>
+<li>paste</li>
+<li>Peter Pan</li>
+<li>Pop tart</li>
+<li>Pepper</li>
+<li>Potato</li>
+<li>Panera</li>
+<li>play station</li>
+<li>Peeps</li>
+<li>Panteen</li>
+<li>Pokemon cards</li>
+<li>pepsodent</li>
+<li>peas</li>
+<li>panda</li>
+<li>Ping pong</li>
+<li>P&amp;G</li>
+<li>Pacsun</li>
+<li>Piattos</li>
   <li class="t3">Iphone</li>
   <li class="t3">Nike</li>
   <li class="t3">Windex</li>
@@ -19245,6 +19557,111 @@ export const possibleAnswers = [
   {
     categoryName: "Useless hero powers",
     html: `<ul>
+    <li class="t13">Painting</li>
+    <li class="t9">Pinching</li>
+    <li class="t7">Planking</li>
+    <li class="t9">Pointing</li>
+    <li class="t7">Poking</li>
+    <li class="t7">Pouting</li>
+    <li class="t10">Puking</li>
+    <li class="t8">Punch</li>
+    <li class="t12">Punching</li>
+    <li class="t8">panting</li>
+
+                                                        
+<li class="t9">power</li>
+<li class="t10">powerless</li>
+<li class="t7">Patience</li>
+<li class="t7">Prancing</li>
+<li class="t7">popping</li>
+<li class="t6">Playing</li>
+<li class="t6">Pimple popping</li>
+<li class="t6">Passing out</li>
+<li class="t6">Pranking</li>
+<li class="t6">Push</li>
+<li class="t5">Planting</li>
+<li class="t5">Playing dead</li>
+<li class="t5">Peeping</li>
+<li class="t5">Picking nose</li>
+<li class="t5">Pulling</li>
+<li class="t5">Procrastination</li>
+<li class="t5">Poking people</li>
+<li class="t5">Pretty</li>
+<li class="t5">Patting</li>
+<li class="t5">Peeing on command</li>
+<li class="t5">Poison</li>
+<li class="t5">pain</li>
+<li class="t5">Paper</li>
+<li class="t5">Posing</li>
+<li class="t5">Parking</li>
+<li class="t5">pooing</li>
+<li class="t5">Partying</li>
+<li class="t4">Pinch</li>
+<li class="t4">popping balloons</li>
+<li class="t4">Packing</li>
+<li class="t4">Pouncing</li>
+<li class="t4">puke</li>
+<li class="t4">Passing gas</li>
+<li class="t4">power walking</li>
+<li class="t4">pat</li>
+<li class="t4">pole dancing</li>
+<li class="t4">Panicking</li>
+<li class="t4">Picking your nose</li>
+<li class="t4">Pupsen</li>
+<li class="t4">Pride</li>
+<li class="t4">Pop</li>
+<li class="t4">Punting</li>
+<li class="t4">politeness</li>
+<li class="t4">Purring</li>
+<li class="t4">play</li>
+<li class="t4">Paranoia</li>
+<li class="t4">Paralysis</li>
+<li class="t3">printing</li>
+<li class="t3">potato peeling</li>
+<li class="t3">Party</li>
+
+                                                       <li class="t3">Pounding</li>
+                                                       <li class="t3">Puffing</li>
+                                                       <li class="t3">Pie</li>
+                                                       <li class="t3">playing the piano</li>
+                                                       <li class="t3">prying</li>
+                                                       <li class="t3">piss</li>
+                                                       <li class="t3">Pee on command</li>
+                                                       <li class="t3">pushing people</li>
+                                                       <li class="t3">Paint</li>
+                                                       <li class="t3">Picking flowers</li>
+                                                       <li class="t3">Peeing green</li>
+                                                       <li class="t3">Powerful toes</li>
+                                                       <li class="t3">Pinching people</li>
+                                                       <li class="t3">Pulling hair</li>
+                                                       <li class="t3">Peeling</li>
+                                                       <li class="t3">Pickling</li>
+                                                       <li class="t3">Pausing</li>
+                                                       <li class="t3">Pimples</li>
+                                                       <li class="t3">planting flowers</li>
+                                                       <li class="t3">power rangers</li>
+                                                       <li class="t3">Pottery</li>
+                                                       <li class="t3">Pleasing people</li>
+                                                       <li class="t3">picking</li>
+                                                       <li class="t3">Procrastinating</li>
+                                                       <li class="t3">Protection</li>
+                                                       <li class="t3">Pepper eating</li>
+                                                       <li class="t3">pimple popper</li>
+                                                       <li class="t3">Perfect pitch</li>
+                                                       <li class="t3">Peeling bananas</li>
+                                                       <li class="t3">Puking on command</li>
+                                                       <li class="t3">Patear</li>
+                                                       <li class="t3">Pecking</li>
+                                                       <li class="t3">Popping zits</li>
+                                                       <li class="t3">Paper plane making</li>
+                                                       <li class="t3">Peeing upwards</li>
+                                                       <li class="t3">picking noses</li>
+                                                       <li class="t3">Playing games</li>
+                                                       <li class="t3">peeling potatoes</li>
+                                                       <li class="t3">peeing at will</li>
+                                                       <li class="t3">Peeing on people</li>
+
+                                                    
   <li class="t3">Juggling</li>
   <li class="t3">Quacking</li>
   <li class="t3">Walking</li>
@@ -24761,6 +25178,105 @@ export const possibleAnswers = [
   {
     categoryName: "Sports Stars",
     html: `<ul>
+    <li class="t4">Patrick Ewing</li>
+<li class="t9">Patrick Mahomes</li>
+<li class="t7">Paul Pierce</li>
+<li class="t8">Paul Pogba</li>
+<li class="t11">Pele</li>
+<li class="t4">Penny Hardaway</li>
+<li class="t6">Pete Rose</li>
+<li class="t7">Peyton Manning</li>
+<li class="t6">Phelps</li>
+<li class="t5">Pogba</li>
+
+<li class="t8">paul george</li>
+<li class="t4">payton manning</li>
+<li class="t4">Pete Sampras</li>
+<li class="t4">Pepe</li>
+<li class="t4">pascal siakam</li>
+<li class="t4">Pau Gasol</li>
+<li class="t4">Peter Crouch</li>
+<li class="t3">Phil Mickelson</li>
+<li class="t3">phil foden</li>
+<li class="t3">Pippen</li>
+<li class="t3">Philip Rivers</li>
+<li class="t3">Patrick Kane</li>
+<li class="t3">Peterson</li>
+<li class="t3">Pt usha</li>
+<li class="t3">Pulisic</li>
+<li class="t2">Pirlo</li>
+<li class="t2">PV sindhu</li>
+<li class="t2">Patty Mills</li>
+<li class="t2">Pant</li>
+<li class="t2">Pablo</li>
+<li class="t2">Porzingis</li>
+<li class="t2">Perry</li>
+<li class="t2">Pat cummins</li>
+<li class="t2">Percy Harvin</li>
+<li class="t2">ping pong</li>
+<li class="t2">Pedro Martinez</li>
+<li class="t2">Paulo Dybala</li>
+<li class="t2">Patrick Beverly</li>
+<li class="t2">Peter Schmeichel</li>
+<li class="t2">PJ Tucker</li>
+<li class="t2">Patriots</li>
+<li class="t2">Price</li>
+<li class="t2">Perez</li>
+<li class="t2">Polo</li>
+<li class="t2">peter parker</li>
+<li class="t2">Paul Goldschmidt</li>
+<li class="t2">parker</li>
+<li class="t2">pedro</li>
+<li class="t2">Paul Gascoigne</li>
+<li class="t2">pete maravich</li>
+<li class="t2">Paul Gasol</li>
+<li class="t2">Piper</li>
+<li class="t2">Pistorius</li>
+<li class="t2">Pippin</li>
+<li class="t2">Phil Jackson</li>
+<li class="t2">Paul Scholes</li>
+<li class="t2">Patrick Peterson</li>
+<li class="t2">Pitcher</li>
+<li>Pablo Sandoval</li>
+<li>Patterson</li>
+
+
+<li>Patrick Viera</li>
+<li>Patrick Bamford</li>
+<li>phillips</li>
+<li>phillip lahm</li>
+<li>Pearson</li>
+<li>paul, chris</li>
+<li>Prescott</li>
+<li>Paul newman</li>
+<li>perez sergio</li>
+<li>Patrice evra</li>
+<li>Peter Brock</li>
+<li>prince fielder</li>
+<li>Pavard</li>
+<li>penguins</li>
+<li>Penny</li>
+<li>Ponting</li>
+<li>penny oleksiak</li>
+<li>Pau</li>
+<li>Patrick Dangerfield</li>
+<li>Puig</li>
+<li>Phil Kessel</li>
+<li>Pope</li>
+<li>Polo players</li>
+<li>Pat</li>
+<li>prince charles</li>
+<li>Pistol Pete</li>
+<li>Patrick Beverley</li>
+<li>Pete Alonso</li>
+<li>Phillip rivers</li>
+<li>Pan</li>
+<li>Pat Cash</li>
+<li>palmer</li>
+<li>Papa</li>
+<li>penelope</li>
+<li>piotr żyła</li>
+<li>Patricia</li>
    <li class="t3">Rafael Nadal</li>
    <li class="t2">Rajon Rondo</li>
    <li class="t3">Randy Moss</li>

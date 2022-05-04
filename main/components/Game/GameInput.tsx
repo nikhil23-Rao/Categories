@@ -226,6 +226,7 @@ export const GameInput = ({
                       : isTablet
                       ? 50
                       : 30,
+                  pointerEvents: showSkip ? "none" : "all",
                 }}
                 onClick={onSkip}
               />

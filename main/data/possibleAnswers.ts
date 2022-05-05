@@ -10334,6 +10334,14 @@ export const possibleAnswers = [
     categoryName: "things you say when youre late",
     html: `
   <ul>
+ <li class="t7">OMG</li><li class="t5">Oh crap</li><li class="t4">Oh dear</li><li class="t3">Oh my</li><li class="t4">Oh my bad</li><li class="t6">Oh my god</li><li class="t11">Oh no</li><li class="t5">Oh no!</li><li class="t4">Oh shoot</li><li class="t9">Oh sorry</li>
+                                                        
+
+                                                      <li class="t4">On my way</li><li class="t4">oh man</li><li class="t3">Oh I'm sorry</li><li class="t3">overslept</li><li class="t3">oh well</li><li class="t3">Oh my gosh</li><li class="t3">oops sorry</li><li class="t3">oh im sorry</li><li class="t2">Oh, sorry</li><li class="t2">oh darn</li><li class="t2">oof</li><li class="t2">Oh boy</li><li class="t2">Ops</li><li class="t2">oh god</li><li class="t2">Omg sorry</li><li class="t2">Oh no I’m late</li><li class="t2">oh oh</li><li class="t2">ouch</li><li class="t2">oops my bad</li><li class="t2">Oh snap</li><li class="t2">On my way!</li><li class="t2">oh I am sorry</li><li class="t2">oh damn</li><li class="t2">Oh I’m so sorry</li><li class="t2">oopsie daisy</li><li class="t2">Oh gosh</li><li class="t2">Oh my goodness</li><li class="t2">oh no im late</li><li class="t2">Oh!</li><li class="t2">Over slept</li><li class="t2">oh im late</li><li class="t2">Oh sorry im late</li><li class="t2">okay</li><li>Oh my god!</li><li>oopsie</li><li>oopsies</li><li>oh dang</li><li>on the way</li><li>oh no sorry</li><li>Oh I'm late</li><li>Ohh sorry</li><li>Oh crap!</li><li>Oh shoot!</li><li>oh shit!</li><li>Oops, sorry</li><li>Oh my!</li><li>oh shucks</li><li>oop</li><li>oh im so sorry</li><li>oh sorry I'm late</li>
+                                                        
+
+                                                    <li>OMG!</li><li>Oh snap!</li><li>Oh, my bad</li><li>Orange</li><li>Open the door</li><li>Oh, sorry!</li><li>Oh, I'm sorry</li><li>out of time</li><li>Oh so sorry</li><li>O no</li><li>Oh my gosh!</li><li>Oh man!</li><li>Oops i did it again</li><li>Oh no not again</li><li>Oh dear!</li><li>Oh no!!</li><li>oh darn it</li><li>oops im sorry</li><li>omg so sorry</li><li>Octopus</li><li>Ohh</li><li>Oh my god sorry</li><li>Our car broke down</li><li>Oops I'm late</li><li>opps sorry</li><li>oh sorry!</li><li>omg i'm late</li><li>Oh bugger</li><li>Oh no I am late</li><li>Oy vey</li><li>OOps</li><li>omg im so sorry</li><li>Omg I’m sorry</li><li>Oops I'm sorry</li><li>Oh darn!</li><li>oopsie daisies</li><li>O sorry</li><li>oh whoops</li><li>Outside</li><li>Omw</li>
+                                                   
  <li class="t4">WTF</li>
  <li class="t12">Wait</li>
  <li class="t6">Wait for me</li>
@@ -15302,6 +15310,108 @@ export const possibleAnswers = [
     categoryName: "things that make you smile",
     html: `
   <ul>
+  <li class="t10">Ocean</li>
+<li class="t11">Octopus</li>
+<li class="t9">Olives</li>
+<li class="t6">Oreo</li>
+<li class="t10">Oreos</li>
+<li class="t6">Orgasm</li>
+<li class="t9">Otters</li>
+<li class="t7">old people</li>
+<li class="t11">orange</li>
+<li class="t8">orange juice</li>
+
+<li class="t10">oranges</li>
+<li class="t8">owls</li>
+<li class="t6">Opera</li>
+<li class="t6">Outside</li>
+<li class="t5">Oceans</li>
+<li class="t5">ostrich</li>
+<li class="t5">Opals</li>
+<li class="t5">Other people</li>
+<li class="t5">Olaf</li>
+<li class="t5">Oatmeal</li>
+<li class="t5">owl</li>
+<li class="t4">Origami</li>
+<li class="t4">Ostriches</li>
+<li class="t4">Opening presents</li>
+<li class="t4">Outdoors</li>
+<li class="t4">orangutan</li>
+<li class="t4">October</li>
+<li class="t4">Oprah</li>
+<li class="t4">Oxygen</li>
+<li class="t4">orchids</li>
+<li class="t4">Onions</li>
+<li class="t4">Oats</li>
+<li class="t4">Obama</li>
+<li class="t4">Octopi</li>
+<li class="t4">orgasms</li>
+<li class="t4">Orcas</li>
+<li class="t3">Others</li>
+<li class="t3">Ovals</li>
+<li class="t3">onion rings</li>
+<li class="t3">Octopuses</li>
+<li class="t3">Ornaments</li>
+<li class="t3">Opium</li>
+<li class="t3">Oscar</li>
+<li class="t3">olive</li>
+<li class="t3">Oval</li>
+<li class="t3">Oscar the grouch</li>
+<li class="t3">Opening gifts</li>
+<li class="t3">Opal</li>
+<li class="t3">Omelette</li>
+<li class="t3">octupus</li>
+<li class="t3">Otter</li>
+<li class="t3">Onion</li>
+<li class="t3">Ordering food</li>
+<li class="t3">Oral</li>
+<li class="t3">oil</li>
+<li class="t3">Olympics</li>
+<li class="t2">Oliver</li>
+<li class="t2">Ovaries</li>
+<li class="t2">Office</li>
+<li class="t2">Oysters</li>
+
+
+<li class="t2">Optimism</li>
+<li class="t2">Owen</li>
+<li class="t2">Opportunities</li>
+<li class="t2">Oasis</li>
+<li class="t2">Orchid</li>
+<li class="t2">Oragami</li>
+<li class="t2">outing</li>
+<li class="t2">opioids</li>
+<li class="t2">olive garden</li>
+<li class="t2">Orgies</li>
+<li class="t2">Old friends</li>
+<li class="t2">Ocelots</li>
+<li class="t2">Oro</li>
+<li class="t2">oppa</li>
+<li class="t2">Orchestra</li>
+<li class="t2">overwatch</li>
+<li class="t2">Outings</li>
+<li class="t2">Old couples</li>
+<li class="t2">Ovaltine</li>
+<li class="t2">oscars</li>
+<li class="t2">Orphans</li>
+<li class="t2">Oak tree</li>
+<li class="t2">Old memories</li>
+<li class="t2">Omlette</li>
+<li class="t2">Oregon</li>
+<li class="t2">oompa loompas</li>
+<li class="t2">Openness</li>
+<li class="t2">OMG</li>
+<li class="t2">orange things</li>
+<li class="t2">options</li>
+<li class="t2">Open</li>
+<li class="t2">old pictures</li>
+<li class="t2">Olive oil</li>
+<li class="t2">Old songs</li>
+<li class="t2">Orlando</li>
+<li class="t2">Outer space</li>
+<li class="t2">osos</li>
+<li class="t2">Oak trees</li>
+<li class="t2">orgy</li>
   <li class="t5">Dad</li>
   <li class="t3">Daisies</li>
   <li class="t4">Dance</li>
@@ -16946,6 +17056,109 @@ export const possibleAnswers = [
     categoryName: "Cartoon",
     html: `
   <ul>
+  <li class="t3">Obelix</li>
+<li class="t6">Odie</li>
+<li class="t8">Oggy</li>
+<li class="t10">Olaf</li>
+<li class="t7">Oliver</li>
+<li class="t6">Olivia</li>
+<li class="t3">Opal</li>
+<li class="t6">Optimus Prime</li>
+<li class="t7">Oscar</li>
+<li class="t8">Oswald</li>
+
+<li class="t3">Otis</li>
+<li class="t5">Otto</li>
+<li class="t3">olive</li>
+<li class="t3">Owen</li>
+<li class="t3">ollie</li>
+<li class="t3">Olly</li>
+<li class="t3">Olivia the pig</li>
+<li class="t2">Olga</li>
+<li class="t2">Obito</li>
+<li class="t2">Onix</li>
+<li class="t2">Octonauts</li>
+<li class="t2">Orion</li>
+<li class="t2">Owl</li>
+<li class="t2">Orochimaru</li>
+<li class="t2">Ogre</li>
+<li class="t2">Oogway</li>
+<li class="t2">One punch man</li>
+<li class="t2">oso</li>
+<li class="t2">Ophelia</li>
+<li class="t2">Otto Octavius</li>
+<li class="t2">oswald the rabbit</li>
+<li class="t2">obi wan kenobi</li>
+<li class="t2">old man jenkins</li>
+<li class="t2">Ozzy</li>
+<li class="t2">Octavia</li>
+<li>oso yogui</li>
+<li>Oswald the lucky rabbit</li>
+<li>Oggie</li>
+<li>Omniman</li>
+<li>Ola</li>
+<li>Onyx</li>
+<li>Obi-Wan Kenobi</li>
+<li>Olie</li>
+<li>osmosis jones</li>
+<li>Oliver the cat</li>
+<li>Oden</li>
+<li>odin</li>
+<li>oli</li>
+<li>Odis</li>
+<li>olive from popeye</li>
+<li>oddish</li>
+<li>ozwald</li>
+<li>opie</li>
+<li>Oddie</li>
+<li>Oliver Queen</li>
+<li>Olof</li>
+<li>Odette</li>
+<li>OSCAR THE GROUCH</li>
+<li>Oikawa</li>
+<li>Oliver twist</li>
+
+
+<li>Otto Rocket</li>
+<li>Old man</li>
+<li>Onion</li>
+<li>Oliver atom</li>
+<li>Oscar Proud</li>
+<li>Otto Mann</li>
+<li>One Piece</li>
+<li>Ostrich</li>
+<li>Octonaut</li>
+<li>Octavian</li>
+<li>Omi</li>
+<li>Olive oyle</li>
+<li>Orangutan</li>
+<li>Ogie</li>
+<li>octo</li>
+<li>Oliv</li>
+<li>Ozzie</li>
+<li>Ori</li>
+<li>Oni</li>
+<li>Obi</li>
+<li>Omni Man</li>
+<li>Old McDonald</li>
+<li>Ollie the Octopus</li>
+<li>olive oil from popeye</li>
+<li>OLIVE OIL</li>
+<li>Oswal</li>
+<li>Olivier</li>
+<li>Oger</li>
+<li>Oak</li>
+<li>Oscar the cat</li>
+<li>Odd parents</li>
+<li>Orko</li>
+<li>Obiwan</li>
+<li>Oshawott</li>
+<li>Otto the bus driver</li>
+<li>Olaf from frozen</li>
+<li>Onceler</li>
+<li>olive the other reindeer</li>
+<li>Oshawatt</li>
+<li>Octillery</li>
 <li class="t3">Madagascar</li>
 <li class="t4">Mario</li>
 <li class="t2">Megamind</li>
@@ -22520,6 +22733,109 @@ export const possibleAnswers = [
   {
     categoryName: "Expensive",
     html: `<ul>
+    <li class="t11">Oil</li>
+<li class="t6">Ornament</li>
+<li class="t7">Ornaments</li>
+<li class="t5">Oro</li>
+<li class="t4">Oroton</li>
+<li class="t6">Ostrich</li>
+<li class="t6">Oven</li>
+<li class="t4">Oyster</li>
+<li class="t5">oculus</li>
+<li class="t5">omega watch</li>
+
+<li class="t5">orange</li>
+<li class="t5">oysters</li>
+<li class="t4">Organs</li>
+<li class="t4">Orangutan</li>
+<li class="t4">Ovens</li>
+<li class="t4">Onyx</li>
+<li class="t4">Olives</li>
+<li class="t4">Omega</li>
+<li class="t4">ostrich eggs</li>
+<li class="t4">Ocean</li>
+<li class="t4">Olive oil</li>
+<li class="t4">Opera</li>
+<li class="t3">Old cars</li>
+<li class="t3">Oakley</li>
+<li class="t3">Operation</li>
+<li class="t3">Owl</li>
+<li class="t3">Opel</li>
+<li class="t3">ore</li>
+<li class="t3">Ovaries</li>
+<li class="t3">Old wine</li>
+<li class="t3">Ottoman</li>
+<li class="t3">Ostrich egg</li>
+<li class="t3">Oprah</li>
+<li class="t3">orlando</li>
+<li class="t3">Opium</li>
+<li class="t3">Oscar</li>
+<li class="t3">Off white</li>
+<li class="t3">Ores</li>
+<li class="t3">Organ</li>
+<li class="t3">organic food</li>
+<li class="t3">otters</li>
+<li class="t3">Orangutans</li>
+<li class="t3">otter</li>
+<li class="t2">Opera tickets</li>
+<li class="t2">Oscar de la renta</li>
+<li class="t2">Outfit</li>
+<li class="t2">origami</li>
+<li class="t2">orchid</li>
+<li class="t2">Oakleys</li>
+<li class="t2">oboe</li>
+<li class="t2">obama</li>
+<li class="t2">Opra</li>
+<li class="t2">Orange diamonds</li>
+<li class="t2">Obsidian</li>
+<li class="t2">opal ring</li>
+<li class="t2">orangatang</li>
+<li class="t2">Orange lambo</li>
+<li class="t2">Owls</li>
+<li class="t2">orchids</li>
+<li class="t2">Office</li>
+
+
+<li class="t2">Opulent</li>
+<li class="t2">Oldsmobile</li>
+<li class="t2">Oats</li>
+<li class="t2">oreo</li>
+<li class="t2">Oman</li>
+<li class="t2">Ostriches</li>
+<li class="t2">Octupus</li>
+<li class="t2">Operations</li>
+<li class="t2">Outfits</li>
+<li class="t2">Owning a house</li>
+<li class="t2">orcas</li>
+<li class="t2">Oakley sunglasses</li>
+<li class="t2">Oracle</li>
+<li class="t2">old paintings</li>
+<li class="t2">Oak tree</li>
+<li class="t2">Opiods</li>
+<li class="t2">onion</li>
+<li class="t2">Orb</li>
+<li>Oat</li>
+<li>Ohrringe</li>
+<li>Omega watches</li>
+<li>Osmium</li>
+<li>Orthodontist</li>
+<li>oral</li>
+<li>Our house</li>
+<li>Ointment</li>
+<li>Omlet</li>
+<li>Olive garden</li>
+<li>Opal earrings</li>
+<li>Orgies</li>
+<li>orange juice</li>
+<li>Oscars</li>
+<li>Old car</li>
+<li>Orchestra</li>
+<li>olex</li>
+<li>old people</li>
+<li>Open heart surgery</li>
+<li>opioids</li>
+<li>ornate</li>
+<li>orange cars</li>
 <li class="t11">Diamond</li>
 <li class="t3">Dinner</li>
 <li class="t10">Dior</li>
@@ -22847,6 +23163,90 @@ export const possibleAnswers = [
   {
     categoryName: "Historical Figures",
     html: `<ul>
+    <li class="t10">Obama</li>
+<li class="t2">Octavian</li>
+<li class="t4">Octavius</li>
+<li class="t3">Orion</li>
+<li class="t2">Orson Wells</li>
+<li class="t4">Orville Wright</li>
+<li class="t4">Orwell</li>
+<li class="t5">Oscar wilde</li>
+<li class="t3">Otto von Bismark</li>
+<li class="t4">oliver cromwell</li>
+
+<li class="t3">oprah</li>
+<li class="t5">osama bin laden</li>
+<li class="t2">Oppenheimer</li>
+<li class="t2">Oswald</li>
+<li class="t2">Oscar the Grouch</li>
+<li class="t2">Otto Von Bismarck</li>
+<li class="t2">Osama</li>
+<li class="t2">Orson Welles</li>
+<li class="t2">Odysseus</li>
+<li class="t2">Odin</li>
+<li class="t2">Oprah Winfrey</li>
+<li class="t2">Oj Simpson</li>
+<li class="t2">Owen Wilson</li>
+<li class="t2">Oscar Robertson</li>
+<li>Olivia Newton John</li>
+<li>Olivia rodrigo</li>
+<li>Otis Redding</li>
+<li>Opera</li>
+<li>Octopus</li>
+<li>Osiris</li>
+<li>Ophelia</li>
+<li>Oedipus</li>
+<li>orlando</li>
+<li>Ovid</li>
+<li>othello</li>
+<li>Orville Redenbacher</li>
+<li>Orpheus</li>
+<li>Oliver Wendell Holmes</li>
+<li>owen</li>
+<li>Oskar Schindler</li>
+<li>Otto frank</li>
+<li>Oliver North</li>
+<li>oman</li>
+<li>Osama Bin Ladin</li>
+<li>opra</li>
+<li>Oscar Schindler</li>
+<li>Oswald Mosley</li>
+<li>Oscar Meyer</li>
+<li>Obadiah</li>
+<li>old man</li>
+<li>olaf</li>
+<li>Osman</li>
+<li>Orian</li>
+<li>Otto Van Bismarck</li>
+<li>Old people</li>
+<li>Oda Nobunaga</li>
+<li>O.J Simpson</li>
+<li>Oscar wild</li>
+<li>Orange</li>
+<li>Otto the great</li>
+
+
+<li>Oslo</li>
+<li>Oliver stone</li>
+<li>Oliver Wendall Holmes</li>
+<li>osman bey</li>
+<li>Oscar Arias</li>
+<li>Otis</li>
+<li>Olly Murs</li>
+<li>otto</li>
+<li>Oval</li>
+<li>Old McDonald</li>
+<li>orville</li>
+<li>Oppenhimer</li>
+<li>Octavious</li>
+<li>Onassis</li>
+<li>Orange man</li>
+<li>octavia spencer</li>
+<li>Omero</li>
+<li>oscar de la renta</li>
+<li>Olympics</li>
+<li>Ozymandias</li>
+<li>olga</li>
   <li class="t3">Newton</li>
   <li class="t3">Obama</li>
   <li class="t3">Queen Elizabeth</li>
@@ -23772,6 +24172,56 @@ export const possibleAnswers = [
   {
     categoryName: "Snacks",
     html: `<ul>
+    <li class="t5">Oat bars</li>
+<li class="t6">Oatmeal cookies</li>
+<li class="t5">Orange Gatorade</li>
+<li class="t4">Orange crush</li>
+<li class="t5">Orangina</li>
+<li class="t6">oat bar</li>
+<li class="t7">oatmeal</li>
+<li class="t5">oatmeal cookie</li>
+<li class="t5">old chips</li>
+<li class="t6">orange chocolate</li>
+
+<li class="t5">orange fanta</li>
+<li class="t12">orange soda</li>
+<li class="t4">OREOS</li>
+<li class="t4">Orbit gum</li>
+<li class="t3">Oasis</li>
+<li class="t3">oatmeal bar</li>
+<li class="t3">orange pop</li>
+<li class="t3">opal fruits</li>
+<li class="t3">O Henry</li>
+<li class="t3">onions</li>
+<li class="t3">ovaltines</li>
+<li class="t3">old candy</li>
+<li class="t3">Orange drink</li>
+<li class="t3">Onion chips</li>
+<li class="t3">orange cheetos</li>
+<li class="t3">Orange slices</li>
+<li class="t3">orange gummies</li>
+<li class="t3">Old food</li>
+<li class="t3">Oh Henry bar</li>
+<li class="t3">Oh henry</li>
+<li class="t3">Orange skittles</li>
+<li class="t3">Oreo minis</li>
+<li class="t3">Oatmeal packets</li>
+<li class="t2">orangeade</li>
+<li class="t2">Ohenry</li>
+<li class="t2">Orangensaft</li>
+<li class="t2">orange gum</li>
+<li class="t2">Old candy bar</li>
+<li class="t2">orange chips</li>
+<li class="t2">Oat</li>
+<li class="t2">old snacks</li>
+<li class="t2">Onigiri</li>
+<li class="t2">O'Henry</li>
+<li class="t2">Orang</li>
+<li class="t2">orio</li>
+<li class="t2">Ohrstöpsel</li>
+<li class="t2">Oreo cookie</li>
+<li class="t2">Otter pops</li>
+<li class="t2">ocean spray</li>
    <li class="t11">Raisins</li>
    <li class="t6">Ramen</li>
    <li class="t8">Raspberries</li>

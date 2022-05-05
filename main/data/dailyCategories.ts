@@ -231,7 +231,7 @@ export const dailyCategories = [
     dailyDate: "5/5/2022",
     inputs: [
       "things you say when youre late",
-      "Part of the body",
+      "Historical Figures",
       "Snacks",
       "Cartoon",
       "things that make you smile",

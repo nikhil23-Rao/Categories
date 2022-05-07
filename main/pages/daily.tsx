@@ -205,7 +205,7 @@ const Daily = ({ profileImage }: IProps) => {
       for (const i in daily.inputs) {
         axios
           .get(
-            `http://localhost:3001?category="${daily.inputs[i]}"&letter=${daily.letter}`
+            `https://categories-backend.herokuapp.com?category="${daily.inputs[i]}"&letter=${daily.letter}`
           )
           .then((data) => {
             arr.push({

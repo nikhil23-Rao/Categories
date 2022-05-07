@@ -5,11 +5,11 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const port = 3001;
 
 app.use(cors());
 
 app.get("/", (req, res) => {
+  const port = 3001;
   const category = req.query.category;
   console.log(category);
   const letter = req.query.letter;
@@ -94,6 +94,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`Example app listening on port ${process.env.PORT || 3000}!`);
 });

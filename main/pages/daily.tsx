@@ -663,7 +663,7 @@ const Daily = ({ profileImage }: IProps) => {
                                 color: getColor(),
                               }}
                             >
-                              {JSON.parse(
+                              {/* {JSON.parse(
                                 localStorage.getItem("possibleAnswers")!
                               )
                                 ? JSON.parse(
@@ -678,7 +678,7 @@ const Daily = ({ profileImage }: IProps) => {
                                     .data.filter((a: any) => a.idx === idx)[0]
                                     .answers.slice(0, 5)
                                     .join(", ")
-                                : ""}
+                                : ""} */}
                             </b>
                             <br />
                             <p>

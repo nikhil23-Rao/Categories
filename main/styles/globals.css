@@ -942,3 +942,7 @@ form:invalid + button {
 a:hover {
 text-decoration: underline;
 }
+
+div.splash > * > * > * {
+  animation: none;
+}

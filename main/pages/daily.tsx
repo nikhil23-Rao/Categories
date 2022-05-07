@@ -9,7 +9,7 @@ import { PlayerInfoRightWrap } from "../components/Game/PlayerInfoRightWrap";
 import { Timer } from "../components/Game/Timer";
 import PauseCircle from "@mui/icons-material/PauseCircle";
 import { getLabelData } from "../utils/getLabelData";
-import { useDisclosure, useToast } from "@chakra-ui/react";
+import { Spinner, useDisclosure, useToast } from "@chakra-ui/react";
 import { dailyCategories } from "../data/dailyCategories";
 import {
   getAltTextColor,
@@ -34,6 +34,8 @@ import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 import { SettingsModal } from "../components/Modals/SettingsModal";
 import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
 import { getUniqueValuesWithCase } from "../utils/removeDuplicates";
+import { AnimatedTitle } from "../components/Landing/AnimatedTitle";
+import { tips } from "../constants/tips";
 
 // Props That The Home Component Takes
 interface IProps {
@@ -363,6 +365,59 @@ const Daily = ({ profileImage }: IProps) => {
   if (!daily || typeof window === "undefined" || inputs.length !== 6)
     return <></>;
 
+  if (possibleAnswers.length === 0) {
+    return (
+      <>
+        <div
+          style={{
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+            backgroundColor: getBGColor(),
+            height: "100vh",
+            flexDirection: "column",
+          }}
+          className="splash"
+        >
+          <div style={{ marginBottom: 100 }}>
+            <AnimatedTitle />
+          </div>
+
+          <Spinner
+            style={{
+              color: getColor(),
+              position: "relative",
+              zoom: 3,
+            }}
+            thickness={"2px"}
+          />
+          <p
+            style={{
+              textAlign: "center",
+              color: getTextColor(),
+              position: "relative",
+              top: 150,
+            }}
+            className="divider"
+          >
+            Generating Game Content...
+          </p>
+          <p
+            style={{
+              textAlign: "center",
+              color: getTextColor(),
+              top: 100,
+              position: "relative",
+            }}
+            className="divider"
+          >
+            Game Tip: {tips[Math.floor(Math.random() * tips.length)]}
+          </p>
+        </div>
+      </>
+    );
+  }
+
   // Return JSX Markup
   return (
     <div className={styles.container} style={{ background: getBGColor() }}>
@@ -608,7 +663,7 @@ const Daily = ({ profileImage }: IProps) => {
                                 color: getColor(),
                               }}
                             >
-                              {/* {JSON.parse(
+                              {JSON.parse(
                                 localStorage.getItem("possibleAnswers")!
                               )
                                 ? JSON.parse(
@@ -623,8 +678,7 @@ const Daily = ({ profileImage }: IProps) => {
                                     .data.filter((a: any) => a.idx === idx)[0]
                                     .answers.slice(0, 5)
                                     .join(", ")
-                                : ""} */}
-                              ...
+                                : ""}
                             </b>
                             <br />
                             <p>

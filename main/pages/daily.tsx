@@ -41,6 +41,7 @@ interface IProps {
 }
 
 const Daily = ({ profileImage }: IProps) => {
+  const [possibleAnswers, setPossibleAnswers] = useState<any[]>([]);
   const {
     isOpen: editUsernameModalIsOpen,
     onClose: editUsernameModalOnClose,
@@ -189,6 +190,40 @@ const Daily = ({ profileImage }: IProps) => {
 
     setDaily(today[0]);
   }, []);
+
+  useEffect(() => {
+    if (
+      JSON.parse(localStorage.getItem("possibleAnswers")!) &&
+      JSON.parse(localStorage.getItem("possibleAnswers")!).date ===
+        daily?.dailyDate
+    ) {
+      return setPossibleAnswers(
+        JSON.parse(localStorage.getItem("possibleAnswers")!)
+      );
+    } else if (daily) {
+      let arr: any[] = [];
+      for (const i in daily.inputs) {
+        axios
+          .get(
+            `http://localhost:3001?category="${daily.inputs[i]}"&letter=${daily.letter}`
+          )
+          .then((data) => {
+            arr.push({
+              idx: parseInt(i),
+              name: daily.inputs[i],
+              answers: data.data,
+            });
+            localStorage.setItem(
+              "possibleAnswers",
+              JSON.stringify({ data: arr, date: daily.dailyDate })
+            );
+            setPossibleAnswers(
+              JSON.parse(localStorage.getItem("possibleAnswers")!)
+            );
+          });
+      }
+    }
+  }, [daily]);
 
   useEffect(() => {
     if (daily && inputs.length === 0) {
@@ -466,8 +501,8 @@ const Daily = ({ profileImage }: IProps) => {
                           setSkips({ idx, skips: 0 });
                           const newInputs = [...inputs];
                           const arr = getUniqueValuesWithCase(
-                            validAnswers
-                              .filter((a) => a.idx === idx)[0]
+                            (possibleAnswers as any).data
+                              .filter((a: any) => a.idx === idx)[0]
                               .answers.filter((a: string) =>
                                 a.trim().startsWith(daily?.letter)
                               ),
@@ -518,25 +553,30 @@ const Daily = ({ profileImage }: IProps) => {
                           }
 
                           let id = setTimeout(async () => {
-                            const lower = validAnswers[idx].answers.map(
-                              (element: string) => {
-                                return element.toLowerCase().trim();
+                            if (possibleAnswers) {
+                              let arr = (possibleAnswers as any).data.filter(
+                                (a: any) => parseInt(a.idx) === idx
+                              );
+                              const lower = arr[0].answers.map((a: string) =>
+                                a.toLowerCase()
+                              );
+                              if (
+                                lower.includes(
+                                  newInputs[idx].value.toLowerCase().trim()
+                                )
+                              ) {
+                                setLoading(loading.filter((i) => i !== idx));
+                                setCorrect([...correct, idx]);
+                                setInCorrect(
+                                  inCorrect.filter((i) => i !== idx)
+                                );
+                              } else {
+                                setLoading(loading.filter((i) => i !== idx));
+                                setCorrect(correct.filter((i) => i !== idx));
+                                setInCorrect([...inCorrect, idx]);
                               }
-                            );
-                            if (
-                              lower.includes(
-                                newInputs[idx].value.toLowerCase().trim()
-                              )
-                            ) {
-                              setLoading(loading.filter((i) => i !== idx));
-                              setCorrect([...correct, idx]);
-                              setInCorrect(inCorrect.filter((i) => i !== idx));
-                            } else {
-                              setLoading(loading.filter((i) => i !== idx));
-                              setCorrect(correct.filter((i) => i !== idx));
-                              setInCorrect([...inCorrect, idx]);
                             }
-                          }, 200);
+                          }, 400);
 
                           setRunCount(id as any);
                           setLoading([...loading, idx]);
@@ -545,7 +585,7 @@ const Daily = ({ profileImage }: IProps) => {
                         correct={correct.includes(idx)}
                         incorrect={inCorrect.includes(idx)}
                       />
-                      {submitted && validAnswers.length > 0 && (
+                      {submitted && (
                         <div
                           style={{
                             width: "100%",
@@ -568,16 +608,17 @@ const Daily = ({ profileImage }: IProps) => {
                                 color: getColor(),
                               }}
                             >
-                              {getUniqueValuesWithCase(
-                                validAnswers
-                                  .filter((a) => a.idx === idx)[0]
-                                  .answers.filter((a: string) =>
-                                    a.trim().startsWith(daily?.letter)
-                                  ),
-                                false
-                              )
-                                .slice(0, 5)
-                                .join(", ")}
+                              {possibleAnswers && (possibleAnswers as any).data
+                                ? (possibleAnswers as any).data
+                                    .filter((a: any) => a.idx === idx)[0]
+                                    .answers.slice(0, 5)
+                                    .join(", ")
+                                : JSON.parse(
+                                    localStorage.getItem("possibleAnswers")!
+                                  )
+                                    .data.filter((a: any) => a.idx === idx)[0]
+                                    .answers.slice(0, 5)
+                                    .join(", ")}
                             </b>
                             <br />
                             <p>

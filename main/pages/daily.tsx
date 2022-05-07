@@ -663,22 +663,11 @@ const Daily = ({ profileImage }: IProps) => {
                                 color: getColor(),
                               }}
                             >
-                              {/* {JSON.parse(
-                                localStorage.getItem("possibleAnswers")!
-                              )
-                                ? JSON.parse(
-                                    localStorage.getItem("possibleAnswers")!
-                                  ) &&
-                                  JSON.parse(
-                                    localStorage.getItem("possibleAnswers")!
-                                  ).data &&
-                                  JSON.parse(
-                                    localStorage.getItem("possibleAnswers")!
-                                  )
-                                    .data.filter((a: any) => a.idx === idx)[0]
-                                    .answers.slice(0, 5)
-                                    .join(", ")
-                                : ""} */}
+                              {(possibleAnswers as any).data &&
+                                (possibleAnswers as any).data
+                                  .filter((a: any) => a.idx === idx)[0]
+                                  .answers.slice(0, 5)
+                                  .join(", ")}
                             </b>
                             <br />
                             <p>

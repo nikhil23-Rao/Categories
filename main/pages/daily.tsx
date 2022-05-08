@@ -24,12 +24,8 @@ import { calculateAverageTime } from "../utils/calculateAverageTime";
 import { calculateBestTime } from "../utils/calculateBestTime";
 import { roundToHundred } from "../utils/roundHundredth";
 import { StatsModal } from "../components/Modals/StatsModal";
-import { generateCategories } from "../utils/generateCategories";
 import axios from "axios";
-import _, { shuffle } from "lodash";
-import { possibleAnswers } from "../data/possibleAnswers";
-import Check from "@mui/icons-material/Check";
-import pluralize from "pluralize";
+import _ from "lodash";
 import { EditUsernameModal } from "../components/Modals/EditUsernameModal";
 import { SettingsModal } from "../components/Modals/SettingsModal";
 import { HowToPlayModal } from "../components/Modals/HowToPlayModal";
@@ -657,7 +653,7 @@ const Daily = ({ profileImage }: IProps) => {
                             }}
                             className="divider"
                           >
-                            Most Common Answers:{" "}
+                            What others put:{" "}
                             <b
                               style={{
                                 color: getColor(),

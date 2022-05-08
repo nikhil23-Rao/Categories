@@ -273,7 +273,7 @@ export const dailyCategories = [
       "Celebrity",
       "Things in the sky",
     ],
-    letter: "K",
+    letter: "C",
   },
   {
     dailyDate: "5/9/2022",
@@ -285,7 +285,7 @@ export const dailyCategories = [
       "Things You Do On A Date",
       "Sport",
     ],
-    letter: "C",
+    letter: "F",
   },
   {
     dailyDate: "5/10/2022",

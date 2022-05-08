@@ -45,15 +45,7 @@ export const Credits = () => {
               );
             }}
           ></i>
-          <i
-            className="fa fa-copy"
-            onClick={() => {
-              window.open(
-                "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                "_blank"
-              );
-            }}
-          ></i>
+          <i className="fa fa-copy" onClick={() => {}}></i>
           <i
             className="fa fa-question"
             onClick={() => {

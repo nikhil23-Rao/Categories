@@ -290,12 +290,12 @@ export const dailyCategories = [
   {
     dailyDate: "5/10/2022",
     inputs: [
-      "Music",
-      "Items in a vending machine",
-      "Flower",
-      "Things in a medicine cabinet",
-      "things mom asks you to do",
-      "TV Star",
+      "Girl's name",
+      "Occupation",
+      "Disney Movies",
+      "Leisure Activity",
+      "Asian food",
+      "Shop",
     ],
     letter: "T",
   },

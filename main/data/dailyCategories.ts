@@ -321,7 +321,7 @@ export const dailyCategories = [
       "Things you do everyday",
       "School subjects",
     ],
-    letter: "D",
+    letter: "O",
   },
   {
     dailyDate: "5/13/2022",

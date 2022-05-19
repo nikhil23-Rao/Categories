@@ -363,7 +363,7 @@ export const dailyCategories = [
     dailyDate: "5/16/2022",
     inputs: [
       "Cosmetics/Toiletries",
-      "band or musician",
+      "Music",
       "Hobby",
       "Toys",
       "5 Letter Word",
@@ -405,7 +405,7 @@ export const dailyCategories = [
       "Gift for husband",
       "things to watch on netflix",
     ],
-    letter: "B",
+    letter: "S",
   },
   {
     dailyDate: "5/20/2022",

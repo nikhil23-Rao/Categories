@@ -441,7 +441,7 @@ export const dailyCategories = [
       "Zombie survival items",
       "Weapons",
     ],
-    letter: "H",
+    letter: "A",
   },
   {
     dailyDate: "5/23/2022",

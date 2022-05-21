@@ -422,14 +422,14 @@ export const dailyCategories = [
   {
     dailyDate: "5/21/2022",
     inputs: [
-      "Words ending in “-n”",
-      "5 Letter Word",
-      "Bad habits",
-      "Provinces or States",
-      "U.S. Cities",
-      "Book Title",
+      "Kind of Candy",
+      "Ways To Get From Here To There",
+      "Sport",
+      "Furniture",
+      "things you say when youre late",
+      "Toys",
     ],
-    letter: "V",
+    letter: "T",
   },
   {
     dailyDate: "5/22/2022",

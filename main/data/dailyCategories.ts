@@ -446,12 +446,12 @@ export const dailyCategories = [
   {
     dailyDate: "5/23/2022",
     inputs: [
-      "Girl's name",
-      "band or musician",
-      "Reasons not to feed the cat",
-      "Ways To Get From Here To There",
-      "Music",
-      "Things you see in the zoo",
+      "Clothing",
+      "Things at a circus",
+      "College/university",
+      "Author",
+      "Place",
+      "River",
     ],
     letter: "D",
   },

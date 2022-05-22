@@ -436,7 +436,7 @@ export const dailyCategories = [
     inputs: [
       "Girl's name",
       "Sports Stars",
-      "Ways To Get From Here To There",
+      "band or musician",
       "Villain",
       "Zombie survival items",
       "Weapons",

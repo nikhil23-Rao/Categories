@@ -6,7 +6,20 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors({ origin: "*" }));
+app.use(
+  cors({
+    origin: "*",
+    optionsSuccessStatus: 200,
+  })
+);
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 app.get("/", (req, res) => {
   const port = 3001;
@@ -60,37 +73,39 @@ app.get("/", (req, res) => {
       });
   }
   getOrganicResults().then((arr) => {
-    const url = arr[0].link;
-    request(
-      {
-        method: "GET",
-        url,
-      },
-      (err, _, body) => {
-        if (err) return console.error(err);
+    if (arr[0].link) {
+      const url = arr[0].link;
+      request(
+        {
+          method: "GET",
+          url,
+        },
+        (err, _, body) => {
+          if (err) return console.error(err);
 
-        let $ = cheerio.load(body);
+          let $ = cheerio.load(body);
 
-        let data = [];
+          let data = [];
 
-        $("main")
-          .toArray()
-          .map(function (x) {
-            return $(x)
-              .find("ul")
-              .children()
-              .toArray()
-              .map(function (x) {
-                if ($(x).text().trim() === "Advertisement") return;
+          $("main")
+            .toArray()
+            .map(function (x) {
+              return $(x)
+                .find("ul")
+                .children()
+                .toArray()
+                .map(function (x) {
+                  if ($(x).text().trim() === "Advertisement") return;
 
-                return data.push($(x).text());
-              });
-          });
+                  return data.push($(x).text());
+                });
+            });
 
-        data.pop();
-        res.send(data);
-      }
-    );
+          data.pop();
+          res.send(data);
+        }
+      );
+    }
   });
 });
 

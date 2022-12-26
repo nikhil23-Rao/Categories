@@ -3041,11 +3041,11 @@ export const dailyCategories = [
       "Fruit or vegetable",
       "Historical Figures",
       "canadian stereotypes",
-      "Items in a vending machine",
+      "Breakfast food",
       "Animals",
       "Wireless things",
     ],
-    letter: "J",
+    letter: "A",
   },
   {
     dailyDate: "12/26/2022",

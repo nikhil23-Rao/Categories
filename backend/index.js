@@ -22,7 +22,6 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", (req, res) => {
-  const port = 3001;
   const category = req.query.category;
   console.log(category);
   const letter = req.query.letter;
